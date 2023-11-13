@@ -7,40 +7,43 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs29\fsmilli14667 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 -	return appendTo == null ? null : appendTo.append(QUOTE);
+\outl0\strokewidth0 \strokec2 -	return 1;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 +	next(pos);
-\f1\fs24 \strokec2 \
-
-\f0\fs29\fsmilli14667 \strokec2 ,
-\f1\fs24 \strokec2 \
-
-\f0\fs29\fsmilli14667 \strokec2 -	return appendTo == null ? null : appendTo.append(QUOTE);
-\f1\fs24 \strokec2 \
-
-\f0\fs29\fsmilli14667 \strokec2 +	pos.setIndex(pos.getIndex() + 1);
+\f0\fs29\fsmilli14667 \strokec2 +	return getWrappedField().getMaximumValue() + 1;
 \f1\fs24 \strokec2 \
 
 \f0\fs29\fsmilli14667 \strokec2 ,
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	char[] c=pattern.toCharArray();
+\f0\fs29\fsmilli14667 \strokec2 -	return 1;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 +	next(pos);
+\f0\fs29\fsmilli14667 \strokec2 +	throw new IllegalArgumentException("Maximum value exceeded for add");
 \f1\fs24 \strokec2 \
 
 \f0\fs29\fsmilli14667 \strokec2 ,
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	if (escapingOn && c[start] == QUOTE) \{
+\f0\fs29\fsmilli14667 \strokec2 -	return 1;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	return appendTo == null ? null : appendTo.append(QUOTE);
+\f0\fs29\fsmilli14667 \strokec2 +	return getWrappedField().getMaximumValue(instant,values) + 1;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	\}
+\f0\fs29\fsmilli14667 \strokec2 ,
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 +	next(pos);}
+\f0\fs29\fsmilli14667 \strokec2 -	return 1;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	return getMaximumValue();
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 ,
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	return getWrappedField().getMaximumValue(instant,values) + 1;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	return 3;}

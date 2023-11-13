@@ -7,40 +7,46 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs29\fsmilli14667 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 -	return appendTo == null ? null : appendTo.append(QUOTE);
+\outl0\strokewidth0 \strokec2 -	final double logx=FastMath.log(x);
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 +	next(pos);
+\f0\fs29\fsmilli14667 \strokec2 +	if (x <= 0) \{
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 ,
+\f0\fs29\fsmilli14667 \strokec2 +	 return 0;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	return appendTo == null ? null : appendTo.append(QUOTE);
-\f1\fs24 \strokec2 \
-
-\f0\fs29\fsmilli14667 \strokec2 +	pos.setIndex(pos.getIndex() + 1);
+\f0\fs29\fsmilli14667 \strokec2 +	\}
 \f1\fs24 \strokec2 \
 
 \f0\fs29\fsmilli14667 \strokec2 ,
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	char[] c=pattern.toCharArray();
+\f0\fs29\fsmilli14667 \strokec2 -	return false;\'a0
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 +	next(pos);
+\f0\fs29\fsmilli14667 \strokec2 +	return true;
 \f1\fs24 \strokec2 \
 
 \f0\fs29\fsmilli14667 \strokec2 ,
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	if (escapingOn && c[start] == QUOTE) \{
+\f0\fs29\fsmilli14667 \strokec2 -	final double mhalf=denominatorDegreesOfFreedom / 2;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	return appendTo == null ? null : appendTo.append(QUOTE);
+\f0\fs29\fsmilli14667 \strokec2 +	if (x <= 0) \{
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	\}
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 return 0;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 +	next(pos);}
+\f0\fs29\fsmilli14667 \strokec2 +	\}
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 ,
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	return true;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	return false;}

@@ -7,40 +7,36 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs29\fsmilli14667 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 -	return appendTo == null ? null : appendTo.append(QUOTE);
+\outl0\strokewidth0 \strokec2 -	int newdiff=startValue - endValue;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 +	next(pos);
-\f1\fs24 \strokec2 \
-
-\f0\fs29\fsmilli14667 \strokec2 ,
-\f1\fs24 \strokec2 \
-
-\f0\fs29\fsmilli14667 \strokec2 -	return appendTo == null ? null : appendTo.append(QUOTE);
-\f1\fs24 \strokec2 \
-
-\f0\fs29\fsmilli14667 \strokec2 +	pos.setIndex(pos.getIndex() + 1);
+\f0\fs29\fsmilli14667 \strokec2 +	end.add(Calendar.DATE,-1);
 \f1\fs24 \strokec2 \
 
 \f0\fs29\fsmilli14667 \strokec2 ,
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	char[] c=pattern.toCharArray();
+\f0\fs29\fsmilli14667 \strokec2 -	int newdiff=startValue - endValue;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 +	next(pos);
+\f0\fs29\fsmilli14667 \strokec2 +	end.add(field,-1 * difference);
 \f1\fs24 \strokec2 \
 
 \f0\fs29\fsmilli14667 \strokec2 ,
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	if (escapingOn && c[start] == QUOTE) \{
+\f0\fs29\fsmilli14667 \strokec2 -	int newdiff=startValue - endValue;
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	return appendTo == null ? null : appendTo.append(QUOTE);
+\f0\fs29\fsmilli14667 \strokec2 +	end=(Calendar)start.clone();
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 -	\}
+\f0\fs29\fsmilli14667 \strokec2 ,
 \f1\fs24 \strokec2 \
 
-\f0\fs29\fsmilli14667 \strokec2 +	next(pos);}
+\f0\fs29\fsmilli14667 \strokec2 -	return newdiff;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	return 0;
+\f1\fs24 \strokec2 \
+}

@@ -1,0 +1,121 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2757
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 -	return null;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	throw new IllegalArgumentException("Array cannot be empty.");
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 ,
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	if (str.startsWith("--")) \{
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	\'a0 return null;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	\}
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 \'a0
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	if (str == null) \{
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 return null;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\}
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 ,
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	return null;\'a0
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	return Short.parseShort(str);
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 ,
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	if (str.startsWith("--")) \{
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	\'a0 return null;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	\}
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	if (StringUtils.isBlank(str)) \{
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 throw new NumberFormatException("A blank string is not a valid number");
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\}
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 ,
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	return null;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	return createLong(str);
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 ,
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	if (str.startsWith("--")) \{
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	\'a0 return null;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 -	\}
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 \'a0
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	if (str.startsWith("0x") || str.startsWith("-0x") || str.startsWith("0X")|| str.startsWith("-0X")) \{
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 int hexDigits=str.length() - 2;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 if (str.startsWith("-")) \{
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 hexDigits--;
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 \}
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 if (hexDigits > 8) \{
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 \'a0 return createLong(str);
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 \}
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\'a0 return createInteger(str);
+\f1\fs24 \strokec2 \
+
+\f0\fs29\fsmilli14667 \strokec2 +	\}}
