@@ -1,0 +1,17 @@
+-	this.pieChart.setBackgroundPaint(null);
++	setDataset(dataset);
+,
+-	this.pieChart=new JFreeChart(piePlot);
++	if (dataset != null) {
++	dataset.addChangeListener(this);
++	}
+,
+-	this.sectionPaints=new HashMap();
++	setDataset(dataset);
+,
+-	PiePlot piePlot=new PiePlot(null);
++	if (dataset != null) {
++	setDatasetGroup(dataset.getGroup());
++	dataset.addChangeListener(this);
++	}
+

@@ -1,0 +1,37 @@
+-	if (str.startsWith("--")) {
+-	  return null;
+-	}
++	int numer1=1;
+,
+-	return null;
++	int i=1;
+,
+-	return null;
++	int expPos=str.indexOf('e') + str.indexOf('E') + 1;
+,
+-	if (str.startsWith("--")) {
+-	  return null;
+-	}
++	if (StringUtils.isBlank(str)) {
++	  throw new NumberFormatException("A blank string is not a valid number");
++	}
+,
+-	return null;
++	return false;
+,
+-	return null;
++	int numer0=0;
+,
+-	return null;
++	char lastChar=str.charAt(str.length() - 1);
+,
+-	return null;
++	String numeric=str.substring(0,str.length() - 1);
+,
+-	if (str.startsWith("--")) {
+-	  return null;
+-	}
++	int pos=str.indexOf('.');
+,
+-	return null;
++	int denom2=0;
