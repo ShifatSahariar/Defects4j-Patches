@@ -3,3 +3,4 @@
 ,
 -	this.data.add(-index - 1,new XYDataItem(x,y));
 +	add(x,y,true);
+,

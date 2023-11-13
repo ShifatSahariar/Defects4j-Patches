@@ -32,9 +32,9 @@
 ,
 -	h[2]=constraint.getHeight() - h[1] - h[0];
 +	this.leftBlock=null;
+,
 -	h[3]=size.height;
 +	this.leftBlock=null;
-
-
+,
 
 

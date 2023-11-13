@@ -20,3 +20,4 @@
 ,
 -	ensureCapacity(size + width);
 +	buffer=new char[CAPACITY];
+,

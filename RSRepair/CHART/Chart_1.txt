@@ -23,10 +23,11 @@
 +	PublicCloneable pc=(PublicCloneable)this.baseItemLabelGenerator;
 ,
 -	return result;
--	double total=0.0;
++	double total=0.0;
 ,
 -	return result;
 +	double x=0.0;
+,
 -	if (dataset != null) {
 -	return result;
 -	}
@@ -43,5 +44,6 @@
 -	  return result;
 -	}
 +	double y0=0.0;
+,
 
 

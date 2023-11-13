@@ -13,3 +13,4 @@
 ,
 -	end.add(field,newdiff);
 +	Token previous=null;
+,
