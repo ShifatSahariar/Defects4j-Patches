@@ -1,0 +1,58 @@
+-	if (first == null) {
+-	  first=state;
+-	}
+-	 else {
+-	  if (interpolator.isForward()) {
+-	    if (state.getEventTime() < first.getEventTime()) {
+-	      first=state;
+-	    }
+-	  }
+-	 else {
+-	    if (state.getEventTime() > first.getEventTime()) {
+-	      first=state;
+-	    }
+-	  }
+-	}
++	if (state.evaluateStep(interpolator)) {
++	  if (first == null) {
++	    first=state;
++	  }
++	 else {
++	    if (interpolator.isForward()) {
++	      if (state.getEventTime() < first.getEventTime()) {
++	        first=state;
++	      }
++	    }
++	 else {
++	      if (state.getEventTime() > first.getEventTime()) {
++	        first=state;
++	      }
++	    }
++	  }
++	}
+,
++	pendingEvent=true;
+,
++	if (Double.isNaN(previousEventTime) || (Math.abs(previousEventTime - root) > convergence)) {
++	  pendingEventTime=root;
++	  if (pendingEvent && (Math.abs(t1 - pendingEventTime) <= convergence)) {
++	    return false;
++	  }
++	  pendingEvent=true;
++	  return true;
++	}
+,
+-	return true;
++	if ((Math.abs(root - ta) <= convergence) && (Math.abs(root - previousEventTime) <= convergence)) {
++	  ta=tb;
++	  ga=gb;
++	}
++	 else if (Double.isNaN(previousEventTime) || (Math.abs(previousEventTime - root) > convergence)) {
++	  pendingEventTime=root;
++	  if (pendingEvent && (Math.abs(t1 - pendingEventTime) <= convergence)) {
++	    return false;
++	  }
++	  pendingEvent=true;
++	  return true;
++	}
+,

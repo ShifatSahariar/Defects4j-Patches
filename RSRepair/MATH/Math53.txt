@@ -1,0 +1,13 @@
++	if (isNaN || rhs.isNaN) {
++	  return NaN;
++	}
+,
+-	MathUtils.checkNotNull(rhs);
++	if (isNaN || rhs.isNaN) {
++	  return NaN;
++	}
+,
++	if (isNaN || rhs.isNaN) {
++	  return NaN;
++	}
+,

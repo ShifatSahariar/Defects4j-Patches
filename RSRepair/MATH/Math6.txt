@@ -1,0 +1,3 @@
+-	return iterations.getCount();
++	double crvmin=Double.NaN;
++	return evaluations.getMaximalCount();
