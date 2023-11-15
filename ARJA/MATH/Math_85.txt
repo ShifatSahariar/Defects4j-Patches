@@ -1,0 +1,14 @@
+-	throw new ConvergenceException("number of iterations={0}, maximum iterations={1}, " + "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}",numIterations,maximumIterations,initial,lowerBound,upperBound,a,b,fa,fb);
++	return new double[]{a,b};
+
+,
+-	throw new ConvergenceException("number of iterations={0}, maximum iterations={1}, " + "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}",numIterations,maximumIterations,initial,lowerBound,upperBound,a,b,fa,fb);
++	return bracket(function,initial,lowerBound,upperBound,Integer.MAX_VALUE);
+,
+-	throw new ConvergenceException("number of iterations={0}, maximum iterations={1}, " + "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}",numIterations,maximumIterations,initial,lowerBound,upperBound,a,b,fa,fb);
++	a=Math.max(a - 1.0,lowerBound);
+,
+-	throw new ConvergenceException("number of iterations={0}, maximum iterations={1}, " + "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}",numIterations,maximumIterations,initial,lowerBound,upperBound,a,b,fa,fb);
++	if (function == null) {
++	  throw MathRuntimeException.createIllegalArgumentException("function is null");
++	}

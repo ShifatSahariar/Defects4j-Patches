@@ -1,0 +1,14 @@
+-            return cs1.equals(cs2);
++            return org.apache.commons.lang3.StringUtils.endsWith(cs2, cs1);
+,
+-            return cs1.equals(cs2);
++            return org.apache.commons.lang3.StringUtils.endsWith(cs2, cs1, false);
+,
+-            return cs1.equals(cs2);
++            return org.apache.commons.lang3.StringUtils.endsWith(cs1, cs2);
+,
+-            return cs1.equals(cs2);
++            return org.apache.commons.lang3.StringUtils.endsWith(cs1, cs2, false);
+,
+-        if (cs1 == cs2) {
++        if (org.apache.commons.lang3.StringUtils.endsWith(cs1, cs2, false)) {

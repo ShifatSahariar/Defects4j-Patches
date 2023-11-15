@@ -1,0 +1,11 @@
+-            if(Character.isWhitespace(c)) {
++            if (value.startsWith("GMT")) {
+,
+-            if(Character.isWhitespace(c)) {
++            if (value.endsWith("ZZ")) {
+,
+-        if(fieldKeyValues==null) {
++        if (field < (pattern.length())) {
+,
+-            if(Character.isWhitespace(c)) {
++            if ((value.charAt(0)) == '+') {

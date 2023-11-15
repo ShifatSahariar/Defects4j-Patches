@@ -1,0 +1,14 @@
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++       return solve(min, min);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(max, max);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(functionValueAccuracy, functionValueAccuracy);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(yMin, yMin);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(initial, initial);

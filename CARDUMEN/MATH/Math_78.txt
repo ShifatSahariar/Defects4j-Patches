@@ -1,0 +1,14 @@
+-                    oldDelta = delta;
++                    y1 = y1 + (0.5 * y1);
+,
+-            final int    n  = Math.max(1, (int) Math.ceil(Math.abs(t1 - t0) / maxCheckInterval));
++            final int n = java.lang.Math.max(1, ((int) (java.lang.Math.ceil(((interpolator.getCurrentTime()) / (maxCheckInterval))))));
+,
+-            final int    n  = Math.max(1, (int) Math.ceil(Math.abs(t1 - t0) / maxCheckInterval));
++            final int n = java.lang.Math.max(1, ((int) (java.lang.Math.ceil(((java.lang.Math.abs(((convergence) - t1))) / (pendingEventTime))))));
+,
+-            final int    n  = Math.max(1, (int) Math.ceil(Math.abs(t1 - t0) / maxCheckInterval));
++            final int n = java.lang.Math.max(1, ((int) (java.lang.Math.ceil(((java.lang.Math.abs(((pendingEventTime) - t1))) / (convergence))))));
+,
+-            final int    n  = Math.max(1, (int) Math.ceil(Math.abs(t1 - t0) / maxCheckInterval));
++            final int n = java.lang.Math.max(1, ((int) (java.lang.Math.ceil(((java.lang.Math.abs((t1 - (convergence)))) / (pendingEventTime))))));

@@ -1,0 +1,46 @@
+ 
+ 
+-	this.pieChart.setTitle(seriesTitle);
+ 
++	if (dataset != null) {
++	setDatasetGroup(dataset.getGroup());
++	 dataset.addChangeListener(this);
++	}
+,
+  
++	if (dataset != null) {
++	dataset.addChangeListener(this);
++	}
+,
+ +	if (dataset != null) {
++	setDatasetGroup(dataset.getGroup());
++	dataset.addChangeListener(this);
++	}
+,
+-	this.pieChart.removeLegend();
+ 
++	if (dataset != null) {
++	dataset.addChangeListener(this);
++	}
+, 
++	if (dataset != null) {
++	setDatasetGroup(dataset.getGroup());
++	dataset.addChangeListener(this);
++	}
+,
+-	this.pieChart.setBackgroundPaint(null);
+ 
++	if (dataset != null) {
++	setDatasetGroup(dataset.getGroup());
++	dataset.addChangeListener(this);
++	}
+,
+-	this.dataExtractOrder=TableOrder.BY_COLUMN;
++	setDataset(dataset);
+,
+ 
++	if (dataset != null) {
++	setDatasetGroup(dataset.getGroup());
++	dataset.addChangeListener(this);
++	}
+

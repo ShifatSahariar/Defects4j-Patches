@@ -1,0 +1,11 @@
+-	return ret;
++	return p;
+,
+-	return ret;
++	return 0d;
+,
+-	return ret;
++	return denominatorDegreesOfFreedom;
+,
+-	return ret;
++	return Double.MIN_VALUE;

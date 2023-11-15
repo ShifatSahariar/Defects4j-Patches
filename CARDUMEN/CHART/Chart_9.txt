@@ -1,0 +1,14 @@
+-        if (endIndex < 0) {
++        if (endIndex < startIndex) {
+,
+-        if (endIndex < 0) {
++        if ((startIndex > endIndex) && (startIndex <= (maximumItemCount))) {
+,
+-        if (endIndex < 0) {
++        if ((startIndex > endIndex) && (startIndex <= startIndex)) {
+,
+-        if (endIndex < 0) {
++        if (startIndex > endIndex) {
+,
+-        if (endIndex < 0) {
++        if ((startIndex > endIndex) && (startIndex < (maximumItemCount))) {

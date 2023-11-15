@@ -1,0 +1,15 @@
+-                if (ratio < minRatio) {
++                if ((java.lang.Math.abs(ratio)) <= (java.lang.Math.abs(minRatio))) {
+,
+-                if (ratio < minRatio) {
++                if ((ratio - minRatio) < minRatio) {
+,
+-                if (ratio < minRatio) {
++                if (minRatio >= ratio) {
+,
+-                if (ratio < minRatio) {
++                if (ratio <= minRatio) {
+,
+-                if (ratio < minRatio) {
++                if ((java.lang.Math.abs(ratio)) <= minRatio) {
+ 

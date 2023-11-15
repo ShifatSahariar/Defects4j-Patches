@@ -1,0 +1,14 @@
+-            if (middle > maxMiddle) {
++            if ((minMiddleIndex) <= ((maxStartIndex) - (minEndIndex))) {
+,
+-            if (middle > maxMiddle) {
++            if ((minStartIndex) <= ((maxStartIndex) - (minStartIndex))) {
+,
+-            if (middle > maxMiddle) {
++            if ((minStartIndex) <= ((maxStartIndex) - (minMiddleIndex))) {
+,
+-            if (middle > maxMiddle) {
++            if ((minStartIndex) <= ((maxMiddleIndex) - (minMiddleIndex))) {
+,
+-            if (middle > maxMiddle) {
++            if ((minMiddleIndex) <= (index - index)) {

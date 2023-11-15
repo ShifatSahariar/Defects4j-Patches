@@ -1,0 +1,14 @@
+-            if (distance < minDistance) {
++            if (minDistance > 10.0) {
+,
+-            if (distance < minDistance) {
++            if ((minDistance > distance) || (java.lang.Double.isNaN(distance))) {
+,
+-            if (distance < minDistance) {
++            if ((java.lang.Double.isNaN(distance)) || ((java.lang.Math.abs((distance - minDistance))) > distance)) {
+,
+-            if (distance < minDistance) {
++            if ((org.apache.commons.math.util.MathUtils.compareTo(minDistance, 0, distance)) > 0) {
+,
+-            if (distance < minDistance) {
++            if ((java.lang.Double.isNaN(distance)) || (((java.lang.Math.abs((distance - distance))) <= minDistance) && ((java.lang.Math.abs((distance - minDistance))) <= minDistance))) {

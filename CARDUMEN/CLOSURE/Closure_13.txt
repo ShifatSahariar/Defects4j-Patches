@@ -1,0 +1,5 @@
+-        return false;
++        return !(node.isString());
+,
+-        return false;
++        return (node == null) || (!(node.isGetProp()));

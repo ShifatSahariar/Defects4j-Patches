@@ -1,0 +1,7 @@
+-	out.write('/');
++	if (escapeSingleQuote) {
++	out.write('\\');
++	}
+,
+-	out.write('\\');
++	out.write('\r');

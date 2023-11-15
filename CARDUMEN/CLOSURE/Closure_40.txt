@@ -1,0 +1,11 @@
+-          JsName name = getName(ns.name, false);
++          com.google.javascript.jscomp.NameAnalyzer.JsName name = getName(ns.name, ((nameNode != null) && (n != null)));
+,
+-          JsName name = getName(ns.name, false);
++          com.google.javascript.jscomp.NameAnalyzer.JsName name = getName(ns.name, ((n.getFirstChild().getFirstChild()) != null));
+,
+-          JsName name = getName(ns.name, false);
++          com.google.javascript.jscomp.NameAnalyzer.JsName name = getName(ns.name, (!(n.isDec())));
+,
+-          JsName name = getName(ns.name, false);
++         com.google.javascript.jscomp.NameAnalyzer.JsName name = getName(ns.name, ((n.getFirstChild().getNext()) != null));

@@ -1,0 +1,14 @@
+-        for (int i = 0; i < sampleSize; i++) {
++       for (int i = 0; (singletons.get(sampleSize)) == null; i++) {
+,
+-        for (int i = 0; i < sampleSize; i++) {
++       for (int i = 0; sampleSize <= 0; i++) {
+,
+-        for (int i = 0; i < sampleSize; i++) {
++       for (int i = 0; sampleSize < sampleSize; i++) {
+,
+-        for (int i = 0; i < sampleSize; i++) {
++        for (int i = 0; (probabilities[0]) != 0.0; i++) {
+,
+-        for (int i = 0; i < sampleSize; i++) {
++        for (int i = 0; sampleSize > 1; i++) {

@@ -1,0 +1,14 @@
+-                    if (signChangeIndex - start >= end - signChangeIndex) {
++                    if (2.0 >= (end - signChangeIndex)) {
+,
+-                        --end;
++			 signChangeIndex++;
+,
+-                System.arraycopy(x, start, x, 0, nbPoints);
++                java.lang.System.arraycopy(x, 1, x, 0, signChangeIndex);
+,
+-                        --end;
++                        ++signChangeIndex;
+,
+-        for (int j = end - 1; j >= start; --j) {
++        for (int j = (maximalOrder) - 1; j >= start; --j) {

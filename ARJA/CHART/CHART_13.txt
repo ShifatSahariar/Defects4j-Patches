@@ -1,0 +1,21 @@
+-	if (this.topBlock != null) {
+-	  RectangleConstraint c1=new RectangleConstraint(w[0],null,LengthConstraintType.FIXED,0.0,new -	-	Range(0.0,constraint.getHeight()),LengthConstraintType.RANGE);
+-	  Size2D size=this.topBlock.arrange(g2,c1);
+-	  h[0]=size.height;
+-	}
+ 
++	this.leftBlock=null;
+,
++	this.rightBlock=null;
+,
+ 
+-	h[3]=h[2]; 
++	this.leftBlock=null;
+,
+-	if (this.topBlock != null) {
+-	 RectangleConstraint c1=new RectangleConstraint(w[0],null,LengthConstraintType.FIXED,0.0,new -	-	Range(0.0,constraint.getHeight()),LengthConstraintType.RANGE);
+-	  Size2D size=this.topBlock.arrange(g2,c1);
+-	  h[0]=size.height;
+-	}
+ 
++	this.rightBlock=null;

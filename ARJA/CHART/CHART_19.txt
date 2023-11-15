@@ -1,0 +1,5 @@
+-	return -1;
+ 
++	if (object == null) {
++	 throw new IllegalArgumentException("Null 'object' argument.");
++	}

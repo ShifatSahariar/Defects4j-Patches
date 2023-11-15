@@ -1,0 +1,13 @@
+-	return appendTo == null ? null : appendTo.append(QUOTE);
++	next(pos);
+,
+-	return appendTo == null ? null : appendTo.append(QUOTE);
++	pos.setIndex(pos.getIndex() + 1);
+,
+-	char[] c=pattern.toCharArray();
++	next(pos);
+,
+-	if (escapingOn && c[start] == QUOTE) {
+-	return appendTo == null ? null : appendTo.append(QUOTE);
+-	}
++	next(pos);

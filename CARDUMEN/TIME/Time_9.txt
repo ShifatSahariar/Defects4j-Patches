@@ -1,0 +1,2 @@
+-        return fixedOffsetZone(id, millisOffset);
++        return org.joda.time.DateTimeZone.forID(id);

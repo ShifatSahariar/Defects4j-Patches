@@ -1,0 +1,31 @@
+-	upper=((int)Math.ceil(tmp)) - 1;
++	lower-=1;
+,
+-	upper=((int)Math.ceil(tmp)) - 1;
++	tmp=mu + k * sigma;
+,
+-	if (tmp < upper) {
+-	  upper=((int)Math.ceil(tmp)) - 1;
+-	}
++	tmp=mu + k * sigma;
+,
+-	if (tmp < upper) {
+-	 upper=((int)Math.ceil(tmp)) - 1;
+-	}
++	if (p == 1.0) {
++	return upper;
++	}
+,
+-	upper=((int)Math.ceil(tmp)) - 1; 
++	if (p == 1.0) {
++	  return upper;
++	}
+,
+-	upper=((int)Math.ceil(tmp)) - 1;
++	return solveInverseCumulativeProbability(p,lower,upper);
+,
+-	upper=((int)Math.ceil(tmp)) - 1;
+ 
++	if (p < 0 || p > 1) {
++	  throw new OutOfRangeException(p,0,1);
++	}

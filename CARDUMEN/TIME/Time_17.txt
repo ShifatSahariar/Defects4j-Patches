@@ -1,0 +1,14 @@
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = instant + (3 * (org.joda.time.DateTimeConstants.MILLIS_PER_HOUR));
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = instant ^ instant;
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = instantBefore ^ instantBefore;
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = instantBefore ^ instant;
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = instant - instant;

@@ -1,0 +1,32 @@
+-	return getDateInstance(style,null,null);
++	return getInstance(getDefaultPattern(),null,null);
+,
+-	cDateTimeInstanceCache.put(key,format);
+ 
++	if (locale != null) {
++	 key=new Pair(key,locale);
++	}
+,
+-	cDateTimeInstanceCache.put(key,format);
+
++	if (pattern == null) {
++	  throw new IllegalArgumentException("The pattern must not be null");
++	}
+,
+
+-	Object key=new Integer(style);
+ 
++	if (locale == null) {
++	 locale=Locale.getDefault();
++	}
+,
+-	if (timeZone != null) {
+-	  key=new Pair(key,timeZone);
+-	}
+ 
++	if (locale == null) {
++	  locale=Locale.getDefault();
++	}
+,
+-	cDateTimeInstanceCache.put(key,format); 
++	cDateInstanceCache.put(key,format);

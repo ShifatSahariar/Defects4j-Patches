@@ -1,0 +1,11 @@
+-    if (recurse) {
++    if (JSC_PROPERTY_NAME_FN.equals("unknown")) {
+,
+-    return mayBeString(n, true);
++    return com.google.javascript.jscomp.NodeUtil.mayBeString(n, ((n.hasChildren()) && (n.getFirstChild().isCatch())));
+,
+-    if (recurse) {
++    if ((n.isDo()) && ((n.getLastChild()) == n)) {
+,
+-    if (recurse) {
++    if (CONSTRUCTORS_WITHOUT_SIDE_EFFECTS.add(JSC_PROPERTY_NAME_FN.trim())) {

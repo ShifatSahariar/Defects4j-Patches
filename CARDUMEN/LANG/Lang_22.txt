@@ -1,0 +1,14 @@
+-        if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++        if ((java.lang.Math.abs(v)) <= 1) {
+,
+-        if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++        if (v == 0) {
+,
+-        if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++        if ((ONE) == null) {
+,
+-        if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++        if (u == 0) {
+,
+-        if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++        if (((THREE_FIFTHS) instanceof org.apache.commons.lang3.math.Fraction) == false) {

@@ -1,0 +1,14 @@
+-            ret = d / (d - 2.0);
++            ret = 108.0;
+,
+-        return ret;
++    	return p = p + ((java.lang.Math.random()) * (p - p));
+,
+-        double d = getDenominatorDegreesOfFreedom();
++        double d = ((int) (java.lang.Math.floor(p)));
+,
+-        return ret;
++        return java.lang.Math.sqrt(p);
+,
+-        return ret;
++        return 1.0 / (p + p);

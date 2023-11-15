@@ -1,0 +1,14 @@
+-        if (str.startsWith("--")) {
++        if (org.apache.commons.lang3.StringUtils.isBlank(str)) {
+,
+-        if (str.startsWith("--")) {
++        if (org.apache.commons.lang3.StringUtils.isEmpty(str)) {
+,
+-        if (str.startsWith("--")) {
++        if (DOUBLE_MINUS_ONE.isInfinite()) {
+,
+-        if (str.startsWith("--")) {
++        if (FLOAT_ZERO.isInfinite()) {
+,
+-        if (str.startsWith("--")) {
++        if (DOUBLE_ZERO.isInfinite()) {

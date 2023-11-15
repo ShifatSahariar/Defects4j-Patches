@@ -1,0 +1,14 @@
+-            if (comparator.compare(contracted, best) < 0) {
++            iif (((khi) > (gamma)) && (((khi) - (gamma)) > (0.95 * ((khi) - (khi))))) {
+,
+-            if (comparator.compare(contracted, best) < 0) {
++            if (contracted != null) {
+,
+-            if (comparator.compare(contracted, best) < 0) {
++            if (((gamma) - (gamma)) < (khi)) {
+,
+-            if (comparator.compare(contracted, best) < 0) {
++            if ((khi) >= (gamma)) {
+,
+-            if (comparator.compare(contracted, best) < 0) {
++            if ((reflected instanceof org.apache.commons.math.linear.RealMatrix) == false) {

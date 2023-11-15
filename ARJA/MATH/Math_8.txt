@@ -1,0 +1,24 @@
+-	out[i]=sample();
++	if (sampleSize <= 0) {
++	  throw new NotStrictlyPositiveException(LocalizedFormats.NUMBER_OF_SAMPLES,sampleSize);
++	}
+,
+-	out[i]=sample();
++	continue;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	if (sampleSize <= 0) {
++	  throw new NotStrictlyPositiveException(LocalizedFormats.NUMBER_OF_SAMPLES,sampleSize);
++	}
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	if (sampleSize < 0) {
++	  throw new NotPositiveException(LocalizedFormats.NUMBER_OF_SAMPLES,sampleSize);
++	}
+,
+-	out[i]=sample();
++	++i;

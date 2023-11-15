@@ -1,0 +1,11 @@
+-	int newdiff=startValue - endValue;
++	end.add(Calendar.DATE,-1);
+,
+-	int newdiff=startValue - endValue;
++	end.add(field,-1 * difference);
+,
+-	int newdiff=startValue - endValue;
++	end=(Calendar)start.clone();
+,
+-	return newdiff;
++	return 0;

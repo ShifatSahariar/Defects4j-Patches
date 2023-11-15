@@ -1,0 +1,14 @@
+-        if (plotState != null && hotspot != null) {
++        if (((fixedDimension) > 0.0) && (hotspot != null)) {
+,
+-        if (plotState != null && hotspot != null) {
++        if ((plotState != null) && ((plotState != null) && ((plotState.getOwner()) != null))) {
+,
+-        if (plotState != null && hotspot != null) {
++        if ((plotState != null) && ((labelAngle) > 0.0)) {
+,
+-        if (plotState != null && hotspot != null) {
++        if (((labelAngle) > 0.0) && (hotspot != null)) {
+,
+-        boolean b2 = (area.getHeight() <= MINIMUM_HEIGHT_TO_DRAW);
++        boolean b2 = (rangeCrosshairStroke) != null;

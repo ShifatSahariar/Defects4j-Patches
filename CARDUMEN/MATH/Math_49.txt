@@ -1,0 +1,17 @@
+-        if (!isDefaultValue(value)) {
++        if (!(entries.containsKey(virtualSize))) {
+,
+-        if (!isDefaultValue(value)) {
++        if (!(isDefaultValue(DEFAULT_ZERO_TOLERANCE))) {
+,
+-        if (!isDefaultValue(value)) {
++        if (!((entries) instanceof org.apache.commons.math.linear.RealVector)) {
+,
+-        if (!isDefaultValue(value)) {
++        if (!(isDefaultValue(epsilon))) {
+,
+-        ++count;
++        index--;
+,
+-        ++count;
++        --index;

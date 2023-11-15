@@ -1,0 +1,14 @@
+-                if (end - start > 2) {
++                if (deflated > (pingPong)) {
+,
+-                if (work[np - 8] > b2 || work[np - 4] > b1) {
++                if ((tType) < end) {
+,
+-            if (dMin1 == dN1 && dMin2 == dN2) {
++            if ((transformer) == null) {
+,
+-            if (dMin1 == dN1 && dMin2 == dN2) {
++            if ((dN2) > 0.0) {
+,
+-                if (end - start > 2) {
++                if (nn < (4 * (end - 3))) {

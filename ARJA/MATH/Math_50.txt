@@ -1,0 +1,48 @@
+-	x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
++	incrementEvaluationCount();
+,
+-	f0=computeObjectiveValue(x0);
++	f0=f1;
+,
+-	x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
++	if (FastMath.abs(x1 - x0) < FastMath.max(rtol * FastMath.abs(x1),atol)) {
++	  return x1;
++	}
+,
+-	 x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
++	if (f1 == 0.0) {
++	return x1;
++	}
+,
+-	x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
++	f0=f1;
+,
+-	x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
++	if (!inverted) {
++	  return x1;
++	}
+,
+-	x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
++	if (f1 >= 0) {
++	return x1;
++	}
+,
+-	x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol)); 
++	this.allowed=AllowedSolution.ANY_SIDE;
+,
+-	x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
++	f0=computeObjectiveValue(x0);
+,
+-	if (x == x1) {
+-	 x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
+-	 f0=computeObjectiveValue(x0);
+-	}
++	f0*=0.5;
+,
+-	x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
++	f1=fx;
+,
+-	x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
++	if (FastMath.abs(f1) <= ftol) {
++	return x1;
++	}

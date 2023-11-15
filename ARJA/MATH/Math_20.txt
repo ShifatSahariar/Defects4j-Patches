@@ -1,0 +1,42 @@
+-	for (int i=0; i < x.length; i++) {
+-	  double diff=boundaries[1][i] - boundaries[0][i];
+-	  res[i]=(x[i] - boundaries[0][i]) / diff;
+-	}
++	mu=lambda / 2;
+,
+-	for (int i=0; i < x.length; i++) {
+-	  double diff=boundaries[1][i] - boundaries[0][i];
+-	  res[i]=(x[i] - boundaries[0][i]) / diff;
+-	}
++	this.valueRange=valueRange;
+,
+-	for (int i=0; i < x.length; i++) {
+-	  double diff=boundaries[1][i] - boundaries[0][i];
+-	  res[i]=(x[i] - boundaries[0][i]) / diff;
+-	}
++	for (int i=0; i < x.length; i++) {
++	  double diff=boundaries[1][i] - boundaries[0][i];
++	  res[i]=diff * x[i] + boundaries[0][i];
++	}
+,
+-	for (int i=0; i < x.length; i++) {
+-	  double diff=boundaries[1][i] - boundaries[0][i];
+-	  res[i]=(x[i] - boundaries[0][i]) / diff;
+-	}
+ 
++	lambda=4 + (int)(3. * Math.log(dimension));
+,
+-	repaired[i]=1.0; 
++	diagD=diag(D);
+,
+-	for (int i=0; i < x.length; i++) {
+-	  double diff=boundaries[1][i] - boundaries[0][i];
+-	  res[i]=(x[i] - boundaries[0][i]) / diff;
+-	}
++	isMinimize=(getGoalType() == GoalType.MINIMIZE);
+,
+-	for (int i=0; i < x.length; i++) {
+-	  double diff=boundaries[1][i] - boundaries[0][i];
+-	  res[i]=(x[i] - boundaries[0][i]) / diff;
+-	}
++	ccovmuSep=Math.min(1 - ccov1,ccovmu * (dimension + 1.5) / 3.);

@@ -1,0 +1,14 @@
+-        this.plot.draw(g2, plotArea, anchor, null, plotInfo);
++        setNotify(false);
+,
+-        this.plot.draw(g2, plotArea, anchor, null, plotInfo);
++        subtitles.clear();
+,
+-        this.plot.draw(g2, plotArea, anchor, null, plotInfo);
++        g2.addRenderingHints(renderingHints);
+,
+-        this.plot.draw(g2, plotArea, anchor, null, plotInfo);
++        fireChartChanged();
+,
+-        this.plot.draw(g2, plotArea, anchor, null, plotInfo);
++        notifyListeners(new org.jfree.chart.event.ChartProgressEvent(org.jfree.chart.JFreeChart.this, org.jfree.chart.JFreeChart.this, org.jfree.chart.event.ChartProgressEvent.DRAWING_FINISHED, 100));

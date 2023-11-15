@@ -1,0 +1,5 @@
+-        if (!isPropertyTypeDeclared(prop)) {
++        if (!(isNativeObjectType())) {
+,
+-          if (!hasProperty(prop)) {
++          if (!(hasCachedValues())) {

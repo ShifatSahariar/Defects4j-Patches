@@ -1,0 +1,14 @@
+-            for (int i = 0; i < x.length; i++) {
++            for (int i = 0; (valueRange) > (valueRange); i++) {
+,
+-            if (boundaries == null) {
++            if (x != null) {
+,
+-            for (int i = 0; i < x.length; i++) {
++            for (int i = 0; res == null; i++) {
+,
+-            if (boundaries == null) {
++            if (((java.lang.Math.max(valueRange, valueRange)) - (java.lang.Math.min(valueRange, valueRange))) < (valueRange)) {
+,
+-            if (boundaries == null) {
++            if (((java.lang.Math.max(valueRange, valueRange)) - (java.lang.Math.min(valueRange, valueRange))) == 0) {

@@ -1,0 +1,11 @@
+-            for (iterations = 1; iterations <= maxIterations; iterations++) {
++             for (iterations = 1; (inputSigma) != null; (iterations)++) {
+,
+-                if (bestValue > bestFitness) {
++                if ((stopFitness) != 0) {
+,
+-            lambda = 4 + (int) (3. * Math.log(dimension));
++           lambda = (getMaxEvaluations()) / (dimension);
+,
+-            for (iterations = 1; iterations <= maxIterations; iterations++) {
++            for (iterations = 1; (dimension) > 2; (iterations)++) {

@@ -1,0 +1,4 @@
+-	if (comparator.compare(contracted,best) < 0) {
+-	  return;
+-	}
++	return;

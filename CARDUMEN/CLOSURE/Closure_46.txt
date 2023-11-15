@@ -1,0 +1,14 @@
+-    if (!that.isRecordType()) {
++    if (!(that instanceof com.google.javascript.rhino.jstype.ArrowType)) {
+,
+-    if (!that.isRecordType()) {
++    if (!(hasProperty(com.google.javascript.rhino.jstype.JSType.EMPTY_TYPE_COMPONENT))) {
+,
+-    if (!that.isRecordType()) {
++    if (!(isNativeObjectType())) {
+,
+-    if (!that.isRecordType()) {
++    if (!(com.google.javascript.rhino.jstype.JSType.EMPTY_TYPE_COMPONENT.isEmpty())) {
+,
+-    if (!that.isRecordType()) {
++    if (!(com.google.javascript.rhino.jstype.JSType.NOT_A_CLASS.isEmpty())) {

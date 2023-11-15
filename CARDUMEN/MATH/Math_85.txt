@@ -1,0 +1,14 @@
+-        if (fa * fb >= 0.0 ) {
++        if (maximumIterations <= 0) {
+,
+-        if (fa * fb >= 0.0 ) {
++        if (initial > upperBound) {
+,
+-        if (fa * fb >= 0.0 ) {
++        if ((initial < lowerBound) || (initial > upperBound)) {
+,
+-        if (fa * fb >= 0.0 ) {
++        if ((((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound))) {
+,
+-        if (fa * fb >= 0.0 ) {
++        if (((initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound)) {
