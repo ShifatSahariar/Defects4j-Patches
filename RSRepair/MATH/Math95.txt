@@ -1,0 +1,12 @@
+-	return ret;
++	return denominatorDegreesOfFreedom;
+,
+-	return ret;
++	return 0.0d;
+,
+-	return ret;
++	return 1;
+,
+-	ret=d / (d - 2.0);
++	ret=0.5;
+,
