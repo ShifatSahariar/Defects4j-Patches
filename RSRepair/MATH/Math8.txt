@@ -1,0 +1,143 @@
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double rnd=1.0d;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double[] vals=null;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	final double u2=random.nextDouble();
+,
+-	out[i]=sample();
++	final List<Pair<T,Double>> samples=new ArrayList<Pair<T,Double>>(probabilities.length);
+,
+-	out[i]=sample();
++	long n=0;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	if (sampleSize < 0) {
++	  throw new NotPositiveException(LocalizedFormats.NUMBER_OF_SAMPLES,sampleSize);
++	}
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double a=0;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double min=Double.POSITIVE_INFINITY;
+,
+-	out[i]=sample();
++	break;
+,
+-	out[i]=sample();
++	final double denominatorDF=getDenominatorDegreesOfFreedom();
+,
+-	out[i]=sample();
++	double a=0;
+,
+-	out[i]=sample();
++	double qa=0;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double weightSum=0;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double r=1.0d;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double p=0;
+,
+-	out[i]=sample();
++	double s=Double.NaN;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double x=0;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	int i=0;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double s=Double.NaN;
+,
+-	out[i]=sample();
++	double r=1.0d;
+,
+-	out[i]=sample();
++	final double n=random.nextGaussian();
+,
+-	out[i]=sample();
++	double v=0;
+,
+-	out[i]=sample();
++	continue;
+,
+-	out[i]=sample();
++	double y=0;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double qi=0;
+,
+-	out[i]=sample();
++	double max=Double.NEGATIVE_INFINITY;
+,
+-	out[i]=sample();
++	double res=1;
+,
+-	out[i]=sample();
++	final double randomValue=random.nextDouble();
+,
+-	out[i]=sample();
++	double x=0;
+,
+-	out[i]=sample();
++	double result=Double.NaN;
+,
+-	out[i]=sample();
++	double probability=0;
+,
+-	out[i]=sample();
++	int max=Integer.MIN_VALUE;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	double max=Double.NEGATIVE_INFINITY;
+,
+-	for (int i=0; i < sampleSize; i++) {
+-	  out[i]=sample();
+-	}
++	long n=0;
+,
+
+
+
+
+
+
+
+
+
