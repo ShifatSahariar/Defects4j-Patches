@@ -1,0 +1,124 @@
+-	if (tailZone.iStartRecurrence.getNameKey().equals(tailZone.iEndRecurrence.getNameKey())) {
+-	  if (ZoneInfoCompiler.verbose()) {
+-	    System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	  }
+-	  if (tailZone.iStartRecurrence.getSaveMillis() > 0) {
+-	    tailZone=new DSTZone(tailZone.getID(),tailZone.iStandardOffset,
+-	tailZone.iStartRecurrence.renameAppend("-Summer"),tailZone.iEndRecurrence);
+-	  }
+-	 else {
+-	    tailZone=new DSTZone(tailZone.getID(),tailZone.iStandardOffset,
+-	tailZone.iStartRecurrence,tailZone.iEndRecurrence.renameAppend("-Summer"));
+-	  }
+-	}
++	Transition last=null;
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	Transition first=null;
+,
+-	return new DSTZone(id,iStandardOffset,startRule.iRecurrence,endRule.iRecurrence);
++	int dayOfWeek=0;
+,
+-	tailZone=rs.buildTailZone(id);
++	String[][] zoneStrings=new DateFormatSymbols(Locale.ENGLISH).getZoneStrings();
+,
+-	if (tailZone == null && i == ruleSetCount - 1) {
+-	  tailZone=rs.buildTailZone(id);
+-	}
++	continue;
+,
+-	tailZone=rs.buildTailZone(id);
++	String[][] zoneStringsEn=DateTimeUtils.getDateFormatSymbols(Locale.ENGLISH).getZoneStrings();
+,
+-	break;
++	tailZone=new DSTZone(tailZone.getID(),tailZone.iStandardOffset,
++	tailZone.iStartRecurrence.renameAppend("-Summer"),tailZone.iEndRecurrence);
+,
+-	if (tailZone == null && i == ruleSetCount - 1) {
+-	  tailZone=rs.buildTailZone(id);
+-	}
++	long units=millis / (30 * 60000L);
+,
+-	if (tailZone == null && i == ruleSetCount - 1) {
+-	  tailZone=rs.buildTailZone(id);
+-	}
++	int dayOfWeek=0;
+,
+-	if (tailZone == null && i == ruleSetCount - 1) {
+-	  tailZone=rs.buildTailZone(id);
+-	}
++	String[] setLoc=null;
+,
+-	if (tailZone.iStartRecurrence.getNameKey().equals(tailZone.iEndRecurrence.getNameKey())) {
+-	  if (ZoneInfoCompiler.verbose()) {
+-	    System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	  }
+-	  if (tailZone.iStartRecurrence.getSaveMillis() > 0) {
+-	    tailZone=new DSTZone(tailZone.getID(),tailZone.iStandardOffset,
+-	tailZone.iStartRecurrence.renameAppend("-Summer"),tailZone.iEndRecurrence);
+-	  }
+-	 else {
+-	    tailZone=new DSTZone(tailZone.getID(),tailZone.iStandardOffset,tailZone.iStartRecurrence,
+-	tailZone.iEndRecurrence.renameAppend("-Summer"));
+-	  }
+-	}
++	System.out.println("Writing zoneinfo files");
+,
+-	return new DSTZone(id,iStandardOffset,startRule.iRecurrence,endRule.iRecurrence);
++	ArrayList<Rule> copy=new ArrayList<Rule>(iRules);
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	int saveMillis=0;
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	if ("UTC".equalsIgnoreCase(id)) {
++	  return DateTimeZone.UTC;
++	}
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	int count=0;
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	String[][] zoneStringsEn=DateTimeUtils.getDateFormatSymbols(Locale.ENGLISH).getZoneStrings();
+,
+-	if (tailZone == null && i == ruleSetCount - 1) {
+-	  tailZone=rs.buildTailZone(id);
+-	}
++	ZoneInfoCompiler zic=new ZoneInfoCompiler();
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	String[] pool=new String[size];
+,
+-	tailZone=rs.buildTailZone(id);
++	Map<String,DateTimeZone> zimap=new TreeMap<String,DateTimeZone>(String.CASE_INSENSITIVE_ORDER);
+,
+-	if (tailZone == null && i == ruleSetCount - 1) {
+-	  tailZone=rs.buildTailZone(id);
+-	}
++	int offsetForLast=0;
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	Transition tr=transitions.get(0);
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	int pos=0;
+,
+-	return new DSTZone(id,iStandardOffset,startRule.iRecurrence,endRule.iRecurrence);
++	int pos=0;
+,

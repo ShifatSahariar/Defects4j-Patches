@@ -1,0 +1,3 @@
++	if (((Math.abs(actRed) <= costRelativeTolerance) && (preRed <= costRelativeTolerance) && (ratio <= 2.0)) || (delta <= parRelativeTolerance * xNorm)) {
++	  return new VectorialPointValuePair(point,objective);
++	}

@@ -1,0 +1,23 @@
+-	int strLen=str.length();
++	buffer=new char[str.length() + CAPACITY];
+,
+-	str.getChars(0,strLen,buffer,size);
++	ensureCapacity(size + 5);
+,
++	ensureCapacity(size + 4);
+,
++	ensureCapacity(size + 5);
+,
+-	ensureCapacity(size + width);
++	ensureCapacity(size + 4);
+,
+-	String str=(obj == null ? getNullText() : obj.toString());
++	ensureCapacity(size + 5);
+,
++	buffer=new char[str.length() + CAPACITY];
+,
++	buffer=new char[CAPACITY];
+,
+-	ensureCapacity(size + width);
++	buffer=new char[CAPACITY];
+,

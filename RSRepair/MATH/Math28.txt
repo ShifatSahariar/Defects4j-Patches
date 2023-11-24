@@ -1,0 +1,130 @@
+-	minRatioPositions.add(i);
++	minRatio=ratio;
+,
+-	for (Integer row : minRatioPositions) {
+-	  for (int i=0; i < tableau.getNumArtificialVariables(); i++) {
+-	    int column=i + tableau.getArtificialVariableOffset();
+-	    final double entry=tableau.getEntry(row,column);
+-	    if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	      return row;
+-	    }
+-	  }
+-	}
++	return LEQ;
+,
+-	return minRow;
++	double sum=0;
+,
+-	if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	  return row;
+-	}
++	Integer pivotCol=getPivotColumn(tableau);
+,
+-	minRatioPositions.add(i);
++	List<LinearConstraint> normalized=new ArrayList<LinearConstraint>();
+,
+-	if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	  return row;
+-	}
++	row=i;
+,
+-	for (Integer row : minRatioPositions) {
+-	  for (int i=0; i < tableau.getNumArtificialVariables(); i++) {
+-	    int column=i + tableau.getArtificialVariableOffset();
+-	    final double entry=tableau.getEntry(row,column);
+-	    if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	      return row;
+-	    }
+-	  }
+-	}
++	double minValue=0;
+,
+-	minIndex=i;
++	int slackVar=0;
+,
+-	return minRow;
++	throw new NoFeasibleSolutionException();
+,
++	row=i;
+,
+-	return row;
++	minRatioPositions.add(i);
+,
+-	for (Integer row : minRatioPositions) {
+-	  for (int i=0; i < tableau.getNumArtificialVariables(); i++) {
+-	    int column=i + tableau.getArtificialVariableOffset();
+-	    final double entry=tableau.getEntry(row,column);
+-	    if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	      return row;
+-	    }
+-	  }
+-	}
++	switch (this) {
++	case LEQ:
++	  return GEQ;
++	case GEQ:
++	return LEQ;
++	default :
++	return EQ;
++	}
+,
+-	if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	  return row;
+-	}
++	Integer minRow=null;
+,
+-	return row;
++	Integer minRow=null;
+,
+-	for (Integer row : minRatioPositions) {
+-	  for (int i=0; i < tableau.getNumArtificialVariables(); i++) {
+-	    int column=i + tableau.getArtificialVariableOffset();
+-	    final double entry=tableau.getEntry(row,column);
+-	    if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	      return row;
+-	    }
+-	  }
+-	}
++	Integer minRow=null;
+,
+-	for (Integer row : minRatioPositions) {
+-	  for (int i=0; i < tableau.getNumArtificialVariables(); i++) {
+-	    int column=i + tableau.getArtificialVariableOffset();
+-	    final double entry=tableau.getEntry(row,column);
+-	    if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	      return row;
+-	    }
+-	  }
+-	}
++	Integer minPos=null;
+,
+-	if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	  return row;
+-	}
++	double minValue=0;
+,
+-	return row;
++	int slackVar=0;
+,
+-	minIndex=i;
++	for (int i=0; i < getHeight(); i++) {
++	  final double entry=getEntry(i,col);
++	  if (Precision.equals(entry,1d,maxUlps) && (row == null)) {
++	    row=i;
++	  }
++	 else   if (!Precision.equals(entry,0d,maxUlps)) {
++	    return null;
++	  }
++	}
+,
++	minRow=row;
+,
+-	minRatioPositions.add(i);
++	this.epsilon=epsilon;
+,
+-	return minRow;
++	return minRatioPositions.get(0);
+,
+-	return minRow;
++	Integer minPos=null;
+,

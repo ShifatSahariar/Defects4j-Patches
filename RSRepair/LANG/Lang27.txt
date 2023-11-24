@@ -1,0 +1,2 @@
+-	mant=str.substring(0,expPos);
++	Float f=createFloat(str);

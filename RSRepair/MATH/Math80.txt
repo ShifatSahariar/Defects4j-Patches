@@ -1,0 +1,66 @@
+-	for (int k=0; k < 4; k+=step) {
+-	  final double tmp=work[i + k];
+-	  work[i + k]=work[j - k];
+-	  work[j - k]=tmp;
+-	}
++	double max=0;
+,
+-	work[i + k]=work[j - k];
++	double lower=Double.POSITIVE_INFINITY;
+,
+-	for (int i=0; i < j; i+=4) {
+-	  for (int k=0; k < 4; k+=step) {
+-	    final double tmp=work[i + k];
+-	    work[i + k]=work[j - k];
+-	    work[j - k]=tmp;
+-	  }
+-	  j-=4;
+-	}
++	double trace=0;
+,
+-	for (int k=0; k < 4; k+=step) {
+-	  final double tmp=work[i + k];
+-	  work[i + k]=work[j - k];
+-	  work[j - k]=tmp;
+-	}
++	dMin2=dMin;
+,
+-	work[i + k]=work[j - k];
++	tType=-2;
+,
+-	work[i + k]=work[j - k];
++	this.secondary=secondary.clone();
+,
+-	for (int k=0; k < 4; k+=step) {
+-	  final double tmp=work[i + k];
+-	  work[i + k]=work[j - k];
+-	  work[j - k]=tmp;
+-	}
++	double sumOffDiag=0;
+,
+-	for (int k=0; k < 4; k+=step) {
+-	  final double tmp=work[i + k];
+-	  work[i + k]=work[j - k];
+-	  work[j - k]=tmp;
+-	}
++	dN1=0;
+,
+-	for (int k=0; k < 4; k+=step) {
+-	  final double tmp=work[i + k];
+-	  work[i + k]=work[j - k];
+-	  work[j - k]=tmp;
+-	}
++	double xNormSqr=0;
+,
+-	for (int i=0; i < j; i+=4) {
+-	  for (int k=0; k < 4; k+=step) {
+-	    final double tmp=work[i + k];
+-	    work[i + k]=work[j - k];
+-	    work[j - k]=tmp;
+-	  }
+-	  j-=4;
+-	}
++	if (dMin1 == dN1) {
++	  tau=0.5 * dMin1;
++	}
+,

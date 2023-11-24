@@ -1,0 +1,50 @@
+-	if (orientation == PlotOrientation.HORIZONTAL) {
+-	  drawHorizontalItem(g2,state,dataArea,plot,domainAxis,rangeAxis,statData,row,column);
+-	}
+-	else if (orientation == PlotOrientation.VERTICAL) {
+-  	  drawVerticalItem(g2,state,dataArea,plot,domainAxis,rangeAxis,statData,row,column);
+- 	}
++	double x1=domainAxis.getCategoryMiddle(column,
++	getColumnCount(),dataArea,plot.getDomainAxisEdge());
+,
+-	result=masd.getMean();
++	double maxOutlier=Double.NEGATIVE_INFINITY;
+,
+-	result=masd.getMean();
++	double sumY2=0.0;
+,
+-	result=masd.getMean();
++	double sumY=0;
+,
+-	result=masd.getMean();
++	if (this.equals(HistogramType.FREQUENCY)) {
++	  return HistogramType.FREQUENCY;
++	}
++	 else if (this.equals(HistogramType.RELATIVE_FREQUENCY)) {
++	  return HistogramType.RELATIVE_FREQUENCY;
++	}
++	else if (this.equals(HistogramType.SCALE_AREA_TO_1)) {
++	return HistogramType.SCALE_AREA_TO_1;
++	}
+,
+-	if (orientation == PlotOrientation.HORIZONTAL) {
+-	  drawHorizontalItem(g2,state,dataArea,plot,domainAxis,rangeAxis,statData,row,column);
+-	}
+- 	else if (orientation == PlotOrientation.VERTICAL) {
+ - 	drawVerticalItem(g2,state,dataArea,plot,domainAxis,rangeAxis,statData,row,column);
+-	}
++	g2.setPaint(getItemPaint(row,column));
+,
+-	if (orientation == PlotOrientation.HORIZONTAL) {
+-	  drawHorizontalItem(g2,state,dataArea,plot,domainAxis,rangeAxis,statData,row,column);
+-	}
+- 	else if (orientation == PlotOrientation.VERTICAL) {
+ - 	drawVerticalItem(g2,state,dataArea,plot,domainAxis,rangeAxis,statData,row,column);
+-	}
++	Iterator iterator=null;
+,
+-	if (masd != null) {
+-	  result=masd.getMean();
+-	}
++	result=masd.getStandardDeviation();
+,

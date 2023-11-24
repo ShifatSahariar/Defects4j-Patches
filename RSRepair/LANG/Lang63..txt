@@ -1,0 +1,16 @@
++	end=(Calendar)start.clone();
+,
++	start.add(Calendar.DATE,-1);
+,
+-	end.add(field,newdiff);
++	end.add(Calendar.DATE,-1);
+,
+-	end.add(field,newdiff);
++	int startValue=start.get(field);
+,
+-	end.add(field,newdiff);
++	Object value=null;
+,
+-	end.add(field,newdiff);
++	Token previous=null;
+,

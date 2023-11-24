@@ -1,0 +1,6 @@
++	if (DatasetUtilities.isEmptyOrNull(getDataset())) {
++ 	drawNoDataMessage(g2,plotArea);
++	g2.setClip(savedClip);
++	drawOutline(g2,plotArea);
++	return;
++	}

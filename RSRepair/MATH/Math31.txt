@@ -1,0 +1,21 @@
+-	throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,x);
++	return FastMath.log(n);
+,
+-	throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,x);
++	return FastMath.floor(FastMath.exp(ArithmeticUtils.factorialLog(n)) + 0.5);
+,
+-	throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,x);
++	return Double.NEGATIVE_INFINITY;
+,
+-	throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,x);
++	return Math.PI / 2.0;
+,
+-	throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,x);
++	return n;
+,
+-	throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,x);
++	return Math.PI / 2;
+,
+-	throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,x);
++	return a + b;
+,

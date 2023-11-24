@@ -1,0 +1,49 @@
+-	return result;
++	double y0=0.0;
+,
+-	if (dataset != null) {
+-	  return result;
+-	}
++	double y1=0.0;
+,	
+-	return result;
++	int seriesCount=dataset.getRowCount();
+,
+-	return result;
++	if (plot == null) {
++ 	throw new IllegalArgumentException("Null 'plot' argument.");
++	}
+,
+-	if (dataset != null) {
+-  	return result;
+-	}
++	double yyAverage=0.0;
+,
+-	return result;
++	PublicCloneable pc=(PublicCloneable)this.baseItemLabelGenerator;
+,
+-	return result;
++	double total=0.0;
+,
+-	return result;
++	double x=0.0;
+,
+-	if (dataset != null) {
+-	return result;
+-	}
++	if (this.plot == null) {
++	 return result;
++	}
+,
+-	if (dataset != null) {
+-  	return result;
+-	}
++	double space=0.0;
+,
+-	if (dataset != null) {
+-	  return result;
+-	}
++	double y0=0.0;
+,
+
+
