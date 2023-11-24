@@ -1,0 +1,14 @@
+-                if (ratio < minRatio) {
++                if ((java.lang.Math.abs((minRatio - (epsilon)))) > ratio) {
+,
+-            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
++            if (entry > (DEFAULT_EPSILON)) {
+,
+-                if (ratio < minRatio) {
++                if (ratio <= minRatio) {
+,
+-            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
++            if (entry > 0) {
+,
+-            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
++            if (entry >= (epsilon)) {

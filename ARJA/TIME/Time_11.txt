@@ -1,0 +1,77 @@
+-	if (tailZone == null && i == ruleSetCount - 1) {
+-	  tailZone=rs.buildTailZone(id);
+-	}
++	if (id == null) {
++	  throw new IllegalArgumentException();
++	}
+,
+-	if (tailZone == null && i == ruleSetCount - 1) {
+-	  tailZone=rs.buildTailZone(id);
+-	}
++	if (addTransition(transitions,next)) {
++	 if (tailZone != null) {
++	    break;
++	  }
++	}
+,
+
++	if (fromYear <= toYear) {
++	  OfYear ofYear=new OfYear(mode,monthOfYear,dayOfMonth,dayOfWeek,advanceDayOfWeek,millisOfDay);
++	  Recurrence recurrence=new Recurrence(ofYear,nameKey,saveMillis);
++	  Rule rule=new Rule(recurrence,fromYear,toYear);
++	  getLastRuleSet().addRule(rule);
++	}
+,
+-	tailZone=rs.buildTailZone(id);
++	if (tailZone != null) {
++	  break;
++	}
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	System.out.println("Writing ZoneInfoMap");
+,
+-	return new DSTZone(id,iStandardOffset,startRule.iRecurrence,endRule.iRecurrence);
++	if (id == null) {
++	  return null;
++	}
+,
+-	tailZone=rs.buildTailZone(id);
++	rs=new RuleSet(rs);
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	if (id == null) {
++	  return null;
++	}
+,
+-	if (tailZone == null && i == ruleSetCount - 1) {
+-	  tailZone=rs.buildTailZone(id);
+-	}
++	if (tailZone != null) {
++	  break;
++	}
+,
+-	return new DSTZone(id,iStandardOffset,startRule.iRecurrence,endRule.iRecurrence);
++	System.out.println("Writing zoneinfo files");
+,
+-	tailZone=rs.buildTailZone(id);
++	millis=rs.getUpperLimit(saveMillis);
+,
+-	if (ZoneInfoCompiler.verbose()) {
+-	  System.out.println("Fixing duplicate recurrent name key - " + tailZone.iStartRecurrence.getNameKey());
+-	}
++	tailZone=new DSTZone(tailZone.getID(),tailZone.iStandardOffset,tailZone.iStartRecurrence.renameAppend("-Summer"),tailZone.iEndRecurrence);
+,
+-	tailZone=rs.buildTailZone(id);
++	System.out.println("Writing ZoneInfoMap");
+,
+-	return new DSTZone(id,iStandardOffset,startRule.iRecurrence,endRule.iRecurrence);
++	return null;
+,
+-	tailZone=rs.buildTailZone(id);
++	addTransition(transitions,next);
+
+

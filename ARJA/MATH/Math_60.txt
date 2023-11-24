@@ -1,0 +1,2 @@
+-	throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,x);
++	return 0.0;

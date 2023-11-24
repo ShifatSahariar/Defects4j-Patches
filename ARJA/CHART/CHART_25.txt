@@ -1,0 +1,29 @@
+-	result=new Range(this.minimumRangeValueIncStdDev,this.maximumRangeValueIncStdDev);
++	this.data=new KeyedObjects2D();
+,
+-	return this.data.getColumnCount();
++	this.data=new KeyedObjects2D();
+
+,
+
++	this.data=new KeyedObjects2D();
+
+,
+-	result=masd.getMean();
++	this.maximumRangeValueIncStdDev=Double.NaN;
+,
+-	if (masd != null) {
+-	  result=masd.getMean();
+-	}
++	this.minimumRangeValue=Double.NaN;
+,
+
+-	if (masd != null) {
+-	result=masd.getMean();
+-	}
+
++	this.minimumRangeValue=null;
+,
+-	result=masd.getMean();
++	return this.data.getRowCount();
+

@@ -1,0 +1,14 @@
+-            if (expPos > -1) {
++            if (str == null) {
+,
+-            if (expPos > -1) {
++            if (decPos > (-1)) {
+,
+-            if (expPos > -1) {
++            if ((expPos > (-1)) && (expPos < ((str.length()) - 1))) {
+,
+-            if (expPos > -1) {
++            iif (expPos < decPos) {
+,
+-            if (expPos > -1) {
++            if (expPos < expPos) {

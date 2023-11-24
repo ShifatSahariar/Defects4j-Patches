@@ -1,0 +1,73 @@
++                if (val2 == -1 && val1 == Long.MIN_VALUE) {
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                } else if (val2 == -1) {
++                    return -val1;
++                }
+,
++                if (val1 == Long.MIN_VALUE) {
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                }
+,
++if (val1 == Long.MIN_VALUE && val2 != 0 && val2 != 1) {
++    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++}
+,
++if (val1 == Long.MIN_VALUE && val2 == -1) {
++    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++}
+,
++                if (val1 == Long.MIN_VALUE || val2 == Integer.MIN_VALUE) {
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                }
+,
++                if(val1 == Long.MIN_VALUE)
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
+,
++                if ((val1 > 0 && val2 > Long.MAX_VALUE / val1) || (val1 < 0 && val2 < Long.MIN_VALUE / val1)) {
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                }
+,
++                long result = val1 * val2;
++                if (val1 != 0 && result / val1 != val2) {
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                }
+,
++                if (val1 == Long.MIN_VALUE) {
++                    throw new ArithmeticException("Multiplication overflows a long");
++                }
+,
++                if (val2 != 0 && (val1 == Long.MIN_VALUE || Long.divideUnsigned(Math.abs(val1), Math.abs(val2)) > Long.MAX_VALUE)) {
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                }
+,
++                if (val1 == Long.MIN_VALUE) {
++                    throw new ArithmeticException("Overflow: Long.MIN_VALUE cannot be negated.");
++                }
+,
++        if (val1 == Long.MIN_VALUE && val2 == -1) {
++            throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++        }
+-          throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++            throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
+,
++                if (val1 == Long.MIN_VALUE) {
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                }
+-          throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++            throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
+,
++                if (val1 == Long.MIN_VALUE) {
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                } 
+,
++if (val2 != 0 && val1 == Long.MIN_VALUE / val2 && val2 == -1) {
++    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++}
+,
++                if(val1 == Long.MIN_VALUE){
++                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                }
+,
++                if (val1 == Long.MIN_VALUE) {
++                   throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                }

@@ -1,0 +1,17 @@
+-          if (target != null) {
++        if (target != null && Token.STRING == target.getType() && !target.getString().isEmpty()) {
+,
+-          if (target != null) {
++        if (target != null && target.getType() == Token.STRING && !target.getString().isEmpty()) {
+,
+-          if (target != null) {
++if (target != null && target.getType() == Token.STRING && !target.getString().trim().isEmpty()) {
+,
+-          if (target != null) {
++if (target != null && target.getType() == Token.STRING && target.getString() != null && !target.getString().isEmpty()) {
+,
+-          if (target != null) {
++        if (target != null && Token.STRING == target.getType() && target.getString() != null && !target.getString().isEmpty()) {
+,
+-          if (target != null) {
++        if (target != null && target.getType() == Token.STRING) {

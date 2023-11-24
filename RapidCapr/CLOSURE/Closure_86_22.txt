@@ -1,0 +1,66 @@
+-        return true;
++return NodeUtil.isImmutableValue(value) || locals.apply(value);
+,
+-        return true;
++return locals.apply(value.getFirstChild()) || isImmutableValue(value);
+,
+-        return true;
++return isImmutableValue(value) || locals.apply(value);
+,
+-        return true;
++return locals.apply(value.getParent());
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value);
+,
+-        return true;
++        // constructors might have side effects
++        return locals.apply(value) || isImmutableValue(value);
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value) && isImmutableValue(value.getLastChild());
+,
+-        return true;
++return false;
+,
+-        return true;
++return isImmutableValue(value) || locals.apply(value.getParent());
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value) && !value.getLastChild().hasChildren();
+,
+-        return true;
++          return false;
+,
+-        return true;
++return false;
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value) && value.getFirstChild().getType() != Token.FUNCTION;
+,
+-        return true;
++return locals.apply(value.getParent()) && (isImmutableValue(value) || !callHasLocalResult(value));
+,
+-        return true;
++        return locals.apply(value.getFirstChild());
+,
+-        return true;
++        return false;
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value) && !value.getFirstChild().hasChildren();
+,
+-        return true;
++return false;
+,
+-        return true;
++return false;
+,
+-        return true;
++return locals.apply(value.getFirstChild()) || NodeUtil.isImmutableValue(value);
+,
+-        return true;
++return locals.apply(value.getFirstChild());
+,
+-        return true;
++return locals.apply(value.getParent()) || isImmutableValue(value);

@@ -1,0 +1,75 @@
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Partial newPartial = new Partial(newTypes, newValues, iChronology);
++            Chronology chronology = newPartial.getChronology();
++            chronology.validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Partial newPartial = new Partial(newTypes, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++Partial newPartial = new Partial(newTypes, newValues, iChronology);
++Chronology chrono = DateTimeUtils.getChronology(iChronology);
++chrono.validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++Chronology chronology = DateTimeUtils.getChronology(iChronology);
++Partial newPartial = new Partial(newTypes, newValues, chronology);
++chronology.validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Partial newPartial = new Partial(newTypes, newValues, iChronology);
++            newPartial = newPartial.withChronologyRetainFields(iChronology);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Chronology chrono = DateTimeUtils.getChronology(iChronology).withUTC();
++            Partial newPartial = new Partial(newTypes, newValues, chrono);
++            chrono.validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Partial newPartial = new Partial(newTypes, newValues, iChronology);
++            iChronology.validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Partial newPartial = new Partial(newTypes, newValues, iChronology);
++            newPartial.getChronology().validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Chronology chrono = DateTimeUtils.getChronology(iChronology);
++            Partial newPartial = new Partial(newTypes, newValues, chrono);
++            chrono.validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++Partial newPartial = new Partial(newTypes, newValues);
++newPartial = newPartial.withChronologyRetainFields(iChronology);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Partial newPartial = new Partial(newTypes, newValues, iChronology);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Partial newPartial = new Partial(newTypes, newValues, getChronology());
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++Chronology chrono = DateTimeUtils.getChronology(iChronology).withUTC();
++Partial newPartial = new Partial(newTypes, newValues, chrono);
++chrono.validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++Partial newPartial = new Partial(newTypes, newValues, iChronology);
++newPartial = newPartial.withChronologyRetainFields(iChronology);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++    Partial newPartial = new Partial(newTypes, newValues, iChronology);
++    newPartial = newPartial.withChronologyRetainFields(iChronology);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++Partial newPartial = new Partial(newTypes, newValues, iChronology);
++iChronology.validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++Chronology chrono = DateTimeUtils.getChronology(iChronology);
++Partial newPartial = new Partial(newTypes, newValues, chrono);
++chrono.validate(newPartial, newValues);
+,
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Partial newPartial = new Partial(newTypes, newValues);
++            iChronology.validate(newPartial, newValues);

@@ -1,0 +1,219 @@
+-                return foundDigit && !hasExp;
++if(chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint;
++}
+,
+-                return foundDigit && !hasExp;
++            return foundDigit && !hasExp && !hasDecPoint;
+,
+-                return foundDigit && !hasExp;
++if(chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point or sign
++    return !hasExp && !hasDecPoint && !allowSigns && foundDigit;
++}
+,
+-                return foundDigit && !hasExp;
++if(chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return foundDigit && !hasExp && hasDecPoint == false;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && foundDigit;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && i == sz && foundDigit;
++}
+,
+-                return foundDigit && !hasExp;
++if(chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && foundDigit && i == sz;
++}
+,
+-                return foundDigit && !hasExp;
++                return foundDigit && !hasExp && !hasDecPoint;
+,
+-                return foundDigit && !hasExp;
++if(chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && foundDigit && i == sz && allowSigns == false;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return foundDigit && !hasExp && !hasDecPoint && !allowSigns;
++}
+,
+-                return foundDigit && !hasExp;
++if(chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && foundDigit;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && allowSigns == false && foundDigit && i == chars.length - 1 && sz != 1;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return foundDigit && !hasExp && !hasDecPoint && i == sz;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && allowSigns == false && foundDigit && i == chars.length - 1;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    return !hasExp && !hasDecPoint && foundDigit && i == chars.length - 1;
++}
+,
+-                return foundDigit && !hasExp;
++        if(chars[i] == 'l' || chars[i] == 'L') {
++            // not allowing L with an exponent or decimal point
++            return foundDigit && !hasExp && !hasDecPoint;
++        }
+,
+-                return foundDigit && !hasExp;
++        if (chars[i] == 'l' || chars[i] == 'L') {
++            // not allowing L with an exponent or decimal point
++            return !hasExp && !hasDecPoint;
++        }
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !(hasExp || hasDecPoint) && foundDigit && i == chars.length - 1;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++   // not allowing L with an exponent or decimal point
++   return foundDigit && !hasExp && !hasDecPoint;
++}
+,
+-                return foundDigit && !hasExp;
++return !(chars[i] == 'l' || chars[i] == 'L') || (!hasExp && !hasDecPoint && foundDigit);
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && foundDigit && allowSigns == false;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasDecPoint && !hasExp && foundDigit;
++}
+,
+-                return foundDigit && !hasExp;
++if(chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return foundDigit && !hasExp && !hasDecPoint;
++}
+,
+-                return foundDigit && !hasExp;
++        return !hasExp && !hasDecPoint;
+,
+-                return foundDigit && !hasExp;
++return !(chars[i] == 'l' || chars[i] == 'L') || (!hasExp && !hasDecPoint);
+,
+-                return foundDigit && !hasExp;
++                return foundDigit && !hasExp && !hasDecPoint && !allowSigns;
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !foundDigit || hasExp || hasDecPoint ? false : true;
++}
+,
+-                return foundDigit && !hasExp;
++if(chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && foundDigit && i == sz && !allowSigns;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return foundDigit && !hasExp && !hasDecPoint && i == chars.length - 1;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && i == sz;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && foundDigit && i == sz;
++}
+,
+-                return foundDigit && !hasExp;
++return !(hasExp || hasDecPoint) && foundDigit;
+,
+-                return foundDigit && !hasExp;
++               if(chars[i] == 'l' || chars[i] == 'L') {
++                   // not allowing L with an exponent or decimal point
++                   return foundDigit && !hasExp && !hasDecPoint;
++               }
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent, decimal point, sign, or digits after L
++    return !hasExp && !hasDecPoint && !allowSigns && foundDigit && i == sz;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return foundDigit && !hasExp && !hasDecPoint;
++}
+,
+-                return foundDigit && !hasExp;
++                if(chars[i] == 'l' || chars[i] == 'L') {
++                    // not allowing L with an exponent or decimal point
++                    return !hasExp && !hasDecPoint;
++                }
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && foundDigit && i == chars.length - 1;
++}
+,
+-                return foundDigit && !hasExp;
++return !hasDecPoint && foundDigit && !hasExp;
+,
+-                return foundDigit && !hasExp;
++if ((chars[i] == 'l' || chars[i] == 'L') && !hasExp && !hasDecPoint) {
++    return foundDigit;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint && allowSigns == false && foundDigit;
++}
+,
+-                return foundDigit && !hasExp;
++if (chars[i] == 'l' || chars[i] == 'L') {
++    // not allowing L with an exponent or decimal point
++    return !hasExp && !hasDecPoint;
++}

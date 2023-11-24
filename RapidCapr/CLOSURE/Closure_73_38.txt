@@ -1,0 +1,121 @@
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7E && c != '\"' && c != '\\' && c != '\'') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c > 0x1f && c < 0x7f && c != '"' && c != '\'' && c != '\\') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e) || (c >= 0xa0 && c <= 0xff) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e && c != '\"' && c != '\\' && c != '\'') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e && c != '\"' && c != '\\' && c != '\'') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7E) || (c >= 0xA0 && c <= 0xFF) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e && c != '\"' && c != '\'' && c != '\\' && c != '>') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c))) || (c == '>' && i > 0 &&
++            ((s.charAt(i - 1) == '-' && (i == 1 || s.charAt(i - 2) == '-')) ||
++             (s.charAt(i - 1) == ']' && s.charAt(i - 2) == ']')))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e) || (outputCharsetEncoder != null && c >= 0x80 &&
++            (Character.isLetterOrDigit(c) || Character.isSpaceChar(c) ||
++             c == '\t' || c == '\n' || c == '\r'))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c > 0x1f && c < 0x7f) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c > 0x1f && c != '\"' && c != '\'' && c != '\\' && c <= 0x7e) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c > 0x1f && c <= 0x7e) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7E) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(String.valueOf(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e) || (c >= 0x80 && outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c > 0x1f && c <= 0x7e) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= '\u0020' && c <= '\u007e') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7E && c != '\"' && c != '\'' && c != '\\' && c != '>' && c != '<') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c))) || ((c == '>' || c == '<') && i > 0 &&
++                ((s.charAt(i - 1) == '-' && (i == 1 || s.charAt(i - 2) == '-')) ||
++                 (s.charAt(i - 1) == ']' && s.charAt(i - 2) == ']')))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7E && c != '\"' && c != '\\' && c != '\'') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e && c != '"' && c != '\\' && c != '\'') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 32 && c <= 126) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e && c != '\"' && c != '\\' && c != '\'') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c))) || (c == '>' && ((i > 0 && s.charAt(i - 1) == '-') || (i > 1 && s.charAt(i - 1) == '>' && s.charAt(i - 2) == ']')))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if (((c >= 0x20 && c <= 0x7e) || (c >= 0xa0 && c <= 0xff)) && (outputCharsetEncoder == null || outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e) || (outputCharsetEncoder != null && Character.isDefined(c) && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7E && c != '\"' && c != '\\' && c != '\'' && c != '>') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c))) || (c == '>' && i > 0 &&
++            ((s.charAt(i - 1) == '-' && (i == 1 || s.charAt(i - 2) == '-')) ||
++             (s.charAt(i - 1) == ']' && s.charAt(i - 2) == ']')))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e) || (c >= 0xA0 && c <= 0xFF) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7E) || (outputCharsetEncoder != null && c >= 0x80 && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c > 0x1f && c <= 0x7e && c != '\"' && c != '\\' && c != '\'') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e) || (c >= 0xa0 && outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c > 0x1f && c <= 0x7e && c != '\"' && c != '\\' && c != '\'') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c > 0x1f && c <= 0x7e && c != '\\' && c != '\'' && c != '\"') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= ' ' && c <= '~') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e && "\"'\\>".indexOf(c) == -1) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c < 0x7f && c != '\\' && c != '\'' && c != '\"') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7e && c != '"' && c != '\'' && c != '\\') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if ((c >= 0x20 && c <= 0x7E && c != '\"' && c != '\'' && c != '\\') || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(Character.toString(c)))) {
+,
+-            if (c > 0x1f && c <= 0x7f) {
++if (Character.isDefined(c) && ((c >= 0x20 && c <= 0x7E) || (outputCharsetEncoder != null && outputCharsetEncoder.canEncode(c)))) {

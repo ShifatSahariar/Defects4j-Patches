@@ -1,0 +1,84 @@
+-	for (int i=0; i < j; i+=4) {
+-	  for (int k=0; k < 4; k+=step) {
+-	    final double tmp=work[i + k];
+-	    work[i + k]=work[j - k];
+-	    work[j - k]=tmp;
+-	  }
+-	  j-=4;
+-	} 
++	tau=0.0;
+,
+-	for (int i=0; i < j; i+=4) {
+-	  for (int k=0; k < 4; k+=step) {
+-	    final double tmp=work[i + k];
+-	    work[i + k]=work[j - k];
+-	    work[j - k]=tmp;
+-	  }
+-	  j-=4;
+-	} 
++	pingPong=1 - pingPong;
+,
+-	for (int i=0; i < j; i+=4) {
+-	  for (int k=0; k < 4; k+=step) {
+-	    final double tmp=work[i + k];
+-	    work[i + k]=work[j - k];
+-	    work[j - k]=tmp;
+-	  }
+-	  j-=4;
+-	} 
++	cachedD=MatrixUtils.createRealDiagonalMatrix(realEigenvalues);
+,
+-	work[i + k]=work[j - k];
++	work[j - k]=tmp;
+,
+-	work[i + k]=work[j - k];
++	if (tType == -18) {
++	  g=0.25 * 0.333;
++	}
++	 else {
++	  g=0.25;
++	}
+,
+-	for (int i=0; i < j; i+=4) {
+-	  for (int k=0; k < 4; k+=step) {
+-	    final double tmp=work[i + k];
+-	    work[i + k]=work[j - k];
+-	    work[j - k]=tmp;
+-	  }
+-	  j-=4;
+-	} 
++	g+=0.333 * (1 - g);
+,
+-	for (int i=0; i < j; i+=4) {
+-	  for (int k=0; k < 4; k+=step) {
+-	    final double tmp=work[i + k];
+-	    work[i + k]=work[j - k];
+-	    work[j - k]=tmp;
+-	  }
+-	  j-=4;
+-	} 
++	dMin2=0;
+,
+-	work[i + k]=work[j - k];
++	squaredSecondary[i]=0;
+,
+-	for (int i=0; i < j; i+=4) {
+-	  for (int k=0; k < 4; k+=step) {
+-	    final double tmp=work[i + k];
+-	    work[i + k]=work[j - k];
+-	    work[j - k]=tmp;
+-	  }
+-	  j-=4;
+-	} 
+ 
++	for (int i=0; i < realEigenvalues.length; ++i) {
++	  if ((realEigenvalues[i] == 0) && (imagEigenvalues[i] == 0)) {
++	    return false;
++	  }
++	}
+,
++	work[j - k]=tmp;
+,
+-	work[i + k]=work[j - k];
++	dMin=Math.min(dMin,dN1);
+

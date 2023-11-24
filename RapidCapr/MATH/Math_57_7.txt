@@ -1,0 +1,20 @@
+-            int sum = 0;
++            double sum = 0.0;
+,
+-            int sum = 0;
++            double sum = 0;
+,
+-            int sum = 0;
++            double sum = 0d;
+,
+-            int sum = 0;
++double sum = 0;
+,
+-            int sum = 0;
++            double sum = 0D;
+,
+-            int sum = 0;
++            double sum = 0.0d;
+,
+-            int sum = 0;
++double sum = 0.0;

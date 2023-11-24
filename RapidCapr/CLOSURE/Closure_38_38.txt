@@ -1,0 +1,113 @@
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || Character.isSpaceChar(prev))) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0 && (prev == '-' || Character.isWhitespace(prev) || prev == 'E' || prev == 'e')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0 && (prev == '-' || Character.isWhitespace(prev))) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0 && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || Character.toLowerCase(prev) == 'e')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0 && (prev == '-' || prev == ' ' || prev == 'E')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Math.copySign(1.0, x) < 0 && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || Character.isWhitespace(prev) || prev == 'E' || prev == 'e')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Math.copySign(1.0, x) < 0 && (prev == '-' || Character.isWhitespace(prev))) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || Character.isWhitespace(prev))) {
+,
+-    if (x < 0 && prev == '-') {
++if ((Double.doubleToLongBits(x) & 0x8000000000000000L) != 0 && (prev == '-' || Character.isWhitespace(prev))) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || Character.isWhitespace(prev) || prev == 'E' )) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.compare(x, 0.0) == -1 && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Math.copySign(1, x) < 0 && (prev == '-' || Character.isWhitespace(prev))) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0L && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) != 0 && Math.copySign(1, x) < 0 && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || prev == 'E')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0 && (prev == '-' || prev == ' ')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0 && (prev == '-' || Character.isWhitespace(prev) || prev == 'E' || prev == 'e' || prev == '.')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0 && (prev == '-' || Character.isWhitespace(prev) || prev == 'E')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0L && (prev == '-' || Character.isWhitespace(prev) || prev == 'E' || prev == 'e' || prev == '.')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Math.copySign(1, x) < 0 && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.compare(x, 0.0) < 0 && (prev == '-' || Character.isWhitespace(prev))) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0L && (prev == '-' || Character.isWhitespace(prev) || prev == 'E' || prev == 'e')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || prev == ' ')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0L && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0 && (prev == '-' || Character.isSpaceChar(prev))) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0L && (prev == '-' || Character.isWhitespace(prev))) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.compare(x, 0.0)==-1 && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || prev == ' ' || prev == 'E')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.compare(x, 0.0) < 0 && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || prev == 'E' || prev == ' ')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || Character.isWhitespace(prev) || prev == 'e' || prev == 'E')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToLongBits(x) < 0 && (Character.isWhitespace(prev) || prev == '-')) {
+,
+-    if (x < 0 && prev == '-') {
++if (Math.copySign(1.0, x) < 0 && (prev == '-' || prev == ' ')) {
+,
+-    if (x < 0 && prev == '-') {
++if (1 / x < 0 && prev == '-') {
+,
+-    if (x < 0 && prev == '-') {
++if (Double.doubleToRawLongBits(x) < 0 && (prev == '-' || Character.isWhitespace(prev) || prev == 'E')) {

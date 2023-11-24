@@ -1,0 +1,120 @@
+-            return NaN;
++return real == 0.0 && imaginary == 0.0 ? INF : createComplex(1.0 / real, -imaginary / (real * real + imaginary * imaginary));
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : NaN;
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : isNaN() ? NaN : new Complex(real / (real*real + imaginary*imaginary), -imaginary / (real*real + imaginary*imaginary));
+,
+-            return NaN;
++return isNaN() ? NaN : createComplex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++        if (real == 0.0 && imaginary == 0.0) {
++            return INF;
++        }
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : isNaN() ? NaN : createComplex(real / (real*real + imaginary*imaginary), -imaginary/(real*real + imaginary*imaginary));
+,
+-            return NaN;
++            return INF;
+,
+-            return NaN;
++return isNaN ? NaN : INF;
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : (isNaN ? NaN : createComplex(real/(real*real+imaginary*imaginary), -imaginary/(real*real+imaginary*imaginary)));
+,
+-            return NaN;
++return isNaN() || (real == 0.0 && imaginary == 0.0) ? INF : createComplex(1 / real, -imaginary / (real * real + imaginary * imaginary));
+,
+-            return NaN;
++return isNaN() ? NaN : INF;
+,
+-            return NaN;
++return new Complex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++            return INF;
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : (isNaN() ? NaN : new Complex(1.0 / (real * real + imaginary * imaginary), -0.0d).multiply(this.conjugate()));
+,
+-            return NaN;
++return real == 0.0 && imaginary == 0.0 ? INF : isNaN() ? NaN : createComplex(1.0 / (real * real + imaginary * imaginary), -0.0d);
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : (isNaN() ? NaN : new Complex(real / (real*real + imaginary*imaginary), -imaginary / (real*real + imaginary*imaginary)));
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : (isNaN() ? NaN : createComplex(real / (real*real + imaginary*imaginary), -imaginary / (real*real + imaginary*imaginary)));
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : isNaN() ? NaN : new Complex(real / (real * real + imaginary * imaginary), -imaginary / (real * real + imaginary * imaginary));
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : isNaN() ? NaN : createComplex(real/(real*real + imaginary*imaginary), -imaginary/(real*real + imaginary*imaginary));
+,
+-            return NaN;
++        return createComplex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++return isNaN ? NaN : new Complex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++            return createComplex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++return Complex.INF;
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : isNaN ? NaN : new Complex(real / (real*real + imaginary*imaginary), -imaginary / (real*real + imaginary*imaginary));
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : (isNaN() ? NaN : createComplex(real / (real * real + imaginary * imaginary), -imaginary / (real * real + imaginary * imaginary)));
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : isNaN() ? NaN : createComplex(1 / real, -imaginary / (real * real + imaginary * imaginary));
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : (isNaN() ? NaN : createComplex(real / (real*real + imaginary*imaginary), -imaginary / (real * real + imaginary * imaginary)));
+,
+-            return NaN;
++return INF;
+,
+-            return NaN;
++        return INF;
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : isNaN() ? NaN : createComplex(1.0 / (real * real + imaginary * imaginary), -0.0d);
+,
+-            return NaN;
++return real == 0.0 && imaginary == 0.0 ? INF : new Complex(1.0 / (real * real + imaginary * imaginary), -0.0d).multiply(this.conjugate());
+,
+-            return NaN;
++if (real == 0.0 && imaginary == 0.0) {
++    return INF;
++}
+,
+-            return NaN;
++return createComplex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++return real == 0.0 && imaginary == 0.0 ? INF : isNaN ? NaN : createComplex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++return isNaN() ? NaN : new Complex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++        return new Complex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++return isNaN ? NaN : createComplex(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY);
+,
+-            return NaN;
++return isNaN() ? NaN : (real == 0.0 && imaginary == 0.0) ? INF : createComplex(1 / real, -imaginary / (real * real + imaginary * imaginary));
+,
+-            return NaN;
++return (real == 0.0 && imaginary == 0.0) ? INF : new Complex(real / (real*real + imaginary*imaginary), -imaginary / (real*real + imaginary*imaginary));

@@ -1,0 +1,79 @@
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        long nOd = this.numerator * object.denominator;
++        long dOn = this.denominator * object.numerator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        long nOd = this.numerator * (long)object.getDenominator();
++        long dOn = this.denominator * (long)object.getNumerator();
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        long nOd = (long) numerator * object.denominator;
++        long dOn = (long) denominator * object.numerator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        long nOd = (long) numerator * object.getDenominator();
++        long dOn = (long) denominator * object.getNumerator();
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        long nOd = numerator * object.denominator;
++        long dOn = object.numerator * denominator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        int nOd = numerator * object.denominator;
++        int dOn = object.numerator * denominator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        int nOd = numerator * object.denominator;
++        int dOn = denominator * object.numerator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        long nOd = numerator * object.denominator;
++        long dOn = denominator * object.numerator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        int nOd = this.numerator * object.getDenominator();
++        int dOn = this.denominator * object.getNumerator();
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        int nOd = numerator*object.denominator;
++        int dOn = denominator*object.numerator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        int nOd = numerator * object.denominator;
++        int dOn = denominator * object.numerator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        long nOd = (long) numerator * (long) object.denominator;
++        long dOn = (long) object.numerator * (long) denominator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        int nOd = numerator * object.getDenominator();
++        int dOn = denominator * object.getNumerator();
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        int nOd = numerator * object.getDenominator();
++        int dOn = object.getNumerator() * denominator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        double nOd = numerator * object.denominator;
++        double dOn = denominator * object.numerator;
+,
+-        double nOd = doubleValue();
+-        double dOn = object.doubleValue();
++        int nOd = numerator * object.getDenominator();
++        int dOn = denominator * object.getNumerator();

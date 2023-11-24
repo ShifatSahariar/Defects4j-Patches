@@ -1,0 +1,25 @@
+-	++count;
++	states[index]=REMOVED;
+,
+-	++count;
+
++	if (shouldGrowTable()) {
++	  growTable();
++	}
+,
+-	++count;
+ 
++	if (states[index] == FULL) {
++	  return changeIndexSign(index);
++	}
+,
+-	++count;
++	index=changeIndexSign(index);
+,
+-	++count;
++	if (index < 0) {
++	  throw MathRuntimeException.createArrayIndexOutOfBoundsException(LocalizedFormats.CANNOT_SET_AT_NEGATIVE_INDEX,index);
++	}
+,
+-	++count;
++	keys[index]=0;

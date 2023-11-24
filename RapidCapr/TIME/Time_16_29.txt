@@ -1,0 +1,86 @@
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, chrono.year().get(instantLocal), 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, null, instant.getChronology().yearOfEra().get(instantLocal));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, Integer.parseInt(String.valueOf(instant.get(DateTimeFieldType.year()))), 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, null, instant.get(DateTimeFieldType.year()));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, iPivotYear, chrono.year().get(instantLocal));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, selectChronology(chrono), iLocale, null, instant.getChronology().year().get(instantMillis));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, 0, 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, selectChronology(chrono), iLocale, null, chrono.year().get(instantLocal));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, instant.getChronology().year().get(instantLocal), 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, iPivotYear, chrono.year().get(instantLocal));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, chrono.year().get(instantLocal), 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, selectChronology(chrono), iLocale, null, instant.getChronology().year().get(instantLocal));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, null, instant.get(DateTimeFieldType.year()));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, null, 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, null, instant.getChronology().year().get(instantLocal));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++    instantLocal, chrono, iLocale, iPivotYear, instant.get(DateTimeFieldType.year()));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, iPivotYear, instant.getChronology().year().get(instantMillis));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, iPivotYear, instant.get(DateTimeFieldType.yearOfEra()));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, null, 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, selectChronology(chrono), iLocale, null, 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, iPivotYear, instant.getChronology().year().get(instantLocal));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, iPivotYear, 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, iPivotYear, instant.get(DateTimeFieldType.yearOfEra()));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, 2004, 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, iPivotYear, 2004);
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, iPivotYear, instant.get(DateTimeFieldType.year()));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++        instantLocal, chrono, iLocale, iPivotYear, instant.get(DateTimeFieldType.year()));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, 2000, instant.get(DateTimeFieldType.year()));
+,
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++instantLocal, chrono, iLocale, null, chrono.year().get(instantLocal));

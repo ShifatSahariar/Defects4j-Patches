@@ -1,0 +1,14 @@
+-                    if (x == x1) {
++                    if ((org.apache.commons.math.util.FastMath.abs(f1)) <= ftol) {
+,
+-                    if (x == x1) {
++                    if (f0 < f1) {
+,
+-                    if (x == x1) {
++                    if (((x1 >= 0) && (x <= 0)) || ((x1 <= 0) && (x >= 0))) {
+,
+-                    if (x == x1) {
++                    if (f1 == 0.0) {
+,
+-                    if (x == x1) {
++                    if (x < x) {

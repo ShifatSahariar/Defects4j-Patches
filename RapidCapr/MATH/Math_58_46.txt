@@ -1,0 +1,137 @@
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.abs(guess[0]) + 1e-10, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-12, Math.abs(guess[0])) + 1e-10, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-6, Math.abs(guess[0])+1e-6), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + Math.abs(guess[0]) * 1e-6, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 2e-6, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 1e-12, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-6, Math.abs(guess[0])) + 1e-6, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, guess[0]), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 1e-8, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-8, Math.abs(guess[0])), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(Math.abs(guess[0]), 1e-10), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 1e-11, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(0.0001, Math.abs(guess[0])), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(0.0, Math.abs(guess[0]) + 1e-9), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(Math.abs(guess[0]), 1e-9) + Math.abs(guess[0]) * 1e-6 + 1e-12, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-6, Math.abs(guess[0])), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.abs(guess[0]) + Math.max(1e-10, 1e-10 * Math.abs(guess[0])), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-12, Math.abs(guess[0])) + 1e-9, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-7, Math.abs(guess[0])) + 1e-12, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(0.0, Math.abs(guess[0])) + 1e-9, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(Math.abs(guess[0]), 1e-10) + 1e-7, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 1e-6 * Math.abs(guess[0]), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-10, Math.abs(guess[0])) + 1e-7, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(0.01, Math.abs(guess[0])) + 1e-7, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-6, guess[0]), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 1e-10, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(Math.abs(guess[0]), 1e-9), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 1e-9, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-3, guess[0]), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 1e-7, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + Double.MIN_NORMAL, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 1e-6, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-10, Math.abs(guess[0])) + 1e-9, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + Double.MIN_VALUE, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-12, Math.abs(guess[0])) + 1e-8, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(0.01, guess[0]), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-8, Math.abs(guess[0])) + 1e-6, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(Math.abs(guess[0]), 1e-6), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-10, Math.abs(guess[0])) + 1e-6, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-10, Math.abs(guess[0])), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-20, Math.abs(guess[0])) + 1e-6, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + Math.ulp(Math.abs(guess[0])), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(Math.abs(guess[0]), 1e-3), guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-9, Math.abs(guess[0])) + 1, guess[1], guess[2]});
+,
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(new Gaussian.Parametric(), new double[]{Math.max(1e-3, Math.abs(guess[0])), guess[1], guess[2]});

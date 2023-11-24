@@ -1,0 +1,11 @@
+-	minValue=tableau.getEntry(0,i);
++	this.restrictToNonNegative=restrictToNonNegative;
+,
+-	minValue=tableau.getEntry(0,i);
++	this.goalType=goalType;
+,
+-	minValue=tableau.getEntry(0,i);
++	this.constraints=constraints;
+,
+-	minValue=tableau.getEntry(0,i);
++	this.goalType=goalType;

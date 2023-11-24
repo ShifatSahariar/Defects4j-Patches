@@ -1,0 +1,26 @@
+-	if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+-	  return 1;
+-	}
+
++	if (u > 0) {
++	  u=-u;
++	}
+,
+
+-	if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+-	  return 1;
+-	}
++	u=-u;
+,
+
+-	if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+-	  return 1;
+-	}
++	if (v > 0) {
++	v=-v;
++	}
+,
+-	if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+-	  return 1;
+-	}
++	v=-v;

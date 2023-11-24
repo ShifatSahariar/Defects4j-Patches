@@ -1,0 +1,29 @@
++      while (first != null && first.isCast()) {
++        first = first.getFirstChild();
++      }
++      
+,
+-      // ignore cast nodes.
++      // ignore cast nodes
++      while (first.isCast()) {
++        first = first.getFirstChild();
++      }
+,
++      while (first != null && first.isCast()) {
++        first = first.getFirstChild();
++      }
+,
+-      // ignore cast nodes.
++      // Ignore cast nodes and skip to the actual first child.
++      while (first != null && first.isCast()) {
++        first = first.getFirstChild();
++      }
+,
+-      // ignore cast nodes.
++      while (first != null && first.isCast()) {
++        first = first.getFirstChild();
++      }
+,
++      if (first.isCast()) {
++        first = first.getFirstChild();
++      }

@@ -1,0 +1,25 @@
++                    case '/':
++                        // escape forward slash
++                        out.write('\\');
++                        out.write('/');
++                        break;
+,
++                     case '/':
++                        out.write('\\');
++                        out.write('/');
++                        break;
+,
++                    case '/':
++                        out.write('\\');
++                        out.write('/');
++                        break;
+,
++                    case '/':
++                        out.write('\\');
++                        out.write('/');
++                        break;
+,
++                    case '/':
++                        out.write('\\');
++                        out.write(ch);
++                        break;

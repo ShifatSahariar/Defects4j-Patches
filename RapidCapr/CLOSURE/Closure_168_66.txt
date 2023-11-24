@@ -1,0 +1,198 @@
+-      if (t.getScopeDepth() <= 2) {
++      if (t.getScope().isGlobal()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (n.isFunction() || t.inGlobalScope() || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(n) || NodeUtil.isFunctionExpression(n) || NodeUtil.isLoopStructure(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++    if (t.inGlobalScope() || NodeUtil.isFunctionExpression(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() <= 1 || t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++    if (NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (NodeUtil.isLoopStructure(parent) || t.inGlobalScope()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(n) || NodeUtil.isFunctionExpression(n) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || n.isFunction() || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() <= 1 || t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(parent) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++      if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() <= 1 || NodeUtil.isFunctionExpression(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(n) || NodeUtil.isSwitchCase(parent) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (NodeUtil.isLoopStructure(parent) || t.getScope().isGlobal()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() < 2 || n.getJSDocInfo() != null) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() <= 1 || t.getScope().isGlobal()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(n) || NodeUtil.isFunctionExpression(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++      if (t.getScopeDepth() < 2) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() < 2) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++      if (NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() < 2 || t.getScope().isGlobal()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().getRootNode().isScript() || NodeUtil.isFunctionDeclaration(n) || NodeUtil.isFunctionExpression(n) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(parent) || NodeUtil.isLoopStructure(parent) || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (n.isFunction() || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() < 2 || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if(t.inGlobalScope() || NodeUtil.isFunctionExpression(parent) || (NodeUtil.isFunctionDeclaration(n) && !n.getParent().isFunction())) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() < 2 || t.inGlobalScope()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++        if (t.getScope().isGlobal()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(n) || NodeUtil.isFunctionExpression(n) || NodeUtil.isLoopStructure(parent) || NodeUtil.isSwitchCase(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(n) || NodeUtil.isFunctionExpression(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionExpression(parent) || NodeUtil.isFunctionExpression(n) || NodeUtil.isFunctionDeclaration(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() <= 1 || t.inGlobalScope() || NodeUtil.isFunctionDeclaration(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() <= 1 || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(n) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(parent) ||
++          NodeUtil.isLoopStructure(parent) || NodeUtil.isFunctionDeclaration(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++    if (t.getScope().isGlobal()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++      if (t.getScopeDepth() <= 1) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() <= 1 || NodeUtil.isLoopStructure(parent) || NodeUtil.isFunctionDeclaration(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(parent) || NodeUtil.isLoopStructure(n.getParent())) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() == 1 && !NodeUtil.isFunctionDeclaration(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(n) || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++ if (t.getScopeDepth() <= 1 || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(parent) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(parent) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++        if (t.getScopeDepth() <= 1) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeRoot().isScript() || NodeUtil.isFunctionDeclaration(n)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() < 2 || t.inGlobalScope() || NodeUtil.isFunctionDeclaration(n) || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScopeDepth() <= 1 || t.getScope().isGlobal() || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++      if (t.getScopeDepth() < 2 || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++      if (t.inGlobalScope() || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.inGlobalScope() || NodeUtil.isFunctionDeclaration(parent) || NodeUtil.isFunctionExpression(n) || NodeUtil.isLoopStructure(parent) || n.isFunction()) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (t.getScope().isGlobal() || NodeUtil.isFunctionDeclaration(n) || NodeUtil.isFunctionExpression(n) || NodeUtil.isLoopStructure(parent)) {
+,
+-      if (t.getScopeDepth() <= 2) {
++if (NodeUtil.isLoopStructure(parent) || t.getScopeRoot().isScript()) {

@@ -1,0 +1,59 @@
++if (Double.isNaN(result[resultOffset]) || Double.isInfinite(result[resultOffset])) {
++    result[resultOffset] = FastMath.atan2(y[yOffset], x[xOffset]);
++}
+,
++if (Double.isNaN(result[resultOffset])) {
++    result[resultOffset] = FastMath.atan2(y[yOffset], x[xOffset]);   
++}
+,
++if (Double.isNaN(result[resultOffset])) {
++    result[resultOffset] = FastMath.atan2(y[yOffset], x[xOffset]); 
++}
+,
++result[resultOffset] = Double.isNaN(result[resultOffset]) ? Math.atan2(y[yOffset], x[xOffset]) : result[resultOffset];
+,
++result[resultOffset] = (Double.isNaN(result[resultOffset])) ? FastMath.atan2(FastMath.copySign(0.0d, y[yOffset]), x[xOffset]) : result[resultOffset];
+,
++result[resultOffset] = Double.isNaN(result[resultOffset]) ? FastMath.atan2(FastMath.copySign(0.0d, y[yOffset]), x[xOffset]) : result[resultOffset];
+,
++result[resultOffset] = Double.isNaN(result[resultOffset]) ? FastMath.atan2(y[yOffset], Math.copySign(0.0d, x[xOffset])) : result[resultOffset];
+,
++result[resultOffset] = Double.isNaN(result[resultOffset]) ? Math.atan2(y[yOffset], x[xOffset]) : FastMath.atan2(y[yOffset], x[xOffset]);
+,
++result[resultOffset] = (Double.isNaN(result[resultOffset])) ? FastMath.atan2(y[yOffset], x[xOffset]) : result[resultOffset];
+,
++if (Double.isNaN(result[resultOffset])) {
++    result[resultOffset] = Math.atan2(y[yOffset], x[xOffset]);
++}
+,
++result[resultOffset] = (Double.isNaN(result[resultOffset]) || Double.isInfinite(result[resultOffset])) ? FastMath.atan2(y[yOffset], x[xOffset]) : result[resultOffset];
+,
++result[resultOffset] = (Double.isNaN(result[resultOffset])) ? Math.atan2(y[yOffset], x[xOffset]) : result[resultOffset];
+,
++result[resultOffset] = Double.isNaN(result[resultOffset]) ? FastMath.atan2(Math.copySign(0.0d, y[yOffset]), x[xOffset]) : result[resultOffset];
+,
++if (Double.isNaN(result[resultOffset])) {
++    result[resultOffset] = FastMath.atan2(Double.valueOf(y[yOffset]), Double.valueOf(x[xOffset]));
++}
+,
++result[resultOffset] = Double.isNaN(result[resultOffset]) ? FastMath.atan2(y[yOffset], x[xOffset]) : result[resultOffset];
+,
++if (Double.isNaN(result[resultOffset])) {
++    result[resultOffset] = Math.atan2(y[yOffset], x[xOffset]);
++}
+,
++if (Double.isNaN(result[resultOffset])) {
++    result[resultOffset] = FastMath.atan2(y[yOffset], x[xOffset]);  
++} else if (Double.isInfinite(result[resultOffset])) {
++    result[resultOffset] = FastMath.copySign(Math.PI / 2, y[yOffset]);
++}
+,
++        if (Double.isNaN(result[resultOffset])) {
++            result[resultOffset] = FastMath.atan2(y[yOffset], x[xOffset]);
++        }
+,
++if (Double.isNaN(result[resultOffset])) {
++    result[resultOffset] = FastMath.atan2(y[yOffset], x[xOffset]);
++}
+,
++result[resultOffset] = Double.isNaN(result[resultOffset]) || Double.isInfinite(result[resultOffset]) ? FastMath.atan2(y[yOffset], x[xOffset]) : result[resultOffset];

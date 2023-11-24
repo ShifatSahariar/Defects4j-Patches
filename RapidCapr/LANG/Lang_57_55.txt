@@ -1,0 +1,164 @@
+-        return cAvailableLocaleSet.contains(locale);
++        return (cAvailableLocaleSet != null) && cAvailableLocaleSet.contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null ? Arrays.asList(Locale.getAvailableLocales()).contains(locale) : cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale != null ? locale : Locale.ROOT));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale) || cAvailableLocaleSet.isEmpty() || Locale.getDefault().equals(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale) || cAvailableLocaleSet.isEmpty());
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale) || Locale.getDefault().equals(locale) || Locale.ROOT.equals(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return (locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale)) || Locale.ROOT.equals(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return (locale != null && cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return (locale != null) && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return locale != null && (Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale)));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet != null ? cAvailableLocaleSet.contains(locale) : false) || Locale.getDefault().equals(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet != null ? cAvailableLocaleSet.contains(locale) : Locale.getDefault().equals(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return (locale != null && cAvailableLocaleSet != null) ? cAvailableLocaleSet.contains(locale) : false;
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && ((cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale)) || Locale.getDefault().equals(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale)) || Locale.getAvailableLocales().length > 0 && Arrays.asList(Locale.getAvailableLocales()).contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null ? false : cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return Locale.getAvailableLocales() != null && Arrays.asList(Locale.getAvailableLocales()).contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null ? Locale.getAvailableLocales().length > 0 && Arrays.asList(Locale.getAvailableLocales()).contains(locale) : cAvailableLocaleSet.contains(locale)) || Locale.getDefault().equals(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale) || Locale.getDefault().equals(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale != null ? locale : Locale.getDefault());
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale)) || (Locale.getAvailableLocales() != null && Arrays.asList(Locale.getAvailableLocales()).contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale) || locale.equals(Locale.getDefault());
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return Locale.getAvailableLocales() != null && Arrays.asList(Locale.getAvailableLocales()).contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return (Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale)));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return Locale.getDefault().equals(locale) || (Locale.getAvailableLocales() != null && Arrays.asList(Locale.getAvailableLocales()).contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale)) || Locale.getDefault().equals(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return (locale != null && (cAvailableLocaleSet == null ? false : cAvailableLocaleSet.contains(locale)));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale)));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale != null ? locale : Locale.getDefault()));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return (cAvailableLocaleSet != null && !cAvailableLocaleSet.isEmpty() && cAvailableLocaleSet.contains(locale)) || Locale.getDefault().equals(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return Locale.getDefault().equals(locale) || (Locale.getAvailableLocales() != null && Arrays.asList(Locale.getAvailableLocales()).contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale) || Arrays.asList(Locale.getAvailableLocales()).contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return Locale.getAvailableLocales().length > 0 && Arrays.asList(Locale.getAvailableLocales()).contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return Locale.getAvailableLocales().length > 0 && Arrays.asList(Locale.getAvailableLocales()).contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.isEmpty() || cAvailableLocaleSet.contains(locale) || Arrays.asList(Locale.getAvailableLocales()).contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return Locale.getDefault() != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet != null ? cAvailableLocaleSet.contains(locale) : false);
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return Locale.getDefault().equals(locale) || (cAvailableLocaleSet != null && !cAvailableLocaleSet.isEmpty() && cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale) || Locale.getDefault().equals(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet != null ? cAvailableLocaleSet.contains(locale) : Arrays.asList(Locale.getAvailableLocales()).contains(locale)) || Locale.getDefault().equals(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet != null ? cAvailableLocaleSet.contains(locale) : Locale.getAvailableLocales().length == 0 || Locale.getDefault().equals(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return Arrays.asList(Locale.getAvailableLocales()).contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.isEmpty() || cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale) || cAvailableLocaleSet.isEmpty() || Arrays.asList(Locale.getAvailableLocales()).contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale) || cAvailableLocaleSet.isEmpty()) || Locale.getDefault().equals(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++return (locale != null && cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale)) || Locale.getDefault().equals(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++return locale != null && (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale) || Locale.getDefault().equals(locale));
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return locale != null && (cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale));

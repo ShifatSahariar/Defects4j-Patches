@@ -1,0 +1,103 @@
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - sumXY * sumXY / sumXX;
++return Math.max(sse, 0.0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++        return Math.max(sumYY - sumXY * sumXY / sumXX, 0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return sumYY < sumXY * sumXY / sumXX ? 0.0 : sumYY - sumXY * sumXY / sumXX;
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return (sumYY - sumXY * sumXY / sumXX) < 0 ? 0 : sumYY - sumXY * sumXY / sumXX;
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++        double sse = sumYY - sumXY * sumXY / sumXX;
++        return sse < 0 ? 0 : sse;
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++        return Math.abs(sumYY - (sumXY * sumXY) / sumXX);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - sumXY * sumXY / sumXX;
++return (Double.compare(sse, 0.0) < 0) ? 0.0 : sse;
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - sumXY * sumXY / sumXX;
++return (sse < 0.0) ? 0.0 : sse;
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(0.0, sumYY - (sumXY * sumXY) / sumXX);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(sumYY - (sumXY * sumXY) / sumXX, 0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++        return Math.max(0.0, sumYY - sumXY * sumXY / sumXX);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++        return Math.max(sumYY - sumXY * sumXY / sumXX, 0.0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(sumYY - (sumXY * sumXY) / sumXX, 0.0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(0.0, sumYY - sumXY * sumXY / sumXX);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(0, sumYY - (sumXY*sumXY)/sumXX);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(0, sumYY - sumXY * sumXY / sumXX);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(sumYY - (sumXY * sumXY / sumXX), 0.0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - (sumXY * sumXY) / sumXX;
++return (sse < 0) ? 0.0 : sse;
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - sumXY * sumXY / sumXX;
++return (sse < 0) ? 0 : sse;
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(0.0, sumYY - (sumXY * sumXY / sumXX));
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++        return Math.max(0, sumYY - sumXY * sumXY / sumXX);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(sumYY - ((sumXY * sumXY) / sumXX), 0.0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++        return Math.abs(sumYY - sumXY * sumXY / sumXX);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - sumXY * sumXY / sumXX;
++return Math.max(0.0, sse);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return sumYY < sumXY * sumXY / sumXX ? 0.0 : (sumYY - sumXY * sumXY / sumXX);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - sumXY * sumXY / sumXX;
++return Math.max(sse, 0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - (sumXY * sumXY) / sumXX;
++return Math.max(sse, 0.0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(sumYY - sumXY * sumXY / sumXX, 0);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - ((sumXY * sumXY) / sumXX);
++return (sse < 0) ? 0.0 : sse;
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++double sse = sumYY - (sumXY * sumXY) / sumXX;
++return Math.max(0.0, sse);
+,
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max(sumYY - sumXY * sumXY / sumXX, 0.0);

@@ -1,0 +1,154 @@
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if (Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN; 
++}
++return (a >= b || Float.isNaN(b)) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++return Float.max(a, b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if(Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return Math.max(a, b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        return Math.max(a, b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        return (a >= b || Float.isNaN(a)) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if (Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return (a > b) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++return (Float.isNaN(a) || Float.isNaN(b)) ? Float.NaN : (a >= b ? a : b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        if(Float.isNaN(a) || Float.isNaN(b))
++            return Float.NaN;
++        return (a >= b) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++    if (Float.isNaN(a) || Float.isNaN(b)) {
++        return Float.NaN;
++    }
++    return Math.max(a,b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++       if (Float.isNaN(a) || Float.isNaN(b)) {
++            return Float.NaN;
++        }
++        return (a > b) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        return (Float.isNaN(a) || Float.isNaN(b)) ? Float.NaN : Math.max(a, b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++return (Float.isNaN(a) || Float.isNaN(b)) ? Float.NaN : Math.max(a,b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if (Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return Math.max(a, b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++return Math.max(a, b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if (Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return (a <= b) ? b : a;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if(Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return Math.max(a,b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        if (Float.isNaN(a) || Float.isNaN(b)) {
++            return Float.NaN;
++        }
++        return (a >= b) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if (Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return (a >= b || Float.isNaN(b)) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if (Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return (a >= b) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++    if(Float.isNaN(a) || Float.isNaN(b)) {
++        return Float.NaN;
++    }
++    return Math.max(a,b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++      if (Float.isNaN(a) || Float.isNaN(b)) {
++          return Float.NaN;
++      }
++      return (a >= b) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++return (Float.isNaN(a) || Float.isNaN(b)) ? Float.NaN : Math.max(a, b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if (Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return Math.max(a,b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        if (Float.isNaN(a) || Float.isNaN(b)) {
++            return Float.NaN;
++        }
++        return Math.max(a, b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        if (Float.isNaN(a) || Float.isNaN(b)) {
++            return Float.NaN;
++        }
++        return (a > b) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        return Math.max(a,b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if (Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN; 
++}
++return Math.max(a, b);
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if(Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return (a >= b) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++if(Float.isNaN(a) || Float.isNaN(b)) {
++    return Float.NaN;
++}
++return (a >= b || Float.isNaN(b)) ? a : b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        return (a >= b || Float.isNaN(a)) ? a :b;
+,
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        if (Float.isNaN(a) || Float.isNaN(b)) {
++            return Float.NaN;
++        }
++        return (a <= b) ? b : a;

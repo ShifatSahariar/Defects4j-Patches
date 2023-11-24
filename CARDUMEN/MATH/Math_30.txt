@@ -1,0 +1,14 @@
+-        if (FastMath.abs(dev) > 40 * standardDeviation) {
++        if ((java.lang.Double.isNaN(SQRT2PI)) || (java.lang.Double.isNaN(x))) {
+,
+-        if (FastMath.abs(dev) > 40 * standardDeviation) {
++        if (x != x) {
+,
+-        if (FastMath.abs(dev) > 40 * standardDeviation) {
++        if ((java.lang.Double.isNaN(mean)) || (java.lang.Double.isNaN(dev))) {
+,
+-        if (FastMath.abs(dev) > 40 * standardDeviation) {
++        if ((java.lang.Double.isNaN(SQRT2PI)) || (java.lang.Double.isNaN(dev))) {
+,
+-        if (FastMath.abs(dev) > 40 * standardDeviation) {
++        if (java.lang.Double.isNaN(dev)) {

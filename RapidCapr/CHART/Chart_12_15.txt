@@ -1,0 +1,73 @@
+-        this.dataset = dataset;
++setDataset(dataset);
++if (dataset != null) {
++    dataset.addChangeListener(this);
++}
+,
+-        this.dataset = dataset;
++        this.dataset = dataset;
++        setDataset(dataset);
+,
+-        this.dataset = dataset;
++setDataset(dataset);
+,
+-        this.dataset = dataset;
++        setDataset(dataset);
+,
+-        this.dataset = dataset;
++        this.setDataset(dataset);
++        if (dataset != null) {
++            dataset.addChangeListener(this);
++        }
+,
+-        this.dataset = dataset;
++if (dataset != null) {
++    this.setDataset(dataset);
++    dataset.addChangeListener(this);
++}
+,
+-        this.dataset = dataset;
++        if (dataset != null) {
++            setDataset(dataset);
++            dataset.addChangeListener(this);
++        }
+,
+-        this.dataset = dataset;
++        if (dataset != null) {
++            this.setDataset(dataset);
++            dataset.addChangeListener(this);
++        }
+,
+-        this.dataset = dataset;
++this.setDataset(dataset);
+,
+-        this.dataset = dataset;
++        this.setDataset(dataset);
++        if (dataset != null) {
++            this.getDataset().addChangeListener(this);
++        }
+,
+-        this.dataset = dataset;
++this.setDataset(dataset);
++if (dataset != null) {
++    dataset.addChangeListener(this);
++}
+,
+-        this.dataset = dataset;
++        setDataset(dataset);
++        if (dataset != null) {
++            dataset.addChangeListener(this);
++        }
+,
+-        this.dataset = dataset;
++        this.dataset = dataset;
++        this.setDataset(dataset);
+,
+-        this.dataset = dataset;
++        this.setDataset(dataset);
+,
+-        this.dataset = dataset;
++if (dataset != null) {
++    setDataset(dataset);
++    dataset.addChangeListener(this);
++}

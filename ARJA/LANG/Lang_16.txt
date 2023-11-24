@@ -1,0 +1,5 @@
+-	throw new NumberFormatException(str + " is not a valid number.");
++	return createInteger(str);
+,
+-	throw new NumberFormatException(str + " is not a valid number.");
++	return Integer.decode(str);

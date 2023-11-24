@@ -1,0 +1,23 @@
++if (n.isDelProp()) {
++  return true;
++}
+,
++if (n.isDelProp() ||
++    (n.isExprResult() && n.getFirstChild().isGetElem() && !n.getFirstChild().getLastChild().isString())) {
++  return true;
++}
+,
++if (n.isDelProp() || n.isThrow()) {
++  return true;
++}
+,
++if (n.isDelProp() ||
++    (n.isExprResult() && n.getFirstChild().isGetElem() && !n.getLastChild().getLastChild().isString())) {
++  return true;
++}
+,
+-
++        
++        if (n.isDelProp()) {
++          return true;
++        }

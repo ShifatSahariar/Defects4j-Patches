@@ -1,0 +1,232 @@
+-      if (fnType != null) {
++if (fnType != null && type.toMaybeFunctionType() != null && (type.toMaybeFunctionType().isConstructor() || type.toMaybeFunctionType().isInterface())) {
+,
+-      if (fnType != null) {
++ if (fnType != null && (fnType.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++if ((type.isConstructor() || type.isInterface()) && fnType != null && (fnType.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++      if (type.isConstructor() && fnType != null) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.toMaybeFunctionType() != null && type.toMaybeFunctionType().isConstructor())) {
+,
+-      if (fnType != null) {
++if (type.isConstructor() && fnType != null && (fnType.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++
++ if ((fnType != null && type.isFunctionType()) && (type.toMaybeFunctionType().isConstructor() || type.toMaybeFunctionType().isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && fnType.isFunctionType() && (fnType.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isConstructor() || (type.isFunctionType() && type.toMaybeFunctionType().isConstructor() && type.toMaybeFunctionType().hasInstanceType()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.isInterface() || (type.isFunctionType() && type.toMaybeFunctionType().isConstructor()))) {
+,
+-      if (fnType != null) {
++if (type.isConstructor() || (fnType != null && fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.isInterface() || fnType.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.isFunctionType() && fnType.hasInstanceType() && fnType.getInstanceType().isConstructor()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isConstructor() || (type.isFunctionType() && type.toMaybeFunctionType().isConstructor()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isInterface() || fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.isInterface() || fnType.isConstructor() || fnType.isInterface() || fnType.hasInstanceType())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.isInterface() || fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.toMaybeFunctionType() == null || fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (type.isFunctionType() && type.toMaybeFunctionType().isConstructor()) || type.isInterface())) {
+,
+-      if (fnType != null) {
++    if (type.isConstructor()) {
+,
+-      if (fnType != null) {
++if (fnType != null && (fnType.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.isInterface() && fnType.hasInstanceType()))) {
+,
+-      if (fnType != null) {
++ if (fnType != null && (type.isConstructor() || type.isInterface() || fnType.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++if (type.isConstructor() && type.toMaybeFunctionType() != null) {
+,
+-      if (fnType != null) {
++if (fnType != null && type.isFunctionType() && (type.toMaybeFunctionType().isConstructor() || type.toMaybeFunctionType().isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (type.restrictByNotNullOrUndefined().isFunctionType() && type.toMaybeFunctionType().isConstructor()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && type.isFunctionType() && type.toMaybeFunctionType().isConstructor()) {
+,
+-      if (fnType != null) {
++if (fnType != null && type.toMaybeFunctionType() != null && type.toMaybeFunctionType().isConstructor()) {
+,
+-      if (fnType != null) {
++if ((type.isConstructor() || type.isInterface()) && (fnType == null || fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++  if (type.isFunctionType() && type.toMaybeFunctionType().isConstructor()) {
+,
+-      if (fnType != null) {
++if (type.isConstructor()) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.isFunctionType() && fnType.isConstructor())) && !type.isUnknownType()) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.isConstructor() && (fnType.hasInstanceType() ? fnType.getInstanceType().isConstructor() : true)))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isConstructor() || fnType.hasInstanceType() || (type.isFunctionType() && type.restrictByNotNullOrUndefined().isFunctionPrototypeType()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isInterface() || fnType.isEnumType())) {
+,
+-      if (fnType != null) {
++if (type.isConstructor() && fnType != null) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.isFunctionType() && fnType.isConstructor() && fnType.hasInstanceType()))) {
+,
+-      if (fnType != null) {
++if (type.isConstructor() && fnType != null && fnType.isConstructor()) {
+,
+-      if (fnType != null) {
++if (type.isConstructor() && (fnType == null || fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++if (fnType != null && !type.isUnknownType() && (type.isConstructor() || fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isConstructor() || fnType.isInterface() || (type.isFunctionType() && type.toMaybeFunctionType().isConstructor()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.isFunctionType() && fnType.isConstructor() && !type.isUnknownType()))) {
+,
+-      if (fnType != null) {
++if (type.toMaybeFunctionType() != null && (type.toMaybeFunctionType().isConstructor() || type.toMaybeFunctionType().isInterface())) {
+,
+-      if (fnType != null) {
++      if (type.isFunctionType() && type.toMaybeFunctionType().isConstructor()) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (type.isFunctionType() && type.restrictByNotNullOrUndefined().isFunctionPrototypeType()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isInterface() || fnType.hasInstanceType())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.isConstructor() && (type.isUnknownType() || fnType.hasInstanceType())) || (type.isInterface() && fnType.hasInstanceType() && fnType.getInstanceType().isConstructor()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isConstructor() || fnType.hasInstanceType() || (type.isFunctionType() && type.toMaybeFunctionType().isConstructor()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && type.isConstructor()) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.isFunctionType() && type.toMaybeFunctionType().hasInstanceType() && type.toMaybeFunctionType().getInstanceType().isConstructor())) {
+,
+-      if (fnType != null) {
++if (type.toMaybeFunctionType() != null && type.toMaybeFunctionType().isConstructor()) {
+,
+-      if (fnType != null) {
++      if (fnType != null && fnType.isConstructor()) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.isFunctionType() && fnType.isConstructor()))) {
+,
+-      if (fnType != null) {
++if (type.isConstructor() && (fnType == null || fnType.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (type.isFunctionType() && type.toMaybeFunctionType().isConstructor()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && fnType.isConstructor()) {
+,
+-      if (fnType != null) {
++  if (fnType != null && fnType.isConstructor()) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.isInterface() || fnType.isConstructor() || fnType.isInterface() || (fnType.hasInstanceType() && fnType.getInstanceType().isConstructor() && !type.isUnknownType()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor()
++        || (type.isFunctionType() && type.toMaybeFunctionType().isConstructor()))) {
+,
+-      if (fnType != null) {
++ if (fnType != null && (type.isConstructor() || fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++      if (type.isConstructor() || type.isInterface()) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.isFunctionType() && type.toMaybeFunctionType().isConstructor() || type.isInterface())) {
+,
+-      if (fnType != null) {
++      if (fnType != null && (type.isConstructor() || type.isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isConstructor() || fnType.hasInstanceType())) {
+,
+-      if (fnType != null) {
++if (type.toMaybeFunctionType() != null && (type.isConstructor() || type.toMaybeFunctionType().isConstructor())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (type.isFunctionPrototypeType() && fnType.isConstructor() && !type.isUnknownType()))) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || type.isInterface() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++if (fnType != null && fnType.isConstructor() && (type.isConstructor() || type.isInterface() || type.isEmptyType() || type.isUnknownType())) {
+,
+-      if (fnType != null) {
++if (fnType != null && type.isFunctionType() && fnType.isConstructor()) {
+,
+-      if (fnType != null) {
++if (type.isFunctionType() && fnType != null && (type.isConstructor() || fnType.isConstructor())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.hasInstanceType() && fnType.getInstanceType().isConstructor()) || fnType.isInterface() || fnType.isEnumType())) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || fnType.isInterface())) {
+,
+-      if (fnType != null) {
++    if (fnType != null && fnType.isConstructor()) {
+,
+-      if (fnType != null) {
++if (fnType != null && (type.isConstructor() || (fnType.isInterface() && fnType.hasInstanceType() && fnType.getInstanceType().isConstructor() && !type.isUnknownType()))) {

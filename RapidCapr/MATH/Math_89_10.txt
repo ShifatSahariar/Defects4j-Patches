@@ -1,0 +1,52 @@
++        if (v instanceof Comparable) {
++        } else {
++            throw new IllegalArgumentException("Value is not comparable");
++        }
+,
+-            addValue((Comparable<?>) v);            
++        if (!(v instanceof Comparable)) {
++            throw new IllegalArgumentException("Value is not comparable");
++        }
++        addValue((Comparable<?>) v);            
+,
++        if (v instanceof Comparable) {
++        } else {
++            throw new IllegalArgumentException("Object not comparable");
++        }
+,
++        try {
++        } catch (ClassCastException e) {
++            throw new IllegalArgumentException("Object is not comparable", e);
++        }
+,
+-            addValue((Comparable<?>) v);            
++        if (!(v instanceof Comparable<?>)) {
++            throw new IllegalArgumentException("Value must implement Comparable interface.");
++        }
++        addValue((Comparable<?>) v);
+,
++        if (v instanceof Comparable<?>) {
++        } else {
++            throw new IllegalArgumentException("Value must implement Comparable");
++        }
+,
++        if (v instanceof Comparable) {
++        } else {
++            throw new IllegalArgumentException("Value must implement Comparable");
++        }
+,
++        if (v instanceof Comparable) {
++        } else {
++            throw new IllegalArgumentException("Argument must be Comparable.");
++        }
+,
+-            addValue((Comparable<?>) v);            
++        if (!(v instanceof Comparable)) {
++            throw new IllegalArgumentException("Value must be comparable");
++        }
++        addValue((Comparable<?>) v);            
+,
++        if (v instanceof Comparable) {
++        } else {
++            throw new IllegalArgumentException("Object being added is not comparable.");
++        }

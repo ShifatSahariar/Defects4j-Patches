@@ -1,0 +1,117 @@
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(double.class, (double) 0);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++       
++primitiveValues.put(double.class, 0.0D);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(double.class, (double)0);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++        primitiveValues.put(double.class, Double.parseDouble("0"));
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++
++        primitiveValues.put(double.class, 0.0D);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(double.class, Double.valueOf(0));
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(double.class, 0.0);
++primitiveTypes.put(Double.class, double.class);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(double.class, (double) 0.0);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(Double.TYPE, Double.parseDouble("0.0"));
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(Double.TYPE, Double.valueOf(0.0));
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(Double.TYPE, 0.0D);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++       
++        primitiveValues.put(Double.TYPE, 0.0D);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(double.class, new Double(0.0));
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++       
++        primitiveValues.put(double.class, 0.0);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(Double.TYPE, 0.0d);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++
++primitiveValues.put(double.class, 0.0d);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(Double.TYPE, Double.valueOf(0.0D));
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++       
++        primitiveValues.put(double.class, 0.0D);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(double.class, Double.parseDouble("0.0"));
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++primitiveValues.put(double.class, Double.valueOf(0.0D));
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++       
++primitiveValues.put(double.class, 0.0);
+-}
++}
+,
+-        primitiveValues.put(double.class, 0);
++        primitiveValues.put(double.class, new Double(0.0));
+-}
++}

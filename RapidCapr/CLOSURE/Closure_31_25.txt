@@ -1,0 +1,75 @@
+-          !options.skipAllPasses &&
++(!options.skipAllPasses || options.dependencyOptions.needsManagement() || options.closurePass || hasErrors()) &&
+,
+-          !options.skipAllPasses &&
++(!options.skipAllPasses || options.dependencyOptions.needsManagement() || options.closurePass) &&
+,
+-          !options.skipAllPasses &&
++          hasErrors() ||
+,
+-          !options.skipAllPasses &&
++(options.dependencyOptions.needsManagement() || hasErrors() || options.closurePass) &&
+,
+-          !options.skipAllPasses &&
++(options.dependencyOptions.needsManagement() || options.closurePass) &&
+,
+-          !options.skipAllPasses &&
++          hasErrors() || (!options.dependencyOptions.needsManagement() && options.closurePass) ||
+,
+-          !options.skipAllPasses &&
++(!options.skipAllPasses || options.dependencyOptions.needsManagement() || hasErrors()) &&
+,
+-          !options.skipAllPasses &&
++
++(!options.skipAllPasses || options.dependencyOptions.needsManagement() || options.closurePass) &&
+,
+-          !options.skipAllPasses &&
++          hasErrors() || options.dependencyOptions.needsManagement() &&
+,
+-          !options.skipAllPasses &&
++hasErrors() || options.dependencyOptions.needsManagement() &&
+,
+-          !options.skipAllPasses &&
++(!options.skipAllPasses || options.dependencyOptions.needsManagement() || externs.isEmpty() || inputs.isEmpty() || hasErrors()) &&
+,
+-          !options.skipAllPasses &&
++(!options.skipAllPasses || options.dependencyOptions.needsManagement() && options.closurePass) &&
+,
+-          !options.skipAllPasses &&
++       (!options.dependencyOptions.needsManagement() || options.closurePass) &&
+,
+-          !options.skipAllPasses &&
++(!options.dependencyOptions.needsManagement() || options.skipAllPasses || options.closurePass) &&
+,
+-          !options.skipAllPasses &&
++          options.dependencyOptions.needsManagement() &&
+,
+-          !options.skipAllPasses &&
++hasErrors() || options.skipAllPasses || (options.closurePass && options.dependencyOptions.needsManagement()) &&
+,
+-          !options.skipAllPasses &&
++options.dependencyOptions.needsManagement() &&
+,
+-          !options.skipAllPasses &&
++          hasErrors() || options.closurePass &&
+,
+-          !options.skipAllPasses &&
++options.dependencyOptions.needsManagement() && options.closurePass &&
+,
+-          !options.skipAllPasses &&
++(!options.skipAllPasses || options.dependencyOptions.needsManagement() || hasErrors() || options.closurePass) &&
+,
+-          !options.skipAllPasses &&
++(hasErrors() || options.dependencyOptions.needsManagement()) && options.closurePass &&
+,
+-          !options.skipAllPasses &&
++        options.dependencyOptions.needsManagement() &&
+,
+-          !options.skipAllPasses &&
++
+,
+-          !options.skipAllPasses &&
++(!options.skipAllPasses || options.dependencyOptions.needsManagement()) && options.closurePass &&
+,
+-          !options.skipAllPasses &&
++(!options.skipAllPasses || options.dependencyOptions.needsManagement() || options.transformAMDToCJSModules || options.processCommonJSModules || hasErrors()) &&

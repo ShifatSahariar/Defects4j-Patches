@@ -1,0 +1,14 @@
+-            boolean removed = false;
++            boolean removed = latest <= (maximumItemAge);
+,
+-            boolean removed = false;
++            boolean removed = ((maxY) / (maxY)) < (minY);
+,
+-            boolean removed = false;
++            boolean removed = (java.lang.Math.cos(java.lang.Math.toRadians(minY))) < 0.0;
+,
+-            boolean removed = false;
++            boolean removed = !notify;
+,
+-            boolean removed = false;
++            boolean removed = ((maxY) / (minY)) < (maxY);

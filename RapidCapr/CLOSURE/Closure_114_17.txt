@@ -1,0 +1,58 @@
+-        } else {
++        } else if (!parent.isCall()) {
+,
+-        } else {
++        } else if (parent == null || (!parent.isCall() || parent.getFirstChild() != n)) {
+,
+-        } else {
++        } else if (!(parent.isCall() && parent.getFirstChild() == n && parent.getParent().isExprResult())) {
+,
+-        } else {
++        } else if (!parent.isCall() || parent.getFirstChild() != n) {
+,
++        } else if (parent.getParent().isExprResult()) {
++          // Exclude the rhs of the call expression from being associated with the lhs.
++          recordDepScope(parent.getFirstChild().getNext(), ns);
+,
+-        } else {
++        } else if (!(parent.isCall() && parent.getFirstChild() == n)) {
+,
++        } else if (parent.isCall()) {
++          // Exclude the rhs of the call expression from being associated with the lhs.
++          recordDepScope(parent.getFirstChild().getNext(), ns);
+,
+-        } else {
++        } else if (parent == null || !parent.isCall() || parent.getFirstChild() != n || !parent.getParent().isExprResult()) {
++          // Exclude the rhs of the call expression from being associated with the lhs.
++          recordDepScope(recordNode, ns);
+,
+-        } else {
++        } else if (parent == null || !parent.isCall() || parent.getFirstChild() != n) {
+,
+-        } else {
++        } else if (!parent.isCall() || (parent.getFirstChild() == n && NodeUtil.isExpressionResultUsed(parent))) {
+,
+-        } else {
++        } else if (!parent.isCall() || parent.getFirstChild() != n) {
+,
+-        } else {
++      } else if (parent != null && !parent.isCall()) {
+,
+-        } else {
++        } else if (!parent.isCall() || parent.getFirstChild() != n || NodeUtil.isExpressionResultUsed(parent)) {
++          // Exclude the rhs of the call expression from being associated with the lhs.
++          recordDepScope(recordNode, ns);
+,
+-        } else {
++        } else if (!parent.isCall() || parent.getFirstChild() != n || parent.getChildCount() > 2) {
+,
+-        } else {
++        } else if (!parent.isCall() || parent.getFirstChild() != n || NodeUtil.isExpressionResultUsed(parent)) {
+,
+-        } else {
++        } else if (!parent.isCall() || parent.getFirstChild() != n || parent.getChildCount() > 2) {
++          // Exclude the rhs of the call expression from being associated with the lhs.
++          recordDepScope(recordNode, ns);
+,
+-        } else {
++       } else if (parent != null && !parent.isCall()) {

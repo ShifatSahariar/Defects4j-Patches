@@ -1,0 +1,6 @@
+
+-	type=Object.class;
++	throw new IllegalArgumentException("The Integer did not match any specified value");
+,
+-	return (T[])new Object[]{null};
++	throw new IllegalArgumentException("The Integer did not match any specified value");

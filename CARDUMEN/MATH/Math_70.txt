@@ -1,0 +1,14 @@
+-        return solve(min, max);
++        return solve(f, min, max);
+,
+-        return solve(min, max);
++        return solve(f, defaultAbsoluteAccuracy, max);
+,
+-        return solve(min, max);
++        return solve(f, functionValueAccuracy, max);
+,
+-        return solve(min, max);
++        return solve(f, defaultFunctionValueAccuracy, max);
+,
+-        return solve(min, max);
++        return solve(f, absoluteAccuracy, max);

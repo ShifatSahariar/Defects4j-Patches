@@ -1,0 +1,47 @@
+-	minIndex=i;
++	for (int i=0; i < tableau.getNumArtificialVariables(); i++) {
++	  int column=i + tableau.getArtificialVariableOffset();
++	  final double entry=tableau.getEntry(row,column);
++	  if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
++	   return row;
++	 }
++	}
+,
+-	minIndex=i;
++	minRatioPositions=new ArrayList<Integer>();
+,
+-	return row;
++	for (Integer row : minRatioPositions) {
++	  for (int i=0; i < tableau.getNumArtificialVariables(); i++) {
++	    int column=i + tableau.getArtificialVariableOffset();
++	   final double entry=tableau.getEntry(row,column);
++	   if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
++	      return row;
++	   }
++	  }
++	}
+,
+-	if (row == tableau.getBasicRow(i)) {
+-	  if (i < minIndex) {
+-	    minIndex=i;
+-	    minRow=row;
+-	  }
+-	}
++	if (i < minIndex) {
++	  minIndex=i;
++	  minRow=row;
++	}
+,
+-	return minRow; 
++	incrementIterationsCounter();
+,
++	if (i < minIndex) {
++	  minIndex=i;
++	  minRow=row;
++	}
+,
+-	if (Precision.equals(entry,1d,maxUlps) && row.equals(tableau.getBasicRow(column))) {
+-	  return row;
+-	}
++	return null;
+

@@ -1,0 +1,104 @@
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1f - alpha);
++this.setAlpha(alpha);
++this.setValue(value);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1.0f - alpha);
++setAlpha(alpha);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++this.setOutlinePaint(outlinePaint);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++setOutlinePaint(outlinePaint);
++this.setValue(value);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, null, outlineStroke, alpha);
++setOutlinePaint(outlinePaint);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1.0f - alpha);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++        super(paint, stroke, outlinePaint, outlineStroke, alpha);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++setOutlinePaint(outlinePaint);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1-alpha);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++this.setOutlinePaint(outlinePaint);
++this.setValue(value);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++this.setValue(value);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1.0f-alpha);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++setAlpha(alpha);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++setOutlinePaint(outlinePaint);
++setValue(value);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1.0f - alpha);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1.0f - alpha);
++setOutlinePaint(outlinePaint);
++setValue(value);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1.0f - alpha);
++setOutlinePaint(outlinePaint);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1f - alpha);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, (float) alpha);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1f - alpha);
++setOutlinePaint(outlinePaint);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++setOutlinePaint(outlinePaint);
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, 1f - alpha);
++this.value = value;
+,
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
++setValue(value);

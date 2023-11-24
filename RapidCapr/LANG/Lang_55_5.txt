@@ -1,0 +1,20 @@
++        if (this.runningState == STATE_RUNNING) {
++        }
+,
+-        if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
++        if (this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
+-        }
++        } else if (this.runningState == STATE_RUNNING) {
++        }
+,
+-        if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
++        if(this.runningState == STATE_RUNNING) {
++            stopTime = System.currentTimeMillis();
++        } else if(this.runningState != STATE_SUSPENDED) {
+-            stopTime = System.currentTimeMillis();
+,
++        if(this.runningState == STATE_RUNNING){
++        }
+,
++        if(this.runningState == STATE_RUNNING) {
++        }

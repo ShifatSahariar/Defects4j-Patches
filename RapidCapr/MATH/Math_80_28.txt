@@ -1,0 +1,83 @@
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1) + pingPong; 
+,
+-            int j = 4 * n - 1;
++            int j = 4 * (n - 1) + pingPong;
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1 - pingPong / 2);
+,
+-            int j = 4 * n - 1;
++int j = 4 * n - 4 - pingPong;
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1 - pingPong % 2);
+,
+-            int j = 4 * n - 1;
++int j = pingPong == 0 ? 4 * (n - 1) : 4 * n - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * (n - 1);
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1) + (pingPong != 0 ? 4 - pingPong : 0);
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1) + (((pingPong % 2) == 0) ? pingPong : (4 - pingPong));
+,
+-            int j = 4 * n - 1;
++int j = (4 * (n - 1) + pingPong) % work.length;
+,
+-            int j = 4 * n - 1;
++int j = (4 * (n - 1)) + pingPong;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * n + pingPong - 4;
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1);
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1 - pingPong / 2) + pingPong % 2;
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1) + (pingPong == 0 ? 0 : 4 - pingPong);
+,
+-            int j = 4 * n - 1;
++            int j = 4 * n - 4 + pingPong;
+,
+-            int j = 4 * n - 1;
++int j = 4 * n - 4 + pingPong;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * n - 4 - pingPong;
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1) + (4 - pingPong) % 4;
+,
+-            int j = 4 * n - 1;
++int j = pingPong + 4 * (n - 1);
+,
+-            int j = 4 * n - 1;
++ int j = 4 * (n - 1) + pingPong;
+,
+-            int j = 4 * n - 1;
++int j = 4 * n - pingPong - 4;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * (n - 1) + pingPong; 
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1 - pingPong % 2) + pingPong;
+,
+-            int j = 4 * n - 1;
++int j = 4 * n - 4 - (pingPong % 2);
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1) + (pingPong == 0 ? 0 : 4);
+,
+-            int j = 4 * n - 1;
++int j = (pingPong == 0) ? 4 * (n - 1) : 4 * n - 1 - pingPong;
+,
+-            int j = 4 * n - 1;
++int j = 4 * (n - 1) + pingPong;

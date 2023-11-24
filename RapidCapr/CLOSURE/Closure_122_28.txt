@@ -1,0 +1,107 @@
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++    if (comment.getValue().contains("@")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") &&
++    (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1 || 
++     comment.getValue().contains("{") || comment.getValue().contains("}")) && comment.getValue().trim().endsWith("*/")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") &&
++    (comment.getValue().contains("@") || comment.getValue().contains("{") || comment.getValue().contains("}") ||
++     comment.getValue().contains("TODO") || comment.getValue().contains("FIXME") || comment.getValue().contains("HACK")) &&
++    comment.getValue().trim().endsWith("*/")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && (comment.getValue().contains("@") || comment.getValue().contains("{") || comment.getValue().contains("}")) 
++    && (comment.getValue().endsWith("*/") || comment.getValue().endsWith("*/\n")) && !comment.getValue().contains("TODO")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().matches("(?s).*\\/\\*.*@.*\\*\\/.*")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") &&
++    (comment.getValue().contains("@") || comment.getValue().contains("{") || comment.getValue().contains("}")) &&
++    comment.getValue().endsWith("*/")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().matches("(?s).*\\/\\*.*@.*\\*\\/.*") || 
++        comment.getValue().matches("(?s)^\\s*\\*\\s*@.*$")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++    if (comment.getValue().contains("@") && comment.getValue().startsWith("/*")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1 || comment.getValue().contains("@")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && (comment.getValue().contains("@") || comment.getValue().contains("{") || comment.getValue().contains("}"))) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().trim().startsWith("/*") && (comment.getValue().contains("@") || 
++    comment.getValue().contains("TODO") || comment.getValue().contains("FIXME"))) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && (comment.getValue().contains("@") || comment.getValue().contains("{") || comment.getValue().contains("}"))
++        && comment.getValue().trim().endsWith("*/")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && comment.getValue().contains("@")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && (comment.getValue().indexOf(" * @") > 0 || comment.getValue().contains("{") || comment.getValue().contains("}"))) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1 || comment.getValue().indexOf("@") != -1) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && (comment.getValue().contains("@")
++    || comment.getValue().contains("{") || comment.getValue().contains("}"))) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().trim().startsWith("/*") && 
++    comment.getValue().contains("@") && 
++    comment.getValue().trim().endsWith("*/")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().contains("@") && (comment.getValue().startsWith("/*") || comment.getValue().startsWith("*"))) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().trim().startsWith("/*") && comment.getValue().contains("@")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1
++         || comment.getValue().contains("@")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && (comment.getValue().contains("@") || comment.getValue().contains("{") || comment.getValue().contains("}")) 
++    && (comment.getValue().endsWith("*/") || comment.getValue().endsWith("*/\n"))) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && (comment.getValue().contains("@") || 
++    comment.getValue().contains("TODO") || comment.getValue().contains("FIXME") || comment.getValue().contains("HACK"))
++    && comment.getValue().trim().endsWith("*/")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().contains("@") && (comment.getValue().contains("{") || comment.getValue().contains("}"))) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && (comment.getValue().contains("@") || comment.getValue().matches("(?s).*\\{.*\\}.*"))
++    && (comment.getValue().endsWith("*/") || comment.getValue().trim().endsWith("*/\n"))) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && 
++    (comment.getValue().contains("@") || comment.getValue().contains("TODO") || 
++     comment.getValue().contains("FIXME") || comment.getValue().contains("HACK")) && 
++    comment.getValue().trim().endsWith("*/")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && 
++    comment.getValue().contains("@") && 
++    comment.getValue().endsWith("*/")) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().startsWith("/*") && (comment.getValue().indexOf("@") != -1 || comment.getValue().indexOf("\n * @") != -1)) {
+,
+-    if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("\n * @") != -1) {
++if (comment.getValue().indexOf("/* @") != -1 || comment.getValue().indexOf("@") > 0) {

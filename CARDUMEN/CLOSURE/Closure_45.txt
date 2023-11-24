@@ -1,0 +1,19 @@
+-            } else if (!NodeUtil.isLiteralValue(
+-                assign.assignNode.getLastChild(), true)) {
++            } else if (!((modifyCallSites) || (var.getParentNode().isExprResult()))) {
+,
+-            } else if (!NodeUtil.isLiteralValue(
+-                assign.assignNode.getLastChild(), true)) {
++            } else if (!((maybeUnreferenced) instanceof com.google.javascript.jscomp.JsMessage)) {
+,
+-            } else if (!NodeUtil.isLiteralValue(
+-                assign.assignNode.getLastChild(), true)) {
++            } else if (!(var.isDefine())) {
+,
+-            } else if (!NodeUtil.isLiteralValue(
+-                assign.assignNode.getLastChild(), true)) {
++            } else if (!(referenced.contains("this"))) {
+,
+-            } else if (!NodeUtil.isLiteralValue(
+-                assign.assignNode.getLastChild(), true)) {
++            } else if (!((continuations) instanceof com.google.javascript.jscomp.Scope.Arguments)) {

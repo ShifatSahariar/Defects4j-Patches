@@ -1,0 +1,58 @@
+-        description.appendText(wanted.toString());
++        if(wanted != null)
++            description.appendText(wanted.toString());
++        else
++            description.appendText("null");
+,
+-        description.appendText(wanted.toString());
++description.appendText(String.valueOf(wanted == null ? "null" : wanted));
+,
+-        description.appendText(wanted.toString());
++description.appendText(String.valueOf(wanted != null ? wanted : "null"));
+,
+-        description.appendText(wanted.toString());
++        if (wanted != null) {
++            description.appendText(wanted.toString());
++        }
+,
+-        description.appendText(wanted.toString());
++description.appendText(wanted != null ? wanted.toString() : "null");
+,
+-        description.appendText(wanted.toString());
++        description.appendText(wanted != null? wanted.toString() : "null");
+,
+-        description.appendText(wanted.toString());
++description.appendText(String.valueOf(wanted != null ? wanted.toString() : "null"));
+,
+-        description.appendText(wanted.toString());
++description.appendText((wanted != null) ? wanted.toString() : "null");
+,
+-        description.appendText(wanted.toString());
++description.appendText(wanted == null ? "null" : wanted.toString());
+,
+-        description.appendText(wanted.toString());
++description.appendText(String.valueOf(wanted)); // handles null case gracefully
+,
+-        description.appendText(wanted.toString());
++        description.appendText(wanted != null ? wanted.toString() : "null");
+,
+-        description.appendText(wanted.toString());
++description.appendText(String.valueOf(wanted));
+,
+-        description.appendText(wanted.toString());
++        description.appendText(wanted == null ? "null" : wanted.toString());
+,
+-        description.appendText(wanted.toString());
++        description.appendText(wanted == null? "null" : wanted.toString());
+,
+-        description.appendText(wanted.toString());
++description.appendText(wanted == null ? "null" : String.valueOf(wanted));
+,
+-        description.appendText(wanted.toString());
++        description.appendText(String.valueOf(wanted));
+,
+-        description.appendText(wanted.toString());
++description.appendText(String.valueOf(wanted)); // to prevent NPE when wanted is null
+,
+-        description.appendText(wanted.toString());
++description.appendText(String.valueOf(wanted));

@@ -1,0 +1,114 @@
++if (nameNode.getFirstChild().getType() == Token.NAME && nameNode.getFirstChild().getString().equals("Math")) {
++    return false;
++} else if (nameNode.getFirstChild().getType() == Token.GETPROP && nameNode.getFirstChild().getFirstChild().getType() == Token.NAME && nameNode.getFirstChild().getFirstChild().getString().equals("Math")) {
++    return false;
++}
+,
++      if (nameNode.getFirstChild().getType() == Token.NAME
++              && nameNode.getFirstChild().getString().equals("Math")) {
++            return false;
++      }
+,
++if (nameNode.getType() == Token.GETPROP &&
++    "Math".equals(nameNode.getFirstChild().getQualifiedName())) {
++  return false;
++}
+,
++      if (nameNode.getFirstChild().getType() == Token.NAME
++          && nameNode.getFirstChild().getString().equals("Math")) {
++        return false;
++      }
+,
++      // Functions in the "Math" namespace have no side effects.
++      if (nameNode.getFirstChild().getType() == Token.NAME && nameNode.getFirstChild().getString().equals("Math")) {
++        return false;
++      }
+,
++if (nameNode.isQualifiedName() && nameNode.getQualifiedName().startsWith("Math")) {
++  return false;
++}
+,
++      // Functions in the "Math" namespace have no side effects.
++      if (nameNode.getFirstChild().getType() == Token.NAME
++          && nameNode.getFirstChild().getString().equals("Math")) {
++        return false;
++      }
+,
++if (nameNode.isQualifiedName() && nameNode.getQualifiedName().startsWith("Math.")) {
++  return false;
++}
+,
++      // Functions in the "Math" namespace have no side effects.
++      if (nameNode.getFirstChild().isQualifiedName() &&
++          nameNode.getFirstChild().getQualifiedName().equals("Math")) {
++        return false;
++      }
+,
++        if (nameNode.getFirstChild().getType() == Token.NAME
++            && "Math".equals(nameNode.getFirstChild().getString())) {
++          return false;
++        }
+,
++if (nameNode.isQualifiedName() &&
++    nameNode.getQualifiedName().startsWith("Math.")) {
++  return false;
++}
+,
++      if (nameNode.getFirstChild().getType() == Token.NAME
++          && "Math".equals(nameNode.getFirstChild().getString())) {
++        return false;
++      }
+,
++String fullName = nameNode.getQualifiedName();
++if (fullName != null && fullName.startsWith("Math.")) {
++  return false;
++}
+,
++      // Functions in the "Math" namespace have no side effects.
++      if (nameNode.getFirstChild().getType() == Token.NAME
++          && "Math".equals(nameNode.getFirstChild().getString())) {
++        return false;
++      }
+,
++    // Functions in the "Math" namespace have no side effects.
++    if (nameNode.getType() == Token.GETPROP &&
++        "Math".equals(nameNode.getFirstChild().getQualifiedName())) {
++      return false;
++    }
+,
++if (nameNode.getType() == Token.GETPROP
++    && "Math".equals(nameNode.getFirstChild().getQualifiedName())) {
++  return false;
++}
+,
++      // Functions in the "Math" namespace have no side effects.
++      if ("Math".equals(nameNode.getFirstChild().getQualifiedName())) {
++        return false;
++      }
+,
++String fullName = nameNode.getFirstChild().getQualifiedName();
++if (fullName != null && fullName.equals("Math")) {
++  return false;
++}
+,
++if (nameNode.getFirstChild().isQualifiedName() &&
++    "Math".equals(nameNode.getFirstChild().getQualifiedName())) {
++  return false;
++}
+,
++      // Functions in the "Math" namespace have no side effects.
++      if (nameNode.getFirstChild().isQualifiedName()
++          && nameNode.getFirstChild().getQualifiedName().equals("Math")) {
++        return false;
++      }
+,
++      if (nameNode.getType() == Token.GETPROP
++          && "Math".equals(nameNode.getFirstChild().getQualifiedName())) {
++        return false;
++      }
+,
++if (nameNode.getType() == Token.GETPROP &&
++    nameNode.getFirstChild().getType() == Token.NAME &&
++    nameNode.getFirstChild().getString().equals("Math")) {
++  return false;
++}

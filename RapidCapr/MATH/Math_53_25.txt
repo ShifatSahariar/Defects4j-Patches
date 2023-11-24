@@ -1,0 +1,124 @@
++if (rhs == null || Double.isNaN(real) || Double.isNaN(imaginary) ||
++        Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++if (Double.isNaN(real) || Double.isNaN(imaginary) || rhs == null ||
++    Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++if (rhs == null || Double.isNaN(real) || Double.isNaN(imaginary)
++    || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++        if (Double.isNaN(real + rhs.getReal()) || Double.isNaN(imaginary + rhs.getImaginary())) {
++            return createComplex(Double.NaN, Double.NaN);
++        }
+,
++if (Double.isNaN(real) || Double.isNaN(imaginary)) {
++    return createComplex(Double.NaN, Double.NaN);
++} else if (rhs == null || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++        if (Double.isNaN(real) || Double.isNaN(imaginary)) {
++            return createComplex(Double.NaN, Double.NaN);
++        } else if (Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++            return createComplex(Double.NaN, Double.NaN);
++        }
+,
++        if (Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++            return createComplex(Double.NaN, Double.NaN);
++        }
+,
++        if (Double.isNaN(real) || Double.isNaN(imaginary) ||
++                rhs == null || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++            return createComplex(Double.NaN, Double.NaN);
++        }
+,
++        if (this == null || rhs == null || Double.isNaN(real) || Double.isNaN(imaginary) ||
++                Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++            return createComplex(Double.NaN, Double.NaN);
++        }
+,
++if (this == null || rhs == null || Double.isNaN(real) || Double.isNaN(imaginary)
++        || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++if (Double.isNaN(real) || Double.isNaN(imaginary) || rhs == null || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++    if (Double.isNaN(real) || Double.isNaN(imaginary) ||
++            rhs == null || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++        return createComplex(Double.NaN, Double.NaN);
++    }
+,
++    if (rhs == null || Double.isNaN(real) || Double.isNaN(imaginary) ||
++            Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++        return createComplex(Double.NaN, Double.NaN);
++    }
+,
++        if (Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++            return createComplex(Double.NaN, Double.NaN);
++        }
+,
++if (this == null || rhs == null || Double.isNaN(real) || Double.isNaN(imaginary) ||
++        Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++        if (Double.isNaN(real + rhs.getReal()) || Double.isNaN(imaginary + rhs.getImaginary())
++                || rhs == null || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++            return createComplex(Double.NaN, Double.NaN);
++        }
+,
++if (Double.isNaN(real) || Double.isNaN(imaginary) || rhs == null 
++        || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++if (Double.isNaN(real) || Double.isNaN(imaginary) ||
++    rhs == null || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++        if (Double.isNaN(real) || Double.isNaN(imaginary) ||
++                Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++            return createComplex(Double.NaN, Double.NaN);
++        }
++        
+,
++if (Double.isNaN(real) || Double.isNaN(imaginary) || rhs == null ||
++        Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++    if (Double.isNaN(real) || Double.isNaN(imaginary)) {
++        return createComplex(Double.NaN, Double.NaN);
++    } else if (Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++        return createComplex(Double.NaN, Double.NaN);
++    } 
+,
++if (Double.isNaN(real) || Double.isNaN(imaginary) || 
++    Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++if (Double.isNaN(real) || Double.isNaN(imaginary)) {
++    return createComplex(Double.NaN, Double.NaN);
++} else if (Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++if(Double.isNaN(real) || Double.isNaN(imaginary) ||
++    Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}
+,
++if (Double.isNaN(real) || Double.isNaN(imaginary) || Double.isNaN(rhs.getReal()) || Double.isNaN(rhs.getImaginary())) {
++    return createComplex(Double.NaN, Double.NaN);
++}

@@ -1,0 +1,47 @@
++options.messageBundle = CompilationLevel.ADVANCED_OPTIMIZATIONS != level || !flags.translationsFile.isEmpty() ? new EmptyMessageBundle() : null;
+,
++if (CompilationLevel.ADVANCED_OPTIMIZATIONS != level || !flags.translationsFile.isEmpty()) {
++  options.messageBundle = new EmptyMessageBundle();
++} else {
++  options.messageBundle = null;
++}
+,
++options.messageBundle = flags.translationsFile.isEmpty() && CompilationLevel.ADVANCED_OPTIMIZATIONS == level ? null : new EmptyMessageBundle();
+,
++options.setMessageBundle(flags.translationsFile.isEmpty() || CompilationLevel.ADVANCED_OPTIMIZATIONS != level ? null : new EmptyMessageBundle());
+,
++if (CompilationLevel.ADVANCED_OPTIMIZATIONS == level && flags.translationsFile.isEmpty()) {
++  options.messageBundle = null;
++}
+,
++if (!flags.translationsFile.isEmpty() || CompilationLevel.ADVANCED_OPTIMIZATIONS == level) {
++  options.messageBundle = null;
++} else {
++  options.messageBundle = new EmptyMessageBundle();
++}
+,
++options.setMessageBundle(CompilationLevel.ADVANCED_OPTIMIZATIONS != level || !flags.translationsFile.isEmpty() ? new EmptyMessageBundle() : null);
+,
++ options.setMessageBundle(null);
+,
++options.messageBundle = CompilationLevel.ADVANCED_OPTIMIZATIONS != level ? new EmptyMessageBundle() : null;
+,
++options.messageBundle = null;
+,
++options.setMessageBundle(flags.translationsFile.isEmpty() && CompilationLevel.ADVANCED_OPTIMIZATIONS == level ? null : new EmptyMessageBundle());
+,
++  options.messageBundle = null;
+,
++options.setMessageBundle(CompilationLevel.SIMPLE_OPTIMIZATIONS == level || CompilationLevel.WHITESPACE_ONLY == level || !flags.translationsFile.isEmpty() ? new EmptyMessageBundle() : null);
+,
++options.setMessageBundle((flags.translationsFile.isEmpty() && CompilationLevel.ADVANCED_OPTIMIZATIONS == level) ? null : new EmptyMessageBundle());
+,
++options.setMessageBundle(CompilationLevel.ADVANCED_OPTIMIZATIONS != level ? new EmptyMessageBundle() : null);
+,
++options.messageBundle = CompilationLevel.ADVANCED_OPTIMIZATIONS == level && flags.translationsFile.isEmpty() ? null : new EmptyMessageBundle();
+,
++options.setMessageBundle(flags.translationsFile.isEmpty() ? null : new EmptyMessageBundle());
+,
++options.setMessageBundle(CompilationLevel.ADVANCED_OPTIMIZATIONS != level && flags.translationsFile.isEmpty() ? new EmptyMessageBundle() : null);
+,
++options.setMessageBundle(flags.translationsFile.isEmpty() && level == CompilationLevel.ADVANCED_OPTIMIZATIONS ? null : new EmptyMessageBundle());

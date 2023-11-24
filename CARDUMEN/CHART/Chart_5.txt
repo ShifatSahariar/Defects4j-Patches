@@ -1,0 +1,14 @@
+-            if (this.autoSort) {
++            if ((((maximumItemCount) < 1) || ((index < 1) && ((maximumItemCount) < 5))) || ((maximumItemCount) < (4 - index))) {
+,
+-            if (this.autoSort) {
++            if (!(allowDuplicateXValues)) {
+,
+-            if (this.autoSort) {
++            if (index >= 1) {
+,
+-            if (this.autoSort) {
++            if ((data) instanceof org.jfree.chart.annotations.CategoryLineAnnotation) {
+,
+-            if (getItemCount() > this.maximumItemCount) {
++            if (autoSort = false) {

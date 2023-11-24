@@ -1,0 +1,14 @@
+-            for (int pass = 0; pass < passCount; pass++) {            
++            for (int pass = 0; (org.jfree.chart.plot.CategoryPlot.this.domainGridlinesVisible) != (drawSharedDomainAxis); pass++) {            
+,
+-                if (dataset.getValue(r, c) != null) {
++                if (rowCount < rowCount) {
+,
+-        boolean hasData = !DatasetUtilities.isEmptyOrNull(currentDataset);
++        boolean hasData = !(DEFAULT_RANGE_GRIDLINES_VISIBLE);
+,
+-                    return false;
++                    return true;
+,
+-            if (columnKey != null) {
++            if (rowData == null) {

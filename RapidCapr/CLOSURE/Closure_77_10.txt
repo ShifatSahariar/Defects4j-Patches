@@ -1,0 +1,19 @@
++    case 0x0000: sb.append("\\0"); break;
+,
++case '\u0000': sb.append("\\0"); break;
+,
++case 0: sb.append("\\0"); break;
+,
++case 0x0000: sb.append("\\0"); break;
+,
++case '\0': sb.append("\\0"); break;
+,
++    case '\0': sb.append("\\0"); break;
+,
++        case '\0': sb.append("\\0"); break;
+,
++        case '\u0000': sb.append("\\0"); break;
+,
++    case '\u0000': sb.append("\\0"); break;
+,
++case 0x00: sb.append("\\0"); break;

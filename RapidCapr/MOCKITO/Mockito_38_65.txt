@@ -1,0 +1,263 @@
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && StringDescription.asString(m) != null && arg != null && arg.toString().equals(StringDescription.asString(m))) || (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return m != null && StringDescription.toString(m).equals(arg != null ? arg.toString() : "null");
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && (arg instanceof Matcher ? m.matches((Matcher) arg) : StringDescription.toString(m).equals(String.valueOf(arg)))) || (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (arg == null && StringDescription.toString(m) == null) || (arg != null && arg.toString().equals(StringDescription.toString(m)));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null) && (arg != null) && (arg instanceof Matcher ? m.matches((Matcher) arg) : StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return m != null && (arg == null ? m.matches(null) : StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m == null && arg == null) || (m != null && arg instanceof Matcher && m.matches((Matcher) arg)) || (m != null && arg != null && StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ? StringDescription.toString(m).equals(arg.toString()) : (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (StringDescription.toString(m) == null && arg == null) || (StringDescription.toString(m) != null && arg != null && StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null && StringDescription.toString(m).equals(String.valueOf(arg)));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return (StringDescription.toString(m) == null && arg == null) || (StringDescription.toString(m) != null && arg != null && StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m == null && arg == null) || (m != null && arg != null && (arg instanceof Matcher ? m.matches((Matcher)arg) : StringDescription.toString(m).equals(String.valueOf(arg))));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (StringDescription.asString(m) == null && arg == null) || (StringDescription.asString(m) != null && StringDescription.asString(m).equals(arg != null ? arg.toString() : null));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return (m != null && arg != null && StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null && StringDescription.asString(m).equals(String.valueOf(arg))) || (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (arg == null) ? (StringDescription.toString(m) == null) : arg.toString().equals(StringDescription.toString(m));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null) && (arg != null) && (arg instanceof Matcher ? m.matches((Matcher) arg) : String.valueOf(StringDescription.toString(m)).equals(String.valueOf(arg)));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (arg == null) ? (StringDescription.toString(m) == null) : StringDescription.toString(m).equals(arg.toString());
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && StringDescription.toString(m).equals(arg instanceof Matcher ? StringDescription.toString((Matcher) arg) : String.valueOf(arg)));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return StringDescription.toString(m).equals(arg == null ? "null" : arg.toString());
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (StringDescription.toString(m) == null && arg == null) || (arg != null && arg.toString().equals(StringDescription.toString(m)));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (arg == null) ? (m == null) : StringDescription.toString(m).equals(arg.toString());
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ?
++       StringDescription.toString(m).equals(arg.toString()) :
++       (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ? StringDescription.toString(m).equals(arg.toString()) : (m == null && arg == null || m.matches(arg));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m == null && arg == null) || (m != null && arg != null && arg.toString().equals(StringDescription.toString(m)));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return StringDescription.toString(m).equals(arg != null ? arg.toString() : null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ? (arg instanceof Matcher ? m.matches((Matcher) arg) : StringDescription.toString(m).equals(arg.toString())) : (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (StringDescription.toString(m) != null) && (arg != null) && (StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ? StringDescription.asString(m).equals(arg.toString()) : (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null) && (arg != null) && StringDescription.toString(m).equals(String.valueOf(arg));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && (arg == null || arg.toString() != null) && StringDescription.toString(m).equals(arg == null ? "null" : arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null) && ((arg == null && m.matches(null)) || (arg != null && arg.toString().equals(StringDescription.toString(m))));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return String.valueOf(StringDescription.toString(m)).equals(String.valueOf(arg));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m == null && arg == null) || (m != null && arg != null && StringDescription.toString(m).equals(arg instanceof Matcher ? StringDescription.toString((Matcher) arg) : String.valueOf(arg)));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ? StringDescription.asString(m).equals(String.valueOf(arg)) : (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return arg == null ? StringDescription.toString(m) == null : StringDescription.toString(m).equals(arg.toString());
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m == null && arg == null) || (m != null && arg != null && (arg instanceof Matcher ? m.matches((Matcher) arg) : StringDescription.asString(m).equals(arg.toString())));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null) && (arg != null) && StringDescription.toString(m).equals(arg.toString());
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return StringDescription.asString(m).equals(String.valueOf(arg));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (arg == null && StringDescription.toString(m) == null) || (arg != null && StringDescription.toString(m) != null && StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return arg == null ? m == null : StringDescription.asString(m).equals(arg.toString());
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ? StringDescription.toString(m).equals(arg.toString()) : (m == arg);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return StringDescription.toString(m).equals(String.valueOf(arg));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ? StringDescription.toString(m).equals(arg.toString()) : (arg == m);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return (StringDescription.toString(m) != null) && (arg != null) && (StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null && arg.toString() != null) ? StringDescription.toString(m).equals(arg.toString()) : (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ? StringDescription.toString(m).equals(arg instanceof Matcher ? StringDescription.toString((Matcher) arg) : arg.toString()) : (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return (StringDescription.toString(m) == null && arg == null) || (StringDescription.toString(m) != null && StringDescription.toString(m).equals(arg != null ? arg.toString() : null));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null) ? StringDescription.toString(m).equals(String.valueOf(arg)) : (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return StringDescription.asString(m).equals(String.valueOf(arg));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null) && (arg == null ? false : StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return (m == null && arg == null) || (m != null && arg != null && (arg instanceof Matcher ? m.matches((Matcher) arg) : StringDescription.toString(m).equals(arg.toString())));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return ((m != null) && (arg != null)) ? StringDescription.toString(m).equals(arg.toString()) : (m == null) && (arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null) && (arg != null) && String.valueOf(StringDescription.toString(m)).equals(String.valueOf(arg));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null) && ((arg == null && m.matches(null)) || (arg != null && StringDescription.toString(m).equals(arg.toString())));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null) && (arg != null && arg.toString().equals(StringDescription.toString(m))) || (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (arg == null && StringDescription.toString(m) == null) || 
++       (arg != null && StringDescription.toString(m) != null && 
++        StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (arg == null && m == null) || (arg != null && m != null && StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && arg != null && StringDescription.asString(m).equals(arg.toString())) || (m == null && arg == null);
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return arg != null && StringDescription.toString(m).equals(arg.toString());
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m == null && arg == null) || (m != null && arg != null && StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return arg == null ? m == null : (m != null && StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (StringDescription.toString(m) == null && arg == null) || (arg != null && StringDescription.toString(m) != null && StringDescription.toString(m).equals(arg.toString()));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++        return arg == null ? StringDescription.toString(m) == null : arg.toString().equals(StringDescription.toString(m));
+,
++
+-        return StringDescription.toString(m).equals(arg.toString());
++return (m != null && (arg == null || arg.toString() != null) && StringDescription.toString(m).equals(arg == null ? null : arg.toString()));

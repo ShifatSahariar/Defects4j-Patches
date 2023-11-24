@@ -1,0 +1,20 @@
+-        return chromosomes.iterator();
++        return Collections.unmodifiableList(chromosomes).iterator();
+,
+-        return chromosomes.iterator();
++return Collections.unmodifiableList(new ArrayList<Chromosome>(chromosomes)).iterator();
+,
+-        return chromosomes.iterator();
++        return chromosomes.stream().iterator();
+,
+-        return chromosomes.iterator();
++return chromosomes.stream().iterator();
+,
+-        return chromosomes.iterator();
++return Collections.unmodifiableCollection(chromosomes).iterator();
+,
+-        return chromosomes.iterator();
++        return Collections.unmodifiableCollection(chromosomes).iterator();
+,
+-        return chromosomes.iterator();
++    return chromosomes.stream().iterator();

@@ -1,0 +1,146 @@
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*") || s.equals("0");
+,
+-    return len > 0;
++return len > 0 && s.matches("\\d+") && s.charAt(0) != '0';
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][\\d]*|0");
+,
+-    return len > 0;
++if (s == null || s.isEmpty() || s.charAt(0) == '0' || !s.matches("^[1-9]\\d*$")) {
++    return false;
++}
++return true;
+,
+-    return len > 0;
++    return len > 0 && (s.charAt(0) != '0' || len == 1);
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*|0") && (len == 1 || s.charAt(0) != '0');
+,
+-    return len > 0;
++return len > 0 && s.matches("[0-9]+") && (s.charAt(0) != '0' || (len == 1 && s.charAt(0) == '0'));
+,
+-    return len > 0;
++    return len > 0 && s.matches("[0-9]+") && !s.startsWith("0");
+,
+-    return len > 0;
++return s.matches("\\d+") && (s.charAt(0) != '0' || s.length() == 1);
+,
+-    return len > 0;
++return len > 0 && s.matches("\\d+") && (s.charAt(0) != '0' || len == 1);
+,
+-    return len > 0;
++return s.matches("[1-9]\\d*|0") && (s.length() == 1 || s.charAt(0) != '0');
+,
+-    return len > 0;
++    return len > 0 && s.matches("\\d+") && !s.startsWith("0");
+,
+-    return len > 0;
++return s.matches("[1-9][0-9]*");
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*|0") && !(s.length() > 1 && s.startsWith("0"));
+,
+-    return len > 0;
++return len > 0 && s.matches("\\d+") && !s.startsWith("0") && !s.matches("[^1-9]*0[^1-9]*");
+,
+-    return len > 0;
++return len > 0 && s.matches("[0-9]+") && !s.startsWith("0") && !s.matches("[^1-9]*0[^1-9]*");
+,
+-    return len > 0;
++    return len > 0 && s.matches("[0-9]+") && s.charAt(0) != '0';
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9]+[0-9]*|0");
+,
+-    return len > 0;
++return len > 0 && s.matches("[0-9]+") && (s.charAt(0) != '0');
+,
+-    return len > 0;
++return len > 0 && s.matches("[0-9]+") && (s.charAt(0) != '0' || s.length() == 1);
+,
+-    return len > 0;
++if (s == null || s.isEmpty() || s.charAt(0) == '0' || !s.matches("[0-9]+")) {
++    return false;
++}
++return true;
+,
+-    return len > 0;
++return len > 0 && !s.startsWith("0") && s.matches("[0-9]+");
+,
+-    return len > 0;
++return s != null && !s.isEmpty() && s.matches("[1-9]\\d*|0");
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9]\\d*");
+,
+-    return len > 0;
++return len > 0 && (s.equals("0") || s.charAt(0) != '0' && s.matches("\\d+"));
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*|0") && (s.length() == 1 || (s.charAt(0) != '0'));
+,
++    if (len == 0 || (len > 1 && s.charAt(0) == '0')) {
++      return false;
++    }
+-    return len > 0;
++    return true;
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*|0") && !(len > 1 && s.charAt(0) == '0');
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*|0") && !(s.length() > 1 && s.charAt(0) == '0');
+,
+-    return len > 0;
++    return len > 0 && s.matches("\\d+") && (s.charAt(0) != '0' || len == 1);
+,
+-    return len > 0;
++return len > 0 && s.matches("\\d+") && !s.startsWith("0");
+,
+-    return len > 0;
++return len > 0 && s.matches("[0-9]+") && s.charAt(0) != '0';
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*|0") && (s.charAt(0) != '0' || len == 1);
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9]\\d*|0");
+,
+-    return len > 0;
++return len > 0 && (s.charAt(0) != '0' || len == 1) && s.matches("[0-9]+");
+,
+-    return len > 0;
++return s != null && s.matches("[1-9][0-9]*|0") && (s.charAt(0) != '0' || s.length() == 1);
+,
+-    return len > 0;
++return len > 0 && s.matches("^[1-9]\\d*$|^0$");
+,
+-    return len > 0;
++return len > 0 && s.matches("[0-9]+") && (s.charAt(0) != '0' || len == 1);
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*|0") && s.charAt(0) != '0';
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*");
+,
+-    return len > 0;
++    return len > 0 && s.matches("[0-9]+") && (s.charAt(0) != '0' || len == 1);
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9]\\d*|0") && (s.charAt(0) != '0' || s.length() == 1);
+,
+-    return len > 0;
++return len > 0 && s.matches("[1-9][0-9]*|0");
+,
+-    return len > 0;
++return len > 0 && s.matches("\\d+") && !s.startsWith("0") || s.equals("0");
+,
+-    return len > 0;
++return len > 0 && s.matches("\\d+") && (s.charAt(0) != '0' || s.length() == 1);
+,
+-    return len > 0;
++return s != null && s.matches("[1-9][0-9]*|0");

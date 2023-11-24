@@ -1,0 +1,122 @@
++if (escapingOn && c[start] == QUOTE && appendTo != null) {
++    next(pos);
++    return appendTo.append(QUOTE);
++}
+,
++if (pos.getIndex() < pattern.length() && escapingOn && pattern.charAt(pos.getIndex()) == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (escapingOn && c.length > pos.getIndex() && c[pos.getIndex()] == QUOTE) {
++    pos.setIndex(pos.getIndex() + 1);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (escapingOn && c[pos.getIndex()] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (pos.getIndex() < c.length && escapingOn && c[pos.getIndex()] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (escapingOn && c[start] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++            if (escapingOn && c[start] == QUOTE) {
++                next(pos);
++                return appendTo == null ? null : appendTo.append(QUOTE);
++            }
+,
++if (appendTo != null && escapingOn && c[start] == QUOTE) {
++    next(pos);
++    appendTo.append(QUOTE);
++    return appendTo;
++}
+,
++if (escapingOn && pos.getIndex() < pattern.length() && c[pos.getIndex()] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (start < c.length && escapingOn && c[start] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++            next(pos);
+,
++if (escapingOn && c[start] == QUOTE) {
++    pos.setIndex(pos.getIndex()+1); 
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++        if (escapingOn && c[start] == QUOTE) {
++            next(pos);
++            return appendTo == null ? null : appendTo.append(QUOTE);
++        }
+,
++if (escapingOn && pos.getIndex() < c.length && c[pos.getIndex()] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (c.length > pos.getIndex() && escapingOn && c[pos.getIndex()] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (escapingOn && c.length > start && c[start] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++        if (escapingOn && c[pos.getIndex()] == QUOTE) {
++            next(pos);
++            return appendTo == null ? null : appendTo.append(QUOTE);
++        }
+,
++if (pos.getIndex() < pattern.length() && escapingOn && pattern.charAt(pos.getIndex()) == QUOTE) {
++    pos.setIndex(pos.getIndex() + 1);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (escapingOn && c[start] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(c, start, pos.getIndex() - start);
++}
+,
++if (pos.getIndex() < pattern.length() && escapingOn && c[pos.getIndex()] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (pos.getIndex() < c.length && escapingOn && c[pos.getIndex()] == QUOTE) {
++    pos.setIndex(pos.getIndex() + 1); 
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (escapingOn && pattern.charAt(pos.getIndex()) == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (escapingOn && c[start] == QUOTE) {
++    pos.setIndex(start + 1);
++    return appendTo == null ? null : appendTo.append(QUOTE);
++}
+,
++if (escapingOn && c[start] == QUOTE) {
++    next(pos);
++    return appendTo == null ? null : appendTo.append(c[start]);
++}
+,
++                if (escapingOn && c[pos.getIndex()] == QUOTE) {
++                    next(pos);
++                    return appendTo == null ? null : appendTo.append(QUOTE);
++                }

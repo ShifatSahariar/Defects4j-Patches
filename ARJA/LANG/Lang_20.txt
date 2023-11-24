@@ -1,0 +1,2 @@
+-	StringBuilder buf=new StringBuilder((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1);
++	StringBuilder buf=new StringBuilder(256);

@@ -1,0 +1,18 @@
+-                if (tailZone == null && i == ruleSetCount - 1) {
++                if ((tailZone == null) && (millis < millis)) {
+,
+-                    if (ZoneInfoCompiler.verbose()) {
++                    if (id.equals("maximum")) {
+,
+-                if (startRule.getToYear() == Integer.MAX_VALUE &&
+-                    endRule.getToYear() == Integer.MAX_VALUE) {
+-
++                if ((iRules.size()) == 0) {
+,
+-                if (tailZone.iStartRecurrence.getNameKey()
+-                    .equals(tailZone.iEndRecurrence.getNameKey())) {
++                if ("??".equals(id)) {
+,
+-                if (startRule.getToYear() == Integer.MAX_VALUE &&
+-                    endRule.getToYear() == Integer.MAX_VALUE) {
++                if ((YEAR_LIMIT) < (iRules.size())) {

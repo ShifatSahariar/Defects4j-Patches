@@ -1,0 +1,157 @@
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.max(0, Math.min(p, 1)); // Ensure p-value is between 0 and 1 inclusive.
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.max(0.0, Math.min(p, 1.0));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++out[i][j] = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.max(0.0, Math.min(1.0, p)); // Ensure p-value is between 0 and 1 inclusive.
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.min(Math.max(p, 0.0), 1.0); // Ensure p-value is between 0 and 1 inclusive.
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2; 
++out[i][j] = Math.min(p, 1.0); 
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.max(0, Math.min(1, p));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.max(0, Math.min(p, 1));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-1 * Math.abs(t)) * 2;
++out[i][j] = Math.max(p, 0.0);
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = p;
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.max(0.0, Math.min(p, 1.0)); // Make sure the p-value is between 0 and 1 (inclusive)
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.min(Math.max(p, 0), 1); // Ensure p-value is between 0 and 1 inclusive.
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.max(0.0, Math.min(p, 1.0));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.min(Math.max(p, 0.0), 1.0);
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++                    out[i][j] = 2 * tDistribution.cumulativeProbability(-t);
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.max(0, Math.min(p, 1)); // Ensure p-value is between 0 and 1 inclusive.
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = p < 0 ? 0 : p; //Ensuring that the p-value is non-negative
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-1 * Math.abs(t)) * 2;
++out[i][j] = Math.min(p, 1.0); 
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.min(Math.max(p, 0), 1); // Ensure p-value is between 0 and 1 inclusive.
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2.0;
++out[i][j] = Math.max(0.0, Math.min(1.0, p));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.max(0, Math.min(1, p));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.min(Math.max(p, 0.0), 1.0);
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.max(0, Math.min(p, 1.0));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.min(Math.max(p, 0), 1);
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.max(0, Math.min(p, 1));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.min(p, 1); // Ensure p-value is between 0 and 1 inclusive.
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.max(0.0, Math.min(1.0, p)); // Ensure p-value is between 0 and 1 inclusive.
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2.0 * tDistribution.cumulativeProbability(-1.0 * Math.abs(t));
++out[i][j] = Math.max(p, 0.0);
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.max(Double.MIN_VALUE, p);
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2.0 * tDistribution.cumulativeProbability(-1.0 * Math.abs(t));
++out[i][j] = Math.max(0.0, Math.min(p, 1.0)); // Ensure p-value is between 0 and 1 inclusive.
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.max(0.0, Math.min(1.0, p));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.max(0, Math.min(1, p)); // Ensure p-value is between 0 and 1 inclusive
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Double.isNaN(p) ? 1.0 : p;
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++out[i][j] = Math.max(0.0, Math.min(1.0, p));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.max(0d, Math.min(1d, p));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++ double p = tDistribution.cumulativeProbability(-Math.abs(t)) * 2;
++ out[i][j] = Math.max(0.0, Math.min(1.0, p));
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = Math.max(0, 2 * tDistribution.cumulativeProbability(-Math.abs(t)));
++out[i][j] = Math.min(1, p);
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = 2 * tDistribution.cumulativeProbability(-Math.abs(t));
++out[i][j] = Math.min(Math.max(p, 0), 1.0);
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-1 * Math.abs(t)) * 2;
++out[i][j] = Math.max(p, 0); //Ensuring that the p-value is non-negative
+,
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++double p = tDistribution.cumulativeProbability(-1 * Math.abs(t)) * 2;
++out[i][j] = p;

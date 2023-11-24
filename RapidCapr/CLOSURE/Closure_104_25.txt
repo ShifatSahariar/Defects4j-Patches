@@ -1,0 +1,74 @@
+-    if (result != null) {
++      if (!result.isNoType() && !result.isNoObjectType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isEmptyType() && !result.isNoObjectType()) {
+,
+-    if (result != null) {
++      if (result != null && !result.isNoType() && !result.isNoObjectType()) {
+,
+-    if (result != null) {
++      if (!result.isNoType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isNoObjectType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isUnknownType() && !result.isEmptyType() && !result.isNoObjectType()) {
+,
+-    if (result != null) {
++if (!result.isNoType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isUnknownType() && !result.isEmptyType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isNoObjectType() && !result.isEmptyType() && !result.isUnknownType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isNoObjectType() && !result.isEmptyType()) {
+,
+-    if (result != null) {
++if (!result.isNoType() && !result.isNoObjectType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isNoObjectType() && !result.isUnknownType() && !result.isEmptyType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isEmptyType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoObjectType() && !result.isEmptyType()) {
+,
+-    if (result != null) {
++if (result != null && !(result.isNoType() || result.isUnknownType() || result.isEmptyType() || result.isNoObjectType())) {
+,
+-    if (result != null) {
++      if (result != null && !result.isEmptyType() && !result.isNoType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoObjectType() && !result.isNoType()) {
+,
+-    if (result != null) {
++      if (result != null && !result.isNoType() && !result.isEmptyType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isUnknownType() && !result.isNoObjectType()) {
+,
+-    if (result != null) {
++if (!result.isNoType() && !result.isEmptyType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isNoObjectType() && !result.isUnknownType()) {
+,
+-    if (result != null) {
++      if (!result.isNoType() && !result.isUnknownType()) {
+,
+-    if (result != null) {
++if (result != null && !result.isNoType() && !result.isUnknownType()) {
+,
+-    if (result != null) {
++      if (result != null && !result.isNoType()) {

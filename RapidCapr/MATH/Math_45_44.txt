@@ -1,0 +1,167 @@
++        if(rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension,
++                                                Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension, 
++                                                Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension,
++                    Integer.MAX_VALUE, true);
++        }
+,
++        if ((long)rowDimension * (long)columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long)rowDimension * (long)columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension,
++                                                 Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++if ((long) rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
++    throw new NumberIsTooLargeException((long) rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
++}
+,
++        if (rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension, columnDimension, false);
++        }
+,
++        if ((long) rowDimension * columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension, Integer.MAX_VALUE, false);
++        }
+,
++        try {
++            Math.multiplyExact(rowDimension, columnDimension);
++        } catch (ArithmeticException e) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension,
++                    Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        try {
++            Math.multiplyExact(rowDimension, columnDimension);
++        } catch (ArithmeticException e) {
++            throw new NumberIsTooLargeException(rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        if (rowDimension * (long) columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        if ((long)rowDimension * (long)columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension, (long)columnDimension, false);
++        } 
+,
++        if ((long)rowDimension * columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension * (long)columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension,
++                                                Integer.MAX_VALUE, false);
++        }
+,
++        if ((long) rowDimension * (long) columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        if ((long)rowDimension * columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long)rowDimension * columnDimension,
++                                                Integer.MAX_VALUE, true);
++        }
+,
++        if (rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension, (long) columnDimension, false);
++        }
+,
++        long totalEntries = (long) rowDimension * (long) columnDimension;
++        if (totalEntries > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(totalEntries, Integer.MAX_VALUE, true);
++        }
+,
++        if ((long)rowDimension * columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension * (long)columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * (long) columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(
++                    Long.valueOf(rowDimension), Long.valueOf(columnDimension), false);
++        }
+,
++        if ((long) rowDimension * columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension, Integer.MAX_VALUE, false);
++        }
+,
++        if ((long) rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        long size = (long)rowDimension * (long)columnDimension;
++        if (size > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(size, Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension, 0, true);
++        } 
+,
++if ((long) rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
++    throw new NumberIsTooLargeException(
++            (long) rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
++}
+,
++        long size = (long) rowDimension * (long) columnDimension;
++        if (size > Integer.MAX_VALUE || size <= 0) {
++            throw new NumberIsTooLargeException(size, 0, true);
++        }
+,
++        if ((long) rowDimension * columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException((long) rowDimension * columnDimension,
++                                                Integer.MAX_VALUE, true);
++        }
+,
++        if ((long) rowDimension * columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension, columnDimension, false);
++        }
+,
++        if ((long) rowDimension * columnDimension > Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension, (long) columnDimension, false);
++        }
+,
++        if (rowDimension * (long) columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
++        }
+,
++        int maxProduct = Integer.MAX_VALUE / Math.max(rowDimension, 1);
++        if (columnDimension > maxProduct) {
++            throw new NumberIsTooLargeException(columnDimension, maxProduct, true);
++        }
+,
++double size = rowDimension * (double) columnDimension;
++if (size > Integer.MAX_VALUE) {
++    throw new NumberIsTooLargeException(size, Integer.MAX_VALUE, true);
++}
+,
++        if ((long) rowDimension * columnDimension >= Integer.MAX_VALUE) {
++            throw new NumberIsTooLargeException(
++                    rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
++        }

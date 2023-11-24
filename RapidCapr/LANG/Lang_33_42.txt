@@ -1,0 +1,131 @@
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] == null) ? null : (array[i].getClass().isArray() ? array[i].getClass().getComponentType() : array[i].getClass());
+,
+-            classes[i] = array[i].getClass();
++        classes[i] = (array[i] != null) ? array[i].getClass() : null;
+,
+-            classes[i] = array[i].getClass();
++            classes[i] = (array[i] != null ? array[i].getClass() : null);
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null && !(array[i] instanceof Class)) ? array[i].getClass() : (array[i] instanceof Class) ? (Class<?>) array[i] : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null) ? array[i].getClass() : (i == 1 ? null : Object.class);
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] == null) ? null : ((array[i] instanceof Class) ? (Class<?>) array[i] : array[i].getClass());
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null && array[i].getClass() != null && !(array[i] instanceof Class)) ? array[i].getClass() : (Class<?>) array[i];
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null) ? array[i].getClass() : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null && array[i].getClass() != null && !array[i].getClass().equals(Void.TYPE)) ? array[i].getClass() : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null) ? primitiveToWrapper(array[i].getClass()) : array[i] instanceof Class ? (Class<?>) array[i] : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i]!=null)?array[i].getClass():null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null) ? array[i].getClass() : (Class<?>)array[i];
+,
+-            classes[i] = array[i].getClass();
++    classes[i] = (array[i] != null) ? array[i].getClass() : null;
+,
+-            classes[i] = array[i].getClass();
++            classes[i] = array[i] == null ? null : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++classes[i] = array[i] != null ? array[i].getClass() : null;
+,
++        if(array[i] == null) {
++            classes[i] = null;
++        } else {
++        }
+,
+-            classes[i] = array[i].getClass();
++classes[i] = array[i] == null ? null : (array[i].getClass().isArray() ? array[i].getClass().getComponentType() : array[i].getClass());
+,
+-            classes[i] = array[i].getClass();
++            classes[i] = (array[i] == null) ? null : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null && !array[i].getClass().equals(Void.TYPE)) ? array[i].getClass() : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null && !(array[i] instanceof Class)) ? array[i].getClass() : (Class<?>) array[i];
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] == null) ? null : primitiveToWrapper(array[i].getClass());
+,
+-            classes[i] = array[i].getClass();
++classes[i] = array[i] == null ? null : array[i] instanceof Class ? (Class<?>) array[i] : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] == null) ? null : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++classes[i] = array[i] == null ? null : array[i].getClass().isArray() ? array[i].getClass().getComponentType() : array[i].getClass();
+,
++        try {
++            classes[i] = (Class<?>) array[i];
++        } catch (ClassCastException e) {
++        }
+,
+-            classes[i] = array[i].getClass();
++classes[i] = array[i] == null ? null : array[i].getClass().getComponentType() != null ? array[i].getClass().getComponentType() : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] == null) ? null : array[i].getClass().isArray() ? array[i].getClass().getComponentType() : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++classes[i] = array[i] == null ? null : primitiveToWrapper(array[i].getClass());
+,
+-            classes[i] = array[i].getClass();
++            classes[i] = array[i] != null ? array[i].getClass() : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] == null || array[i].getClass().equals(Void.TYPE)) ? null : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++classes[i] = array[i] == null ? null : (array[i] instanceof Class) ? (Class<?>) array[i] : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++           classes[i] = (array[i] != null) ? array[i].getClass() : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null && array[i].getClass() != null) ? array[i].getClass() : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = array[i] != null ? array[i].getClass() : (i == 1 ? null : Object.class);
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null) && (array[i].getClass() != null) ? array[i].getClass() : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] == null) ? null : array[i].getClass().isPrimitive() ? primitiveToWrapper(array[i].getClass()) : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++classes[i] = array[i] == null ? null : array[i].getClass();
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null && !(array[i] instanceof Class)) ? array[i].getClass() : (array[i] != null) ? (Class<?>) array[i] : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null) ? primitiveToWrapper(array[i].getClass()) : null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] != null) ? 
++    (array[i].getClass().isArray() ? array[i].getClass().getComponentType() : array[i].getClass()) : 
++    null;
+,
+-            classes[i] = array[i].getClass();
++classes[i] = (array[i] == null) ? null : (array[i] instanceof Class ? (Class<?>) array[i] : array[i].getClass());
+,
+-            classes[i] = array[i].getClass();
++            classes[i] = (array[i] != null) ? array[i].getClass() : null;

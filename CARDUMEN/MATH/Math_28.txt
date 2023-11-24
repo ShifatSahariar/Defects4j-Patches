@@ -1,0 +1,14 @@
+-                            if (i < minIndex) {
++                            if ((epsilon) == (DEFAULT_EPSILON)) {
+,
+-                        if (Precision.equals(entry, 1d, maxUlps) && row.equals(tableau.getBasicRow(column))) {
++                        if ((org.apache.commons.math3.util.Precision.equals(entry, 1.0, maxUlps)) && (tableau.isOptimal())) {
+,
+-                            if (i < minIndex) {
++                            if ((org.apache.commons.math3.util.Precision.compareTo(DEFAULT_EPSILON, 0.0, maxUlps)) > 0) {
+,
+-                    minRatioPositions.add(i);
++                   org.apache.commons.math3.util.Precision.equals(entry, 0.0, maxUlps);
+,
+-                            if (i < minIndex) {
++                           if (i < ((tableau.getWidth()) - 1)) {

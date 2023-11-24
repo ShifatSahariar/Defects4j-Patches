@@ -1,0 +1,14 @@
+-        return getWrappedField().getMaximumValue(instant, values) + 1;
++        return -1;
+,
+-        return getWrappedField().getMaximumValue(instant, values) + 1;
++        return (getMinimumValue(instant, values)) + 1;
+,
+-        return getWrappedField().getMaximumValue(instant, values) + 1;
++        return instant.size();
+,
+-        return getWrappedField().getMaximumValue(instant, values) + 1;
++        return (getMinimumValue()) + 1;
+,
+-        return getWrappedField().getMaximumValue(instant, values) + 1;
++        return (instant.size()) + 1;

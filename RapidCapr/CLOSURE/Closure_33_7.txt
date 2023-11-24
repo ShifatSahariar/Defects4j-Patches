@@ -1,0 +1,34 @@
++    if (isNominalType()) {
++      return;
++    }
+,
++    // We only want to match contraints on anonymous types.
++    if (isNominalType()) {
++      return;
++    }
+,
+-    // We only want to match contraints on anonymous types.
++    // Handle the case where the constraint object is not an anonymous type.
++    if (isNominalType()) {
++      return;
++    }
+,
+-
++    if (isNominalType()) {
++      return;
++    }
++    
+,
++    if (isNominalType()) {
++      return;
++    }
++    
+,
+-    // We only want to match contraints on anonymous types.
+-
+-    if (constraintObj.isRecordType()) {
++    if (constraintObj.isRecordType() && !isNominalType()) {
+,
++    if (isNominalType() || constraintObj.isNominalType()) {
++      return;
++    }

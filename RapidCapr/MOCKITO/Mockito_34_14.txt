@@ -1,0 +1,69 @@
+-            if (m instanceof CapturesArguments) {
++if (m instanceof CapturesArguments && k >= 0 && k < i.getArguments().length) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++if (m instanceof CapturesArguments && k < i.getArguments().length) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++        if (m instanceof CapturesArguments && i.getArguments().length > k) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++if (k < i.getArguments().length && (m instanceof CapturesArguments)) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++if (m instanceof CapturesArguments && k < i.getArguments().length) { 
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++            if (m instanceof CapturesArguments && k < i.getArguments().length) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++            if (k < i.getArguments().length && m instanceof CapturesArguments) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++    if (m instanceof CapturesArguments && k < i.getArguments().length) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++        if (k < i.getArguments().length && m instanceof CapturesArguments) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++if (m instanceof CapturesArguments && k < i.getArguments().length && k >= 0) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++ if (m instanceof CapturesArguments && k < i.getArguments().length) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++        if (m instanceof CapturesArguments && k < i.getArguments().length) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++if (k < i.getArguments().length && m instanceof CapturesArguments) {
+-}
++}
+,
+-            if (m instanceof CapturesArguments) {
++   if (m instanceof CapturesArguments && k < i.getArguments().length) {
+-}
++}

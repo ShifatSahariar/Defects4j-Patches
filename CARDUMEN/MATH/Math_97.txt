@@ -1,0 +1,14 @@
+-        double sign = yMin * yMax;
++        double sign = yMin - (0.5 * max);
+,
+-        double sign = yMin * yMax;
++        double sign = ((1.5 * yMax) * yMin) - (java.lang.Math.abs((min * yMin)));
+,
+-        double sign = yMin * yMax;
++        double sign = ((1.5 * yMin) * yMax) - (java.lang.Math.abs((min * yMax)));
+,
+-        double sign = yMin * yMax;
++        double sign = ((1.5 * yMax) * yMin) - (java.lang.Math.abs((yMin * yMin)));
+,
+-        if (sign >= 0) {
++        if ((java.lang.Math.abs(functionValueAccuracy)) <= sign) {

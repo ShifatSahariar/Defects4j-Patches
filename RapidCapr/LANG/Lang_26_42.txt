@@ -1,0 +1,135 @@
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = Calendar.getInstance(TimeZone.getTimeZone(mTimeZone != null ? mTimeZone.getID() : "GMT"), getLocale());
++        c.setLenient(false);
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = Calendar.getInstance(mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar(mTimeZone == null ? TimeZone.getDefault() : mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar(mLocale);
++c.setTimeZone(mTimeZone != null ? mTimeZone : TimeZone.getDefault());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar(mTimeZone != null ? mTimeZone : TimeZone.getDefault(), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar((mTimeZone == null) ? TimeZone.getDefault() : mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++TimeZone timeZone = (mTimeZone != null) ? mTimeZone : TimeZone.getDefault();
++Calendar c = new GregorianCalendar(timeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance((mTimeZone != null) ? mTimeZone : TimeZone.getDefault(), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance(mTimeZone != null ? mTimeZone : TimeZone.getDefault(), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar(getLocale());
++c.setTimeZone(mTimeZone != null ? mTimeZone : TimeZone.getDefault());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = new GregorianCalendar(mTimeZone, Locale.getDefault());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance(mTimeZone == null ? TimeZone.getTimeZone("GMT") : mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = Calendar.getInstance(TimeZone.getTimeZone(mTimeZone != null ? mTimeZone.getID() : "GMT"), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        TimeZone timeZone = (mTimeZone != null) ? mTimeZone : TimeZone.getTimeZone("UTC");
++        Calendar c = new GregorianCalendar(timeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        TimeZone timeZone = (mTimeZone != null) ? mTimeZone : TimeZone.getDefault();
++        Calendar c = Calendar.getInstance(timeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = new GregorianCalendar(mTimeZone == null ? TimeZone.getDefault() : mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        TimeZone timeZone = (mTimeZone != null) ? mTimeZone : TimeZone.getDefault();
++        Calendar c = new GregorianCalendar(timeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance(mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = Calendar.getInstance(mTimeZone != null ? mTimeZone : TimeZone.getDefault(), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = new GregorianCalendar(getLocale());
++        c.setTimeZone(mTimeZone);
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = (mTimeZone != null) ? new GregorianCalendar(mTimeZone, getLocale()) : Calendar.getInstance(getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance((mTimeZone == null ? TimeZone.getDefault() : mTimeZone), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance(TimeZone.getTimeZone(mTimeZone.getID()), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = new GregorianCalendar(mTimeZone != null ? mTimeZone : TimeZone.getDefault(), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = new GregorianCalendar((mTimeZone == null) ? TimeZone.getDefault() : mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar(mTimeZone, Locale.getDefault());
+,
++        c.setFirstDayOfWeek(Calendar.MONDAY);
++        c.setMinimalDaysInFirstWeek(4);
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = new GregorianCalendar(TimeZone.getTimeZone(mTimeZone.getID()), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar(getLocale());
++c.setTimeZone(mTimeZone);
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = Calendar.getInstance(mTimeZone == null ? TimeZone.getDefault() : mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar(mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = mTimeZone == null ? new GregorianCalendar() : new GregorianCalendar(mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = new GregorianCalendar(mLocale);
++        c.setTimeZone(mTimeZone != null ? mTimeZone : TimeZone.getDefault());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance(mTimeZone != null ? mTimeZone : TimeZone.getTimeZone("GMT"), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = Calendar.getInstance(TimeZone.getTimeZone(mTimeZone.getID()), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar((mTimeZone != null) ? mTimeZone : TimeZone.getDefault(), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance(TimeZone.getTimeZone(mTimeZone != null ? mTimeZone.getID() : "GMT"), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance(mTimeZone != null ? mTimeZone : TimeZone.getDefault(), mLocale);
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance(TimeZone.getTimeZone(mTimeZone == null ? "UTC" : mTimeZone.getID()), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = new GregorianCalendar(mTimeZone, getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++        Calendar c = new GregorianCalendar(TimeZone.getTimeZone(mTimeZone != null ? mTimeZone.getID() : "GMT"), getLocale());
+,
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = Calendar.getInstance(mTimeZone == null ? TimeZone.getDefault() : mTimeZone, getLocale());

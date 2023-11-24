@@ -1,0 +1,226 @@
+-          ) {
++          && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent()))) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent())
++          && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++        && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++    && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) && assign.getParent().getType() != Token.EXPR_VOID) {
+,
+-          ) {
++      && (assign.getNext() == null || assign.getNext().getType() == Token.EXPR_RESULT) && 
++      (!NodeUtil.isAssignmentOp(assign.getParent()) || assign.getParent().getType() == Token.FOR || assign.getParent().getType() == Token.EXPR_VOID)) {
+,
+-          ) {
++          && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent()) || NodeUtil.isExprAssign(assign.getParent()))) {
+,
+-          ) {
++      && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent()) && assign.getNext() == null) {
+,
+-          ) {
++      && n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && assign.getNext() == null &&
++      (!NodeUtil.isAssignmentOp(assign.getParent()) || assign.getParent().getType() == Token.FOR || assign.getParent().getType() == Token.EXPR_VOID)) {
+,
+-          ) {
++          && (!NodeUtil.isAssignmentOp(assign.getParent())
++              || assign.getParent().getType() == Token.EXPR_VOID)) {
+,
+-          ) {
++          && n.getFirstChild().getType() == Token.GETPROP && !NodeUtil.isAssignmentOp(assign.getParent())) {
+,
+-          ) {
++      && n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++      && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP 
++      && !NodeUtil.isAssignmentOp(assign.getParent()) && assign.getNext() == null && assign.getParent() != null 
++      && !NodeUtil.isForIn(assign.getParent()) && assign.getParent().getType() != Token.EXPR_VOID) {
+,
+-          ) {
++      && !NodeUtil.isAssignmentOp(assign.getParent())) {
+,
+-          ) {
++    && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent()) && !NodeUtil.isFunctionExpression(assign.getParent())) {
+,
+-          ) {
++&& n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && assign.getNext() == null && (!NodeUtil.isAssignmentOp(assign.getParent()) || assign.getParent().getType() == Token.EXPR_VOID || NodeUtil.isForIn(assign.getParent()))) {
+,
+-          ) {
++      && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent()))) {
+,
+-          ) {
++    && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP 
++    && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++        && !NodeUtil.isAssignmentOp(assign.getParent())) {
+,
+-          ) {
++        && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent()))) {
+,
+-          ) {
++        && n.getFirstChild().getType() == Token.GETPROP 
++        && !NodeUtil.isAssignmentOp(assign.getParent())) {
+,
+-          ) {
++      && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent()) || NodeUtil.isExprAssign(assign.getParent()) || NodeUtil.isForIn(assign.getParent()))) {
+,
+-          ) {
++        && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP 
++        && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) 
++        && !NodeUtil.isForIn(assign.getParent()) && assign.getParent().getType() != Token.EXPR_VOID) {
+,
+-          ) {
++          && n.getFirstChild().getType() == Token.GETPROP && !NodeUtil.isAssignmentOp(assign.getParent())
++          && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent()) 
++          && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++      && n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && assign.getNext() == null && (!NodeUtil.isAssignmentOp(assign.getParent()) || assign.getParent().getType() == Token.FOR)) {
+,
+-          ) {
++      && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent()) && assign.getParent().getType() != Token.EXPR_VOID) {
+,
+-          ) {
++      && !NodeUtil.isAssignmentOp(assign.getParent()) && assign.getNext() == null) {
+,
+-          ) {
++    && n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP 
++    && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) 
++    && assign.getParent() != null && assign.getParent().getType() != Token.EXPR_VOID 
++    && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++    && n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP
++    && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++          && (!NodeUtil.isAssignmentOp(assign.getParent())
++              || assign.getParent().getType() == Token.FOR || assign.getParent().getType() == Token.EXPR_VOID)) {
+,
+-          ) {
++     && !NodeUtil.isAssignmentOp(assign.getParent()) && assign.getNext() == null) {
+,
+-          ) {
++ && n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) && (assign.getParent() == null || !NodeUtil.isForIn(assign.getParent()))) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent()) && NodeUtil.isExprAssign(assign.getParent())) {
+,
+-          ) {
++      && !NodeUtil.isAssignmentOp(assign.getParent()) &&
++      !NodeUtil.isForIn(assign.getParent()) &&
++      assign.getParent().getType() != Token.EXPR_VOID) {
+,
+-          ) {
++      && n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP 
++      && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) && assign.getParent().getType() != Token.EXPR_VOID && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++      && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && !NodeUtil.isAssignmentOp(assign.getParent()) && assign.getNext() == null) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent()) && !NodeUtil.isFunctionExpression(assign.getParent())) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent())
++          && n.getFirstChild().getType() != Token.EXPR_RESULT) {
+,
+-          ) {
++      && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP 
++      && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++      && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent()) 
++          ||  NodeUtil.isForIn(assign.getParent()))) {
+,
+-          ) {
++      && n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP
++      && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++      && assign.getParent() != null && !NodeUtil.isAssignmentOp(assign.getParent())) {
+,
+-          ) {
++    && assign.getNext() == null && assign.getParent() != null 
++    && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++      && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP 
++      && (assign.getNext() == null || NodeUtil.isExprAssign(assign.getNext().getFirstChild()))
++      && assign.getParent() != null && !NodeUtil.isAssignmentOp(assign.getParent())
++      && assign.getParent().getType() != Token.EXPR_VOID && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++        && n.getFirstChild().getType() == Token.GETPROP 
++        && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent()))) {
+,
+-          ) {
++   && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && !NodeUtil.isAssignmentOp(assign.getParent())) {
+,
+-          ) {
++        && n != null && n.getType() == Token.GETPROP && n.getFirstChild() != null 
++        && n.getFirstChild().getType() == Token.GETPROP && assign.getNext() == null 
++        && assign.getParent() != null && !NodeUtil.isAssignmentOp(assign.getParent()) 
++        && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent())) {
+,
+-          ) {
++      && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && 
++      !NodeUtil.isAssignmentOp(assign.getParent()) && assign.getNext() == null && 
++      assign.getParent() != null && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent()) && n.getFirstChild().getType() == Token.GETPROP) {
+,
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent()) &&
++          !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++ && n != null && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent()) && !NodeUtil.isForIn(assign.getParent()) && assign.getParent() != null && !NodeUtil.isFunctionExpression(assign.getParent())) {
+,
+-          ) {
++      && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP && !NodeUtil.isAssignmentOp(assign.getParent())) {
+,
+-          ) {
++      && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent()) || NodeUtil.isForIn(assign.getParent()))) {
+,
+-          ) {
++          && !(NodeUtil.isAssignmentOp(assign.getParent()) && assign.getParent().getType() != Token.EXPR_RESULT)
++          && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++          && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent()))) {
+,
+-    private boolean isPrototypePropertyAssign(Node assign) {
++private boolean isPrototypePropertyAssign(Node assign) {
+-          ) {
++          && !NodeUtil.isAssignmentOp(assign.getParent())) {  // Added condition
++
+,
+-          ) {
++      && (assign.getParent() == null || !NodeUtil.isAssignmentOp(assign.getParent())) && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++      && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP
++      && !NodeUtil.isAssignmentOp(assign.getParent()) && assign.getNext() == null && !NodeUtil.isForIn(assign.getParent())) {
+,
+-          ) {
++      && n.getType() == Token.GETPROP && n.getFirstChild().getType() == Token.GETPROP 
++      && assign.getNext() == null && !NodeUtil.isAssignmentOp(assign.getParent())) {

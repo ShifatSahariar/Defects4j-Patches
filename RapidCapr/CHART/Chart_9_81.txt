@@ -1,0 +1,242 @@
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex < startIndex || endIndex >= this.getItemCount()) {
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.data.size() || startIndex < 0) {
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex) {
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex) { // fixed line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex || endIndex >= this.getItemCount()) {
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0) { //proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0) { //alternative fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex < 0 || endIndex >= this.getItemCount() || startIndex < 0) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.getItemCount()) { // suggested alternative fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || startIndex < 0 || endIndex >= this.getItemCount()) { //alternative fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex || endIndex >= this.data.size() || startIndex < 0) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex < startIndex) { // proposed fix line
+,
+-        if (endIndex < 0) {
++        if (endIndex < startIndex) { // fixed line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || startIndex >= this.data.size()) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex || endIndex >= this.getItemCount() || startIndex < 0) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex >= this.data.size() || startIndex > endIndex) { // alternative fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.data.size()) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0) { // alternative fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex < 0 || endIndex >= this.getItemCount()) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex) {
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex >= this.getItemCount() || startIndex > endIndex) { //alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex || endIndex >= this.getItemCount()) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++        if (endIndex < startIndex) {
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex) { // fixed line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex < startIndex) {
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex) {
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex || endIndex >= this.data.size()) { // alternative fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.data.size() || startIndex < 0) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0) {
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex < 0 || endIndex >= getItemCount()) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || startIndex < 0 || endIndex < 0 || endIndex >= this.data.size()) {
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.data.size()) { //proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex >= this.getItemCount()) {
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex >= this.data.size() || startIndex > endIndex) {
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex < 0 || endIndex >= this.getItemCount()) {
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex >= this.data.size()) { // suggested fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0) { // suggested fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex || endIndex >= this.data.size() || startIndex < 0) {
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > this.data.size() - 1 || endIndex < startIndex) {
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex >= this.data.size()) {
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex < startIndex || endIndex >= this.getItemCount()) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.getItemCount() || startIndex < 0) {
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 && startIndex < 0 || endIndex < startIndex) { //proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex < startIndex || endIndex >= getItemCount()) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex || endIndex >= this.getItemCount()) { // alternative fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex >= this.getItemCount() || startIndex > endIndex) { // alternative fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex || endIndex >= this.data.size()) { // proposed fix line
+,
+-        if (endIndex < 0) {
++        if (startIndex > endIndex) {
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || startIndex < 0) {
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex < 0 || endIndex >= this.getItemCount()) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex >= this.getItemCount()) { // fixed line
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex < 0 || endIndex >= this.getItemCount()) { // recommended fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= getItemCount() || startIndex < 0) {
+,
+-        if (endIndex < 0) {
++        if (endIndex < 0 && startIndex < 0 || endIndex < startIndex) {
+,
+-        if (endIndex < 0) {
++        if (endIndex < 0 || startIndex > endIndex) {
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.getItemCount()) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex >= this.getItemCount() || startIndex > endIndex) { // recommended fix line
+,
+-        if (endIndex < 0) {
++if (startIndex < 0 || endIndex < 0 || startIndex > endIndex || endIndex >= this.data.size()) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.data.size()) {
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex < startIndex || endIndex >= this.getItemCount()) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.getItemCount()) { // alternative fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex < startIndex || endIndex >= this.getItemCount()) { //alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex >= this.data.size()) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || startIndex > endIndex || endIndex >= this.data.size()) {
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.getItemCount() || startIndex < 0) { // alternative fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex >= this.getItemCount() || startIndex > endIndex) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.data.size() || startIndex < 0) { // proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 && startIndex < 0 || endIndex < startIndex) {
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex < 0 || endIndex >= getItemCount()) { //alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex >= this.data.size() || startIndex > endIndex) { // alternative proposed fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex < startIndex || endIndex >= this.data.size()) {
+,
+-        if (endIndex < 0) {
++if (endIndex < startIndex || endIndex >= this.getItemCount()) { // alternative fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex < startIndex || endIndex >= getItemCount()) { // alternative fix line
+,
+-        if (endIndex < 0) {
++if (endIndex < 0 || endIndex >= this.getItemCount() || startIndex > endIndex) {
+,
+-        if (endIndex < 0) {
++if (startIndex > endIndex || endIndex < 0 || endIndex >= this.getItemCount()) {
+,
+-        if (endIndex < 0) {
++        if (endIndex < 0 || endIndex < startIndex) {
+,
+-        if (endIndex < 0) {
++        if (startIndex > endIndex) { // fixed line

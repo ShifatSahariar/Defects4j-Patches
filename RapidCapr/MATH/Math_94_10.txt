@@ -1,0 +1,29 @@
+-        if (u * v == 0) {
++if (u == 0 || v == 0 || Math.min(Math.abs(u), Math.abs(v)) == 0) {
+,
+-        if (u * v == 0) {
++if (u == 0 || v == 0 || Math.min(u, v) == 0) {
+,
+-        if (u * v == 0) {
++        if (u == 0 || v == 0) {
+,
+-        if (u * v == 0) {
++if (u == 0 || v == 0 || ((u & v) == Integer.MIN_VALUE)) {
+,
+-        if (u * v == 0) {
++        if (Math.abs(u) == 0 || Math.abs(v) == 0) {
+,
+-        if (u * v == 0) {
++if (u == 0 || v == 0) {
+,
+-        if (u * v == 0) {
++if (Math.min(Math.abs(u), Math.abs(v)) == 0) {
+,
+-        if (u * v == 0) {
++if (u == 0 || v == 0 || Math.abs(u) == 0 || Math.abs(v) == 0) {
+,
+-        if (u * v == 0) {
++if (u == 0 || v == 0 || (u == Integer.MIN_VALUE && v == Integer.MIN_VALUE)) {
+,
+-        if (u * v == 0) {
++if (Math.min(Math.abs(u),Math.abs(v)) == 0) {

@@ -1,0 +1,40 @@
++        if (d > 2.0) {
++        } else {
++            // use the mode as the initial domain
++            ret = 0.0;
++        }
+,
++        if (d <= 2.0) {
++            ret = 0.0;
++        } else {
++        }
+,
++        if (d <= 2.0) {
++            // use some arbitrary value as the initial domain
++            ret = 1.0;
++        } else {
++        }
+,
++        if (d > 2.0) {
++        } else {
++            // use midpoint
++            ret = 0.0;
++        }
+,
++        if (d <= 2.0 || Double.isNaN(d)) {
++            // return a point in the domain
++            ret = 0.0;
++        } else {
++        }
+,
++        if (d <= 2.0) {
++            // use arbitrary value (can't use mean)
++            ret = 1.0;
++        } else {
++        }
+,
++        if (d <= 2.0) {
++            // use default
++            ret = 0.5;
++        } else {
++        }
