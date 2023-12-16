@@ -1,0 +1,357 @@
++ if((refs.size() > 3) == true){
++ return;
+
+,
++ if((refs.size() > 3) == true){
++ continue;
++ }
+
+,
++ if((refs.size() > 3) == true){
++ return;
++ }
+
+,
++ if((refs.size() > 3) == true){
++ continue;
+
+,
+- if (this.aliasCandidates.containsKey(nameNode)) {
++ if (this.aliasCandidates.containsKey(nameNode) && (refs.size() > 3) != true) {
+
+,
+- if (this.aliasCandidates.containsKey(nameNode)) {
++ if ((refs.size() > 3) != true && this.aliasCandidates.containsKey(nameNode)) {
+
+,
++ if((referenceInfo.references.size() > 3) == true){
++ return;
+
+,
++ if((referenceInfo.references.size() > 3) == true){
++ return;
++ }
+
+,
++ if((declaration == init || firstRefAfterInit == refCount) == false){
++ return;
++ }
+
+,
++ if((refCount > 3) == true){
++ return;
++ }
+
+,
++ if((declaration == init || firstRefAfterInit == refCount) == false){
++ return;
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((referenceInfo.references.size() > 3) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
++ if((refCount > 3) == true){
++ refCount=3;
++ }else{
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((declaration == init || firstRefAfterInit == refCount) != false && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((refCount > 3) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((refs.size() > 3) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (declaration == init || firstRefAfterInit == refCount) != false) {
+
+,
++ if(!((refCount > 3) == true)){
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (referenceInfo.references.size() > 3) != true) {
+
+,
++ if((refCount > 3) == true){
++ return;
+
+,
++ if((refCount > 3) == true){
++ refCount=this.aliasCandidates.size();
++ }else{
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (refs.size() > 3) != true) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (refCount > 3) != true) {
+
+,
++ if((refCount > 3) == true){
++ refCount=this.staleVars.size();
++ }else{
+
+,
++ if((refCount > 3) == true){
++ refCount=candidate.refInfo.references.size();
++ }else{
+
+,
++ if((firstRefAfterInit > candidate.refInfo.references.size()) == true){
++ return;
++ }
+
+,
++ if((firstRefAfterInit - 1 >= candidate.refInfo.references.size()) == true){
++ return;
++ }
+
+,
++ if((firstRefAfterInit - 1 == candidate.refInfo.references.size()) == true){
++ return;
++ }
+
+,
++ if((refCount > 3) == true){
++ refCount=refs.size();
++ }else{
+
+,
++ if((refCount > 3) == true){
++ refCount=referenceInfo.references.size();
++ }else{
+
+,
++ if((declaration == init || firstRefAfterInit == refCount) == false){
++ continue;
++ }
+
+,
+- if (this.aliasCandidates.containsKey(nameNode)) {
++ if (this.aliasCandidates.containsKey(nameNode) && (declaration == init || firstRefAfterInit == refCount) != false) {
+
+,
+- if (this.aliasCandidates.containsKey(nameNode)) {
++ if ((declaration == init || firstRefAfterInit == refCount) != false && this.aliasCandidates.containsKey(nameNode)) {
+
+,
++ if((declaration == init || firstRefAfterInit == refCount) == false){
++ continue;
+
+,
++ if((refCount > 3) == true){
++ continue;
++ }
+
+,
++ if((referenceInfo.references.size() > 3) == true){
++ continue;
++ }
+
+,
+- if (this.aliasCandidates.containsKey(nameNode)) {
++ if (this.aliasCandidates.containsKey(nameNode) && (refCount > 3) != true) {
+
+,
++ if((refCount > 3) == true){
++ continue;
+
+,
+- if (this.aliasCandidates.containsKey(nameNode)) {
++ if ((referenceInfo.references.size() > 3) != true && this.aliasCandidates.containsKey(nameNode)) {
+
+,
+- if (this.aliasCandidates.containsKey(nameNode)) {
++ if ((refCount > 3) != true && this.aliasCandidates.containsKey(nameNode)) {
+
+,
+- if (this.aliasCandidates.containsKey(nameNode)) {
++ if (this.aliasCandidates.containsKey(nameNode) && (referenceInfo.references.size() > 3) != true) {
+
+,
++ if((referenceInfo.references.size() > 3) == true){
++ continue;
+
+,
++ if((i == candidate.refInfo.references.size()) == true){
++ return;
++ }
+
+,
++ if((i >= candidate.refInfo.references.size()) == true){
++ return;
++ }
+
+,
++ if((refCount > candidate.refInfo.references.size()) == true){
++ return;
++ }
+
+,
++ if((referenceInfo.references.size() > candidate.refInfo.references.size()) == true){
++ return;
++ }
+
+,
++ if((refs.size() > candidate.refInfo.references.size()) == true){
++ return;
++ }
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (firstRefAfterInit - 1 >= candidate.refInfo.references.size()) != true) {
+
+,
++ if((firstRefAfterInit > candidate.refInfo.references.size()) == true){
++ firstRefAfterInit=this.staleVars.size();
++ }else{
+
+,
++ if((firstRefAfterInit - 1 >= candidate.refInfo.references.size()) == true){
++ return;
+
+,
++ if((firstRefAfterInit > candidate.refInfo.references.size()) == true){
++ firstRefAfterInit=this.aliasCandidates.size();
++ }else{
+
+,
++ if(!((firstRefAfterInit > candidate.refInfo.references.size()) == true)){
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (firstRefAfterInit - 1 == candidate.refInfo.references.size()) != true) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (firstRefAfterInit > candidate.refInfo.references.size()) != true) {
+
+,
++ if((firstRefAfterInit > candidate.refInfo.references.size()) == true){
++ return;
+
+,
++ if((firstRefAfterInit > candidate.refInfo.references.size()) == true){
++ firstRefAfterInit=candidate.refInfo.references.size();
++ }else{
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((firstRefAfterInit - 1 >= candidate.refInfo.references.size()) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((firstRefAfterInit - 1 == candidate.refInfo.references.size()) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
++ if((firstRefAfterInit - 1 == candidate.refInfo.references.size()) == true){
++ return;
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((firstRefAfterInit > candidate.refInfo.references.size()) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
++ if(!((i == candidate.refInfo.references.size()) == true)){
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (i >= candidate.refInfo.references.size()) != true) {
+
+,
++ if(!((i >= candidate.refInfo.references.size()) == true)){
+
+,
++ if((i >= candidate.refInfo.references.size()) == true){
++ i=candidate.refInfo.references.size();
++ }else{
+
+,
++ if((i == candidate.refInfo.references.size()) == true){
++ i=candidate.refInfo.references.size();
++ }else{
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((i >= candidate.refInfo.references.size()) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (i == candidate.refInfo.references.size()) != true) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((i == candidate.refInfo.references.size()) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
++ if((i == candidate.refInfo.references.size()) == true){
++ return;
+
+,
++ if((i >= candidate.refInfo.references.size()) == true){
++ return;
+
+,
++ if((refCount > candidate.refInfo.references.size()) == true){
++ refCount=this.staleVars.size();
++ }else{
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((referenceInfo.references.size() > candidate.refInfo.references.size()) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
++ if((refCount > candidate.refInfo.references.size()) == true){
++ refCount=candidate.refInfo.references.size();
++ }else{
+
+,
++ if((refCount > candidate.refInfo.references.size()) == true){
++ refCount=this.aliasCandidates.size();
++ }else{
+
+,
++ if(!((refCount > candidate.refInfo.references.size()) == true)){
+
+,
++ if((referenceInfo.references.size() > candidate.refInfo.references.size()) == true){
++ return;
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (refCount > candidate.refInfo.references.size()) != true) {
+
+,
++ if((refs.size() > candidate.refInfo.references.size()) == true){
++ return;
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((refs.size() > candidate.refInfo.references.size()) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if ((refCount > candidate.refInfo.references.size()) != true && !this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (refs.size() > candidate.refInfo.references.size()) != true) {
+
+,
++ if((refCount > candidate.refInfo.references.size()) == true){
++ return;
+
+,
+- if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias)) {
++ if (!this.staleVars.contains(candidate.alias) && !this.isVarInlineForbidden(candidate.alias) && (referenceInfo.references.size() > candidate.refInfo.references.size()) != true) {
+
+,

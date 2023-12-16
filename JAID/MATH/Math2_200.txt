@@ -1,0 +1,1000 @@
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,

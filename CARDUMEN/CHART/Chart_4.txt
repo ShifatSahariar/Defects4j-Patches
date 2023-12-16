@@ -1,5 +1,0 @@
--                    Collection c = r.getAnnotations();
-+                    java.util.Collection c = java.util.Collections.unmodifiableCollection(annotations);
-,
--                    Collection c = r.getAnnotations();
-+                    java.util.Collection c = java.util.Collections.unmodifiableCollection(includedAnnotations);

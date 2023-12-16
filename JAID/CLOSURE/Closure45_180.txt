@@ -1,0 +1,720 @@
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || assignedToUnknownValue == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign || assignedToUnknownValue) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign == assignedToUnknownValue) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue || assign.isPropertyAssign) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes || assignedToUnknownValue) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue == assign.isPropertyAssign) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes == assignedToUnknownValue) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign && assignedToUnknownValue) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue && assign.isPropertyAssign) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes && assignedToUnknownValue) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue || this.referenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue == this.referenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue || this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue == this.assignsByVar.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue || this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue == this.maybeUnreferenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue == var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue && var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue && this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue && this.referenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue && this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue || var.getParentNode().isVar()) == true) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if ((null == var.getInitialValue()) != true && var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent()) && (null == var.getInitialValue()) != true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue && current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue == current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assignedToUnknownValue || current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.size() == 1) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.size() > 1) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.size() > this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() == 1) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() == var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() >= this.assignsByVar.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.size() == this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (null == var.getInitialValue()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() == this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign == var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current >= this.referenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() >= this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() > this.assignsByVar.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() > 1) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes == var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (var.getParentNode().isVar() == current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() || var.getParentNode().isVar()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() == this.assignsByVar.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() == current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (var.getParentNode().isVar() && current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() || this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() && var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() >= 1) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (var.getParentNode().isVar() || this.maybeUnreferenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (var.getParentNode().isVar() == this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.isEmpty() == var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() && current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.size() >= this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || this.referenced.isEmpty() == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.maybeUnreferenced.size() == 1) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.maybeUnreferenced.size() > 1) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign || this.referenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign || var.getParentNode().isVar()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.isEmpty() || var.getParentNode().isVar()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign == this.referenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign == var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes || this.referenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() || this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() > 0) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign || this.referenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() == this.maybeUnreferenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes || var.getParentNode().isVar()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign || var.getParentNode().isVar()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || var.getParentNode().isVar() == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() == 0) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current == this.referenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes == this.referenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() == this.assignsByVar.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (var.getParentNode() == var.getInitialValue()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign == this.referenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (var.getInitialValue() == var.getParentNode().getParent()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign == current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign && this.referenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current >= this.assignsByVar.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign && current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes || hasPropertyAssign) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign && var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current == 0) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign || this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current >= 1) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign == assign.isPropertyAssign) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current > 0) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign || this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes == hasPropertyAssign) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign == this.maybeUnreferenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || hasPropertyAssign == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() > this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign || assign.isPropertyAssign) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign == this.assignsByVar.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current > this.referenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current == this.assignsByVar.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current > this.assignsByVar.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current > 1) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current == 1) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.size() >= 0) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign && current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes == this.maybeUnreferenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes || current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() || current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes == this.assignsByVar.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || changes == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.maybeUnreferenced.size() > 0) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes == assign.isPropertyAssign) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (null == this.referenced) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.size() == 0) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign && this.referenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (null == var.getParentNode()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign && this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.size() >= 0) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.isEmpty() == current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.size() >= 1) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (null == var.getParentNode().getParent()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (var.getParentNode().isVar() || current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes || this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.isEmpty() || current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || assign.isPropertyAssign == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.isEmpty() && var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (null == this.assignsByVar) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.isEmpty() == this.maybeUnreferenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign || this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || this.assignsByVar.isEmpty() == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign || current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (var.getParentNode().isVar() && this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (null == this.maybeUnreferenced) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current == this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.isEmpty() && current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.maybeUnreferenced.size() == 0) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.maybeUnreferenced.isEmpty() && current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.isEmpty() && this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes && current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign || this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.maybeUnreferenced.isEmpty() || current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes && var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes && this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || this.maybeUnreferenced.isEmpty() == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.maybeUnreferenced.size() >= 0) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current >= 0) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes && this.referenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes && hasPropertyAssign) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign == this.maybeUnreferenced.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes == current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign && this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (null == var) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign && var.getParentNode().isVar()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.isEmpty() || this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.maybeUnreferenced.isEmpty() == current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (null == assign) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes && this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes && assign.isPropertyAssign) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign == current < this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current > this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign == this.assignsByVar.isEmpty()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign && this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.maybeUnreferenced.size() >= 1) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (current >= this.maybeUnreferenced.size()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() && this.maybeUnreferenced.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.referenced.isEmpty() && this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes || assign.isPropertyAssign) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign || current < this.maybeUnreferenced.size()) == true) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (assign.isPropertyAssign && this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (changes || this.assignsByVar.isEmpty()) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (hasPropertyAssign && assign.isPropertyAssign) == false) {
+
+,
+- if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true)) {
++ if (!NodeUtil.isLiteralValue(assign.assignNode.getLastChild(),true) || (this.assignsByVar.size() > 0) == true) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent()) && (this.referenced.size() >= this.maybeUnreferenced.size()) != true) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if ((this.referenced.size() == this.maybeUnreferenced.size()) != true && var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent()) && (this.referenced.size() == this.maybeUnreferenced.size()) != true) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent()) && (current >= this.referenced.size()) != false) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if ((this.referenced.size() >= this.maybeUnreferenced.size()) != true && var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if ((current >= this.referenced.size()) != false && var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent()) && (current == this.referenced.size()) != false) {
+
+,
+- if (var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
++ if ((current == this.referenced.size()) != false && var.getParentNode().isVar() && !NodeUtil.isForIn(var.getParentNode().getParent())) {
+
+,

@@ -1,0 +1,771 @@
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ }else{
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ }else{
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
++ }
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+
+,
+- w[2]=size.width;
+
+,
+- w[2]=size.width;
++ }
+
+,
+- w[2]=size.width;
++ }else{
+
+,
+- h[3]=h[2];
++ }else{
+
+,
+- h[3]=h[2];
++ }
+
+,
+- h[3]=h[2];
+
+,
+- h[3]=h[2];
++ this.rightBlock=null;
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ this.rightBlock=null;
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length > 2) != true) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length == 3) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length == 3) != false) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length > 2) == true)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length > 3) != true && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length == 2) != false && this.rightBlock != null) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length == 2) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length > 2) != true && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length == 2) != false) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length > 3) == true)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length > 3) != true) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (h.length > 5) != false) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((h.length > 5) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length == 3) != false && this.rightBlock != null) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((h.length > 5) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (h.length == w.length) != true) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((h.length > w.length) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (h.length > w.length) != false) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((h.length == w.length) == true)){
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((h.length > w.length) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((h.length == w.length) != true && this.rightBlock != null) {
+
+,
+- w[2]=size.width;
++ if(!((null == g2.getTransform()) == false)){
+
+,
+- w[2]=size.width;
++ if((null == g2.getTransform()) == false){
++ try {
++ g2.getTransform().invert();
++ }
++ catch (Throwable e) {
++ }
++ }else{
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (null != this.leftBlock && null != this.bottomBlock) != false) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((null != this.topBlock && null != this.centerBlock) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((null != this.bottomBlock && null != this.centerBlock) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (null != this.topBlock && null != this.centerBlock) != false) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((null != this.leftBlock && null != this.bottomBlock) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (null != this.bottomBlock && null != this.centerBlock) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (null == h) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((null == h) != false && this.leftBlock != null) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((null == h) == false)){
+
+,
+- w[2]=size.width;
++ this.rightBlock=null;
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length == 2) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length == 1) != false && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length == 0) != false && this.leftBlock != null) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length > 0) == true)){
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length == 0) == false)){
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length == 1) == false)){
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length > 1) != true) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length == 0) != false) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length > 1) == true)){
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length == 2) != false && this.leftBlock != null) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length > 2) == true)){
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length > 2) != true) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length == 2) == false)){
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length > 0) != true && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length > 0) != true) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length > 2) != true && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length > 1) != true && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length == 1) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((h.length > w.length) != false && this.leftBlock != null) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((h.length > w.length) == false)){
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (h.length > w.length) != false) {
+
+,
++ this.rightBlock=null;
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (null != this.topBlock && null != this.centerBlock) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((null != this.topBlock && null != this.centerBlock) != false && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((null != this.topBlock && null != this.bottomBlock) != false && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (null != this.topBlock && null != this.bottomBlock) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length > 5) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length > 5) != false && this.leftBlock != null) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length > 5) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (null == g2.getFontRenderContext()) != false) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((null == g2.getFontRenderContext()) != false && this.rightBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length == 4) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length == 3) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length == 3) != false && this.leftBlock != null) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length > 4) == true)){
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((null == w) != false && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length > 4) != true && this.leftBlock != null) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if((null == g2.getTransform()) == false){
++ try {
++ g2.getTransform().invert();
++ catch (Throwable e) {
++ }else{
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length > 3) == true)){
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((null == g2.getTransform()) == false)){
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((null == g2.getTransform()) != false && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length > 3) != true) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length == 3) == false)){
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((w.length == 4) == false)){
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length == 4) != false && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (null == w) != false) {
+
+,
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if(!((null == w) == false)){
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if ((w.length > 3) != true && this.leftBlock != null) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (null == g2.getTransform()) != false) {
+
+,
+- if (this.leftBlock != null) {
+- c3=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth()),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[2]=size.width;
++ if (this.leftBlock != null && (w.length > 4) != true) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if((null == g2.getTransform()) == false){
++ try {
++ g2.getTransform().invert();
++ catch (Throwable e) {
++ }else{
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((null == g2.getStroke()) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length > 0) != true) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (null == g2.getStroke()) != false) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length > 1) == true)){
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((null == g2.getTransform()) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length > 0) != true && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length > 1) != true && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((null == g2) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((null == g2.getBackground()) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length == 4) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length > 4) != true) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length == 1) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (null == w) != false) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length == 1) != false) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length == 0) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length > 1) != true) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((null == w) != false && this.rightBlock != null) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if((null == g2) == false){
++ g2=null;
++ }else{
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length == 0) != false && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length == 1) != false && this.rightBlock != null) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((null == w) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((w.length > 4) != true && this.rightBlock != null) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (null == g2) != false) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (null == g2.getBackground()) != false) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length == 4) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length == 0) != false) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length > 4) == true)){
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((null == g2) == false)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (null == g2.getTransform()) != false) {
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if (this.rightBlock != null && (w.length == 4) != false) {
+
+,
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if(!((w.length > 0) == true)){
+
+,
+- if (this.rightBlock != null) {
+- c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+- w[3]=size.width;
++ if ((null == g2.getTransform()) != false && this.rightBlock != null) {
+
+,
+- w=new double[5];
++ this.leftBlock=null;
+
+,
+- w=new double[5];
++ if((this.leftBlock == this.centerBlock) == false){
++ this.leftBlock=null;
++ }
+
+,
+- h=new double[5];
++ if((this.leftBlock == this.centerBlock) == false){
++ this.leftBlock=null;
++ }
+
+,
+- h=new double[5];
++ this.leftBlock=null;
+
+,
+- w=new double[5];
++ if((this.leftBlock == this.bottomBlock) == false){
++ this.leftBlock=null;
++ }
+
+,
+- w[2]=size.width;
++ if((size.height > constraint.getHeight()) == false){
++ size.height=constraint.getHeight();
++ }else{
+
+,
+- w[2]=size.width;
++ if(!((size.height > constraint.getHeight()) == false)){
+
+,

@@ -1,0 +1,85 @@
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=date.getDay();
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=date.getYear();
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=date.getDate();
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=date.getMinutes();
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=date.getTimezoneOffset();
++ }else{
+
+,
++ if(!((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true)){
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=date.getHours();
++ }else{
+
+,
+- if (date.getTime() != time) {
++ if (date.getTime() != time && (minutes == org.apache.commons.lang.time.DateUtils.fields.length) != true) {
+
+,
+- if (date.getTime() != time) {
++ if ((minutes == org.apache.commons.lang.time.DateUtils.fields.length) != true && date.getTime() != time) {
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=date.getSeconds();
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=date.getMonth();
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=org.apache.commons.lang.time.DateUtils.fields.length;
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=val.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=val.getFirstDayOfWeek();
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=val.getWeekYear();
++ }else{
+
+,
++ if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++ minutes=val.getWeeksInWeekYear();
++ }else{
+
+,
++ if((done == 500 > millisecs) == true){
++ done=val.isWeekDateSupported();
+
+,
++ if((done || 500 > millisecs) == false){
++ done=val.isLenient();
++ }else{
+
+,

@@ -1,0 +1,108 @@
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (staleInputs || options.skipAllPasses) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (staleInputs == options.skipAllPasses) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || ((null != this.jsRoot) == options.closurePass) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.closurePass == (null != this.externsRoot)) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || options.skipAllPasses == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (devMode || options.skipAllPasses) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (devMode == options.skipAllPasses) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses == options.transformAMDToCJSModules) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses || options.transformAMDToCJSModules) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !false && options.closurePass) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses || options.processCommonJSModules) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses == options.processCommonJSModules) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses == (null != options.sourceMapOutputPath)) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses || null != options.sourceMapOutputPath) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses == (null != options.nameReferenceReportPath)) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (this.hasErrors() || options.skipAllPasses) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses || null != options.nameReferenceReportPath) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (this.hasErrors() == options.skipAllPasses) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (this.isIdeMode() == options.skipAllPasses) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (this.isIdeMode() || options.skipAllPasses) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses || this.inputs.isEmpty()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses == this.inputs.isEmpty()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses || this.modules.isEmpty()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses == this.modules.isEmpty()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses && null == this.moduleGraph) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses || this.externs.isEmpty()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && !options.skipAllPasses && options.closurePass || (options.skipAllPasses == this.externs.isEmpty()) == false) {
+
+,

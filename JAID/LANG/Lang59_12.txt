@@ -1,0 +1,56 @@
++ if((strLen > this.size + width) == true){
++ strLen=this.size + width;
++ }
+
+,
++ if((strLen == this.size + width) == false){
++ strLen=this.size + width;
++ }
+
+,
++ if((strLen >= this.size + width) == true){
++ strLen=this.size + width;
++ }
+
+,
++ strLen=this.size + width;
+
+,
+- this.buffer[this.size + strLen + i]=padChar;
++ if((strLen > this.size + width) == true){
++ strLen=this.size + width;
+
+,
+- this.buffer[this.size + strLen + i]=padChar;
++ if((strLen >= this.size + width) == true){
++ strLen=this.size + width;
+
+,
++ if((width == strLen) == false){
++ strLen=width;
++ }
+
+,
++ if((width >= strLen) == false){
++ strLen=width;
++ }
+
+,
++ strLen=width;
+
+,
++ if((width > strLen) == false){
++ strLen=width;
++ }
+
+,
+- this.buffer[this.size + strLen + i]=padChar;
++ if((width >= strLen) == false){
++ strLen=width;
+
+,
+- this.buffer[this.size + strLen + i]=padChar;
++ if((width > strLen) == false){
++ strLen=width;
+
+,

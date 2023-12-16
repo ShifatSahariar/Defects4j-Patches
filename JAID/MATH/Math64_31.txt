@@ -1,0 +1,155 @@
++ if((1.0e-4 <= ratio || delta <= this.parRelativeTolerance * xNorm) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((preRed > this.lmPar * lmNorm * lmNorm / pc2) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((preRed >= this.lmPar * lmNorm * lmNorm / pc2) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((2 * coeff2 >= this.lmPar * lmNorm * lmNorm / pc2) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((2 * coeff2 + coeff1 > this.lmPar * lmNorm * lmNorm / pc2) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((2 * coeff2 + coeff1 >= this.lmPar * lmNorm * lmNorm / pc2) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((0 > actRed && preRed <= this.costRelativeTolerance) == true){
++ return result496326828=previous;
++ }
+
+,
++ if((0 > actRed == 2.0 >= ratio) == true){
++ return result496326828=previous;
++ }
+
+,
++ if((0 == this.lmPar || 1.0e-4 <= ratio) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((dirDer >= actRed / preRed) == true){
++ return result496326828=previous;
++ }
+
+,
++ if((dirDer > actRed / preRed) == true){
++ return result496326828=previous;
++ }
+
+,
++ if((ratio >= 0.5 * actRed) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((0.5 * dirDer > actRed / preRed) == true){
++ return result496326828=previous;
++ }
+
+,
++ if((ratio >= 0.5 * actRed + dirDer) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((0 > actRed == 2.2204e-16 >= preRed) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((0.5 * dirDer >= actRed / preRed) == true){
++ return result496326828=previous;
++ }
+
+,
++ if((ratio > 0.5 * actRed + dirDer) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((1.0e-4 <= ratio || 2.2204e-16 >= preRed) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((actRed / preRed > 0.5 * actRed + dirDer) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((actRed / preRed >= 0.5 * actRed + dirDer) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((1.0e-4 > ratio == 2.2204e-16 >= preRed) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((1.0e-4 <= ratio == 2.2204e-16 >= preRed) == true){
++ return result496326828=previous;
++ }
+
+,
++ if((0 > actRed || maxCosine <= this.orthoTolerance) == true){
++ return result496326828=previous;
++ }
+
+,
++ if((0 > actRed == maxCosine <= this.orthoTolerance) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((coeff2 >= this.lmPar * lmNorm * lmNorm / pc2) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((coeff1 + coeff2 >= this.lmPar * lmNorm * lmNorm / pc2) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((coeff1 + coeff2 > this.lmPar * lmNorm * lmNorm / pc2) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((ratio > dirDer) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((ratio >= dirDer) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((ratio >= 0.5 * dirDer) == false){
++ return result496326828=previous;
++ }
+
+,
++ if((ratio > 0.5 * dirDer) == false){
++ return result496326828=previous;
++ }
+
+,

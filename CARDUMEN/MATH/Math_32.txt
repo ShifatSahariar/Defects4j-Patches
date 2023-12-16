@@ -1,5 +1,0 @@
--            double inverse  = 1 / FastMath.sqrt(x * x + z * z);
-+            double inverse = (x) * (x);
-,
--            double inverse  = 1 / FastMath.sqrt(x * x + z * z);
-+            double inverse = org.apache.commons.math3.util.FastMath.max(x, x);

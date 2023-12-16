@@ -1,0 +1,321 @@
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v - u == 1) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v - u > 1) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v - u >= 1) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((v >= 1) == true)){
+
+,
++ if(!((u == 1) == false)){
+
+,
++ if(!((v > 1) == true)){
+
+,
++ if(!((v == 1) == false)){
+
+,
++ if(!((u == v) == false)){
+
+,
++ if(!((u > v) == false)){
+
+,
++ if(!((u >= v) == false)){
+
+,
++ if(!((u > 1) == false)){
+
+,
++ if(!((u >= 1) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if (((v - u) / 2 == 1) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if (((v - u) / 2 > 1) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if (((v - u) / 2 >= 1) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((v == v - u) == false)){
+
+,
++ if(!((u == v - u) == false)){
+
+,
++ if(!((v > v - u) == true)){
+
+,
++ if(!((v >= v - u) == true)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if (false || Math.abs(v) <= 1) {
+
+,
++ if((u > v - u) == false){
++ u=v - u;
++ }else{
+
+,
++ if((u > v - u) == false){
++ u=v - u;
+
+,
++ if(!((u > v - u) == false)){
+
+,
++ if((u >= v - u) == false){
++ u=v - u;
+
+,
++ if((u >= v - u) == false){
++ u=v - u;
++ }else{
+
+,
++ if(!((u >= v - u) == false)){
+
+,
++ if(!((v == u / 2) == false)){
+
+,
++ if(!((v >= u / 2) == true)){
+
+,
++ if(!((v > u / 2) == true)){
+
+,
++ if(!((u == (v - u) / 2) == false)){
+
+,
++ if(!((v == (v - u) / 2) == false)){
+
+,
++ if(!((v >= (v - u) / 2) == true)){
+
+,
++ if(!((v > (v - u) / 2) == true)){
+
+,
++ if(!((u >= (v - u) / 2) == false)){
+
+,
++ if(!((u > (v - u) / 2) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u == 31) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((v == 31) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u == 0) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v >= 0) != true && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v == 31) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v > 0) != true && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((v == 0) == false)){
+
+,
++ if(!((v > 0) == true)){
+
+,
++ if(!((u == 0) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v == 0) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((v >= 0) == true)){
+
+,
++ if(!((u == 31) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u > 31) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((v >= 2) == true)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v >= 2) != true && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v >= 31) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u >= 31) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((v >= 31) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v > 31) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((u > 31) == false)){
+
+,
++ if(!((v > 31) == false)){
+
+,
++ if(!((u >= 31) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u > 2) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((u > 2) == false)){
+
+,
++ if(!((u == 2) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u == 2) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((u >= 2) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u >= 2) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v > 2) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((v > 2) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u > 0) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((u >= 0) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u >= 0) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((u > 0) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((v == 2) != true && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((v == 2) == true)){
+
+,
++ if((v == 2) == true){
++ v=2;
++ }else{
+
+,
++ if((v >= 2) == true){
++ v=2;
++ }else{
+
+,
++ if(!((u == u / 2) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((0 < v) != true && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u == u / 2) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u / 2 == 2) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u / 2 > 2) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if(!((u > u / 2) == false)){
+
+,
++ if(!((u >= u / 2) == false)){
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((0 < u) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u > u / 2) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u >= u / 2) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u / 2 == 31) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u / 2 > 31) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u / 2 >= 31) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u / 2 == 0) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
+- if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++ if ((u / 2 >= 0) != false && Math.abs(u) <= 1 || Math.abs(v) <= 1) {
+
+,
++ if((u / 2 == 0) == false){
++ return result104431=v;
++ }
+
+,
++ if((u / 2 >= 0) == false){
++ return result104431=v;
++ }
+
+,

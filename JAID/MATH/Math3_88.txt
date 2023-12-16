@@ -1,0 +1,456 @@
+- prodHighNext=prodHigh[1];
++ if((prodHigh.length == 1) == true){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((prodHigh.length > 1) == false){
++ return result1325958191=prodHighCur;
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((prodHigh.length == 1) == true){
++ return result1325958191=prodHighCur;
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((prodHigh.length > 1) == false){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len > 1) == false){
++ return result1325958191=prodHighCur;
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len == 1) == true){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len > 1) == false){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len == 1) == true){
++ return result1325958191=prodHighCur;
++ }
+
+,
+- prodHighCur=prodHigh[0];
++ if((prodHigh.length == 1) == true){
++ }
+
+,
+- prodHighCur=prodHigh[0];
++ if((prodHigh.length > 1) == false){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len - 1 >= 1) == false){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len - 1 > 1) == false){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len - 1 >= 1) == false){
++ return result1325958191=prodHighCur;
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len - 1 > 1) == false){
++ return result1325958191=prodHighCur;
++ }
+
+,
+- prodHighCur=prodHigh[0];
++ if((len - 1 > 0) == false){
++ }
+
+,
+- prodHighCur=prodHigh[0];
++ if((len - 1 == 0) == true){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len - 1 == 0) == true){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len - 1 > 0) == false){
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len - 1 > 0) == false){
++ return result1325958191=prodHighCur;
++ }
+
+,
+- prodHighNext=prodHigh[1];
++ if((len - 1 == 0) == true){
++ return result1325958191=prodHighCur;
++ }
+
+,
++ if((prodHigh.length > 1) == false){
++ }
+
+,
++ if((prodHigh.length == 1) == true){
++ return result1325958191=ai * bi;
++ }
+
+,
++ if((prodHigh.length > 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
++ if((prodHigh.length == 1) == true){
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((prodHigh.length > 1) == false){
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((prodHigh.length == 1) == true){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((prodHigh.length == 1) == true){
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((prodHigh.length > 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((prodHigh.length == 1) == true){
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((prodHigh.length > 1) == false){
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((prodHigh.length > 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((prodHigh.length == 1) == true){
++ return result1325958191=ai * bi;
++ }
+
+,
+- ai=a[i];
++ if((prodHigh.length > 1) == false){
++ }
+
+,
+- ai=a[i];
++ if((len - 1 > 1) == false){
++ }
+
+,
+- ai=a[i];
++ if((len == 1) == true){
++ }
+
+,
+- ai=a[i];
++ if((len - 1 == 0) == true){
++ }
+
+,
+- ai=a[i];
++ if((prodHigh.length == 1) == true){
++ }
+
+,
+- ai=a[i];
++ if((len > 1) == false){
++ }
+
+,
+- ai=a[i];
++ if((len - 1 >= 1) == false){
++ }
+
+,
+- ai=a[i];
++ if((len - 1 > 0) == false){
++ }
+
+,
++ if((len - 1 > 0) == false){
++ }
+
+,
++ if((len - 1 >= 1) == false){
++ }
+
+,
++ if((len == 1) == true){
++ }
+
+,
++ if((len > 1) == false){
++ }
+
+,
++ if((len - 1 == 0) == true){
++ }
+
+,
++ if((len - 1 > 1) == false){
++ }
+
+,
+- bi=b[i];
++ if((len - 1 > 0) == false){
++ }
+
+,
+- bi=b[i];
++ if((len - 1 >= 1) == false){
++ }
+
+,
+- bi=b[i];
++ if((len - 1 > 1) == false){
++ }
+
+,
+- bi=b[i];
++ if((prodHigh.length > 1) == false){
++ }
+
+,
+- bi=b[i];
++ if((len > 1) == false){
++ }
+
+,
+- bi=b[i];
++ if((len == 1) == true){
++ }
+
+,
+- bi=b[i];
++ if((prodHigh.length == 1) == true){
++ }
+
+,
+- bi=b[i];
++ if((len - 1 == 0) == true){
++ }
+
+,
++ if((len - 1 >= 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
++ if((len - 1 == 0) == true){
++ return result1325958191=ai * bi;
++ }
+
+,
++ if((len == 1) == true){
++ return result1325958191=ai * bi;
++ }
+
+,
++ if((len - 1 > 0) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
++ if((len > 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
++ if((len - 1 > 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len - 1 > 0) == false){
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len - 1 >= 1) == false){
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len - 1 > 0) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len - 1 == 0) == true){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len == 1) == true){
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len - 1 > 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len > 1) == false){
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len - 1 >= 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len - 1 > 1) == false){
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len > 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len - 1 == 0) == true){
++ }
+
+,
+- prodHigh[i]=ai * bi;
++ if((len == 1) == true){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len - 1 >= 1) == false){
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len - 1 > 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len == 1) == true){
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len - 1 == 0) == true){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len > 1) == false){
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len - 1 > 0) == false){
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len - 1 > 1) == false){
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len == 1) == true){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len > 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len - 1 >= 1) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len - 1 > 0) == false){
++ return result1325958191=ai * bi;
++ }
+
+,
+- prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);
++ if((len - 1 == 0) == true){
++ }
+
+,
+- prodHighCur=prodHigh[0];
++ if((len > 1) == false){
++ }
+
+,
+- prodHighCur=prodHigh[0];
++ if((len - 1 > 1) == false){
++ }
+
+,
+- prodHighCur=prodHigh[0];
++ if((len - 1 >= 1) == false){
++ }
+
+,
+- prodHighCur=prodHigh[0];
++ if((len == 1) == true){
++ }
+
+,

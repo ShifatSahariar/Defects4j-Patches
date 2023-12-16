@@ -1,0 +1,1121 @@
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null && null != rhsValue) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null || null == valueType) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null || null == valueType) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null && null != rhsValue) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((info != null) == (null != rhsValue)) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((info != null) == (null != rhsValue)) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null || null != rhsValue) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null || null != rhsValue) != true) {
+
+,
++ if((null == valueType && rhsValue.isFunction()) == true){
++ return;
++ }
+
+,
++ if(((null == valueType) == rhsValue.isFunction()) == true){
++ return;
++ }
+
+,
++ if((valueType == rhsValue.getJSType()) == false){
++ valueType=null;
++ }else{
+
+,
++ if(!((valueType == rhsValue.getJSType()) == false)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((null == valueType) == this.stubDeclarations.isEmpty()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == valueType || t.getInput().isExtern()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == valueType || t.getInput().isExtern()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((null == valueType) == this.stubDeclarations.isEmpty()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == valueType || this.stubDeclarations.isEmpty()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((null != rhsValue) == (null != t.getInput())) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != rhsValue && t.getInput().isExtern()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == valueType && this.stubDeclarations.isEmpty()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == valueType || null != t.getInput()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == valueType || null != t.getInput()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != rhsValue || this.stubDeclarations.isEmpty()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != rhsValue || this.stubDeclarations.isEmpty()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != rhsValue && t.getInput().isExtern()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == valueType || this.stubDeclarations.isEmpty()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == valueType && this.stubDeclarations.isEmpty()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((null != rhsValue) == (null != t.getInput())) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != rhsValue || t.getInput().isExtern()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != rhsValue || t.getInput().isExtern()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((null != rhsValue) == t.getInput().isExtern()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((null != rhsValue) == t.getInput().isExtern()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((null == valueType) == t.getInput().isExtern()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((null == valueType) == t.getInput().isExtern()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == valueType && t.getInput().isExtern()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == valueType && t.getInput().isExtern()) != false && valueType == null && rhsValue != null) {
+
+,
++ if(((null == valueType) == rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if((null == valueType && rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((info != null) == (null == valueType)) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null && null == valueType) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((info != null) == (null == valueType)) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null && null == valueType) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == valueType) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == valueType) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == t.getSourceName()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == t.getSourceName()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((n == rhsValue) != false && valueType == null && rhsValue != null) {
+
+,
++ if(!((n == rhsValue) == false)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (n == rhsValue) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != valueType || null == valueType) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != valueType || null == valueType) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != valueType && null == valueType) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != valueType && null == valueType) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != rhsValue && propName.isEmpty()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != rhsValue && propName.isEmpty()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((null != rhsValue) == (null != ownerName)) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((null != rhsValue) == (null != ownerName)) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null && null != valueType) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == valueType || ownerName.isEmpty()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == valueType || ownerName.isEmpty()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.isEmpty() && null != rhsValue) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.isEmpty() && null != rhsValue) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null && null != valueType) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((null != valueType) == t.getInput().isExtern()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((null != valueType) == t.getInput().isExtern()) != true && valueType == null && rhsValue != null) {
+
+,
++ if(((null != valueType) == rhsValue.isFunction()) == false){
++ return;
++ }
+
+,
++ if((null != valueType || rhsValue.isFunction()) == true){
++ return;
++ }
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((info != null) == rhsValue.isFunction()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == n) != false && valueType == null && rhsValue != null) {
+
+,
++ if(!((null == t) == false)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == n) != false) {
+
+,
++ if(!((null == n) == false)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == t) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == t) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null || t.getInput().isExtern()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null || t.getInput().isExtern()) != false) {
+
+,
++ if((null != rhsValue && rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == t.getInput()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == t.getInput()) != false && valueType == null && rhsValue != null) {
+
+,
++ if((rhsValue == ownerNode) == false){
++ ownerNode=null;
++ }else{
+
+,
++ if(!((rhsValue == ownerNode) == false)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((rhsValue == ownerNode) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && false) {
+
+,
++ if((rhsValue == ownerNode) == false){
++ ownerNode=rhsValue;
++ }else{
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (rhsValue == ownerNode) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (false && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((parent == n.getLastChild()) != false && valueType == null && rhsValue != null) {
+
+,
++ if(!((parent == n.getLastChild()) == false)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (n.getLastChild() == n.getFirstChild()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((n.getLastChild() == n.getFirstChild()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (parent == n.getLastChild()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != valueType && ownerName.isEmpty()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != valueType && ownerName.isEmpty()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((this.stubDeclarations.size() == 0) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null && null != ownerName) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != qName && null != valueType) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != valueType && parent.isExprResult()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (this.stubDeclarations.size() == 0) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null && null != ownerName) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != valueType && parent.isExprResult()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != qName && null != valueType) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null || null != qName) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null || null != qName) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != t.getInput() && parent.isExprResult()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.length() == this.stubDeclarations.size()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != t.getInput() && parent.isExprResult()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.length() == this.stubDeclarations.size()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.isEmpty() && t.getInput().isExtern()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.length() >= this.stubDeclarations.size()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.isEmpty() && null != t.getInput()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.isEmpty() && null != t.getInput()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.isEmpty() && t.getInput().isExtern()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.length() >= this.stubDeclarations.size()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.isEmpty() == this.stubDeclarations.isEmpty()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.isEmpty() == this.stubDeclarations.isEmpty()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.isEmpty() && t.getInput().isExtern()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.length() >= this.stubDeclarations.size()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (parent.isExprResult() || this.stubDeclarations.isEmpty()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((null != ownerName) == (null != t.getInput())) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.isEmpty() && this.stubDeclarations.isEmpty()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.isEmpty() && this.stubDeclarations.isEmpty()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((null != ownerName) == (null != t.getInput())) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.isEmpty() && null != t.getInput()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.isEmpty() && t.getInput().isExtern()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.isEmpty() && null != t.getInput()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.isEmpty() && t.getInput().isExtern()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.length() >= this.stubDeclarations.size()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.isEmpty() && t.getInput().isExtern()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((parent.isExprResult() || this.stubDeclarations.isEmpty()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != t.getInput() || t.getInput().isExtern()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != t.getInput() || t.getInput().isExtern()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (rhsValue.isTrue() == rhsValue.isFunction()) != false) {
+
+,
++ if(((null != valueType) == rhsValue.isObjectLit()) == true){
++ return;
++ }
+
+,
++ if((null != valueType || rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.isEmpty() == rhsValue.isFunction()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (rhsValue.isTrue() || propName.isEmpty()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.isEmpty() && rhsValue.isObjectLit()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.isEmpty() || rhsValue.isFunction()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.isEmpty() == rhsValue.isObjectLit()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.isEmpty() && rhsValue.isObjectLit()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.isEmpty() && rhsValue.isFunction()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null && parent.isExprResult()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.isEmpty() && rhsValue.isFunction()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (parent.isExprResult() || rhsValue.isObjectLit()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null && parent.isExprResult()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((parent.isExprResult() || rhsValue.isObjectLit()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.isEmpty() == t.getInput().isExtern()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (parent.isExprResult() || t.getInput().isExtern()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.isEmpty() == t.getInput().isExtern()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((parent.isExprResult() || t.getInput().isExtern()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (info != null || parent.isExprResult()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((info != null || parent.isExprResult()) != false && valueType == null && rhsValue != null) {
+
+,
++ if(rhsValue.isFunction() == true){
++ return;
++ }
+
+,
++ if(!((null == rhsValue) == false)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.length() == 0) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.length() > 0) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.length() > 1) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.length() > 0) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.length() == 0) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.length() == 1) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.isEmpty() && ownerName.isEmpty()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.isEmpty() && ownerName.isEmpty()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.length() == 1) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.length() > 1) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName == ownerNode.getQualifiedName()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == ownerName) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.length() > 0) != true) {
+
+,
++ if(!((null == qName) == false)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != ownerName && parent.isExprResult()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.length() > 1) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null != qName && parent.isExprResult()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.length() >= ownerName.length()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.length() == 0) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.length() == 1) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.isEmpty() && parent.isExprResult()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.isEmpty() == ownerName.isEmpty()) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.length() == ownerName.length()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.length() == 0) != false && valueType == null && rhsValue != null) {
+
+,
++ if((ownerName == ownerNode.getQualifiedName()) == true){
++ ownerName=ownerNode.getQualifiedName();
++ }else{
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.isEmpty() == ownerName.isEmpty()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != ownerName && parent.isExprResult()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.length() > 0) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (qName.length() == propName.length()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.isEmpty() && ownerName.isEmpty()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.isEmpty() && parent.isExprResult()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (null == qName) != false) {
+
+,
++ if(!((ownerName == ownerNode.getQualifiedName()) == true)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null != qName && parent.isExprResult()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == ownerName) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.length() == propName.length()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.length() == 0) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.length() > 1) != true) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.isEmpty() && ownerName.isEmpty()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName == ownerNode.getQualifiedName()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((ownerName.length() == 1) != false && valueType == null && rhsValue != null) {
+
+,
++ if(!((null == ownerName) == false)){
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (ownerName.length() == 0) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.length() == 1) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.length() == ownerName.length()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.length() == 1) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((qName.length() >= ownerName.length()) != true && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((null == qName) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if ((propName.length() > ownerName.length()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && (propName.length() > ownerName.length()) != false) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (((null != qName) == parent.isExprResult()) != false && valueType == null && rhsValue != null) {
+
+,
+- if (valueType == null && rhsValue != null) {
++ if (valueType == null && rhsValue != null && ((null != qName) == parent.isExprResult()) != false) {
+
+,
++ if((parent.isExprResult() || rhsValue.isFunction()) == true){
++ return;
++ }
+
+,
++ if((qName.isEmpty() || rhsValue.isFunction()) == true){
++ return;
++ }
+
+,
++ if((qName.isEmpty() == rhsValue.isFunction()) == false){
++ return;
++ }
+
+,
++ if((propName.isEmpty() == rhsValue.isFunction()) == false){
++ return;
++ }
+
+,
++ if((propName.isEmpty() || rhsValue.isFunction()) == true){
++ return;
++ }
+
+,
++ if((ownerName.isEmpty() == rhsValue.isFunction()) == false){
++ return;
++ }
+
+,
++ if((ownerName.isEmpty() || rhsValue.isFunction()) == true){
++ return;
++ }
+
+,
++ if((parent.isExprResult() == rhsValue.isFunction()) == false){
++ return;
++ }
+
+,
++ if((rhsValue.isFunction() && this.stubDeclarations.isEmpty()) == true){
++ return;
++ }
+
+,
++ if(rhsValue.isObjectLit() == false){
++ return;
++ }
+
+,
++ if((rhsValue.isTrue() || rhsValue.isFunction()) == true){
++ return;
++ }
+
+,
++ if((rhsValue.isTrue() == rhsValue.isFunction()) == false){
++ return;
++ }
+
+,
++ if((rhsValue.isTrue() || rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if((rhsValue.isTrue() == rhsValue.isObjectLit()) == true){
++ return;
++ }
+
+,
++ if(!((rhsValue == n.getLastChild()) == false)){
+
+,
++ if(((info != null) == rhsValue.isFunction()) == false){
++ return;
++ }
+
+,
++ if((info != null || rhsValue.isFunction()) == true){
++ return;
++ }
+
+,
++ if((parent.isExprResult() || rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if((info != null || rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if(((info != null) == rhsValue.isObjectLit()) == true){
++ return;
++ }
+
+,
++ if((qName.isEmpty() || rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if((ownerName.isEmpty() == rhsValue.isObjectLit()) == true){
++ return;
++ }
+
+,
++ if((ownerName.isEmpty() || rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if((propName.isEmpty() || rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if((parent.isExprResult() == rhsValue.isObjectLit()) == true){
++ return;
++ }
+
+,
++ if((propName.isEmpty() == rhsValue.isObjectLit()) == true){
++ return;
++ }
+
+,
++ if((qName.isEmpty() == rhsValue.isObjectLit()) == true){
++ return;
++ }
+
+,
++ if((null != ownerName && rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if((null != qName && rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if((rhsValue.isFunction() == t.getInput().isExtern()) == false){
++ return;
++ }
+
+,
++ if((rhsValue.isFunction() || t.getInput().isExtern()) == true){
++ return;
++ }
+
+,
++ if((rhsValue.isFunction() == this.stubDeclarations.isEmpty()) == true){
++ return;
++ }
+
+,
++ if((rhsValue.isObjectLit() == this.stubDeclarations.isEmpty()) == false){
++ return;
++ }
+
+,
++ if((rhsValue.isObjectLit() || t.getInput().isExtern()) == false){
++ return;
++ }
+
+,
++ if((rhsValue.isObjectLit() && this.stubDeclarations.isEmpty()) == false){
++ return;
++ }
+
+,
++ if((rhsValue.isObjectLit() == t.getInput().isExtern()) == true){
++ return;
++ }
+
+,
++ if((null != t.getInput() && rhsValue.isObjectLit()) == false){
++ return;
++ }
+
+,
++ if((propName.length() >= ownerName.length()) == false){
++ return;
++ }
+
+,
++ if((ownerNode == n.getLastChild()) == false){
++ ownerNode=n.getLastChild();
++ }else{
+
+,
++ if(!((ownerNode == n.getLastChild()) == false)){
+
+,
++ if((ownerNode == n.getLastChild()) == false){
++ ownerNode=null;
++ }else{
+
+,
++ if((propName.length() > ownerName.length()) == false){
++ return;
++ }
+
+,
++ if(!((null == info) == true)){
+
+,
++ if((null == info) == true){
++ info=null;
++ }else{
+
+,
++ if((ownerName == ownerNode.getQualifiedName()) == true){
++ ownerName=null;
++ }else{
+
+,
++ if((null == ownerName) == false){
++ ownerName=null;
++ }else{
+
+,
++ if((null == n) == false){
++ n=null;
++ }else{
+
+,
++ if((ownerNode == n.getFirstChild()) == true){
++ ownerNode=null;
++ }else{
+
+,
++ if(!((ownerNode == n.getFirstChild()) == true)){
+
+,
++ if(!((null == propName) == false)){
+
+,
++ if(!((n == n.getLastChild()) == false)){
+
+,
++ if((n == n.getLastChild()) == false){
++ n=null;
++ }else{
+
+,
++ if(!((null == ownerNode) == false)){
+
+,
++ if(!((null == parent) == false)){
+
+,
++ if(!((null == this.scope) == false)){
+
+,
++ if((parent == n.getLastChild()) == false){
++ parent=n.getLastChild();
++ }else{
+
+,
++ if((null == ownerNode) == false){
++ ownerNode=null;
++ }else{
+
+,
++ if((n == n.getLastChild()) == false){
++ n=n.getLastChild();
++ }else{
+
+,
++ if((null == t) == false){
++ t=null;
++ }else{
+
+,
++ if(!((null == this.stubDeclarations) == false)){
+
+,
++ if((ownerNode == n.getFirstChild()) == true){
++ ownerNode=n.getFirstChild();
++ }else{
+
+,

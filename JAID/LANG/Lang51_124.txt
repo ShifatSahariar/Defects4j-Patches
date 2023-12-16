@@ -1,0 +1,504 @@
++ if((('Y' == ch) == (null == str)) == true){
++ return false;
+
+,
++ if(('Y' == ch || str.isEmpty()) == false){
++ return false;
+
+,
++ if((('Y' == ch) == str.isEmpty()) == true){
++ return false;
+
+,
++ if(('Y' == ch) == false){
++ return false;
+
+,
++ if(('Y' == ch || 'y' == ch) == false){
++ return false;
+
+,
++ if((('Y' == ch) == ('y' == ch)) == true){
++ return false;
+
+,
++ if(('T' == ch || 'Y' == ch) == false){
++ return false;
+
+,
++ if((('T' == ch) == ('Y' == ch)) == true){
++ return false;
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() == 2) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() > 2) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() >= 1) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() >= 2) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() == 1) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() > 1) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() > 2) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() >= 2) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() >= 0) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() > 0) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() == 2) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() == 0) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() >= 1) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() > 1) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() == 1) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('t' == ch || null == str) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('T' == ch && str.isEmpty()) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('y' == ch || str.isEmpty()) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('T' == ch || str.isEmpty()) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('y' == ch && str.isEmpty()) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('y' == ch && null == str) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (('T' == ch) == str.isEmpty()) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (('y' == ch) == str.isEmpty()) == true) {
+
+,
++ if(('t' == ch || null == str) == true){
++ return false;
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('T' == ch && null == str) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('t' == ch && str.isEmpty()) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (('t' == ch) == (null == str)) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('t' == ch && null == str) == false) {
+
+,
++ if((('t' == ch) == (null == str)) == false){
++ return false;
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('T' == ch && null == str) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('T' == ch && str.isEmpty()) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('t' == ch || null == str) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (('T' == ch) == str.isEmpty()) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('T' == ch || str.isEmpty()) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('Y' == ch && str.isEmpty()) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('t' == ch && str.isEmpty()) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('t' == ch && null == str) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (('t' == ch) == (null == str)) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('Y' == ch && null == str) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (('Y' == ch) == str.isEmpty()) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('Y' == ch || str.isEmpty()) == false) {
+
+,
++ if((str.length() >= 4) == false){
++ return false;
++ }
+
+,
++ if((str.length() == 3) == true){
++ return false;
++ }
+
+,
++ if((str.length() > 3) == false){
++ return false;
++ }
+
+,
++ if((str.length() == 4) == false){
++ return false;
++ }
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (('Y' == ch) == (null == str)) == true) {
+
+,
++ if((str.length() > 3) == false){
++ return false;
+
+,
+- if (ch == 't') {
++ if ((str.length() > 3) != false && ch == 't') {
+
+,
+- if (ch == 't') {
++ if (ch == 't' && (str.length() > 3) != false) {
+
+,
+- if (ch == 't') {
++ if (ch == 't' && (str.length() == 3) != true) {
+
+,
+- if (ch == 't') {
++ if ((str.length() == 3) != true && ch == 't') {
+
+,
++ if((str.length() == 3) == true){
++ return false;
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || str.isEmpty() == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || str.isEmpty() == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() == 0) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() > 4) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('y' == ch) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() > 3) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (null == str && str.isEmpty()) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('T' == ch) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() == 3) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() >= 3) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() >= 0) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() >= 4) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() > 0) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (str.length() == 4) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() > 3) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() >= 3) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() == 4) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (null == str && str.isEmpty()) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() >= 4) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() > 4) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('T' == ch) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (str.length() == 3) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('Y' == ch) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('T' == ch && 'y' == ch) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (('T' == ch) == ('y' == ch)) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('T' == ch && 't' == ch) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('T' == ch || 'y' == ch) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('t' == ch && 'y' == ch) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('Y' == ch && 't' == ch) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('T' == ch && 'Y' == ch) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('T' == ch && 't' == ch) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (('T' == ch) == ('Y' == ch)) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('T' == ch || 'Y' == ch) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (('Y' == ch) == ('t' == ch)) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('Y' == ch || 't' == ch) == true) {
+
+,
++ if((str.length() >= 4) == false){
++ return false;
+
+,
++ if((str.length() == 4) == false){
++ return false;
+
+,
+- if (ch == 't') {
++ if ((str.length() == 4) != false && ch == 't') {
+
+,
+- if (ch == 't') {
++ if (ch == 't' && (str.length() >= 4) != false) {
+
+,
+- if (ch == 't') {
++ if ((str.length() >= 4) != false && ch == 't') {
+
+,
+- if (ch == 't') {
++ if (ch == 't' && (str.length() == 4) != false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('t' == ch || str.isEmpty()) == true) {
+
+,
++ if((('t' == ch) == str.isEmpty()) == false){
++ return false;
+
+,
++ if(('t' == ch || str.isEmpty()) == true){
++ return false;
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (('t' == ch) == str.isEmpty()) == false) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('t' == ch || str.isEmpty()) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (('t' == ch) == str.isEmpty()) == false) {
+
+,
++ if((str.length() > 3) == false){
++ return false;
++ }else{
+
+,
++ if((str.length() == 3) == true){
++ return false;
++ }else{
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('t' == ch) == true) {
+
+,
++ if(('t' == ch) == true){
++ return false;
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('t' == ch) == true) {
+
+,
++ if((('T' == ch) == ('t' == ch)) == false){
++ return false;
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (('T' == ch) == ('t' == ch)) == false) {
+
+,
++ if(('T' == ch || 't' == ch) == true){
++ return false;
+
+,
++ if(('t' == ch || 'y' == ch) == true){
++ return false;
+
+,
++ if((('t' == ch) == ('y' == ch)) == false){
++ return false;
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('T' == ch || 't' == ch) == true) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || (('t' == ch) == ('y' == ch)) == false) {
+
+,
+- if (ch == 'Y') {
++ if (ch == 'Y' || ('t' == ch || 'y' == ch) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || ('T' == ch || 't' == ch) == true) {
+
+,
+- if (ch == 'y') {
++ if (ch == 'y' || (('T' == ch) == ('t' == ch)) == false) {
+
+,
++ if((str.length() >= 4) == false){
++ return false;
++ }else{
+
+,
++ if((str.length() == 4) == false){
++ return false;
++ }else{
+
+,

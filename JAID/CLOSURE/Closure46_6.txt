@@ -1,0 +1,24 @@
+- if (!that.isRecordType()) {
++ if (!false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (null == that) == false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (that.isUnionType() || that.isInstanceType()) == false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (that.isResolved() || that.isUnionType()) == false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (that.isNullable() || that.isInstanceType()) == false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (that.isResolved() == that.isUnionType()) == true) {
+
+,

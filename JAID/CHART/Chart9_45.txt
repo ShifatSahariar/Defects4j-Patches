@@ -1,0 +1,197 @@
++ if((1 + startIndex == this.data.size()) == true){
++ return result1522070588=this;
+
+,
+- if (startIndex == this.data.size()) {
++ if (startIndex == this.data.size() || (1 + startIndex == this.data.size()) == true) {
+
+,
++ if((endIndex - 1 == 0) == true){
++ return result1522070588=this;
++ }
+
+,
++ if((endIndex >= startIndex) == false){
++ return result1522070588=this;
++ }
+
+,
++ if((endIndex >= startIndex) == false){
++ startIndex=endIndex;
++ }
+
+,
++ if((endIndex >= startIndex) == false){
++ endIndex=startIndex;
++ }
+
+,
++ if((1 + endIndex == this.getItemCount()) == true){
++ return result1522070588=this;
++ }
+
+,
++ if((1 + startIndex == this.getItemCount()) == true){
++ return result1522070588=this;
+
+,
++ if(!((endIndex == 1) == true)){
+
+,
++ if((endIndex == 1) == true){
++ endIndex=1;
++ }else{
+
+,
++ if((endIndex == 1) == true){
++ return result1522070588=this;
++ }
+
+,
++ if((1 + endIndex == this.data.size()) == true){
++ return result1522070588=this;
++ }
+
+,
++ if((startIndex >= 1 + endIndex) == true){
++ return result1522070588=this;
++ }
+
+,
++ if((startIndex == 1 + endIndex) == true){
++ return result1522070588=this;
++ }
+
+,
+- if (startIndex == this.data.size()) {
++ if (startIndex == this.data.size() || (1 + startIndex >= this.data.size()) == true) {
+
+,
++ if((1 + endIndex >= 1 + startIndex) == false){
++ return result1522070588=this;
++ }
+
+,
++ if((startIndex == 1) == true){
++ startIndex=this.data.size();
+
+,
+- if (startIndex == this.data.size()) {
++ if (startIndex == this.data.size() || (startIndex == 1) == true) {
+
+,
++ if((startIndex == 1) == true){
++ return result1522070588=this;
+
+,
++ if((startIndex == 1) == true){
++ startIndex=this.getItemCount();
+
+,
++ if((startIndex == 1) == true){
++ return result1522070588=this;
++ }
+
+,
++ if(!((startIndex == 1) == true)){
+
+,
++ if((startIndex == 1) == true){
++ startIndex=1;
++ }else{
+
+,
++ if((startIndex > endIndex - 1) == true){
++ startIndex=endIndex - 1;
++ }
+
+,
+- if (endIndex < 0) {
++ if ((startIndex == 1) != true && endIndex < 0) {
+
+,
+- if (endIndex < 0) {
++ if (endIndex < 0 && (startIndex == 1) != true) {
+
+,
++ if((startIndex == 1) == true){
++ startIndex=this.getMaximumItemCount();
++ }else{
+
+,
++ if((startIndex == 1) == true){
++ startIndex=this.getItemCount();
++ }else{
+
+,
++ if((startIndex >= endIndex - 1) == true){
++ startIndex=endIndex - 1;
++ }
+
+,
++ if((endIndex > startIndex) == false){
++ startIndex=endIndex;
++ }
+
+,
++ if((endIndex > startIndex) == false){
++ endIndex=startIndex;
++ }
+
+,
+- if (endIndex < 0) {
++ if (endIndex < 0 || (startIndex == 1) == true) {
+
+,
+- if (emptyRange) {
++ if (emptyRange || (startIndex == 1) == true) {
+
+,
+- if (endIndex < 0) {
++ if (endIndex < 0 || (endIndex >= startIndex) == false) {
+
+,
++ if((endIndex >= startIndex) == false){
++ startIndex=endIndex;
+
+,
++ if((endIndex > startIndex) == false){
++ startIndex=endIndex;
+
+,
+- if (endIndex < 0) {
++ if (endIndex < 0 || (startIndex >= 1 + endIndex) == true) {
+
+,
+- if (endIndex < 0) {
++ if (endIndex < 0 || (startIndex == 1 + endIndex) == true) {
+
+,
+- if (endIndex < 0) {
++ if (endIndex < 0 || (1 + endIndex >= 1 + startIndex) == false) {
+
+,
++ if((endIndex >= startIndex) == false){
++ endIndex=startIndex;
+
+,
+- if (emptyRange) {
++ if (emptyRange || (startIndex >= 1 + endIndex) == true) {
+
+,
+- if (emptyRange) {
++ if (emptyRange || (endIndex >= startIndex) == false) {
+
+,
+- if (emptyRange) {
++ if (emptyRange || (1 + endIndex >= 1 + startIndex) == false) {
+
+,
+- if (emptyRange) {
++ if (emptyRange || (startIndex == 1 + endIndex) == true) {
+
+,
++ if((endIndex > startIndex) == false){
++ endIndex=startIndex;
+
+,

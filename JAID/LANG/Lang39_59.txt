@@ -1,0 +1,323 @@
+- greater=replacementList[i].length() - searchList[i].length();
++ continue;
++ }
+
+,
++ }
+
+,
++ if((i == 3 * greater) == true){
++ }else{
+
+,
++ if((i == 3 * greater) == true){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((timeToLive == 0) == true)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((increase == timeToLive) == true){
++ timeToLive=increase;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((increase == timeToLive) == true)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((timeToLive > 0) == false)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive > 0) == false){
++ timeToLive=0;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive == 0) == true){
++ timeToLive=0;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((increase == timeToLive) == true){
++ increase=timeToLive;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((i > timeToLive) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat && null == replacementList) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((i > timeToLive - 1) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat == (0 == searchList.length)) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat == 0 > timeToLive) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat || 0 == searchList.length) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat == i < textIndex) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive - 1 >= 0) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat && i < searchList.length) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat || 0 > timeToLive) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat || 0 == replacementList.length) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((tempIndex < textIndex == (null == replacementList)) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((i > text.length() / 5) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat == (0 == text.length())) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat || 0 == text.length()) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((timeToLive >= searchLength) == false)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((start == timeToLive) == true){
++ start=timeToLive;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((textIndex == timeToLive) == true)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((textIndex == timeToLive) == true){
++ textIndex=timeToLive;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive >= replacementLength) == false){
++ replacementLength=timeToLive;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((timeToLive > replaceIndex) == false)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((start == timeToLive) == true)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((timeToLive >= replacementLength) == false)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((timeToLive == noMoreMatchesForReplIndex.length) == false)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((textIndex == timeToLive) == true){
++ timeToLive=textIndex;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive > replaceIndex) == false){
++ timeToLive=replaceIndex;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((timeToLive >= noMoreMatchesForReplIndex.length) == false)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((start == timeToLive) == true){
++ timeToLive=start;
++ }else{
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(!((timeToLive == searchLength) == false)){
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((start == timeToLive) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat == text.isEmpty()) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat == (replacementLength != searchLength)) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((-1 >= timeToLive - 1) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((increase > timeToLive - 1) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(repeat == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive - 1 >= text.length() / 5) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat && null == text) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((repeat || replacementLength != searchLength) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((increase >= timeToLive) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive - 1 == text.length() / 5) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive == searchLength) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive >= noMoreMatchesForReplIndex.length) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive > replaceIndex) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive >= replacementLength) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive == noMoreMatchesForReplIndex.length) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((timeToLive >= searchLength) == false){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if((textIndex == timeToLive) == true){
++ continue;
++ }
+
+,
+- greater=replacementList[i].length() - searchList[i].length();
++ if(((null == text) == tempIndex < textIndex) == true){
++ continue;
++ }
+
+,

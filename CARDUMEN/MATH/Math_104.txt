@@ -1,5 +1,0 @@
--            while (Math.abs(an) > epsilon && n < maxIterations) {
-+            while (an != 0) {
-,
--            while (Math.abs(an) > epsilon && n < maxIterations) {
-+            while (an > 0) {

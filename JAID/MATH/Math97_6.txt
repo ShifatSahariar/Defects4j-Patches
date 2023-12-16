@@ -1,0 +1,32 @@
+- if (sign >= 0) {
+- throw new IllegalArgumentException("Function values at endpoints do not have different signs." + "  Endpoints: [" + min + ","+ max+ "]"+ "  Values: ["+ yMin+ ","+ yMax+ "]");
++ if (sign >= 0 && (yMax >= yMin) != false) {
+
+,
+- if (sign >= 0) {
+- throw new IllegalArgumentException("Function values at endpoints do not have different signs." + "  Endpoints: [" + min + ","+ max+ "]"+ "  Values: ["+ yMin+ ","+ yMax+ "]");
++ if ((yMax > yMin) != false && sign >= 0) {
+
+,
+- if (sign >= 0) {
+- throw new IllegalArgumentException("Function values at endpoints do not have different signs." + "  Endpoints: [" + min + ","+ max+ "]"+ "  Values: ["+ yMin+ ","+ yMax+ "]");
++ if ((yMax >= yMin) != false && sign >= 0) {
+
+,
+- if (sign >= 0) {
+- throw new IllegalArgumentException("Function values at endpoints do not have different signs." + "  Endpoints: [" + min + ","+ max+ "]"+ "  Values: ["+ yMin+ ","+ yMax+ "]");
++ if (sign >= 0 && (yMax > yMin) != false) {
+
+,
+- throw new IllegalArgumentException("Function values at endpoints do not have different signs." + "  Endpoints: [" + min + ","+ max+ "]"+ "  Values: ["+ yMin+ ","+ yMax+ "]");
++ if((yMax > yMin) == false){
++ return result1325958191=max;
++ }
+
+,
+- throw new IllegalArgumentException("Function values at endpoints do not have different signs." + "  Endpoints: [" + min + ","+ max+ "]"+ "  Values: ["+ yMin+ ","+ yMax+ "]");
++ if((yMax >= yMin) == false){
++ return result1325958191=max;
++ }
+
+,

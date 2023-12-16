@@ -1,0 +1,869 @@
++ if((a > x - tol1) == true){
++ return result628018501=previous;
+
+,
++ if((a > x - tol1) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x - m >= fx - fw) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x - m >= fx - fv) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x - m > fx - fw) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x - m > fx - fv) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a > x - tol1) == true){
++ return result628018501=current;
+
+,
++ if((tol1 > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((tol1 >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((a - x > fx - fv) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((a - x >= fx - fv) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((b - u < tol2 && tol2 > u - a) == true){
++ return result628018501=current;
+
+,
++ if((b - u < tol2 == tol2 > u - a) == true){
++ return result628018501=current;
+
+,
++ if((x - m >= (x - w) * (fx - fv)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q >= tol1) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x - m > (x - w) * (fx - fv)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q > tol1) == true){
++ return result628018501=current;
++ }
+
+,
++ if((2 * tol1 >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((2 * tol1 > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((tol2 - 0.5 * (b - a) >= this.relativeThreshold) == true){
++ return result628018501=current;
+
+,
++ if((tol2 - 0.5 * (b - a) > this.relativeThreshold) == true){
++ return result628018501=current;
+
+,
++ if((tol2 - 0.5 * (b - a) > this.relativeThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((tol2 - 0.5 * (b - a) >= this.relativeThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((0 <= d && tol2 > u - a) == true){
++ return result628018501=current;
+
+,
++ if((0 <= d == tol2 > u - a) == true){
++ return result628018501=current;
+
+,
++ if((0.5 * (b - a) > tol2 - 0.5 * (b - a)) == false){
++ return result628018501=previous;
++ }
+
+,
++ if((0.5 * (b - a) >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=previous;
++ }
+
+,
++ if((0.5 * (b - a) >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=previous;
+
+,
++ if((0.5 * (b - a) > tol2 - 0.5 * (b - a)) == false){
++ return result628018501=previous;
+
+,
++ if((0.5 * (b - a) > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((0.5 * (b - a) >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((q > b - a) == true){
++ return result628018501=current;
+
+,
++ if((q >= b - x) == true){
++ return result628018501=current;
+
+,
++ if((q >= b - a) == true){
++ return result628018501=current;
+
+,
++ if((q > b - x) == true){
++ return result628018501=current;
+
+,
++ if((q >= b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q > 2 * tol1) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q >= 2 * tol1) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q > b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((tol1 >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=previous;
++ }
+
+,
++ if((tol1 > tol2 - 0.5 * (b - a)) == false){
++ return result628018501=previous;
++ }
+
+,
++ if((tol1 >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=previous;
+
+,
++ if((tol1 > tol2 - 0.5 * (b - a)) == false){
++ return result628018501=previous;
+
+,
++ if((a - x >= fx - fw) == true){
++ return result628018501=current;
+
+,
++ if((a - x >= fx - fv) == true){
++ return result628018501=current;
+
+,
++ if((a - x > fx - fv) == true){
++ return result628018501=current;
+
+,
++ if((q >= 0.5 * (b - a)) == true){
++ return result628018501=current;
+
+,
++ if((q > 0.5 * (b - a)) == true){
++ return result628018501=current;
+
+,
++ if((a - x > fx - fw) == true){
++ return result628018501=current;
+
+,
++ if((q * (b - x) > this.absoluteThreshold) == true){
++ return result628018501=current;
+
+,
++ if((q * (b - x) >= this.absoluteThreshold) == true){
++ return result628018501=current;
+
+,
++ if((tol2 > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((tol1 >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((tol2 >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((tol1 > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((a - x >= fx - fv) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a - x > fx - fv) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a - x > fx - fw) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a - x >= fx - fw) == true){
++ return result628018501=current;
++ }
+
+,
++ if((tol2 - 0.5 * (b - a) > this.relativeThreshold) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((tol2 - 0.5 * (b - a) >= this.relativeThreshold) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((a > x - tol1) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((a - x >= (x - w) * (fx - fv)) == true){
++ return result628018501=current;
+
+,
++ if((a - x > (x - w) * (fx - fv)) == true){
++ return result628018501=current;
+
+,
++ if((2 * tol1 >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((2 * tol1 > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((q * (b - x) >= this.absoluteThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q * (b - x) > this.absoluteThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((tol2 > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((tol2 >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((a - x > fx - fw) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((a - x >= fx - fw) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((a - x >= (x - w) * (fx - fv)) == true){
++ return result628018501=current;
++ }
+
+,
++ if(((x - v) * (fx - fw) > this.absoluteThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a - x > (x - w) * (fx - fv)) == true){
++ return result628018501=current;
++ }
+
+,
++ if(((x - v) * (fx - fw) > this.relativeThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if(((x - v) * (fx - fw) >= this.relativeThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if(((x - v) * (fx - fw) >= this.absoluteThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - u >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((q >= tol2) == true){
++ return result628018501=current;
+
+,
++ if((b == getStartValue()) == true){
++ return result628018501=current;
+
+,
++ if((q > tol1) == true){
++ return result628018501=current;
+
+,
++ if((q >= tol1) == true){
++ return result628018501=current;
+
+,
++ if((q > tol2) == true){
++ return result628018501=current;
+
+,
++ if((b == mid) == true){
++ return result628018501=current;
+
+,
++ if((0.5 * (b - a) >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((0.5 * (b - a) > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((q >= 2 * tol1) == true){
++ return result628018501=current;
+
+,
++ if((q > 2 * tol1) == true){
++ return result628018501=current;
+
+,
++ if(((x - v) * (fx - fw) > this.relativeThreshold) == true){
++ return result628018501=current;
+
+,
++ if(((x - v) * (fx - fw) > this.absoluteThreshold) == true){
++ return result628018501=current;
+
+,
++ if(((x - v) * (fx - fw) >= this.relativeThreshold) == true){
++ return result628018501=current;
+
+,
++ if(((x - v) * (fx - fw) >= this.absoluteThreshold) == true){
++ return result628018501=current;
+
+,
++ if((u < x == tol2 > u - a) == false){
++ return result628018501=current;
+
+,
++ if((fv >= fx - fv) == true){
++ return result628018501=current;
+
+,
++ if((q > this.absoluteThreshold) == true){
++ return result628018501=current;
+
+,
++ if((q > this.relativeThreshold) == true){
++ return result628018501=current;
+
+,
++ if((p >= this.absoluteThreshold) == true){
++ return result628018501=current;
+
+,
++ if((v == getStartValue()) == true){
++ return result628018501=current;
+
+,
++ if((q >= this.absoluteThreshold) == true){
++ return result628018501=current;
+
+,
++ if((fw > fx - fv) == true){
++ return result628018501=current;
+
+,
++ if((fv > fx - fv) == true){
++ return result628018501=current;
+
+,
++ if((v == mid) == true){
++ return result628018501=current;
+
+,
++ if((fw >= fx - fv) == true){
++ return result628018501=current;
+
+,
++ if((fv > fx - fw) == true){
++ return result628018501=current;
+
+,
++ if((fv >= fx - fw) == true){
++ return result628018501=current;
+
+,
++ if((q >= this.relativeThreshold) == true){
++ return result628018501=current;
+
+,
++ if((p > this.absoluteThreshold) == true){
++ return result628018501=current;
+
+,
++ if((b == mid) == true){
++ return result628018501=current;
++ }
+
+,
++ if((fv > fx - fw) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((p > this.absoluteThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q > tol2) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q >= this.absoluteThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q >= b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q >= this.relativeThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q > this.relativeThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q >= tol2) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q > this.absoluteThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q > b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((fw > fx - fv) == true){
++ return result628018501=current;
++ }
+
+,
++ if((fv >= fx - fw) == true){
++ return result628018501=current;
++ }
+
+,
++ if((v == mid) == true){
++ return result628018501=current;
++ }
+
+,
++ if((fv > fx - fv) == true){
++ return result628018501=current;
++ }
+
+,
++ if((fv >= fx - fv) == true){
++ return result628018501=current;
++ }
+
+,
++ if((fw >= fx - fv) == true){
++ return result628018501=current;
++ }
+
+,
++ if((p >= this.absoluteThreshold) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b == getStartValue()) == true){
++ return result628018501=current;
++ }
+
+,
++ if((v == getStartValue()) == true){
++ return result628018501=current;
++ }
+
+,
++ if((0.5 * (b - a) >= (x - v) * (fx - fw)) == false){
++ return result628018501=previous;
++ }
+
+,
++ if(((x - v) * (fx - fw) > this.relativeThreshold) == true){
++ return result628018501=previous;
++ }
+
+,
++ if(((x - v) * (fx - fw) >= tol2 - 0.5 * (b - a)) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((tol1 >= (x - v) * (fx - fw)) == false){
++ return result628018501=previous;
++ }
+
+,
++ if((a - x >= (x - w) * (fx - fv)) == true){
++ return result628018501=previous;
++ }
+
+,
++ if(((x - v) * (fx - fw) > this.absoluteThreshold) == true){
++ return result628018501=previous;
++ }
+
+,
++ if(((x - v) * (fx - fw) >= this.absoluteThreshold) == true){
++ return result628018501=previous;
++ }
+
+,
++ if(((x - v) * (fx - fw) > tol2 - 0.5 * (b - a)) == true){
++ return result628018501=previous;
++ }
+
+,
++ if(((x - v) * (fx - fw) >= this.relativeThreshold) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((0.5 * (b - a) > (x - v) * (fx - fw)) == false){
++ return result628018501=previous;
++ }
+
+,
++ if((tol1 > (x - v) * (fx - fw)) == false){
++ return result628018501=previous;
++ }
+
+,
++ if((a - x > (x - w) * (fx - fv)) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((w > x - tol1) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - u >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((u - a >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((b - u < tol2 && tol2 > u - a) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((tol2 > u - a && p > q * (a - x)) == true){
++ return result628018501=previous;
+
+,
++ if((0 <= d && tol2 > u - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((0 <= d == tol2 > u - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((tol2 - 0.5 * (b - a) > this.relativeThreshold) == true){
++ return result628018501=previous;
+
+,
++ if((tol2 - 0.5 * (b - a) >= this.relativeThreshold) == true){
++ return result628018501=previous;
+
+,
++ if((b - u < tol2 && tol2 > u - a) == true){
++ return result628018501=previous;
+
+,
++ if((b - u > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((u - a >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((tol2 >= u - a) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((d > e) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b > b - u) == true){
++ b=b - u;
++ }
+
+,
++ if((b - u < tol2 && tol2 > u - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q >= x - w) == true){
++ return result628018501=current;
++ }
+
+,
++ if((q > x - w) == true){
++ return result628018501=current;
++ }
+
+,
++ if((hi > lo && tol2 > u - a) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((b - u < tol2 == tol2 > u - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if(!((a > x - tol1) == true)){
+
+,
++ if((a > x - tol1) == true){
++ a=x - tol1;
++ }else{
+
+,
++ if((fv >= fx - fw) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((fw >= fx - fv) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((fv >= fx - fv) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((fv > fx - fv) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((fw > fx - fv) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((fv > fx - fw) == true){
++ return result628018501=previous;
++ }
+
+,
++ if((u < x == tol2 > u - a) == false){
++ return result628018501=current;
++ }
+
+,
++ if((q * (b - x) > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((q * (b - x) >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
+
+,
++ if((2 * tol1 >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x - w > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((x - w >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((q * (b - x) >= (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((q * (b - x) > (x - v) * (fx - fw)) == false){
++ return result628018501=current;
++ }
+
+,
++ if(((x - v) * q >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if(((x - v) * q > tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if(((x - w) * r >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if(((x - w) * (fx - fv) >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((e >= p / q) == false){
++ return result628018501=current;
++ }
+
+,
++ if((e > tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((e >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((fx - fv >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((p >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((u >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,

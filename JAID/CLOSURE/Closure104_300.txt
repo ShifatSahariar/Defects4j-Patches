@@ -1,0 +1,1200 @@
+- if (result != null) {
++ if (result != null && (result.isArrayType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || result.isEnumElementType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == result.isBooleanObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isEnumType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isUnknownType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isString() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isDateType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNamedType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || result.isNumberObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isAllType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isAllType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isEmptyType() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isInstanceType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isInstanceType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || result.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isString() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || result.isCheckedUnknownType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || result.isBooleanObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isObject() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isEnumType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || result.isFunctionPrototypeType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNominalType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == result.isBooleanValueType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNoObjectType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isObject() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || result.isEnumElementType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == result.isCheckedUnknownType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isEmptyType() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == result.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNominalType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || result.isBooleanValueType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isRecordType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || result.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == result.isBooleanObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || result.isNumberValueType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == result.isCheckedUnknownType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isConstructor() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == result.isEnumElementType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isUnknownType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isEnumType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isResolved() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNamedType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == result.isNumberValueType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || result.isBooleanObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isInstanceType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isInterface() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == result.isNumberObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isRecordType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isUnknownType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNoType() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isAllType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == result.isFunctionPrototypeType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isEnumType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || result.isCheckedUnknownType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isArrayType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || result.isNumberValueType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isRecordType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isNoObjectType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isUnknownType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || result.isBooleanValueType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNullable() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isInstanceType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || result.isFunctionPrototypeType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isDateType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == result.isBooleanValueType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNoType() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isTemplateType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == result.isFunctionPrototypeType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isResolved() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isInterface() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isInterface() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isNamedType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isInterface() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isDateType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == result.isEnumElementType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isResolved() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isDateType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNumber() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == result.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isRegexpType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNoObjectType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == result.isNumberValueType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isNullable() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNominalType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isTemplateType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || result.isNumberObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNoObjectType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNominalType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isRegexpType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isRegexpType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isTemplateType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isRecordType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNumber() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isTemplateType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isArrayType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNamedType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isRegexpType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isArrayType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isConstructor() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isAllType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isResolved() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == result.isNumberObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isNoType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isArrayType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isDateType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isDateType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || that.isBooleanObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == that.isBooleanObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isRegexpType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isUnknownType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isEmptyType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNominalType() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || this.alternates.isEmpty()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isRegexpType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isObject() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || that.isFunctionPrototypeType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == that.isCheckedUnknownType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isInstanceType() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isUnknownType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isString() == that.isStringValueType()) != false) {
+
+,
+- if (result != null) {
++ if ((this.isUnionType() == that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || that.isCheckedUnknownType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNoObjectType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((this.isUnionType() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((this.isObject() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isUnknownType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isNumberObjectType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isNumberObjectType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isTemplateType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isString() && that.isInstanceType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == that.isFunctionPrototypeType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isEmptyType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isInterface() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isObject() && that.isString()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isArrayType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNoObjectType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isDateType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isObject() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isNoType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNumberObjectType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && that.isStringObjectType() != true) {
+
+,
+- if (result != null) {
++ if ((that.isAllType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isRegexpType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNumberObjectType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isString() && that.isInstanceType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || that.isCheckedUnknownType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isEmptyType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == this.alternates.isEmpty()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == that.isCheckedUnknownType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isInterface() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isInterface() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isNominalType() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isArrayType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isString() == that.isStringValueType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == that.isBooleanObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isNoObjectType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isObject() && that.isString()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isEmptyType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isObject() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isAllType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isAllType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isRegexpType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isTemplateType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isInterface() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isTemplateType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (that.isStringObjectType() != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNoType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((this.isUnknownType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isInstanceType() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isUnionType() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isString() && that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isUnionType() == that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isString() && that.isNominalType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isDateType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isUnknownType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((this.isUnknownType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == this.alternates.isEmpty()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || that.isFunctionPrototypeType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == that.isFunctionPrototypeType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isNoObjectType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || that.isBooleanObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isUnknownType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isAllType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || this.alternates.isEmpty()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isArrayType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isUnknownType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isString() && that.isNominalType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isTemplateType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNoType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isString() && that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isFunctionType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isFunctionType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isFunctionType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() == result.isOrdinaryFunction()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() == result.isOrdinaryFunction()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isStringObjectType() || result.isOrdinaryFunction()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isFunctionType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isStringObjectType() || result.isOrdinaryFunction()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isEmptyType() && that.isInstanceType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isInstanceType() && result.isConstructor()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNoType() && that.isNominalType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isObject() && result.isNullable()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isObject() && result.isConstructor()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isObject() && result.isNullable()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNullable() && that.isNominalType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isString() && that.isNominalType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isString() && that.isInstanceType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNoType() && that.isInstanceType()) != true) {
+
+,
+- if (result != null) {
++ if ((this.isObject() && result.isNumber()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNullable() && that.isNominalType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isString() && that.isNominalType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((this.isObject() && result.isConstructor()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isObject() && result.isString()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isObject() && result.isEmptyType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNumber() && that.isInstanceType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isObject() && result.isNullable()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isObject() && result.isNumber()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isObject() && result.isString()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((this.isObject() && result.isNullable()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isObject() && result.isNumber()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((this.isObject() && result.isString()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNumber() && that.isInstanceType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isObject() && result.isNoType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isEmptyType() && that.isInstanceType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isObject() && result.isNoType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isString() && that.isInstanceType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isObject() && result.isEmptyType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isNoType() && that.isInstanceType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isNominalType() && result.isConstructor()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isObject() && result.isNoType()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isEmptyType() && that.isNominalType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNumber() && that.isNominalType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isObject() && result.isEmptyType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isEmptyType() && that.isNominalType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (this.isObject() && result.isConstructor()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isInstanceType() && result.isConstructor()) != true) {
+
+,
+- if (result != null) {
++ if ((result.isNumber() && that.isNominalType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNoType() && that.isNominalType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((result.isNullable() && that.isInstanceType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNominalType() && result.isConstructor()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isObject() && result.isConstructor()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((this.isObject() && result.isEmptyType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNullable() && that.isInstanceType()) != true) {
+
+,
+- if (result != null) {
++ if ((this.isObject() && result.isNoType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isObject() && result.isNumber()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isObject() && result.isString()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isConstructor() == that.isStringValueType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isEmptyType() == that.isStringValueType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNumber() == that.isStringValueType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isNumber() == that.isStringValueType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isEmptyType() == that.isStringValueType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isConstructor() == that.isStringValueType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (result.isNoType() == that.isStringValueType()) != false) {
+
+,
+- if (result != null) {
++ if ((result.isNoType() == that.isStringValueType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isString() && this.isObject()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isString() && this.isObject()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isNullType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isNullType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNullType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isBooleanValueType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isEnumElementType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isBooleanValueType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isEnumElementType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isEnumElementType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isBooleanValueType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isEnumElementType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isBooleanValueType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNullType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNumberValueType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isNumberValueType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNumberValueType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isNumberValueType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isEnumType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isOrdinaryFunction() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isRecordType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isVoidType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isEnumType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isOrdinaryFunction() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isEnumType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isRecordType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isRecordType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isRecordType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isVoidType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isEnumType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isVoidType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isVoidType() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isOrdinaryFunction() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isOrdinaryFunction() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isConstructor() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if ((that.isConstructor() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isConstructor() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isConstructor() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isNumber() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNumber() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isNumber() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isNumber() || that.isStringObjectType()) != true && result != null) {
+
+,
+- if (result != null) {
++ if ((that.isFunctionType() == that.isStringObjectType()) != false && result != null) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isFunctionType() == that.isStringObjectType()) != false) {
+
+,
+- if (result != null) {
++ if (result != null && (that.isFunctionType() || that.isStringObjectType()) != true) {
+
+,
+- if (result != null) {
++ if ((that.isFunctionType() || that.isStringObjectType()) != true && result != null) {
+
+,

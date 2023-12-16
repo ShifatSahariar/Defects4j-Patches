@@ -1,0 +1,176 @@
++ if((null == r) == true){
++ return result78727453=result;
++ }
+
+,
++ if((null == this.getRenderer()) == true){
++ return result78727453=result;
++ }
+
+,
++ if((null == r) == true){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isDomainCrosshairLockedOnData()) == false){
++ return result78727453=result;
+
+,
++ if((null != r || this.isRangeCrosshairVisible()) == false){
++ return result78727453=result;
+
+,
++ if((null != r || this.isRangeZeroBaselineVisible()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isDomainMinorGridlinesVisible()) == true){
++ return result78727453=result;
+
+,
++ if((null != r && this.isDomainZoomable()) == false){
++ return result78727453=result;
+
+,
++ if((null != r && this.isRangeCrosshairLockedOnData()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isRangeMinorGridlinesVisible()) == true){
++ return result78727453=result;
+
+,
++ if((null != r || this.isDomainZeroBaselineVisible()) == false){
++ return result78727453=result;
+
+,
++ if((null != r || this.isDomainMinorGridlinesVisible()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isRangePannable()) == true){
++ return result78727453=result;
+
+,
++ if((null != r || this.isDomainCrosshairVisible()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isRangeCrosshairVisible()) == true){
++ return result78727453=result;
+
+,
++ if(((d != null) == (null != r)) == false){
++ return result78727453=result;
+
+,
++ if((null != r || this.isRangePannable()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isDomainPannable()) == true){
++ return result78727453=result;
+
+,
++ if((null != r && this.isRangeZoomable()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isDomainCrosshairVisible()) == true){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isRangeZoomable()) == false){
++ return result78727453=result;
+
+,
++ if((null != r || this.isRangeMinorGridlinesVisible()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isDomainZeroBaselineVisible()) == true){
++ return result78727453=result;
+
+,
++ if((null != r && this.isDomainCrosshairLockedOnData()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isRangeZeroBaselineVisible()) == true){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isRangeCrosshairLockedOnData()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.isDomainZoomable()) == false){
++ return result78727453=result;
+
+,
++ if((null != r || this.isDomainPannable()) == false){
++ return result78727453=result;
+
+,
++ if((d != null && null != r) == false){
++ return result78727453=result;
+
+,
++ if((null == this.getRenderer()) == true){
++ return result78727453=result;
+
+,
++ if((null != r && this.annotations.isEmpty()) == false){
++ return result78727453=result;
+
+,
++ if(((null != r) == this.annotations.isEmpty()) == false){
++ return result78727453=result;
+
+,
++ if((null != r) == false){
++ return result78727453=result;
+
+,
++ if((this.getSeriesCount() > this.getRendererCount()) == false){
++ return result78727453=result;
++ }
+
+,
++ if((this.getSeriesCount() > this.getDomainAxisCount()) == false){
++ return result78727453=result;
++ }
+
+,
++ if((this.getSeriesCount() > 1) == false){
++ return result78727453=result;
++ }
+
+,
++ if((this.getWeight() >= this.getSeriesCount()) == true){
++ return result78727453=result;
++ }
+
+,
++ if((mappedDatasets.size() >= this.getSeriesCount()) == true){
++ return result78727453=result;
++ }
+
+,
++ if((this.getSeriesCount() > this.getDatasetCount()) == false){
++ return result78727453=result;
++ }
+
+,
++ if((null == this.getRenderer()) == true){
++ continue;
+
+,
+- if (d != null) {
++ if ((null == this.getRenderer()) != true && d != null) {
+
+,
+- if (d != null) {
++ if (d != null && (null == this.getRenderer()) != true) {
+
+,

@@ -1,6 +1,0 @@
--                return foundDigit && !hasExp;
-+                return (!hasDecPoint) && (!hasExp);
-,
--            if (chars[i] == 'l'
--                || chars[i] == 'L') {
-+

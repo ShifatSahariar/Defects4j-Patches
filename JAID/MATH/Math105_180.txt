@@ -1,0 +1,900 @@
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumX;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumXX;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.ybar;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumXY * this.sumXY;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.n;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.xbar;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumXY;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumY;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getN();
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ this.sumXY=this.sumXY * this.sumXY;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY * this.sumXY;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.n;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXX;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getN();
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.xbar;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.ybar;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumX;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumY;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumY;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.n;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXX;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.ybar;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumX;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.xbar;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getN();
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY * this.sumXY;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() >= this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() >= this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() >= this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getSlope() > this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getSlope() > this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.sumYY - this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumYY >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumYY >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumYY >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumYY > this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumYY > this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXY * this.sumXY >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumXY * this.sumXY >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXY * this.sumXY >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXY * this.sumXY > this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXY * this.sumXY > this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumXY * this.sumXY > this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getRegressionSumSquares() == this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getRegressionSumSquares() == this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getTotalSumSquares() >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getTotalSumSquares() >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getRegressionSumSquares() >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getTotalSumSquares() >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getRegressionSumSquares() >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY / this.sumXX) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getRegressionSumSquares() >= this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getTotalSumSquares() > this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getTotalSumSquares() > this.sumXY * this.sumXY / this.sumXX) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getN();
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumXY;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.sumXX;
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumY;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.n;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.sumX;
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.xbar;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.sumY;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.ybar;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.getN();
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.ybar;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.sumXY;
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumX;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.sumXY * this.sumXY;
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumXX;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.xbar;
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumXY * this.sumXY;
++ }
+
+,
++ if((this.getSlope() > this.getTotalSumSquares()) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() > this.getRegressionSumSquares()) == true){
++ return result1325958191=this.n;
++ }
+
+,
++ if((this.sumYY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumYY > this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumYY >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumYY >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXY >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXY >= this.sumXY * this.sumXY) == true){
++ this.sumXY=this.sumXY * this.sumXY;
++ }
+
+,
++ if((this.sumXY >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXY >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.ybar;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.xbar;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumX;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getN();
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXX;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.n;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumY;
++ }
+
+,
++ if((this.getSlope() >= this.sumXY * this.sumXY) == true){
++ return result1325958191=this.sumXY * this.sumXY;
++ }
+
+,
++ if((this.sumXY * this.sumXY >= this.getRegressionSumSquares()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXY * this.sumXY >= this.getRegressionSumSquares()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXY * this.sumXY >= this.getRegressionSumSquares()) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumXY * this.sumXY > this.getRegressionSumSquares()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXY * this.sumXY > this.getRegressionSumSquares()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXY * this.sumXY > this.getRegressionSumSquares()) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumXY * this.sumXY > this.getTotalSumSquares()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXY * this.sumXY >= this.getTotalSumSquares()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXY * this.sumXY >= this.getTotalSumSquares()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXY * this.sumXY > this.getTotalSumSquares()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumYY == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumYY == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.sumYY == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.sumYY == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumYY == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumYY == this.getRegressionSumSquares()) == true){
++ this.sumYY=this.getSlope();
++ }
+
+,
++ if((this.sumYY >= this.getSlope()) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumYY >= this.getSlope()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumYY >= this.getSlope()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXX >= this.getSlope()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXX >= this.getSlope()) == false){
++ this.sumXX=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXX >= this.getSlope()) == false){
++ this.sumXX=this.getSlope();
++ }
+
+,
++ if((this.sumXX > this.getSlope()) == false){
++ this.sumXX=this.getSlope();
++ }
+
+,
++ if((this.sumXX >= this.getSlope()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXX > this.getSlope()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumXX > this.getSlope()) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumXX > this.getSlope()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumXX >= this.getSlope()) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumXX > this.getSlope()) == false){
++ this.sumXX=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumYY > this.getSlope()) == false){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.sumYY > this.getSlope()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.sumYY > this.getSlope()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumYY > this.getRegressionSumSquares()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.sumYY > this.getRegressionSumSquares()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.getTotalSumSquares()) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getSlope() >= this.getTotalSumSquares()) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() >= this.getTotalSumSquares()) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.getTotalSumSquares()) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() >= this.getTotalSumSquares()) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getTotalSumSquares() == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getSlope();
++ }
+
+,
++ if((this.getSlope() >= this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getTotalSumSquares() == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,
++ if((this.getSlope() >= this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getTotalSumSquares() == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getTotalSumSquares() == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.sumYY;
++ }
+
+,
++ if((this.getTotalSumSquares() == this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getSlope() >= this.getRegressionSumSquares()) == true){
++ return result1325958191=this.getTotalSumSquares();
++ }
+
+,
++ if((this.getTotalSumSquares() > this.getRegressionSumSquares()) == false){
++ return result1325958191=this.getRegressionSumSquares();
++ }
+
+,
++ if((this.getTotalSumSquares() > this.getRegressionSumSquares()) == false){
++ return result1325958191=this.sumXY * this.sumXY / this.sumXX;
++ }
+
+,

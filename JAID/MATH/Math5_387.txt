@@ -1,0 +1,1923 @@
++ if((0.0 == this.real && 0.0 == this.imaginary) == true){
++ return result1679819632=this.INF;
+
+,
++ if((0.0 == this.real && 0.0 == this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.real) == (0.0 == this.imaginary)) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real || 0.0 == this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real || org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.imaginary) == org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.imaginary && org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real && org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.real) == org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.imaginary) == org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.real) == org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.imaginary || org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real && org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real || org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.imaginary && org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.imaginary || org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN && 0.0 == this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real || this.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN == (0.0 == this.real)) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() || 0.0 == this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() || 0.0 == this.real) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() == (0.0 == this.real)) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite == (0.0 == this.imaginary)) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite == (0.0 == this.real)) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real && this.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN || 0.0 == this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN == (0.0 == this.imaginary)) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() && 0.0 == this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN || 0.0 == this.real) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite || 0.0 == this.real) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() && 0.0 == this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite || 0.0 == this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.real) == this.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() && 0.0 == this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() == (0.0 == this.imaginary)) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN && 0.0 == this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() == (0.0 == this.imaginary)) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite && 0.0 == this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite && 0.0 == this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() || 0.0 == this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary >= org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary >= org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary > org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.real) == org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary > org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real || org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.imaginary) == org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real && org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.imaginary || org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real && org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real > org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.real || org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.imaginary && org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real > org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real >= org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.imaginary) == org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(((0.0 == this.real) == org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.imaginary && org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real >= org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((0.0 == this.imaginary || org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == this.imaginary) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.real >= this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() >= this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real > this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() >= this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() == this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() >= this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() == this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() > this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() == this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() > this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() > this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() > this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() >= this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real >= this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() == this.imaginary / this.real) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > this.real / this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary > org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real == org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real >= org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real > org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary >= org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real / this.imaginary == org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary / this.real == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == this.imaginary) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.real == this.getImaginary()) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.imaginary == this.getArgument()) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.real == this.getArgument()) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.getReal() >= this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > this.imaginary) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == this.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == this.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == this.imaginary) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= this.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == this.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= this.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= this.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > this.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == this.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > this.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > this.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= this.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == this.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= this.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > this.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > this.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() || org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite || org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() == org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() && org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN == org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN || org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() >= org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite == org.apache.commons.math3.complex.Complex.NaN.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() > org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN || org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() == org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite == org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite || org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() >= org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite && org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() == org.apache.commons.math3.complex.Complex.NaN.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() >= org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getField() == org.apache.commons.math3.complex.Complex.NaN.getField()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary == org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() >= org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() > org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN && org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() == org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() == org.apache.commons.math3.complex.Complex.NaN.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN == org.apache.commons.math3.complex.Complex.NaN.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() || org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real == org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() > org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() == org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() || org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() || org.apache.commons.math3.complex.Complex.NaN.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() && org.apache.commons.math3.complex.Complex.NaN.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() > org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN && org.apache.commons.math3.complex.Complex.NaN.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() == org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.imaginary > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() && org.apache.commons.math3.complex.Complex.NaN.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() && org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() == org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() == org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() == org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.real >= org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite && org.apache.commons.math3.complex.Complex.NaN.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() == org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.getArgument() == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.getArgument() == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
+
+,
++ if(org.apache.commons.math3.complex.Complex.NaN.isNaN() == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((null == org.apache.commons.math3.complex.Complex.NaN.getField()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(this.isInfinite == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(org.apache.commons.math3.complex.Complex.NaN.isInfinite() == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(this.isNaN == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(this.isNaN() == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(this.isInfinite() == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((null == this.getField()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == this.getArgument()) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.getArgument() == this.getImaginary()) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.getReal() == this.getImaginary()) == true){
++ return result1679819632=this.INF;
+
+,
++ if((this.getArgument() == this.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() == this.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getArgument() > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getArgument() >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= this.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isNaN() == org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= this.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN == this.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN == this.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite == this.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite || this.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite && this.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN && this.isInfinite) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() == this.isInfinite) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN || this.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > this.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN && this.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN && this.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() && this.isInfinite) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isNaN() && org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > this.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN == this.isInfinite) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isNaN() || org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() || this.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN || this.isInfinite) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() > org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() >= this.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() && this.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() >= org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == this.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() > this.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == this.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN || this.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() || this.isInfinite) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() >= org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() > org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite == org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() == org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() > org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isNaN() == org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getField() == org.apache.commons.math3.complex.Complex.ZERO.getField()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.isNaN() && org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() > org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getImaginary() == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() && org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getImaginary() > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getImaginary() >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isNaN() && org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() == org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() > org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isNaN() && org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() == org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() > org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() && org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getArgument() == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() >= org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite == org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN && org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() == org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getImaginary() > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN == org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() || org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getArgument() > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() == org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getField() == org.apache.commons.math3.complex.Complex.ZERO.getField()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() && org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getImaginary() == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isNaN() || org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() >= org.apache.commons.math3.complex.Complex.NaN.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getArgument() >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() || org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() == org.apache.commons.math3.complex.Complex.ZERO.getReal()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isNaN() || org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getArgument() == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() == org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() == org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.isNaN() == org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN || org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() || org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getArgument() > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN() && org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() >= org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getImaginary() >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN == org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getArgument() > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite || org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() == org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite || org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite() || org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN || org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() >= org.apache.commons.math3.complex.Complex.ZERO.getReal()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getReal() > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getArgument() >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isInfinite() == org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() == org.apache.commons.math3.complex.Complex.NaN.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite && org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isInfinite() && org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.getImaginary() == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.isNaN() || org.apache.commons.math3.complex.Complex.NaN.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.getReal() == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isInfinite() || org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isNaN && org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.NaN.isNaN() == org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((this.isInfinite && org.apache.commons.math3.complex.Complex.ZERO.isNaN()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getArgument() == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() == org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() >= org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(org.apache.commons.math3.complex.Complex.ZERO.isInfinite() == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.isNaN() || org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() > org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() == org.apache.commons.math3.complex.Complex.ZERO.getArgument()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getArgument() > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getReal() > org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.isNaN() && org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if(org.apache.commons.math3.complex.Complex.ZERO.isNaN() == false){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.getArgument() >= org.apache.commons.math3.complex.Complex.ZERO.getImaginary()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((org.apache.commons.math3.complex.Complex.ZERO.isNaN() == org.apache.commons.math3.complex.Complex.ZERO.isInfinite()) == true){
++ return result1679819632=this.INF;
++ }
+
+,
++ if((null == org.apache.commons.math3.complex.Complex.ZERO.getField()) == false){
++ return result1679819632=this.INF;
++ }
+
+,

@@ -1,0 +1,332 @@
++ if(((fnType != null) == type.isConstructor()) == false){
++ return;
+
+,
++ if((fnType != null && type.isEmptyType()) == true){
++ return;
+
+,
++ if(type.isEmptyType() == true){
++ return;
+
+,
++ if(type.isEmptyType() == true){
++ return;
++ }
+
+,
++ if((fnType != null && type.isConstructor()) == false){
++ return;
++ }
+
+,
++ if(((fnType != null) == type.isEmptyType()) == true){
++ return;
++ }
+
+,
++ if((fnType != null && type.isEmptyType()) == true){
++ return;
++ }
+
+,
++ if(((fnType != null) == type.isConstructor()) == false){
++ return;
++ }
+
+,
++ if((type.isConstructor() || type.isUnknownType()) == false){
++ return;
++ }
+
+,
++ if((type.isConstructor() == type.isUnknownType()) == true){
++ return;
++ }
+
+,
+- if (fnType != null) {
++ if (type.isEmptyType() != true && fnType != null) {
+
+,
+- if (fnType != null) {
++ if (fnType != null && type.isEmptyType() != true) {
+
+,
+- if (fnType != null) {
++ if ((type.isConstructor() || type.isUnknownType()) != false && fnType != null) {
+
+,
+- if (fnType != null) {
++ if ((type.isConstructor() == type.isUnknownType()) != true && fnType != null) {
+
+,
++ if((type.isConstructor() || type.isUnknownType()) == false){
++ return;
+
+,
+- if (fnType != null) {
++ if (fnType != null && (type.isConstructor() == type.isUnknownType()) != true) {
+
+,
++ if((type.isConstructor() == type.isUnknownType()) == true){
++ return;
+
+,
+- if (fnType != null) {
++ if (fnType != null && (type.isConstructor() || type.isUnknownType()) != false) {
+
+,
++ if((type.isEmptyType() || type.isUnknownType()) == true){
++ return;
+
+,
++ if((type.isEmptyType() == type.isUnknownType()) == false){
++ return;
+
+,
++ if((fnType != null && type.isConstructor()) == false){
++ return;
+
+,
++ if(((fnType != null) == type.isEmptyType()) == true){
++ return;
+
+,
++ if(type.isConstructor() == false){
++ return;
++ }
+
+,
++ if((type.isEmptyType() == type.isUnknownType()) == false){
++ return;
++ }
+
+,
++ if((type.isEmptyType() || type.isUnknownType()) == true){
++ return;
++ }
+
+,
++ if((null == t) == false){
++ t=null;
++ }else{
+
+,
++ if(!((null == t) == false)){
+
+,
++ if((null == n) == false){
++ n=null;
++ }else{
+
+,
++ if((null == fnType) == false){
++ fnType=null;
++ }else{
+
+,
++ if((null == n) == false){
++ return;
++ }
+
+,
++ if(!((null == n) == false)){
+
+,
++ if((null == t) == false){
++ return;
++ }
+
+,
++ if(!((null == fnType) == false)){
+
+,
++ if((null == fnType) == false){
++ return;
++ }
+
+,
++ if((n == n.getFirstChild()) == false){
++ n=n.getFirstChild();
++ }else{
+
+,
++ if((n == constructor) == false){
++ constructor=n;
++ }else{
+
+,
++ if((fnType != null) == true){
++ return;
++ }
+
+,
++ if((null == n.getFirstChild()) == false){
++ return;
++ }
+
+,
++ if((n == constructor) == false){
++ return;
++ }
+
+,
++ if((n == constructor) == false){
++ constructor=null;
++ }else{
+
+,
++ if(!((n == constructor) == false)){
+
+,
++ if((n == constructor) == false){
++ n=null;
++ }else{
+
+,
++ if((n == n.getFirstChild()) == false){
++ n=null;
++ }else{
+
+,
++ if(!((n == n.getFirstChild()) == false)){
+
+,
++ if((n == constructor) == false){
++ n=constructor;
++ }else{
+
+,
++ if((n == n.getFirstChild()) == false){
++ return;
++ }
+
+,
+- if (fnType != null) {
++ if (type.isConstructor() != false && fnType != null) {
+
+,
+- if (fnType != null) {
++ if (fnType != null && type.isConstructor() != false) {
+
+,
++ if(type.isConstructor() == false){
++ return;
+
+,
++ if(!((constructor == n.getFirstChild()) == true)){
+
+,
++ if((constructor == n.getFirstChild()) == true){
++ return;
++ }
+
+,
++ if((constructor == n.getFirstChild()) == true){
++ constructor=n.getFirstChild();
++ }else{
+
+,
++ if((constructor == n.getFirstChild()) == true){
++ constructor=null;
++ }else{
+
+,
+- if (fnType != null) {
++ if ((type.isEmptyType() || type.isUnknownType()) != true && fnType != null) {
+
+,
+- if (fnType != null) {
++ if (fnType != null && (type.isEmptyType() == type.isUnknownType()) != false) {
+
+,
+- if (fnType != null) {
++ if ((type.isEmptyType() == type.isUnknownType()) != false && fnType != null) {
+
+,
+- if (fnType != null) {
++ if (fnType != null && (type.isEmptyType() || type.isUnknownType()) != true) {
+
+,
++ if((fnType != null || type.isEmptyType()) == true){
++ return;
++ }
+
+,
++ if(((fnType != null) == type.isUnknownType()) == false){
++ return;
++ }
+
+,
++ if((fnType != null || type.isUnknownType()) == true){
++ return;
++ }
+
+,
++ if((fnType != null && type.isUnknownType()) == false){
++ return;
++ }
+
+,
++ if((fnType != null || type.isConstructor()) == true){
++ return;
++ }
+
+,
++ if((null == type) == false){
++ return;
++ }
+
+,
++ if((null == constructor) == false){
++ constructor=null;
++ }else{
+
+,
++ if(!((null == type) == false)){
+
+,
++ if((type.isEmptyType() && type.isConstructor()) == false){
++ return;
++ }
+
+,
++ if((null == type) == false){
++ type=null;
++ }else{
+
+,
++ if((type.isEmptyType() && type.isUnknownType()) == false){
++ return;
++ }
+
+,
++ if((type.isEmptyType() || type.isConstructor()) == true){
++ return;
++ }
+
+,
++ if((type.isConstructor() && type.isUnknownType()) == false){
++ return;
++ }
+
+,
++ if((type.isEmptyType() == type.isConstructor()) == false){
++ return;
++ }
+
+,
++ if((null == constructor) == false){
++ return;
++ }
+
+,
++ if(type.isUnknownType() == false){
++ return;
++ }
+
+,
++ if(!((null == constructor) == false)){
+
+,

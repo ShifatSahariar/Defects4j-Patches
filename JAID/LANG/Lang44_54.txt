@@ -1,0 +1,216 @@
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if (((dec == null) == numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((dec == null && numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((exp == null && numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if (numeric.isEmpty() != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (expPos > -1 && expPos < val.length() - 1) {
++ if (expPos > -1 && expPos < val.length() - 1 || (1 + expPos == val.length() - 1) == true) {
+
+,
++ if(!((allZeros || numeric.isEmpty()) == true)){
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((allZeros || numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((allZeros == numeric.isEmpty()) != false && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
++ if(!((allZeros == numeric.isEmpty()) == false)){
+
+,
++ if((allZeros == numeric.isEmpty()) == false){
++ allZeros=numeric.isEmpty();
++ }else{
+
+,
++ if((allZeros || numeric.isEmpty()) == true){
++ allZeros=numeric.isEmpty();
++ }else{
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if (((exp == null) == numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((val.isEmpty() == numeric.isEmpty()) != false && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((mant.isEmpty() || numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((val.isEmpty() || numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((mant.isEmpty() == numeric.isEmpty()) != false && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (expPos > -1 && expPos < val.length() - 1) {
++ if (expPos > -1 && expPos < val.length() - 1 || (1 + decPos == val.length() - 1) == true) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((decPos > expPos || numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((decPos > expPos == numeric.isEmpty()) != false && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (1 + expPos == val.length() - 1) != true) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((1 + expPos == val.length() - 1) != true && !Character.isDigit(lastChar)) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (1 + expPos >= val.length() - 1) != true) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((1 + expPos >= val.length() - 1) != true && !Character.isDigit(lastChar)) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (val.length() - 1 >= 1) != false) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((val.length() - 1 >= 1) != false && !Character.isDigit(lastChar)) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (val.length() - 1 > 1) != false) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((val.length() - 1 > 1) != false && !Character.isDigit(lastChar)) {
+
+,
+- if (expPos > -1 && expPos < val.length() - 1) {
++ if (expPos > -1 && expPos < val.length() - 1 || (val.length() - 1 >= 1) == false) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((val.length() - 1 > 0) != false && !Character.isDigit(lastChar)) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((val.length() - 1 == 0) != true && !Character.isDigit(lastChar)) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (val.length() - 1 == 0) != true) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (val.length() - 1 > 0) != false) {
+
+,
+- if (expPos > -1 && expPos < val.length() - 1) {
++ if (expPos > -1 && expPos < val.length() - 1 || (val.length() - 1 == 0) == true) {
+
+,
+- if (expPos > -1 && expPos < val.length() - 1) {
++ if (expPos > -1 && expPos < val.length() - 1 || (val.length() - 1 > 0) == false) {
+
+,
+- if (expPos > -1 && expPos < val.length() - 1) {
++ if (expPos > -1 && expPos < val.length() - 1 || (val.length() - 1 > 1) == false) {
+
+,
+- if (expPos > -1 && expPos < val.length() - 1) {
++ if (expPos > -1 && expPos < val.length() - 1 || (1 + decPos >= val.length() - 1) == true) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((1 + decPos == val.length() - 1) != true && !Character.isDigit(lastChar)) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (1 + decPos == val.length() - 1) != true) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((1 + decPos >= val.length() - 1) != true && !Character.isDigit(lastChar)) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (1 + decPos >= val.length() - 1) != true) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (val.length() == 1) != true) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((val.length() == 1) != true && !Character.isDigit(lastChar)) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if (!Character.isDigit(lastChar) && (val.length() > 1) != false) {
+
+,
+- if (!Character.isDigit(lastChar)) {
++ if ((val.length() > 1) != false && !Character.isDigit(lastChar)) {
+
+,
+- if (expPos > -1 && expPos < val.length() - 1) {
++ if (expPos > -1 && expPos < val.length() - 1 || (val.length() == 1) == true) {
+
+,
+- if (expPos > -1 && expPos < val.length() - 1) {
++ if (expPos > -1 && expPos < val.length() - 1 || (val.length() > 1) == false) {
+
+,
+- if (val.startsWith("0x") || val.startsWith("-0x")) {
++ if (val.startsWith("0x") || val.startsWith("-0x") || (val.length() == 1) == true) {
+
+,
+- if (val.startsWith("0x") || val.startsWith("-0x")) {
++ if (val.startsWith("0x") || val.startsWith("-0x") || (val.length() > 1) == false) {
+
+,
+- if (val.startsWith("0x") || val.startsWith("-0x")) {
++ if (val.startsWith("0x") || val.startsWith("-0x") || (val.length() - 1 >= 1) == false) {
+
+,
+- if (val.startsWith("0x") || val.startsWith("-0x")) {
++ if (val.startsWith("0x") || val.startsWith("-0x") || (val.length() - 1 > 1) == false) {
+
+,
+- if (val.startsWith("0x") || val.startsWith("-0x")) {
++ if (val.startsWith("0x") || val.startsWith("-0x") || (val.length() - 1 > 0) == false) {
+
+,
+- if (val.startsWith("0x") || val.startsWith("-0x")) {
++ if (val.startsWith("0x") || val.startsWith("-0x") || (val.length() - 1 == 0) == true) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if (dec == null && exp == null && (false && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,
+- if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++ if ((null == val || numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+
+,

@@ -1,0 +1,1040 @@
++ if((VarU >= Umin - EU) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((VarU > Umin - EU) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((VarU > Umin - EU) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((VarU >= Umin - EU) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((VarU > Umin - EU) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((VarU >= Umin - EU) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((VarU >= Umin - EU) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((VarU > Umin - EU) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((VarU >= Umin - EU) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((VarU > Umin - EU) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((VarU >= Umin - EU) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((VarU > Umin - EU) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((VarU > Umin - EU) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((VarU >= Umin - EU) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((VarU > Umin - EU) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((VarU >= Umin - EU) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1n2prod >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((1 + n1 + n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 1) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((1 + n1 + n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1n2prod > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1n2prod > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((1 + n1 + n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 1) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((1 + n1 + n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((1 + n1 + n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 1) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((1 + n1 + n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1n2prod >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1n2prod >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 1) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1n2prod >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 1) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1n2prod > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((1 + n1 + n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1n2prod > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((1 + n1 + n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1n2prod >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((1 + n1 + n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 1) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((1 + n1 + n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((1 + n1 + n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 1) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((1 + n1 + n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1n2prod > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 1) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 1) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 1) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1n2prod >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((1 + n1 + n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((1 + n1 + n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1n2prod > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 1) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((1 + n1 + n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 1) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 1) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((1 + n1 + n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 1) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1n2prod >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 1) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 1) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 2) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 2) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 0) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 0) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 2) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1 * n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1 * n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 0) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 2) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1 * n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 0) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 0) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1 * n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 2) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1 * n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 0) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1 * n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 2) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1 * n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 2) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 2) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1 * n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 2) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1 * n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 0) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1 * n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 0) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 0) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 2) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 0) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 0) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1 * n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 2) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 2) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 0) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 0) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 0) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 0) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1 * n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1 * n2 >= n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1 * n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 0) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1 * n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 2) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1 * n2 > n1n2prod * (1 + n1 + n2)) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) > 2) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 2) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1n2prod * (1 + n1 + n2) >= 2) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1 == n2) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1 > n2) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1 == n2) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1 > n2) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((n1 == n2) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1 > n2) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((n1 > n2) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((n1 == n2) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((n1 > n2) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((n1 == n2) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((EU > VarU) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((EU > VarU) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((Umin > VarU) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((Umin >= VarU) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((Umin > VarU) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((Umin >= VarU) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((EU >= VarU) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((EU >= VarU) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((Umin > VarU) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((EU > VarU) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((Umin >= VarU) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((EU > VarU) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((EU >= VarU) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((Umin > VarU) == true){
++ return result1325958191=n1;
++ }
+
+,
++ if((EU > VarU) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((Umin >= VarU) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((EU > VarU) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((Umin > VarU) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((EU >= VarU) == true){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((EU >= VarU) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((EU > VarU) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((Umin > VarU) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((Umin >= VarU) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((Umin >= VarU) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((Umin > VarU) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((EU > VarU) == true){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((Umin >= VarU) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((Umin > VarU) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((Umin >= VarU) == true){
++ return result1325958191=n2;
++ }
+
+,
++ if((EU >= VarU) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((EU >= VarU) == true){
++ return result1325958191=Umin;
++ }
+
+,
++ if((EU >= VarU) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1 == n2) == true){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1 > n2) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((n1 == n2) == true){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1 > n2) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((n1 > n2) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((n1 == n2) == true){
++ return result1325958191=EU;
++ }
+
+,
++ if((z >= Umin - EU) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((z > Umin - EU) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((z >= Umin - EU) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((z >= Umin - EU) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((z >= Umin - EU) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((z > Umin - EU) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((z > Umin - EU) == false){
++ return result1325958191=n1 * n2;
++ }
+
+,
++ if((z >= Umin - EU) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,
++ if((z >= Umin - EU) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((z > Umin - EU) == false){
++ return result1325958191=EU;
++ }
+
+,
++ if((z > Umin - EU) == false){
++ return result1325958191=1 + n1 + n2;
++ }
+
+,
++ if((z > Umin - EU) == false){
++ return result1325958191=Umin;
++ }
+
+,
++ if((z >= Umin - EU) == false){
++ return result1325958191=n2;
++ }
+
+,
++ if((z > Umin - EU) == false){
++ return result1325958191=n1;
++ }
+
+,
++ if((z >= Umin - EU) == false){
++ return result1325958191=n1n2prod;
++ }
+
+,
++ if((z > Umin - EU) == false){
++ return result1325958191=n1n2prod / 2.0;
++ }
+
+,

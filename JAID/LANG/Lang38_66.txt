@@ -1,0 +1,303 @@
++ if((null == this.mTimeZone) == false){
++ calendar.getTimeInMillis();
++ }
+
+,
++ if((null == this.mTimeZone) == false){
++ calendar.getTime();
++ }
+
+,
++ if((null == this.mTimeZone) == false){
++ calendar.getWeekYear();
++ }
+
+,
++ if((null == this.mTimeZone) == false){
++ calendar.getWeekYear();
++ }else{
+
+,
++ if((null == this.mTimeZone) == false){
++ calendar.getTimeInMillis();
++ }else{
+
+,
++ if((null == this.mTimeZone) == false){
++ calendar.getTime();
++ }else{
+
+,
++ if((this.mTimeZone == this.getTimeZone()) == true){
++ calendar.getWeekYear();
++ }
+
+,
++ if((this.mTimeZone == this.getTimeZone()) == true){
++ calendar.getTimeInMillis();
++ }
+
+,
++ if((this.mTimeZone == this.getTimeZone()) == true){
++ calendar.getTime();
++ }
+
+,
++ if((this.mTimeZone == this.getTimeZone()) == true){
++ calendar.getTimeInMillis();
++ }else{
+
+,
++ if((this.mTimeZone == this.getTimeZone()) == true){
++ calendar.getWeekYear();
++ }else{
+
+,
++ if((this.mTimeZone == this.getTimeZone()) == true){
++ calendar.getTime();
++ }else{
+
+,
++ if((null == calendar) == false){
++ calendar.getTimeInMillis();
++ }
+
+,
++ if((null == calendar) == false){
++ calendar.getTime();
++ }
+
+,
++ if((null == calendar) == false){
++ calendar.getWeekYear();
++ }
+
+,
++ if((null == calendar) == false){
++ calendar.getTime();
++ }else{
+
+,
++ if((null == calendar) == false){
++ calendar.getTimeInMillis();
++ }else{
+
+,
++ if((null == calendar) == false){
++ calendar.getWeekYear();
++ }else{
+
+,
++ if((null == this.getTimeZone()) == false){
++ calendar.getTime();
++ }
+
+,
++ calendar.getTimeInMillis();
+
+,
++ if((null == this.getLocale()) == false){
++ calendar.getTimeInMillis();
++ }
+
+,
++ calendar.getTime();
+
+,
++ if((null == this.getTimeZone()) == false){
++ calendar.getTimeInMillis();
++ }
+
+,
++ if((null == this.getLocale()) == false){
++ calendar.getWeekYear();
++ }
+
+,
++ if((null == calendar.getTimeZone()) == false){
++ calendar.getWeekYear();
++ }
+
+,
++ calendar.getWeekYear();
+
+,
++ if((null == calendar.getTimeZone()) == false){
++ calendar.getTime();
++ }
+
+,
++ if((null == this.getTimeZone()) == false){
++ calendar.getWeekYear();
++ }
+
+,
++ if((null == this.getLocale()) == false){
++ calendar.getTime();
++ }
+
+,
++ if((null == calendar.getTimeZone()) == false){
++ calendar.getTimeInMillis();
++ }
+
+,
++ if((null == this.getLocale()) == false){
++ calendar.getWeekYear();
++ }else{
+
+,
++ if((null == this.getTimeZone()) == false){
++ calendar.getTime();
++ }else{
+
+,
++ if((null == this.getLocale()) == false){
++ calendar.getTimeInMillis();
++ }else{
+
+,
++ if((null == calendar.getTimeZone()) == false){
++ calendar.getTime();
++ }else{
+
+,
++ if((null == this.getTimeZone()) == false){
++ calendar.getWeekYear();
++ }else{
+
+,
++ if((null == calendar.getTimeZone()) == false){
++ calendar.getWeekYear();
++ }else{
+
+,
++ if((null == calendar.getTimeZone()) == false){
++ calendar.getTimeInMillis();
++ }else{
+
+,
++ if((null == this.getTimeZone()) == false){
++ calendar.getTimeInMillis();
++ }else{
+
+,
++ if((null == this.getLocale()) == false){
++ calendar.getTime();
++ }else{
+
+,
++ if((null == buf) == false){
++ calendar.getTimeInMillis();
++ }
+
+,
++ if((null == buf) == false){
++ calendar.getTime();
++ }else{
+
+,
++ if((null == buf) == false){
++ calendar.getTime();
++ }
+
+,
++ if((null == buf) == false){
++ calendar.getWeekYear();
++ }else{
+
+,
++ if((null == buf) == false){
++ calendar.getTimeInMillis();
++ }else{
+
+,
++ if((null == buf) == false){
++ calendar.getWeekYear();
++ }
+
+,
++ if((null == calendar) == false){
++ calendar.getWeekYear();
+
+,
++ if((null == calendar) == false){
++ calendar.getTime();
+
+,
++ if((null == calendar) == false){
++ calendar.getTimeInMillis();
+
+,
++ if((null == this.getLocale()) == false){
++ calendar.getWeekYear();
+
+,
++ if((null == this.mTimeZone) == false){
++ calendar.getTime();
+
+,
++ if((null == this.mTimeZone) == false){
++ calendar.getWeekYear();
+
+,
++ if((null == this.getLocale()) == false){
++ calendar.getTime();
+
+,
++ if((null == calendar.getTimeZone()) == false){
++ calendar.getTimeInMillis();
+
+,
++ if((null == calendar.getTimeZone()) == false){
++ calendar.getTime();
+
+,
++ if((null == calendar.getTimeZone()) == false){
++ calendar.getWeekYear();
+
+,
++ if((null == this.getLocale()) == false){
++ calendar.getTimeInMillis();
+
+,
++ if((null == this.getTimeZone()) == false){
++ calendar.getWeekYear();
+
+,
++ if((null == this.getTimeZone()) == false){
++ calendar.getTimeInMillis();
+
+,
++ if((null == this.mTimeZone) == false){
++ calendar.getTimeInMillis();
+
+,
++ if((null == this.getTimeZone()) == false){
++ calendar.getTime();
+
+,
++ if((this.mTimeZone == this.getTimeZone()) == true){
++ calendar.getTime();
+
+,
++ if((this.mTimeZone == this.getTimeZone()) == true){
++ calendar.getWeekYear();
+
+,
++ if((this.mTimeZone == this.getTimeZone()) == true){
++ calendar.getTimeInMillis();
+
+,
++ if((null == buf) == false){
++ calendar.getTime();
+
+,
++ if((null == buf) == false){
++ calendar.getTimeInMillis();
+
+,
++ if((null == buf) == false){
++ calendar.getWeekYear();
+
+,

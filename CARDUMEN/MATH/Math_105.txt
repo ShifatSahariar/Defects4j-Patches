@@ -1,5 +1,0 @@
--        if (n == 0) {
-+        if (((sumXX) < (sumYY)) && ((sumYY) < (xbar))) {
-,
--        if (n == 0) {
-+        if (((sumXX) < (sumYY)) && ((sumYY) < x)) {

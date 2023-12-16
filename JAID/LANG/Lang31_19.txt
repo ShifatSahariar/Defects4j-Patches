@@ -1,0 +1,86 @@
++ if((i > 0) == false){
++ continue;
++ }
+
+,
++ if((i == 0) == true){
++ continue;
++ }
+
+,
+- if (searchChars[j] == ch) {
++ if((i == 0) == true){
++ continue;
+
+,
+- if (searchChars[j] == ch) {
++ if((i > 0) == false){
++ i=0;
++ }else{
+
+,
+- if (searchChars[j] == ch) {
++ if((i > 0) == false){
++ continue;
+
+,
+- if (searchChars[j] == ch) {
++ if((i == 0) == true){
++ i=0;
++ }else{
+
+,
+- if (searchChars[j] == ch) {
++ if(!((i > 0) == false)){
+
+,
+- if (searchChars[j] == ch) {
++ if(!((i == 0) == true)){
+
+,
++ if((i >= 1) == false){
++ continue;
++ }
+
+,
++ if((i >= 1) == false){
++ i=1;
++ }
+
+,
++ if((i > 1) == false){
++ i=1;
++ }
+
+,
+- if (searchChars[j] == ch) {
+
+,
+- if (searchChars[j] == ch) {
++ if(!((i >= 1) == false)){
+
+,
+- if (searchChars[j] == ch) {
++ if((i >= 1) == false){
++ continue;
+
+,
++ if((i == 0) == true){
++ i=0;
++ }else{
+
+,
++ if(!((i > 0) == false)){
+
+,
++ if(!((i == 0) == true)){
+
+,
++ if((i > 0) == false){
++ i=0;
++ }else{
+
+,
++ if(!((i >= 1) == false)){
+
+,

@@ -1,0 +1,44 @@
++ if(this.resultEqualsValue == false){
++ return result2097135581=type;
++ }
+
+,
++ if(!((this.value.isEmpty() == this.resultEqualsValue) == true)){
+
+,
++ if(!((this.value.isEmpty() || this.resultEqualsValue) == false)){
+
+,
++ if((this.value.isEmpty() || this.resultEqualsValue) == false){
++ return result2097135581=type;
+
+,
++ if((this.value.isEmpty() == this.resultEqualsValue) == true){
++ return result2097135581=type;
+
+,
++ if((this.value.isEmpty() || this.resultEqualsValue) == false){
++ return result2097135581=type;
++ }
+
+,
++ if((this.value.isEmpty() == this.resultEqualsValue) == true){
++ return result2097135581=type;
++ }
+
+,
+- if (this.value.equals("function")) {
++ if (this.value.equals("function") && this.resultEqualsValue != false) {
+
+,
++ if(!(this.resultEqualsValue == false)){
+
+,
+- if (this.value.equals("function")) {
++ if (this.resultEqualsValue != false && this.value.equals("function")) {
+
+,
++ if(this.resultEqualsValue == false){
++ return result2097135581=type;
+
+,

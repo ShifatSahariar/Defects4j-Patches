@@ -1,0 +1,20 @@
+- if (sum < 0) {
++ if (sum < 0 || (sum == sumY) == true) {
+
+,
+- if ((Boolean)tree.getAttribute()) {
++ if ((null == tree.getCut()) != false && (Boolean)tree.getAttribute()) {
+
+,
+- if ((Boolean)tree.getAttribute()) {
++ if ((0 == v.length) != true && (Boolean)tree.getAttribute()) {
+
+,
++ if(!((sumX == sumX / (3 * sum)) == true)){
+
+,
++ if((sumX == sumX / (3 * sum)) == true){
++ sumX=sumX / (3 * sum);
++ }else{
+
+,

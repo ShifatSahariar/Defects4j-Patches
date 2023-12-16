@@ -1,0 +1,3266 @@
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb || 0.0 <= fa * fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb || 0.0 <= fa * fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb == 0.0 <= fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb == 0.0 <= fa * fb) != false && fa * fb >= 0.0) {
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb == (function == null)) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb || function == null) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb || function == null) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb == (function == null)) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb == lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb && b < upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb || 0 >= maximumIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb || lowerBound >= upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb == 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb || initial > upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb == maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb || initial < lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb == lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb || 0 >= maximumIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb == 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb == maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb == initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb && maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb && maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb && b < upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb == initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb || initial > upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb || lowerBound >= upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb == initial < lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb == initial < lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb || initial < lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb > fa * fb) != false && fa * fb >= 0.0) {
+
+,
++ if((fb > fa * fb) == false){
++ fb=fa * fb;
++ }else{
+
+,
++ if(!((fb > fa * fb) == false)){
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb > fa * fb) != false) {
+
+,
++ if(!((fa > fa * fb) == false)){
+
+,
++ if((fa == fa * fb) == false){
++ fa=fa * fb;
++ }else{
+
+,
++ if((fa > fa * fb) == false){
++ fa=fa * fb;
++ }else{
+
+,
++ if(!((fb >= fa * fb) == true)){
+
+,
++ if(!((fa >= fa * fb) == false)){
+
+,
++ if((fa >= fa * fb) == false){
++ fa=fa * fb;
++ }else{
+
+,
++ if((fb >= fa * fb) == true){
++ fb=fa * fb;
++ }else{
+
+,
++ if(!((fa == fa * fb) == false)){
+
+,
++ if(!((fa * fb > upperBound) == false)){
+
+,
++ if(!((a >= fa * fb) == true)){
+
+,
++ if((a > fa * fb) == false){
++ a=fa * fb;
++ }else{
+
+,
++ if(!((fa * fb == upperBound) == false)){
+
+,
++ if((fa * fb == initial) == false){
++ initial=fa * fb;
++ }else{
+
+,
++ if((fa * fb >= initial) == false){
++ initial=fa * fb;
++ }else{
+
+,
++ if(!((b == fa * fb) == false)){
+
+,
++ if(!((fa * fb == initial) == false)){
+
+,
++ if(!((fa * fb > lowerBound) == false)){
+
+,
++ if(!((a > fa * fb) == false)){
+
+,
++ if(!((fa * fb >= lowerBound) == true)){
+
+,
++ if((fa * fb == upperBound) == false){
++ upperBound=fa * fb;
++ }else{
+
+,
++ if(!((b >= fa * fb) == true)){
+
+,
++ if((a >= fa * fb) == true){
++ a=fa * fb;
++ }else{
+
+,
++ if(!((fa * fb >= upperBound) == false)){
+
+,
++ if((fa * fb > initial) == false){
++ initial=fa * fb;
++ }else{
+
+,
++ if((fa * fb >= lowerBound) == true){
++ lowerBound=fa * fb;
++ }else{
+
+,
++ if(!((b > fa * fb) == true)){
+
+,
++ if(!((fa * fb >= initial) == false)){
+
+,
++ if(!((fa * fb > initial) == false)){
+
+,
++ if((fa * fb > lowerBound) == false){
++ lowerBound=fa * fb;
++ }else{
+
+,
++ if((fa * fb >= upperBound) == false){
++ upperBound=fa * fb;
++ }else{
+
+,
++ if((fa * fb > upperBound) == false){
++ upperBound=fa * fb;
++ }else{
+
+,
++ if((fa >= fb) == false){
++ fb=fa;
++ }else{
+
+,
++ if((fa > fb) == false){
++ fb=fa;
++ }else{
+
+,
++ if((fa >= fb) == false){
++ fa=fb;
++ }else{
+
+,
++ if((fa == fb) == false){
++ fb=fa;
++ }else{
+
+,
++ if((fa == fb) == false){
++ fa=fb;
++ }else{
+
+,
++ if((fa > fb) == false){
++ fa=fb;
++ }else{
+
+,
++ if(!((fa > fb) == false)){
+
+,
++ if(!((fa == fb) == false)){
+
+,
++ if(!((fa >= fb) == false)){
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb && 0.0 <= fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb && 0.0 <= fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb && function == null) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb && function == null) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb == lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb > lowerBound) != false) {
+
+,
++ if((a == fb) == true){
++ fb=a;
++ }else{
+
+,
++ if((fb == lowerBound) == true){
++ lowerBound=fb;
++ }else{
+
+,
++ if(!((a == fb) == true)){
+
+,
++ if((a == fb) == true){
++ a=fb;
++ }else{
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a == fb) != true && fa * fb >= 0.0) {
+
+,
++ if((fb == lowerBound) == true){
++ fb=lowerBound;
++ }else{
+
+,
++ if((fb > lowerBound) == false){
++ fb=lowerBound;
++ }else{
+
+,
++ if((fb > lowerBound) == false){
++ lowerBound=fb;
++ }else{
+
+,
++ if(!((fb == lowerBound) == true)){
+
+,
++ if(!((fb > lowerBound) == false)){
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb == lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb > lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a == fb) != true) {
+
+,
++ if(!((fa == upperBound) == false)){
+
+,
++ if(!((a >= fa) == true)){
+
+,
++ if(!((fb >= initial) == false)){
+
+,
++ if(!((fb > initial) == false)){
+
+,
++ if((fb == upperBound) == false){
++ upperBound=fb;
++ }else{
+
+,
++ if((fa > upperBound) == false){
++ fa=upperBound;
++ }else{
+
+,
++ if(!((a >= fb) == true)){
+
+,
++ if((b == fa) == false){
++ fa=b;
++ }else{
+
+,
++ if((fb == initial) == false){
++ fb=initial;
++ }else{
+
+,
++ if((fa == lowerBound) == false){
++ lowerBound=fa;
++ }else{
+
+,
++ if((fa >= lowerBound) == false){
++ fa=lowerBound;
++ }else{
+
+,
++ if(!((fb > upperBound) == false)){
+
+,
++ if((fb == initial) == false){
++ initial=fb;
++ }else{
+
+,
++ if((fa >= upperBound) == false){
++ upperBound=fa;
++ }else{
+
+,
++ if(!((fa > upperBound) == false)){
+
+,
++ if(!((fb == initial) == false)){
+
+,
++ if(!((b == fb) == false)){
+
+,
++ if((a > fb) == false){
++ fb=a;
++ }else{
+
+,
++ if((b > fa) == true){
++ fa=b;
++ }else{
+
+,
++ if((fa >= upperBound) == false){
++ fa=upperBound;
++ }else{
+
+,
++ if((fb >= lowerBound) == true){
++ lowerBound=fb;
++ }else{
+
+,
++ if((fa >= initial) == false){
++ initial=fa;
++ }else{
+
+,
++ if(!((fa == lowerBound) == false)){
+
+,
++ if((a >= fb) == true){
++ fb=a;
++ }else{
+
+,
++ if(!((fa >= lowerBound) == false)){
+
+,
++ if(!((a > fa) == true)){
+
+,
++ if(!((a == fa) == false)){
+
+,
++ if(!((fa >= initial) == false)){
+
+,
++ if((fb >= upperBound) == false){
++ fb=upperBound;
++ }else{
+
+,
++ if((fa == upperBound) == false){
++ fa=upperBound;
++ }else{
+
+,
++ if((fa > initial) == false){
++ fa=initial;
++ }else{
+
+,
++ if(!((b >= fb) == true)){
+
+,
++ if((fa == lowerBound) == false){
++ fa=lowerBound;
++ }else{
+
+,
++ if((a > fa) == true){
++ fa=a;
++ }else{
+
+,
++ if((fa == upperBound) == false){
++ upperBound=fa;
++ }else{
+
+,
++ if(!((b >= fa) == true)){
+
+,
++ if((b >= fa) == true){
++ fa=b;
++ }else{
+
+,
++ if(!((b > fa) == true)){
+
+,
++ if((a > fa) == true){
++ a=fa;
++ }else{
+
+,
++ if((a > fb) == false){
++ a=fb;
++ }else{
+
+,
++ if(!((b > fb) == true)){
+
+,
++ if((fa > lowerBound) == false){
++ lowerBound=fa;
++ }else{
+
+,
++ if((fb == upperBound) == false){
++ fb=upperBound;
++ }else{
+
+,
++ if(!((b == fa) == false)){
+
+,
++ if((fb >= initial) == false){
++ fb=initial;
++ }else{
+
+,
++ if(!((fb >= lowerBound) == true)){
+
+,
++ if((fb >= initial) == false){
++ initial=fb;
++ }else{
+
+,
++ if((a == fa) == false){
++ fa=a;
++ }else{
+
+,
++ if(!((fa >= upperBound) == false)){
+
+,
++ if(!((fa > lowerBound) == false)){
+
+,
++ if((fb > upperBound) == false){
++ fb=upperBound;
++ }else{
+
+,
++ if((a == fa) == false){
++ a=fa;
++ }else{
+
+,
++ if(!((fa > initial) == false)){
+
+,
++ if((fb >= upperBound) == false){
++ upperBound=fb;
++ }else{
+
+,
++ if((fa >= lowerBound) == false){
++ lowerBound=fa;
++ }else{
+
+,
++ if(!((fa == initial) == false)){
+
+,
++ if(!((fb >= upperBound) == false)){
+
+,
++ if(!((a > fb) == false)){
+
+,
++ if((fa > lowerBound) == false){
++ fa=lowerBound;
++ }else{
+
+,
++ if((a >= fb) == true){
++ a=fb;
++ }else{
+
+,
++ if((fa == initial) == false){
++ fa=initial;
++ }else{
+
+,
++ if(!((fb == upperBound) == false)){
+
+,
++ if((fa == initial) == false){
++ initial=fa;
++ }else{
+
+,
++ if((fb >= lowerBound) == true){
++ fb=lowerBound;
++ }else{
+
+,
++ if((fa > initial) == false){
++ initial=fa;
++ }else{
+
+,
++ if((fa > upperBound) == false){
++ upperBound=fa;
++ }else{
+
+,
++ if((a >= fa) == true){
++ fa=a;
++ }else{
+
+,
++ if((fa >= initial) == false){
++ fa=initial;
++ }else{
+
+,
++ if((b > fb) == true){
++ fb=b;
++ }else{
+
+,
++ if((b >= fb) == true){
++ fb=b;
++ }else{
+
+,
++ if((b == fb) == false){
++ fb=b;
++ }else{
+
+,
++ if((a >= fa) == true){
++ a=fa;
++ }else{
+
+,
++ if((fb > initial) == false){
++ fb=initial;
++ }else{
+
+,
++ if((fb > initial) == false){
++ initial=fb;
++ }else{
+
+,
++ if((fb > upperBound) == false){
++ upperBound=fb;
++ }else{
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb == a > lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb || a > lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb || a > lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb == a > lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb || b < upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb || b < upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb == b < upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb == b < upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb || maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb && initial < lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb && initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb && lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb && a > lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb && initial < lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb && initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb && 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb && 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 <= fa * fb && lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb || maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 <= fa * fb && a > lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb >= fa * fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa == fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa >= fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb >= fa * fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa == fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa >= fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa > fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa > fa * fb) != false && fa * fb >= 0.0) {
+
+,
++ if(!((fb == a - 1.0) == false)){
+
+,
++ if((fa == 1.0 + b) == false){
++ fa=1.0 + b;
++ }else{
+
+,
++ if((fb == a - 1.0) == false){
++ fb=a - 1.0;
++ }else{
+
+,
++ if((fb >= a - 1.0) == true){
++ fb=a - 1.0;
++ }else{
+
+,
++ if(!((fb > 1.0 + b) == false)){
+
+,
++ if(!((fb >= 1.0 + b) == false)){
+
+,
++ if((fa >= a - 1.0) == true){
++ fa=a - 1.0;
++ }else{
+
+,
++ if(!((fa > 1.0 + b) == false)){
+
+,
++ if((fa > a - 1.0) == true){
++ fa=a - 1.0;
++ }else{
+
+,
++ if((fa > 1.0 + b) == false){
++ fa=1.0 + b;
++ }else{
+
+,
++ if(!((fa == 1.0 + b) == false)){
+
+,
++ if((fb > a - 1.0) == true){
++ fb=a - 1.0;
++ }else{
+
+,
++ if(!((fb >= a - 1.0) == true)){
+
+,
++ if(!((fa > a - 1.0) == true)){
+
+,
++ if((fb >= 1.0 + b) == false){
++ fb=1.0 + b;
++ }else{
+
+,
++ if(!((fb > a - 1.0) == true)){
+
+,
++ if(!((fa == a - 1.0) == false)){
+
+,
++ if((fb == 1.0 + b) == false){
++ fb=1.0 + b;
++ }else{
+
+,
++ if(!((fb == 1.0 + b) == false)){
+
+,
++ if((fb > 1.0 + b) == false){
++ fb=1.0 + b;
++ }else{
+
+,
++ if(!((fa >= 1.0 + b) == false)){
+
+,
++ if((fa == a - 1.0) == false){
++ fa=a - 1.0;
++ }else{
+
+,
++ if((fa >= 1.0 + b) == false){
++ fa=1.0 + b;
++ }else{
+
+,
++ if(!((fa >= a - 1.0) == true)){
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa * fb >= lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa * fb >= lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a >= fa * fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa * fb > lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa * fb > lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a >= fa * fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb || function == null) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa * fb == initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b >= fa * fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b >= fa * fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa * fb == initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b > fa * fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb == (function == null)) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa * fb == upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb || function == null) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b > fa * fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb == (function == null)) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa * fb == upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa * fb > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa * fb > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b == fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b == fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb && function == null) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa * fb > initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa * fb >= initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa * fb >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb && function == null) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa * fb > initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa * fb >= initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa * fb >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb == b < upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb || b < upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb || b < upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb == b < upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb == a > lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb == a > lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb || a > lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb || a > lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb || lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb || 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb && initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb && initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb == 0 >= maximumIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb && initial < lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb && initial < lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb && lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb && b < upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb || initial < lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb || lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb && lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb || maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb && maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb && b < upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb || initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb && maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb || 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb == initial < lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb || maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb && 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb == initial < lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb == lowerBound >= upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb || initial < lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb || initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb == lowerBound >= upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb == 0 >= maximumIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb && 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb && a > lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb == maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb == initial > upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0.0 < fa * fb && a > lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb == initial > upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0.0 < fa * fb == maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b >= fa * fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 > fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 >= fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 > fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 >= fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b >= fa * fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b > fa * fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b > fa * fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b == fa * fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b == fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 == fa * fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 == fa * fb) != false) {
+
+,
++ if(!((b > upperBound) == false)){
+
+,
++ if((a - 1.0 > lowerBound) == false){
++ lowerBound=a - 1.0;
++ }else{
+
+,
++ if((1.0 + b > upperBound) == false){
++ upperBound=1.0 + b;
++ }else{
+
+,
++ if((a - 1.0 == lowerBound) == false){
++ lowerBound=a - 1.0;
++ }else{
+
+,
++ if((1.0 + b == lowerBound) == false){
++ lowerBound=1.0 + b;
++ }else{
+
+,
++ if((maximumIterations >= 1) == true){
++ maximumIterations=1;
++ }else{
+
+,
++ if((1.0 + b >= initial) == true){
++ initial=1.0 + b;
++ }else{
+
+,
++ if(!((maximumIterations == 1) == false)){
+
+,
++ if(!((a >= b) == false)){
+
+,
++ if((b == lowerBound) == false){
++ lowerBound=b;
++ }else{
+
+,
++ if((numIterations >= 1) == true){
++ numIterations=1;
++ }else{
+
+,
++ if(!((numIterations == maximumIterations) == false)){
+
+,
++ if(!((a == upperBound) == false)){
+
+,
++ if(!((b == lowerBound) == false)){
+
+,
++ if((initial == lowerBound) == false){
++ initial=lowerBound;
++ }else{
+
+,
++ if((initial == upperBound) == false){
++ upperBound=initial;
++ }else{
+
+,
++ if(!((a - 1.0 >= lowerBound) == false)){
+
+,
++ if(!((initial > lowerBound) == true)){
+
+,
++ if(!((lowerBound > upperBound) == false)){
+
+,
++ if(!((b > a - 1.0) == true)){
+
+,
++ if((numIterations == 1) == true){
++ numIterations=1;
++ }else{
+
+,
++ if((initial == upperBound) == false){
++ initial=upperBound;
++ }else{
+
+,
++ if((maximumIterations == 0) == false){
++ maximumIterations=0;
++ }else{
+
+,
++ if((a - 1.0 > initial) == false){
++ initial=a - 1.0;
++ }else{
+
+,
++ if((numIterations >= maximumIterations) == false){
++ numIterations=maximumIterations;
++ }else{
+
+,
++ if((b > initial) == true){
++ initial=b;
++ }else{
+
+,
++ if(!((numIterations == 0) == false)){
+
+,
++ if((lowerBound >= upperBound) == false){
++ upperBound=lowerBound;
++ }else{
+
+,
++ if((maximumIterations > 1) == true){
++ maximumIterations=1;
++ }else{
+
+,
++ if(!((null == function) == false)){
+
+,
++ if((lowerBound == upperBound) == false){
++ upperBound=lowerBound;
++ }else{
+
+,
++ if(!((1.0 + b > lowerBound) == true)){
+
+,
++ if(!((1.0 + b == initial) == false)){
+
+,
++ if(!((a >= initial) == false)){
+
+,
++ if(!((lowerBound >= upperBound) == false)){
+
+,
++ if(!((a - 1.0 == initial) == false)){
+
+,
++ if((numIterations == maximumIterations) == false){
++ numIterations=maximumIterations;
++ }else{
+
+,
++ if((a >= upperBound) == false){
++ upperBound=a;
++ }else{
+
+,
++ if((a == lowerBound) == true){
++ a=lowerBound;
++ }else{
+
+,
++ if((numIterations > maximumIterations) == false){
++ numIterations=maximumIterations;
++ }else{
+
+,
++ if(!((b == initial) == false)){
+
+,
++ if((a >= a - 1.0) == true){
++ a=a - 1.0;
++ }else{
+
+,
++ if(!((initial > upperBound) == false)){
+
+,
++ if(!((a > a - 1.0) == true)){
+
+,
++ if((a - 1.0 == upperBound) == false){
++ upperBound=a - 1.0;
++ }else{
+
+,
++ if((maximumIterations > 0) == true){
++ maximumIterations=0;
++ }else{
+
+,
++ if(!((a - 1.0 > lowerBound) == false)){
+
+,
++ if(!((a - 1.0 > initial) == false)){
+
+,
++ if(!((maximumIterations > 1) == true)){
+
+,
++ if(!((maximumIterations > 0) == true)){
+
+,
++ if(!((b > lowerBound) == true)){
+
+,
++ if((initial >= upperBound) == false){
++ initial=upperBound;
++ }else{
+
+,
++ if((a - 1.0 >= upperBound) == false){
++ upperBound=a - 1.0;
++ }else{
+
+,
++ if((initial >= lowerBound) == true){
++ initial=lowerBound;
++ }else{
+
+,
++ if(!((b == a - 1.0) == false)){
+
+,
++ if((a == upperBound) == false){
++ upperBound=a;
++ }else{
+
+,
++ if((numIterations > maximumIterations) == false){
++ maximumIterations=numIterations;
++ }else{
+
+,
++ if(!((initial >= lowerBound) == true)){
+
+,
++ if(!((numIterations > maximumIterations) == false)){
+
+,
++ if((a == lowerBound) == true){
++ lowerBound=a;
++ }else{
+
+,
++ if(!((b >= a - 1.0) == true)){
+
+,
++ if(!((a == 1.0 + b) == false)){
+
+,
++ if(!((b >= 1.0 + b) == false)){
+
+,
++ if((a >= initial) == false){
++ a=initial;
++ }else{
+
+,
++ if((a == initial) == false){
++ a=initial;
++ }else{
+
+,
++ if(!((b >= upperBound) == false)){
+
+,
++ if((b >= upperBound) == false){
++ upperBound=b;
++ }else{
+
+,
++ if(!((1.0 + b == lowerBound) == false)){
+
+,
++ if(!((a >= a - 1.0) == true)){
+
+,
++ if(!((a > upperBound) == false)){
+
+,
++ if((lowerBound > upperBound) == false){
++ lowerBound=upperBound;
++ }else{
+
+,
++ if(!((1.0 + b > upperBound) == false)){
+
+,
++ if(!((1.0 + b >= lowerBound) == true)){
+
+,
++ if((numIterations == maximumIterations) == false){
++ maximumIterations=numIterations;
++ }else{
+
+,
++ if((numIterations > 1) == false){
++ numIterations=1;
++ }else{
+
+,
++ if((a > initial) == false){
++ a=initial;
++ }else{
+
+,
++ if((a >= lowerBound) == true){
++ a=lowerBound;
++ }else{
+
+,
++ if((a >= lowerBound) == true){
++ lowerBound=a;
++ }else{
+
+,
++ if(!((b == upperBound) == false)){
+
+,
++ if(!((a >= lowerBound) == true)){
+
+,
++ if((b == upperBound) == false){
++ upperBound=b;
++ }else{
+
+,
++ if((a - 1.0 > upperBound) == false){
++ upperBound=a - 1.0;
++ }else{
+
+,
++ if((maximumIterations >= 0) == true){
++ maximumIterations=0;
++ }else{
+
+,
++ if((initial > lowerBound) == true){
++ lowerBound=initial;
++ }else{
+
+,
++ if((lowerBound >= upperBound) == false){
++ lowerBound=upperBound;
++ }else{
+
+,
++ if(!((a > lowerBound) == false)){
+
+,
++ if((numIterations >= maximumIterations) == false){
++ maximumIterations=numIterations;
++ }else{
+
+,
++ if(!((a == b) == false)){
+
+,
++ if(!((b == 1.0 + b) == false)){
+
+,
++ if(!((b > 1.0 + b) == false)){
+
+,
++ if(!((a - 1.0 == lowerBound) == false)){
+
+,
++ if(!((a >= 1.0 + b) == false)){
+
+,
++ if(!((a > b) == false)){
+
+,
++ if(!((1.0 + b >= initial) == true)){
+
+,
++ if(!((b >= lowerBound) == true)){
+
+,
++ if(!((a - 1.0 >= upperBound) == false)){
+
+,
++ if(!((numIterations >= 1) == true)){
+
+,
++ if(!((initial == lowerBound) == false)){
+
+,
++ if(!((numIterations == 1) == true)){
+
+,
++ if(!((numIterations >= 0) == true)){
+
+,
++ if((a > a - 1.0) == true){
++ a=a - 1.0;
++ }else{
+
+,
++ if((a - 1.0 == initial) == false){
++ initial=a - 1.0;
++ }else{
+
+,
++ if((a == initial) == false){
++ initial=a;
++ }else{
+
+,
++ if((numIterations >= 0) == true){
++ numIterations=0;
++ }else{
+
+,
++ if((a - 1.0 >= initial) == false){
++ initial=a - 1.0;
++ }else{
+
+,
++ if(!((numIterations > 1) == false)){
+
+,
++ if((initial > upperBound) == false){
++ initial=upperBound;
++ }else{
+
+,
++ if((1.0 + b > initial) == true){
++ initial=1.0 + b;
++ }else{
+
+,
++ if((a > initial) == false){
++ initial=a;
++ }else{
+
+,
++ if((a - 1.0 >= lowerBound) == false){
++ lowerBound=a - 1.0;
++ }else{
+
+,
++ if(!((a > initial) == false)){
+
+,
++ if(!((maximumIterations == 0) == false)){
+
+,
++ if((initial >= lowerBound) == true){
++ lowerBound=initial;
++ }else{
+
+,
++ if(!((lowerBound == upperBound) == false)){
+
+,
++ if(!((b > initial) == true)){
+
+,
++ if((a > lowerBound) == false){
++ a=lowerBound;
++ }else{
+
+,
++ if(!((a >= upperBound) == false)){
+
+,
++ if(!((a == initial) == false)){
+
+,
++ if((numIterations > 0) == true){
++ numIterations=0;
++ }else{
+
+,
++ if((b > lowerBound) == true){
++ lowerBound=b;
++ }else{
+
+,
++ if((b >= lowerBound) == true){
++ lowerBound=b;
++ }else{
+
+,
++ if((1.0 + b >= lowerBound) == true){
++ lowerBound=1.0 + b;
++ }else{
+
+,
++ if(!((numIterations >= maximumIterations) == false)){
+
+,
++ if((numIterations == 0) == false){
++ numIterations=0;
++ }else{
+
+,
++ if((maximumIterations == 1) == false){
++ maximumIterations=1;
++ }else{
+
+,
++ if((a >= initial) == false){
++ initial=a;
++ }else{
+
+,
++ if((1.0 + b > lowerBound) == true){
++ lowerBound=1.0 + b;
++ }else{
+
+,
++ if((null == function) == false){
++ function=null;
++ }else{
+
+,
++ if((a == a - 1.0) == false){
++ a=a - 1.0;
++ }else{
+
+,
++ if((lowerBound > upperBound) == false){
++ upperBound=lowerBound;
++ }else{
+
+,
++ if((b > upperBound) == false){
++ upperBound=b;
++ }else{
+
+,
++ if(!((maximumIterations >= 0) == true)){
+
+,
++ if(!((maximumIterations >= 1) == true)){
+
+,
++ if(!((1.0 + b >= upperBound) == false)){
+
+,
++ if(!((initial == upperBound) == false)){
+
+,
++ if((a > lowerBound) == false){
++ lowerBound=a;
++ }else{
+
+,
++ if(!((numIterations > 0) == true)){
+
+,
++ if(!((b >= initial) == true)){
+
+,
++ if(!((initial >= upperBound) == false)){
+
+,
++ if((1.0 + b == upperBound) == false){
++ upperBound=1.0 + b;
++ }else{
+
+,
++ if((b >= initial) == true){
++ initial=b;
++ }else{
+
+,
++ if(!((a - 1.0 == upperBound) == false)){
+
+,
++ if(!((a == a - 1.0) == false)){
+
+,
++ if((1.0 + b >= upperBound) == false){
++ upperBound=1.0 + b;
++ }else{
+
+,
++ if((initial >= upperBound) == false){
++ upperBound=initial;
++ }else{
+
+,
++ if((1.0 + b == initial) == false){
++ initial=1.0 + b;
++ }else{
+
+,
++ if(!((1.0 + b > initial) == true)){
+
+,
++ if((initial == lowerBound) == false){
++ lowerBound=initial;
++ }else{
+
+,
++ if(!((a > 1.0 + b) == false)){
+
+,
++ if(!((a == lowerBound) == true)){
+
+,
++ if((lowerBound == upperBound) == false){
++ lowerBound=upperBound;
++ }else{
+
+,
++ if((a > upperBound) == false){
++ upperBound=a;
++ }else{
+
+,
++ if((initial > lowerBound) == true){
++ initial=lowerBound;
++ }else{
+
+,
++ if((initial > upperBound) == false){
++ upperBound=initial;
++ }else{
+
+,
++ if(!((1.0 + b == upperBound) == false)){
+
+,
++ if((b == initial) == false){
++ initial=b;
++ }else{
+
+,
++ if(!((a - 1.0 > upperBound) == false)){
+
+,
++ if(!((a - 1.0 >= initial) == false)){
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a >= fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a >= fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > fa) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a >= fa) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa >= lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb >= initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a >= fa) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb >= initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb > initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > fa) != true) {
+
+,
++ if((fb >= initial) == false){
++ fb=initial;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb > initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa > lowerBound) != false && fa * fb >= 0.0) {
+
+,
++ if((fb > initial) == false){
++ fb=initial;
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa >= lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa > lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb == initial) != false) {
+
+,
++ if((fb > upperBound) == false){
++ fb=upperBound;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa >= initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa >= initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb == upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa > initial) != false) {
+
+,
++ if((fb == upperBound) == false){
++ fb=upperBound;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa >= upperBound) != false) {
+
+,
++ fb=upperBound;
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa > initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb == upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b > fa) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b > fb) != true && fa * fb >= 0.0) {
+
+,
++ fb=b;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (false) {
+
+,
++ if((b > fb) == true){
++ fb=b;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b > fb) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb == initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa == initial) != false && fa * fb >= 0.0) {
+
+,
++ if((fb >= upperBound) == false){
++ fb=upperBound;
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b > fa) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa == initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b == fa) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa == upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa == lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb >= lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b >= fb) != true) {
+
+,
++ if((b == fb) == false){
++ fb=b;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa == lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b == fb) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a == fa) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a == fa) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b >= fa) != true && fa * fb >= 0.0) {
+
+,
++ if((b >= fb) == true){
++ fb=b;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b == fb) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b >= fb) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b == fa) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b >= fa) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa == upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb >= lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb > 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa == 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb >= a - 1.0) != true) {
+
+,
++ if((fb == 1.0 + b) == false){
++ fb=1.0 + b;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb > a - 1.0) != true) {
+
+,
++ if((fb > 1.0 + b) == false){
++ fb=1.0 + b;
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb == 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa == 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa > a - 1.0) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb > a - 1.0) != true && fa * fb >= 0.0) {
+
+,
++ fb=1.0 + b;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb > 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb == 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa >= 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb >= a - 1.0) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa >= 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa >= a - 1.0) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa >= a - 1.0) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa > a - 1.0) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb == a - 1.0) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa > 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fb >= 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fa == a - 1.0) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb == a - 1.0) != false && fa * fb >= 0.0) {
+
+,
++ if((fb >= 1.0 + b) == false){
++ fb=1.0 + b;
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa > 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((fb >= 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (fa == a - 1.0) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound == b < upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound == b < upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound || initial > upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound == 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound || b < upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound == 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound || lowerBound >= upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound || function == null) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound || initial < lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound == maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound || lowerBound >= upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b == upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound || initial < lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound == initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound == initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound == (function == null)) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound == initial < lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound || function == null) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound && maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b == upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound == lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound || 0 >= maximumIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound == initial < lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound == (function == null)) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound || b < upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound || initial > upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound || 0 >= maximumIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound == maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound == lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound && maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound && b < upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound || 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound == 0 >= maximumIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound == lowerBound >= upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound && maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound || lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound == initial > upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound || function == null) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound == initial > upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound || function == null) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound == maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound || initial < lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound == maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound == (function == null)) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound && b < upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound || initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound || initial < lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a == lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound == lowerBound >= upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound && maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound || lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound == 0 >= maximumIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound == (function == null)) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound || initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound == initial < lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound == initial < lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a == lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound || 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 >= lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 >= lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 > lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 > lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (numIterations == 1) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((numIterations > 1) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((numIterations == 1) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (numIterations > 1) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b == upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b == upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 == lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 == lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial > upperBound || lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((function == null && lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b > a - 1.0) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound && 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound && function == null) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (maximumIterations == 0) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((maximumIterations >= 0) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((maximumIterations == 0) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0 >= maximumIterations || lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (function == null || initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (maximumIterations == 1) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound && initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound == 0 >= maximumIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a >= b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((lowerBound == upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound == maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound || maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (function == null && lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && ((function == null) == 0 >= maximumIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((lowerBound >= upperBound || maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b > initial) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound == lowerBound >= upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound && lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial == upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((null == function) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a == 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a == a - 1.0) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a >= b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound || lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound && initial < lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b > lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b > initial) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b > a - 1.0) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b > initial) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0 >= maximumIterations || maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound == maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b >= a - 1.0) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a == a - 1.0) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((numIterations >= 1) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a == 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound || maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial > upperBound == maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial > upperBound || maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b == initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a >= 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b > initial) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial > upperBound || lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound || maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b == lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 == upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound && lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial > upperBound == maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (maximumIterations >= 1) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0 >= maximumIterations || maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((maximumIterations >= 1) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b > a - 1.0) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b > lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b == lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 > initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial > upperBound && maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0 >= maximumIterations && maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound || initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b >= 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (null == function) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (lowerBound >= upperBound || maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 == upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (lowerBound > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 >= initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound && 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0 >= maximumIterations || lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((function == null && initial < lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b >= initial) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (((function == null) == 0 >= maximumIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (((function == null) == lowerBound >= upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound == initial > upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b > 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a == upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound && 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound && 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound || lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b == initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((function == null || initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (function == null || maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b == lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a == upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial == upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a - 1.0 >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (function == null && initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((lowerBound > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound && 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (lowerBound >= upperBound && maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b > a - 1.0) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (maximumIterations >= 0) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b == a - 1.0) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (function == null && initial < lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound || maximumIterations > numIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b >= lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound || initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((maximumIterations == 1) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && ((function == null) == initial > upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound && lowerBound >= upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial > upperBound && maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b == lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b == a - 1.0) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b == initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > lowerBound && function == null) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound || maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((function == null || maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (numIterations >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (numIterations >= 1) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (((function == null) == initial > upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (function == null && maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b == a - 1.0) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((0 >= maximumIterations == maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a >= lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound == 0 >= maximumIterations) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound || 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (1.0 + b >= lowerBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound && 0 >= maximumIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((numIterations >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial == lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((1.0 + b >= lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b == a - 1.0) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound && initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (numIterations >= 0) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b == initial) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b >= a - 1.0) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0 >= maximumIterations && maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((lowerBound >= upperBound && maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b >= initial) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound && lowerBound >= upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 >= initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((function == null && initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((function == null && maximumIterations > numIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b >= 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b > 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb > 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a - 1.0 > initial) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (b < upperBound && initial > upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > lowerBound && initial < lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (a > 1.0 + b) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((numIterations >= 0) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (0 >= maximumIterations == maximumIterations > numIterations) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && ((function == null) == lowerBound >= upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (initial < lowerBound == lowerBound >= upperBound) != true) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial > upperBound || maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b < upperBound && initial > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound || 0 >= maximumIterations) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound == initial > upperBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if (fa * fb >= 0.0 && (lowerBound == upperBound) != false) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a >= lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial < lowerBound || maximumIterations > numIterations) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a > upperBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((b >= lowerBound) != true && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial == lowerBound) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((a >= 1.0 + b) != false && fa * fb >= 0.0) {
+
+,
+- if (fa * fb >= 0.0) {
++ if ((initial >= upperBound) != false && fa * fb >= 0.0) {
+
+,

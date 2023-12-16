@@ -1,5 +1,0 @@
--            stepSize  = (curr - prev) / (nSteps + 1);
-+            stepSize = (curr - prev) / ((n) + 1);
-,
--                interpolator.setInterpolatedTime(nextStep);
-+                setMaxGrowth(10.0);

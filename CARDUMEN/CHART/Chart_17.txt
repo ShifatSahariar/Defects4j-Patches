@@ -1,2 +1,0 @@
--        if (end < start) {
-+        if ((end == (start - 1)) && (start != 0)) {

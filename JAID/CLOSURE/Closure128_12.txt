@@ -1,0 +1,56 @@
++ if((s.length() > 1) == false){
++ return result64711720=true;
+
+,
++ if((s.length() == 1) == true){
++ return result64711720=true;
+
+,
++ if((len == 1) == true){
++ return result64711720=true;
+
+,
++ if((len > 1) == false){
++ return result64711720=true;
+
+,
++ if((s.length() > 1) == false){
++ return result64711720=true;
++ }
+
+,
++ if((s.length() == 1) == true){
++ return result64711720=true;
++ }
+
+,
++ if((len == 1) == true){
++ return result64711720=true;
++ }else{
+
+,
++ if((len > 1) == false){
++ return result64711720=true;
++ }else{
+
+,
++ if((s.length() == 1) == true){
++ return result64711720=true;
++ }else{
+
+,
++ if((s.length() > 1) == false){
++ return result64711720=true;
++ }else{
+
+,
++ if((len == 1) == true){
++ return result64711720=true;
++ }
+
+,
++ if((len > 1) == false){
++ return result64711720=true;
++ }
+
+,

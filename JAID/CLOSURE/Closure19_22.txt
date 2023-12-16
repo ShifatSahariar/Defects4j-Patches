@@ -1,0 +1,102 @@
++ if(!((null == type) == false)){
+
+,
++ if(!((null == scope) == false)){
+
+,
++ if((null == type) == false){
++ type=null;
++ }else{
+
+,
++ if((null == type) == false){
++ return;
++ }
+
+,
++ if((null == node) == false){
++ node=null;
++ }else{
+
+,
++ if((node.getType() >= 1) == true){
++ return;
++ }
+
+,
++ if(!((type == node.getJSType()) == false)){
+
+,
++ if((null == this.getFirst()) == false){
++ return;
++ }
+
+,
++ if((node.getType() == 1) == false){
++ return;
++ }
+
+,
++ if((type == node.getJSType()) == false){
++ type=null;
++ }else{
+
+,
++ if((null == scope) == false){
++ scope=null;
++ }else{
+
+,
++ if((node.getType() > 1) == true){
++ return;
++ }
+
+,
++ if(!((null == node) == false)){
+
+,
++ if((node.getType() == 0) == false){
++ return;
++ }
+
+,
++ if((node.getType() >= 0) == true){
++ return;
++ }
+
+,
++ if((type == node.getJSType()) == false){
++ return;
++ }
+
+,
++ if((null == node) == false){
++ return;
++ }
+
+,
++ if((node.getType() > 0) == true){
++ return;
++ }
+
+,
++ if((null == node.getJSType()) == false){
++ return;
++ }
+
+,
++ if((null == scope) == false){
++ return;
++ }
+
+,
++ if((type == node.getJSType()) == false){
++ type=node.getJSType();
++ }else{
+
+,
++ if((null == node.getQualifiedName()) == false){
++ return;
++ }
+
+,

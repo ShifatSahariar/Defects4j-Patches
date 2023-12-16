@@ -1,0 +1,228 @@
++ if((len > pos == consumed > pt) == false){
++ return;
++ }
+
+,
++ if((len > pos && consumed > pt) == false){
++ continue;
++ }
+
+,
++ if((len > pos == consumed > pt) == false){
++ continue;
++ }
+
+,
++ if((len > pos && consumed > pt) == false){
++ return;
++ }
+
+,
++ if((len > pos || 0 == consumed) == false){
++ continue;
++ }
+
+,
++ if((len > pos == (0 == consumed)) == true){
++ continue;
++ }
+
+,
++ if((len > pos || 0 == consumed) == false){
++ return;
++ }
+
+,
++ if((len > pos == (0 == consumed)) == true){
++ return;
++ }
+
+,
++ if((pos == input.length()) == true){
++ return;
++ }
+
+,
++ if((pos >= input.length()) == true){
++ return;
++ }
+
+,
++ if((pos >= input.length()) == true){
++ pos=input.length();
++ }else{
+
+,
++ if((pos == input.length()) == true){
++ pos=input.length();
++ }else{
+
+,
++ if((pos >= input.length()) == true){
++ continue;
++ }
+
+,
++ if(!((pos == input.length()) == true)){
+
+,
++ if((pos == input.length()) == true){
++ continue;
++ }
+
+,
++ if(!((pos >= input.length()) == true)){
+
+,
++ if((len > pos || input == null) == false){
++ continue;
++ }
+
+,
++ if((len > pos == (input == null)) == true){
++ continue;
++ }
+
+,
++ if((len > pos || input == null) == false){
++ return;
++ }
+
+,
++ if((len > pos == (input == null)) == true){
++ return;
++ }
+
+,
++ if(!((len == pos) == true)){
+
+,
++ if((len == pos) == true){
++ continue;
++ }
+
+,
++ if((len == pos) == true){
++ len=pos;
++ }else{
+
+,
++ if((len == pos) == true){
++ len=input.length();
++ }else{
+
+,
++ if((len == pos) == true){
++ pos=input.length();
++ }else{
+
+,
++ if((len == pos) == true){
++ pos=len;
++ }else{
+
+,
++ if((len == pos) == true){
++ return;
++ }
+
+,
++ if((len > pos) == false){
++ pos=len;
++ }else{
+
+,
++ if((len > pos) == false){
++ pos=input.length();
++ }else{
+
+,
++ if((len > pos) == false){
++ len=input.length();
++ }else{
+
+,
++ if((len > pos) == false){
++ return;
++ }
+
+,
++ if((len > pos) == false){
++ len=pos;
++ }else{
+
+,
++ if(!((len > pos) == false)){
+
+,
++ if((len > pos) == false){
++ continue;
++ }
+
+,
++ if((consumed == input.length()) == true){
++ return;
+
+,
++ if((consumed >= input.length()) == true){
++ return;
+
+,
++ if((consumed >= input.length()) == true){
++ return;
++ }
+
+,
++ if((consumed == input.length()) == true){
++ return;
++ }
+
+,
++ if((len == consumed) == true){
++ return;
+
+,
++ if((len > consumed) == false){
++ return;
+
+,
++ if((len > consumed) == false){
++ return;
++ }
+
+,
++ if((len == consumed) == true){
++ return;
++ }
+
+,
+- char[] c;
++ if((consumed >= input.length()) == true){
++ return;
+
+,
+- char[] c;
++ if((consumed == input.length()) == true){
++ return;
+
+,
+- char[] c;
++ if((len == consumed) == true){
++ return;
+
+,
+- char[] c;
++ if((len > consumed) == false){
++ return;
+
+,
++ if((len > pos == (null == out)) == true){
++ return;
++ }
+
+,
++ if((len > pos == (null == out)) == true){
++ continue;
++ }
+
+,

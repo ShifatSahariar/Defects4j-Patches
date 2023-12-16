@@ -1,0 +1,486 @@
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
++ if((out.length == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
++ if((out.length == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
++ if((out.length > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
++ if((out.length > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
++ if((out.length == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
++ if((out.length > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars > 2) == false){
++ return result185890017=this.correlationMatrix;
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars == 2) == true){
++ return result185890017=this.correlationMatrix;
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length == 2) == true){
++ return result185890017=this.correlationMatrix;
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length > 2) == false){
++ return result185890017=this.correlationMatrix;
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((out.length > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=0d;
++ if((out.length == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=0d;
++ if((out.length > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=0d;
++ if((out.length == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=0d;
++ if((out.length == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=0d;
++ if((out.length > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=0d;
++ if((out.length > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((nVars == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((nVars > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
++ if((nVars == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
++ if((nVars > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.correlationMatrix;
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
+
+,
+- out[i][j]=0d;
+- out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.correlationMatrix;
+
+,
+- out[i][j]=0d;
++ if((nVars == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=0d;
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=0d;
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=0d;
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=0d;
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=0d;
++ if((nVars > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=0d;
++ if((nVars > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=0d;
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out[i][j]=0d;
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=0d;
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out[i][j]=0d;
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out[i][j]=0d;
++ if((nVars == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.correlationMatrix;
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((this.correlationMatrix.getColumnDimension() > 2) == false){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationStandardErrors();
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.getCorrelationMatrix();
++ }
+
+,
+- out=new double[nVars][nVars];
++ if((this.correlationMatrix.getColumnDimension() == 2) == true){
++ return result185890017=this.correlationMatrix;
++ }
+
+,

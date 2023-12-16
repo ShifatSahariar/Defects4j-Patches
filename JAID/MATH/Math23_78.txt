@@ -1,0 +1,390 @@
++ if((lo > b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - x >= getMin()) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - x > getMin()) == false){
++ return result628018501=current;
++ }
+
+,
++ if((lo >= b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((m >= b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((m > b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x >= b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x > b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - a > getMin()) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - a >= getMin()) == false){
++ return result628018501=current;
++ }
+
+,
++ if((lo > b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((lo >= b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((w >= b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a >= b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((w > b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((v > b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((v >= b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a > b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((mid > b - x) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - x >= getStartValue()) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - x > getStartValue()) == false){
++ return result628018501=current;
++ }
+
+,
++ if((lo > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((getMin() >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((getMin() > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((lo >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - x >= x - tol1) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - x >= d + x) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - x > d + x) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - x > x - tol1) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - x >= tol1 + x) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - x > tol1 + x) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - x > 0.5 * (a + b)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - x >= 0.5 * (a + b)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((x > b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((m >= b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((m > b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x >= b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((u - a > x - m) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - a >= x - tol1) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - a >= tol1 + x) == false){
++ return result628018501=current;
++ }
+
+,
++ if((x >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - a >= d + x) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - a > d + x) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - a > x - tol1) == false){
++ return result628018501=current;
++ }
+
+,
++ if((b - a > tol1 + x) == false){
++ return result628018501=current;
++ }
+
+,
++ if((u - a >= x - m) == false){
++ return result628018501=current;
++ }
+
+,
++ if((tol1 + x > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x - tol1 >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((tol1 + x >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((d + x > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((x - tol1 > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((d + x >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a > b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a >= b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((v > b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((w >= b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((w > b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((v >= b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((mid > b - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - a >= getStartValue()) == false){
++ return result628018501=current;
++ }
+
+,
++ if((a >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a - x >= u - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((a - x > u - a) == true){
++ return result628018501=current;
++ }
+
+,
++ if((v > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - a > 0.5 * (a + b)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((w >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((w > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((b - a >= 0.5 * (a + b)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((v >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((0.5 * (b - a) >= getStartValue()) == false){
++ return result628018501=current;
++ }
+
+,
++ if((mid >= 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((mid > 0.5 * (b - a)) == true){
++ return result628018501=current;
++ }
+
+,
++ if((u - a > tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((u - a >= tol2 - 0.5 * (b - a)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((u < x == (checker != null)) == false){
++ return result628018501=current;
++ }
+
+,
++ if((tol2 > u - a == (checker != null)) == false){
++ return result628018501=current;
++ }
+
+,

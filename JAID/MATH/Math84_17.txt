@@ -1,0 +1,59 @@
++ if((this.khi >= this.gamma) == true){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (this.khi >= this.gamma) == true) {
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (!(comparator.compare(contracted,best) < 0)) {
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) <= 0) {
+
+,
++ if((original.length == 0) == false){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (this.khi == this.gamma) == false) {
+
+,
++ if((original.length >= 0) == true){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (this.khi > this.gamma) == true) {
+
+,
++ if((this.khi == this.gamma) == false){
+
+,
++ if((original.length > 0) == true){
+
+,
++ if((this.khi > this.gamma) == true){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (original.length > 1) == true) {
+
+,
++ if((original.length >= 1) == true){
+
+,
++ if((original.length > 1) == true){
+
+,
++ if((original.length == 1) == false){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (original.length == 1) == false) {
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (original.length >= 1) == true) {
+
+,

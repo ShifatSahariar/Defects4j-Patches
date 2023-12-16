@@ -1,0 +1,56 @@
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if ((expPos >= str.length() - 1) != true && !Character.isDigit(lastChar) && lastChar != '.') {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if ((expPos == str.length() - 1) != true && !Character.isDigit(lastChar) && lastChar != '.') {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if (!Character.isDigit(lastChar) && lastChar != '.' && (expPos >= str.length() - 1) != true) {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if (!Character.isDigit(lastChar) && lastChar != '.' && (expPos == str.length() - 1) != true) {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if ((1 + expPos > str.length() - 1) != true && !Character.isDigit(lastChar) && lastChar != '.') {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if (!Character.isDigit(lastChar) && lastChar != '.' && (1 + expPos > str.length() - 1) != true) {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if (!Character.isDigit(lastChar) && lastChar != '.' && (1 + expPos == str.length()) != true) {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if ((1 + expPos == str.length()) != true && !Character.isDigit(lastChar) && lastChar != '.') {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if (!Character.isDigit(lastChar) && lastChar != '.' && (1 + expPos >= str.length()) != true) {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if ((1 + expPos >= str.length()) != true && !Character.isDigit(lastChar) && lastChar != '.') {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if ((1 + expPos >= str.length() - 1) != true && !Character.isDigit(lastChar) && lastChar != '.') {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if (!Character.isDigit(lastChar) && lastChar != '.' && (1 + expPos >= str.length() - 1) != true) {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if ((mant.length() == str.length() - 1) != true && !Character.isDigit(lastChar) && lastChar != '.') {
+
+,
+- if (!Character.isDigit(lastChar) && lastChar != '.') {
++ if (!Character.isDigit(lastChar) && lastChar != '.' && (mant.length() == str.length() - 1) != true) {
+
+,

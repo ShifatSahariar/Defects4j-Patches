@@ -1,0 +1,74 @@
++ if((value.getType() == 0) == false){
++ return false;
++ }else{
+
+,
++ if((value.getType() > 1) == true){
++ return false;
++ }else{
+
+,
++ if((value.getType() > 0) == true){
++ return false;
++ }else{
+
+,
++ if((value.getType() >= 1) == true){
++ return false;
++ }else{
+
+,
++ if((value.getType() == 1) == false){
++ return false;
++ }else{
+
+,
++ if((null == value.getFirstChild()) == false){
++ return false;
++ }else{
+
+,
++ if((null == locals) == false){
++ return false;
++ }else{
+
+,
++ if((value == value.getFirstChild()) == false){
++ return false;
++ }else{
+
+,
++ if((value == value.getLastChild()) == false){
++ return false;
++ }else{
+
+,
++ if((value.getType() >= 0) == true){
++ return false;
++ }else{
+
+,
++ if((value.getLastChild() == value.getFirstChild()) == true){
++ return false;
++ }else{
+
+,
++ if((null == value) == false){
++ return false;
++ }else{
+
+,
+- return result64711720=(true);
++ return false;
+
+,
++ if((null == value.getLastChild()) == false){
++ return false;
++ }else{
+
+,
++ if((null == value.getParent()) == false){
++ return false;
++ }else{
+
+,

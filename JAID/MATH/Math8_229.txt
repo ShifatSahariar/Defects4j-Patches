@@ -1,0 +1,1259 @@
+- out[i]=this.sample();
++ if((i < sampleSize == 0 >= sampleSize) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize && 0 >= sampleSize) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize || 0 >= sampleSize) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize == 0 >= sampleSize) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize || 0 >= sampleSize) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize && 0 >= sampleSize) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize == this.singletons.isEmpty()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize == this.singletons.isEmpty()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize || this.singletons.isEmpty()) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize || this.singletons.isEmpty()) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize && this.singletons.isEmpty()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i < sampleSize && this.singletons.isEmpty()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize || this.singletons.isEmpty()) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize == this.singletons.isEmpty()) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize && this.singletons.isEmpty()) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() >= 0) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((sampleSize == this.singletons.size()) == false){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if(!((sampleSize == this.singletons.size()) == false)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= this.singletons.size()) == false){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() > 0) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= this.singletons.size()) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((sampleSize > this.singletons.size()) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() == 0) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((sampleSize > this.singletons.size()) == false){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if(!((sampleSize > this.singletons.size()) == false)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize == this.singletons.size()) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if(!((sampleSize >= this.singletons.size()) == false)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 0) == true){
++ sampleSize=0;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 0) == true){
++ sampleSize=0;
++ }else{
+
+,
+- out[i]=this.sample();
++ if(!((i >= sampleSize) == false)){
+
+,
+- out[i]=this.sample();
++ if((i > sampleSize) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize && this.singletons.isEmpty()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((sampleSize == 0) == false)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 0) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i >= 0) == true){
++ i=0;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize == this.singletons.isEmpty()) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i == sampleSize) == false)){
+
+,
+- out[i]=this.sample();
++ if(!((sampleSize >= 0) == true)){
+
+,
+- out[i]=this.sample();
++ if((i >= sampleSize) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i > 0) == false)){
+
+,
+- out[i]=this.sample();
++ if((i >= 0) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == 0) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i >= 0) == true)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 0) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == 0) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 0) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == sampleSize) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize || this.singletons.isEmpty()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == sampleSize) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 0) == false){
++ sampleSize=0;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i > 0) == false){
++ i=0;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i == sampleSize) == false){
++ sampleSize=i;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i > 0) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 0) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == sampleSize) == false){
++ i=sampleSize;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i >= sampleSize) == false){
++ i=sampleSize;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i == 0) == true){
++ i=0;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i > sampleSize) == false){
++ i=sampleSize;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i > 0) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize == this.singletons.isEmpty()) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize || this.singletons.isEmpty()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i > sampleSize) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i > sampleSize) == false)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 0) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 0) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((sampleSize > 0) == true)){
+
+,
+- out[i]=this.sample();
++ if((i >= 0) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize && this.singletons.isEmpty()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i == 0) == true)){
+
+,
+- out[i]=this.sample();
++ if((i > sampleSize) == false){
++ sampleSize=i;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i >= sampleSize) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i >= sampleSize) == false){
++ sampleSize=i;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((out.length > this.singletons.size()) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length >= this.singletons.size()) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if(!((out.length == this.singletons.size()) == false)){
+
+,
+- out[i]=this.sample();
++ if(!((out.length > this.singletons.size()) == false)){
+
+,
+- out[i]=this.sample();
++ if((out.length == this.singletons.size()) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if(!((out.length >= this.singletons.size()) == false)){
+
+,
+- out[i]=this.sample();
++ if((out.length > sampleSize) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i >= out.length) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length > 0) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == out.length) == false){
++ i=out.length;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i >= out.length) == false){
++ i=out.length;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((out.length >= 0) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length >= sampleSize) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i >= out.length) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i > out.length) == false)){
+
+,
+- out[i]=this.sample();
++ if((i > out.length) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length == sampleSize) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((out.length >= sampleSize) == true)){
+
+,
+- out[i]=this.sample();
++ if((out.length == 0) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length == 0) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length == sampleSize) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i > out.length) == false){
++ i=out.length;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((out.length == sampleSize) == true){
++ sampleSize=out.length;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i == out.length) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length > 0) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length > sampleSize) == false){
++ sampleSize=out.length;
++ }else{
+
+,
+- out[i]=this.sample();
++ if(!((out.length > sampleSize) == false)){
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((out.length == 0) == false)){
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((out.length == sampleSize) == true)){
+
+,
+- out[i]=this.sample();
++ if(!((out.length > 0) == true)){
+
+,
+- out[i]=this.sample();
++ if((out.length >= sampleSize) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length >= sampleSize) == true){
++ sampleSize=out.length;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((out.length > sampleSize) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i > out.length) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i >= out.length) == false)){
+
+,
+- out[i]=this.sample();
++ if((out.length >= 0) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == out.length) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i == out.length) == false)){
+
+,
+- out[i]=this.sample();
++ if(!((out.length >= 0) == true)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 0) == true){
++ sampleSize=0;
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 0) == true){
++ sampleSize=0;
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 0) == true){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 0) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((null == this.singletons) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((null == this.singletons) == false){
++ this.singletons.clear();
++ }else{
+
+,
+- out[i]=this.sample();
++ sampleSize=0;
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 0) == false){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if(!((null == this.singletons) == false)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 0) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 0) == false){
++ sampleSize=0;
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 0) == true){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 0) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() >= 0) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() > 0) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() == 0) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize == this.singletons.size()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == this.singletons.size()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i > this.singletons.size()) == false){
++ i=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize > this.singletons.size()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() > 0) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i >= this.singletons.size()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == this.singletons.size()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= this.singletons.size()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i > this.singletons.size()) == false)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize == this.singletons.size()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i >= this.singletons.size()) == false)){
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() >= 0) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i > this.singletons.size()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((i == this.singletons.size()) == false)){
+
+,
+- out[i]=this.sample();
++ if((i == this.singletons.size()) == false){
++ i=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i >= this.singletons.size()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i > this.singletons.size()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i >= this.singletons.size()) == false){
++ i=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= this.singletons.size()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize > this.singletons.size()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() == 0) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length >= 0) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length == 0) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length >= sampleSize) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length == sampleSize) == true){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((out.length == sampleSize) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length >= sampleSize) == true){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((0 >= sampleSize) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if(this.singletons.isEmpty() == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length > sampleSize) == false){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((out.length > sampleSize) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length > 0) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length == this.singletons.size()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length >= this.singletons.size()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length >= this.singletons.size()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length == this.singletons.size()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length > this.singletons.size()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length > this.singletons.size()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() > 1) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() == 1) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() >= 1) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((null == this.singletons) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i >= 1) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i > 1) == false){
++ i=1;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 1) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == 1) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((i >= 1) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i >= 1) == false){
++ i=1;
++ }else{
+
+,
+- out[i]=this.sample();
++ if(!((i > 1) == false)){
+
+,
+- out[i]=this.sample();
++ if((i > 1) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((null == this.getSamples()) == false)){
+
+,
+- out[i]=this.sample();
++ if((i == 1) == false){
++ i=1;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((i > 1) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((sampleSize >= 1) == true)){
+
+,
+- out[i]=this.sample();
++ if(!((i >= 1) == false)){
+
+,
+- out[i]=this.sample();
++ if(!((i == 1) == false)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 1) == true){
++ sampleSize=1;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 1) == true){
++ sampleSize=1;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 1) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((sampleSize > 1) == false)){
+
+,
+- out[i]=this.sample();
++ if((null == this.getSamples()) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((sampleSize == 1) == true)){
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 1) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((null == this.getSamples()) == false){
++ this.getSamples().clear();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((null == this.singletons) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((i == 1) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 1) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 1) == false){
++ sampleSize=1;
++ }else{
+
+,
+- out[i]=this.sample();
++ if((null == this.getSamples()) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 1) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 1) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((out.length >= 1) == true)){
+
+,
+- out[i]=this.sample();
++ if((out.length > 1) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((out.length > 1) == false)){
+
+,
+- out[i]=this.sample();
++ if((out.length == 1) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(this.singletons.isEmpty() == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length >= 1) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length == 1) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if(this.singletons.isEmpty() == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if(!((out.length == 1) == true)){
+
+,
+- out[i]=this.sample();
++ if((out.length >= 1) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length > 1) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 1) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 1) == false){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 1) == true){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((sampleSize == 1) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((sampleSize > 1) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((null == this.getSamples()) == false){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((sampleSize >= 1) == true){
++ sampleSize=this.singletons.size();
++ }else{
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() >= 1) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() > 1) == true){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() >= 1) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() == 1) == false){
++ continue;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() > 1) == true){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((this.singletons.size() == 1) == false){
++ return result83638=out;
++ }
+
+,
+- out[i]=this.sample();
++ if((out.length >= 1) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length == 1) == true){
++ return result83638=out;
+
+,
+- out[i]=this.sample();
++ if((out.length > 1) == false){
++ return result83638=out;
+
+,

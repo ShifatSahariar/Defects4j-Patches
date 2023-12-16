@@ -1,2 +1,0 @@
--        int endIndex = startIndex + n;
-+        int endIndex = source.length();

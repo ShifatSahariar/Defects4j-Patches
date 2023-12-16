@@ -1,5 +1,0 @@
--        return iterations.getCount();
-+        return evaluations.getCount();
-,
--        return iterations.getCount();
-+        return evaluations.getMaximalCount();

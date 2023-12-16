@@ -1,0 +1,3597 @@
++ if((null == plotState.getOwner()) == true){
++ return result765417136=state;
++ }
+
+,
+- if (plotState != null && hotspot != null) {
++ if (plotState != null && hotspot != null && (hotspot != null || null != plotState) != true) {
+
+,
+- if (plotState != null && hotspot != null) {
++ if ((hotspot != null || null != plotState) != true && plotState != null && hotspot != null) {
+
+,
++ if((hotspot != null || null != plotState) == true){
++ return result765417136=state;
+
+,
+- if ((label == null) || (label.equals(""))) {
++ if ((true) || (label.equals(""))) {
+
+,
+- if (plotState != null && hotspot != null) {
++ if (plotState != null && false) {
+
+,
++ if((null == this.getLabelFont()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == g2.getFontMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == owner) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && null == state) == false){
++ return result765417136=state;
+
+,
++ if((null == state && label.isEmpty()) == false){
++ return result765417136=state;
+
+,
++ if((null == state || this.isVisible()) == true){
++ return result765417136=state;
+
+,
++ if(((null == state) == (null != plotState)) == false){
++ return result765417136=state;
+
+,
++ if((null == state && null != plotState) == false){
++ return result765417136=state;
+
+,
++ if((null == state || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
+
+,
++ if((null == state || null != plotState) == true){
++ return result765417136=state;
+
+,
++ if((label == null) == false){
++ return result765417136=state;
+
+,
++ if((insets == this.getLabelInsets()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.getLabelPaint()) == false){
++ return result765417136=state;
++ }
+
+,
+- if ((label == null) || (label.equals(""))) {
++ if ((label == null) || (label.equals("")) || (null == state && this.isAxisLineVisible()) == false) {
+
+,
++ if((label == null || label.isEmpty()) == false){
++ return result765417136=state;
+
+,
++ if((label == null && label.isEmpty()) == false){
++ return result765417136=state;
+
+,
++ if(((label == null) == label.isEmpty()) == true){
++ return result765417136=state;
+
+,
++ if((null == this.getLabelInsets()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelPaint() == this.getTickLabelPaint()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font == this.getLabelFont()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm == g2.getFontMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null) == true){
++ return result765417136=state;
+
+,
++ if((null == plotState) == false){
++ return result765417136=state;
++ }
+
+,
+- if (plotState != null && hotspot != null) {
++ if (plotState != null && hotspot != null && (null == state && this.isAxisLineVisible()) != false) {
+
+,
+- if (plotState != null && hotspot != null) {
++ if ((null == state && this.isAxisLineVisible()) != false && plotState != null && hotspot != null) {
+
+,
+- if (plotState != null && hotspot != null) {
++ if (plotState != null && hotspot == null) {
+
+,
++ plotState=null;
+
+,
++ if((null == plotState) == false){
++ plotState=null;
++ }else{
+
+,
++ if(!((null == plotState) == false)){
+
+,
+- if (plotState != null && hotspot != null) {
++ if (false && hotspot != null) {
+
+,
++ if((null == plotState) == false){
++ plotState=null;
+
+,
+- if (plotState != null && hotspot != null) {
++ if ((null == plotState) != false && plotState != null && hotspot != null) {
+
+,
++ if((null == plotState) == false){
++ font.getAttributes();
++ }else{
+
+,
++ if((null == plotState) == false){
++ font.getPeer();
++ }else{
+
+,
++ if((null == plotState) == false){
++ return result765417136=state;
+
+,
+- if (plotState != null && hotspot != null) {
++ if (plotState != null && hotspot != null && (null == plotState) != false) {
+
+,
++ if((font.isBold() && null != plotState) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == state || null != plotState) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null != plotState && fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null || null != plotState) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == state && null != plotState) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() || null != plotState) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null != plotState && font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null != plotState && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(((null == state) == (null != plotState)) == false){
++ return result765417136=state;
++ }
+
+,
+- if ((label == null) || (label.equals(""))) {
++ if ((label == null) || (!label.equals(""))) {
+
+,
+- if ((label == null) || (label.equals(""))) {
++ if ((label != null) || (label.equals(""))) {
+
+,
++ if((insets.getRight() >= labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() >= labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() >= labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() >= labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() > insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() >= insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == true){
++ return result765417136=state;
++ }
+
+,
+- if ((label == null) || (label.equals(""))) {
++ if ((label == null) || (label.equals("")) || (null == plotState) == false) {
+
+,
++ if((null == plotState) == false){
++ plotState=null;
++ }
+
+,
++ if((fm.getHeight() > fm.getDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.labelToolTip == this.getLabelURL()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() >= dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() == label.isEmpty()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getHeight() > dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null || fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() >= dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize2D() >= this.getTickMarkInsideLength()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.isAxisLineVisible() || this.isTickMarksVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() && font.isPlain()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDescent() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() >= 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() >= 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() == font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() && this.isAxisLineVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == this.getLabelAngle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDescent() == font.getMissingGlyphCode()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() > 1) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() > labelBounds.getCenterX()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() == this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() > this.getLabelAngle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() > insets.getBottom()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() == fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() > fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getHeight() >= insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() == fm.getMaxAscent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == fm.getMaxDecent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() > font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() == fm.getMaxAscent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.getAxisLineStroke()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null || font.hasLayoutAttributes()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() || this.isVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null && fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() && null == state) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() == this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == hotspot) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() >= fm.getDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() >= fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() >= font.getStyle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDescent() == 0) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() > fm.getMaxAscent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() > fm.getMaxDecent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == labelBounds) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getWidth() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == fm.getDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() && font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.hasUniformLineMetrics() && this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == dataArea.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() >= fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((g2.getPaint() == this.getLabelPaint()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getPSName() == font.getFontName()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() >= fm.getMaxDecent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((state.getCursor() == dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() > fm.getMaxDecent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == fm.getDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == g2.getDeviceConfiguration()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == dataArea.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getHeight() == dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() >= fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() >= font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() > this.getLabelAngle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() > labelBounds.getHeight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if(((hotspot != null) == font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() >= 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((state.getCursor() == dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() >= this.getLabelAngle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() >= labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() || fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() && font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() == labelBounds.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == g2.getStroke()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() >= fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() == font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() > font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() > dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == hotspot.getBounds()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() && label.isEmpty()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() > font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == edge) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.labelURL == this.getLabelToolTip()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea == hotspot.getBounds2D()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() > dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(((hotspot != null) == font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() >= labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(font.isTransformed() == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() >= this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() == 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == g2.getTransform()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() > fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() == font.isTransformed()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() > insets.getTop()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() && this.isAxisLineVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() == fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getItalicAngle() == this.getTickMarkInsideLength()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterY() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() > insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == font.getPSName()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() >= fm.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() >= fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() == font.getSize()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() >= insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(fm.hasUniformLineMetrics() == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() > font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.isTickLabelsVisible() && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() >= font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDescent() == 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() && hotspot != null) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() > fm.getMaxAscent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() > labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() == font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((plotArea == hotspot.getBounds2D()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize2D() == font.getItalicAngle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() == label.length()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() >= fm.getLeading()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == font.getSize()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == state || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getHeight() >= labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() && this.isTickMarksVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() >= labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() == 0) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() > fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == 0) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() || this.isTickMarksVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize2D() >= this.getTickMarkOutsideLength()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() > insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDescent() > font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() > insets.getLeft()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() >= labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() == this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((state.getCursor() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() == fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() == fm.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() == fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterY() >= insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == font) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() > this.getLabelAngle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getHeight() > insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null || font.isPlain()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == state && font.isItalic()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() >= fm.getMaxDecent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() == fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == dataArea.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() > this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == font.getFamily()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(((label == null) == font.isItalic()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() > this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() >= fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() >= 1) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() >= insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() >= insets.getLeft()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() > font.getMissingGlyphCode()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == font.getStyle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getMissingGlyphCode() >= 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getPSName() == this.getLabelToolTip()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() && this.isVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() >= insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getPSName() == this.labelToolTip) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() >= fm.getLeading()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getNumGlyphs() >= 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getItalicAngle() >= this.getTickMarkOutsideLength()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == insets.getBottom()) == true){
++ return result765417136=state;
++ }
+
+,
++ if(((label == null) == this.isVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getItalicAngle() > this.getTickMarkInsideLength()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() == 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() > labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if(font.hasLayoutAttributes() == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isTickMarksVisible() || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null && label.isEmpty()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() && this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == fm.getLeading()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() == labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == font.getStyle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null || hotspot != null) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterX() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() == fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getMissingGlyphCode() == 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() == font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() == font.isItalic()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() > 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.hasLayoutAttributes() && this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() >= labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() >= font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getName() == this.getLabelToolTip()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(((label == null) == this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getWidth() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == g2.getComposite()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == plotArea.getBounds2D()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() > labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() >= font.getStyle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() > font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() == labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() >= labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() >= labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() >= 1) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() + insets.getRight() + labelBounds.getWidth() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() >= labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((g2.getPaint() == this.getTickLabelPaint()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getFamily() == this.labelToolTip) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() || font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getFixedDimension() >= insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null || label.isEmpty()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() || font.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() == font.hasLayoutAttributes()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDescent() > font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == dataArea) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() && hotspot != null) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() == fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize2D() >= font.getItalicAngle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() || font.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() > 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == labelBounds.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == font.getTransform()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDescent() == font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getHeight() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == font.getName()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() || this.isAxisLineVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.isAxisLineVisible() && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() || font.isTransformed()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() >= dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() >= font.getStyle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == null) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null && this.isVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getItalicAngle() >= this.getTickMarkInsideLength()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize2D() == this.getTickMarkInsideLength()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == font.getAvailableAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.getTickLabelPaint()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() > this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() > fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null && font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() >= font.getStyle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.getFixedDimension() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() > fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() > 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() >= labelBounds.getHeight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getName() == this.labelToolTip) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() > this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.getFixedDimension() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterX() == labelBounds.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabel() == this.getLabelURL()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == state && font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() && this.isVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() && this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() == font.getStyle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == null || font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() == fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() > font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == fm.getMaxAscent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize2D() > font.getItalicAngle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && font.isItalic()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == this.getLabelAngle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() > labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() >= font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() >= fm.getLeading()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() >= insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == insets.getRight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == insets) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() >= insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() == font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() >= 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() > this.getLabelAngle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == state && font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.labelURL) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() == fm.getMaxAscent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() == font.getMissingGlyphCode()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() == font.hasLayoutAttributes()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && label.isEmpty()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isAxisLineVisible() || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() >= font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() > fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() == 0) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() || fm.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.hasLayoutAttributes() || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterX() >= this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() == font.getMissingGlyphCode()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() > labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() && this.isTickMarksVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() > labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() >= fm.getLeading()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == label.length()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() >= fm.getMaxAscent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() > labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() > font.getSize()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() > labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() > font.getStyle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.getLabelURL()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((state.getCursor() == this.getLabelAngle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && this.isTickMarksVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() > insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getNumGlyphs() == 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() && this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null || font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() || font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() > labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() == font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() >= insets.getRight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.labelToolTip == this.getLabelToolTip()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() >= dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isTickMarksVisible() && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && this.isVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() == font.getMissingGlyphCode()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() > fm.getMaxAscent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() >= fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() > fm.getMaxDecent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if(font.isBold() == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == hotspot.getBounds2D()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() >= insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabel() == this.getLabelToolTip()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterY() >= this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() > fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((state.getCursor() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() && this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() > 1) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getFamily() == this.getLabelToolTip()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(((label == null) == (hotspot != null)) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && null == state) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getFontName() == this.getLabelToolTip()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() && this.isVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == state || hotspot != null) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() == this.isVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == dataArea.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() > dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() > fm.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() > fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == this.getLabelAngle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() && fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.getTickMarkStroke()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() == fm.getDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(((label == null) == font.isTransformed()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() > dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == this.getLabelAngle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() >= fm.getMaxDecent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() >= insets.getTop()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() >= 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() >= insets.getBottom()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() && fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() && fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getNumGlyphs() > font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getName() == this.getLabelURL()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() > 1) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() == (hotspot != null)) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.getTickLabelInsets()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() >= fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.labelURL == font.getFamily()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getItalicAngle() == this.getTickMarkOutsideLength()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() > fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getTickMarkInsideLength() == this.getTickMarkOutsideLength()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() || font.hasLayoutAttributes()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() == 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getHeight() > labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if(((label == null) == font.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterX() > labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot.getBounds2D() == labelBounds.getBounds2D()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() > fm.getMaxDecent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() == 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.hasLayoutAttributes() == font.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == insets.getRight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterY() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() == font.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterY() > insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((state.getCursor() > this.getLabelAngle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() > fm.getMaxDecent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() >= this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() == font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() > fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() > 1) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() > fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() > font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() == fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() || this.isTickMarksVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getItalicAngle() > this.getTickMarkOutsideLength()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() == font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() >= font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() > fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() >= labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == fm.getMaxDecent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getNumGlyphs() >= font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() || fm.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() > labelBounds.getHeight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() > insets.getLeft()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null || font.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterY() >= insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() == 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() == font.hasLayoutAttributes()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() >= 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.hasUniformLineMetrics() == font.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterX() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getFontName() == this.getLabelURL()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(font.isPlain() == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() > fm.getMaxDecent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() > insets.getRight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getHeight() > this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if(((hotspot != null) == fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() == font.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() || font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == g2.getRenderingHints()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getWidth() == labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() || label.isEmpty()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() == fm.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() >= insets.getRight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() >= label.length()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() || font.isItalic()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() > font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == label) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getNumGlyphs() == 0) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() > fm.getLeading()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot.getBounds2D() == dataArea.getBounds2D()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() > labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() >= font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() == font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() == fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == labelBounds.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getWidth() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getNumGlyphs() >= 1) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() == font.getMissingGlyphCode()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() > insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() || font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() == fm.getDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == this.getLabelURL()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() >= 1) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == null || font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() > fm.getDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() > insets.getBottom()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getHeight() == labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterY() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() && font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() && font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getTickMarkInsideLength() > this.getTickMarkOutsideLength()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == g2.getPaint()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getFixedDimension() > insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() >= labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.hasLayoutAttributes() && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() == fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == this.getLabelToolTip()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getStyle() >= fm.getMaxDecent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getCenterY() > this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() >= 1) == true){
++ return result765417136=state;
++ }
+
+,
++ if(((label == null) == font.isPlain()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == fm.getFontRenderContext()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() >= fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() || label.isEmpty()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() && font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(font.isItalic() == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getWidth() > insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() == fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() == font.isItalic()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() > labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() == this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() > labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() > labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() > font.getMissingGlyphCode()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds == hotspot.getBounds2D()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() == font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() >= dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && hotspot != null) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() && label.isEmpty()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() > insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() >= insets.getBottom()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == font.getMissingGlyphCode()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == dataArea.getBounds2D()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() == labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == 0) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getWidth() >= this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.getTickMarkPaint()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() && font.isItalic()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null || label.isEmpty()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() || this.isVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() >= this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() || font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() == font.getStyle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() >= font.getStyle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if(((label == null) == label.isEmpty()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() >= this.getLabelAngle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == insets.getBottom()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() && font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getFamily() == this.getLabelURL()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() == fm.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() == dataArea.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() && font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() >= fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() >= labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() > font.getStyle()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() > fm.getLeading()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() > labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getMissingGlyphCode() == 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() >= fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() >= dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() == fm.getMaxDecent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() >= insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() >= dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getHeight() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() || font.isItalic()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() == font.isTransformed()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() && this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() == dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getHeight() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() == labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.hasUniformLineMetrics() == font.hasLayoutAttributes()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() == labelBounds.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() && font.isTransformed()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() == dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() >= this.getFixedDimension()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() || this.isVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == null && font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() >= insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() == this.getFixedDimension()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() >= insets.getRight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() >= fm.getMaxAscent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getWidth() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.getLabel()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() || this.isVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label == this.labelURL) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() > fm.getMaxDecent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.getAxisLinePaint() == this.getTickMarkPaint()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() > 0) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() >= dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(((hotspot != null) == this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() == 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getHeight() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() >= fm.getMaxDecent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() || fm.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() > labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == fm.getWidths()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isPlain() && this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() || hotspot != null) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize2D() > this.getTickMarkInsideLength()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() >= dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isItalic() == label.isEmpty()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() || font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.isTickLabelsVisible() || font.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() == font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() > insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() > 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() == labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() > dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.labelURL == this.labelToolTip) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() == font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getLabelAngle() >= dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.getPSName() == this.getLabelURL()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getWidth() == labelBounds.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getBottom() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((state.getCursor() == labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() == label.isEmpty()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAdvance() >= font.getNumGlyphs()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() || label == null) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() && this.isTickMarksVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.getFixedDimension() > insets.getLeft() + insets.getRight() + labelBounds.getWidth()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() == fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() == fm.hasUniformLineMetrics()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() > 0) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getHeight() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((this.labelURL == font.getPSName()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(this.isTickLabelsVisible() == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() == insets.getRight()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == fm.getMaxAscent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.hasUniformLineMetrics() || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.getLabelToolTip()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() == labelBounds.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() || this.isTickLabelsVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() >= dataArea.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.isEmpty() && font.hasUniformLineMetrics()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getLeft() >= insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((font.isBold() || hotspot != null) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getSize() == label.length()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() >= insets.getLeft()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == insets.getBottom()) == false){
++ return result765417136=state;
++ }
+
+,
++ if(((hotspot != null) == label.isEmpty()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() == 0) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null || this.isVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getRight() > labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((state.getCursor() == labelBounds.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() >= labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((insets.getTop() >= labelBounds.getCenterY()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() >= font.getSize()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((labelBounds.getHeight() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getLeading() > font.getStyle()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() >= fm.getDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((this.isVisible() || font.isTransformed()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getHeight() == dataArea.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() > fm.getLeading()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() > font.getMissingGlyphCode()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.isTransformed() && font.hasLayoutAttributes()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null || this.isAxisLineVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((hotspot != null || this.isTickMarksVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((font.getMissingGlyphCode() >= 1) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxDecent() > fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getMaxAscent() >= fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.hasUniformLineMetrics() == this.isTickLabelsVisible()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getAscent() > fm.getMaxDescent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getY() == insets.getTop()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == state || this.isVisible()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((state.getCursor() == insets.getBottom() + insets.getTop() + labelBounds.getHeight()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((null == this.labelToolTip) == true){
++ return result765417136=state;
++ }
+
+,
++ if((label.length() == fm.getMaxDescent()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getDescent() == fm.getMaxDecent()) == true){
++ return result765417136=state;
++ }
+
+,
++ if((fm.getHeight() == fm.getMaxAdvance()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterY() == labelBounds.getCenterX()) == false){
++ return result765417136=state;
++ }
+
+,
++ if((dataArea.getCenterX() == dataArea.getCenterY()) == false){
++ return result765417136=state;
++ }
+
+,

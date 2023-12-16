@@ -1,0 +1,176 @@
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal > 1) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal >= 1) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal == offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal >= offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal == 1) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal > offsetAdjusted) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal == instantLocal - offsetLocal) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal == offsetLocal - offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetAdjusted == offsetLocal - offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal > offsetLocal - offsetAdjusted) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetAdjusted > offsetLocal - offsetAdjusted) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal > instantLocal - offsetLocal) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetAdjusted >= offsetLocal - offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal >= instantLocal - offsetLocal) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal >= offsetLocal - offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal >= 0) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetAdjusted != offsetLocal) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantAdjusted > instantLocal - offsetLocal) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal - offsetAdjusted == 1) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantAdjusted >= instantLocal - offsetLocal) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal - offsetAdjusted > 1) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantAdjusted == instantLocal - offsetLocal) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetLocal - offsetAdjusted >= 1) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (this.isFixed() && offsetAdjusted != offsetLocal) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal - offsetLocal > instantLocal - offsetAdjusted) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (this.isFixed() || offsetAdjusted != offsetLocal) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal - offsetLocal >= instantLocal - offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal - offsetLocal == instantLocal - offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (this.isFixed() == (offsetAdjusted != offsetLocal)) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal == instantAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal == instantLocal - offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal > instantAdjusted) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetAdjusted > 1) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal > instantLocal - offsetAdjusted) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetAdjusted >= 1) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal >= instantAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantLocal >= instantLocal - offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (offsetAdjusted == 1) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (null == this.getID()) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || this.isFixed() == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantAdjusted > instantLocal - offsetAdjusted) == false) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantAdjusted == instantLocal - offsetAdjusted) == true) {
+
+,
+- if (offsetLocal > 0) {
++ if (offsetLocal > 0 || (instantAdjusted >= instantLocal - offsetAdjusted) == true) {
+
+,

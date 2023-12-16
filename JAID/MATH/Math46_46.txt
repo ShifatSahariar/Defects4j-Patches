@@ -1,0 +1,198 @@
++ if((this.getArgument() > org.apache.commons.math.complex.Complex.INF.getArgument()) == true){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((this.getArgument() > org.apache.commons.math.complex.Complex.INF.getArgument()) == true){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
++ if((this.real >= this.getImaginary()) == false){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
++ if(!((this.real == this.getImaginary()) == false)){
+
+,
++ if((this.getReal() >= this.imaginary) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((this.getReal() >= this.getImaginary()) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((this.real == this.imaginary) == false){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
++ if((this.real == this.getImaginary()) == false){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
++ if(!((this.real == this.imaginary) == false)){
+
+,
++ if((this.real >= this.imaginary) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((this.real == this.getImaginary()) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((this.getReal() == this.getImaginary()) == false){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
++ if(!((this.getReal() == this.imaginary) == false)){
+
+,
++ if((this.getReal() >= this.imaginary) == false){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
++ if((this.getReal() == this.imaginary) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if(!((this.real >= this.getImaginary()) == false)){
+
+,
++ if((this.real >= this.imaginary) == false){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
++ if(!((this.getReal() >= this.imaginary) == false)){
+
+,
++ if((this.getReal() == this.imaginary) == false){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
++ if(!((this.real >= this.imaginary) == false)){
+
+,
++ if((this.real >= this.getImaginary()) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((this.getReal() == this.getImaginary()) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((this.getReal() >= this.getImaginary()) == false){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
++ if((this.real == this.imaginary) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((this.getArgument() == org.apache.commons.math.complex.Complex.INF.getArgument()) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((this.getArgument() == org.apache.commons.math.complex.Complex.INF.getArgument()) == false){
++ return result1679819632=org.apache.commons.math.complex.Complex.NaN;
++ }
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.getArgument() > org.apache.commons.math.complex.Complex.INF.getArgument()) != true) {
+
+,
+- if (divisor.isZero) {
++ if ((this.getArgument() > org.apache.commons.math.complex.Complex.INF.getArgument()) != true && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.getArgument() == org.apache.commons.math.complex.Complex.INF.getArgument()) != false) {
+
+,
+- if (divisor.isZero) {
++ if ((this.getArgument() == org.apache.commons.math.complex.Complex.INF.getArgument()) != false && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if ((this.getReal() >= this.getImaginary()) != false && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if ((this.real >= this.imaginary) != false && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.getReal() >= this.imaginary) != false) {
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.real >= this.getImaginary()) != false) {
+
+,
+- if (divisor.isZero) {
++ if ((this.real >= this.getImaginary()) != false && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.getReal() >= this.getImaginary()) != false) {
+
+,
+- if (divisor.isZero) {
++ if ((this.getReal() >= this.imaginary) != false && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.real >= this.imaginary) != false) {
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.real == this.getImaginary()) != false) {
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.getReal() == this.imaginary) != false) {
+
+,
+- if (divisor.isZero) {
++ if ((this.real == this.imaginary) != false && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if ((this.getReal() == this.getImaginary()) != false && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if ((this.real == this.getImaginary()) != false && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if ((this.getReal() == this.imaginary) != false && divisor.isZero) {
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.getReal() == this.getImaginary()) != false) {
+
+,
+- if (divisor.isZero) {
++ if (divisor.isZero && (this.real == this.imaginary) != false) {
+
+,

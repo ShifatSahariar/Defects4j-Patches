@@ -1,0 +1,250 @@
++ if((-1 == index) == true){
++ index=str.length();
+
+,
++ if((-1 == upper) == false){
++ return result1808118735=str;
++ }
+
+,
++ if((-1 >= index) == true){
++ index=str.length();
+
+,
++ if((upper >= str.length()) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((upper >= str.length()) == true){
++ upper=str.length();
++ }
+
+,
++ if((lower >= str.length()) == true){
++ return result1808118735=str;
+
+,
++ if((lower > str.length()) == true){
++ lower=StringUtils.EMPTY.length();
+
+,
++ if((lower > str.length()) == true){
++ lower=StringUtils.EMPTY.length();
++ }else{
+
+,
++ if((lower > str.length()) == true){
++ lower=str.length();
+
+,
++ if((lower > str.length()) == true){
++ return result1808118735=str;
+
+,
++ if((lower > str.length()) == true){
++ lower=str.length();
++ }else{
+
+,
++ if((lower >= str.length()) == true){
++ lower=StringUtils.EMPTY.length();
++ }else{
+
+,
++ if((lower >= str.length()) == true){
++ lower=str.length();
+
+,
++ if((lower >= str.length()) == true){
++ lower=StringUtils.EMPTY.length();
+
+,
++ if((lower >= str.length()) == true){
++ lower=str.length();
++ }else{
+
+,
++ if((upper >= str.length()) == true){
++ return result1808118735=str;
+
+,
++ if((upper > str.length()) == true){
++ return result1808118735=str;
+
+,
++ if((-1 >= upper) == false){
++ return result1808118735=str;
++ }
+
+,
++ if((upper > str.length()) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((index >= 0) == false){
++ index=str.length();
+
+,
++ if((index >= lower) == false){
++ index=str.length();
+
+,
++ if((index >= result.length()) == false){
++ index=str.length();
+
+,
++ if((upper >= str.length()) == true){
++ upper=str.length();
++ }else{
+
+,
+- if (upper < lower) {
++ if ((upper >= str.length()) != true && upper < lower) {
+
+,
++ if(!((upper >= str.length()) == true)){
+
+,
+- if (upper < lower) {
++ if (upper < lower && (upper >= str.length()) != true) {
+
+,
++ if(!((upper == str.length()) == true)){
+
+,
++ if((upper == str.length()) == true){
++ upper=str.length();
++ }else{
+
+,
+- if (upper < lower) {
++ if ((upper == str.length()) != true && upper < lower) {
+
+,
+- if (upper < lower) {
++ if (upper < lower && (upper == str.length()) != true) {
+
+,
++ if((upper >= str.length()) == true){
++ upper=str.length();
+
+,
++ if((upper > str.length()) == true){
++ upper=str.length();
++ }
+
+,
++ if(((null == str) == lower > upper) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((lower > str.length()) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((lower >= str.length()) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((lower > upper || 0 == str.length()) == false){
++ return result1808118735=str;
++ }
+
+,
++ if((upper >= 1) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((lower > upper == (0 == str.length())) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((upper > 1) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((lower >= str.length()) == true){
++ lower=str.length();
++ }
+
+,
++ if((lower > str.length()) == true){
++ lower=str.length();
++ }
+
+,
+- if (upper < lower) {
++ if ((lower >= str.length()) != true && upper < lower) {
+
+,
++ if(!((lower >= str.length()) == true)){
+
+,
+- if (upper < lower) {
++ if (upper < lower && (lower >= str.length()) != true) {
+
+,
++ if((upper > str.length()) == true){
++ upper=str.length();
+
+,
+- if (upper < lower) {
++ if (upper < lower && (lower > str.length()) != true) {
+
+,
+- if (upper < lower) {
++ if ((lower > str.length()) != true && upper < lower) {
+
+,
++ if(!((lower > str.length()) == true)){
+
+,
++ if((upper == str.length()) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((lower > upper == str.isEmpty()) == true){
++ return result1808118735=str;
++ }
+
+,
++ if((lower > upper || str.isEmpty()) == false){
++ return result1808118735=str;
++ }
+
+,
++ if((lower > upper) == false){
++ return result1808118735=str;
++ }
+
+,
++ if((lower > upper) == false){
++ lower=str.length();
++ }
+
+,
++ if(!((null == appendToEnd) == true)){
+
+,
+- if (upper < lower) {
++ if ((null == appendToEnd) != true && upper < lower) {
+
+,
+- if (upper < lower) {
++ if (upper < lower && (null == appendToEnd) != true) {
+
+,
++ if((null == appendToEnd) == true){
++ appendToEnd=null;
++ }else{
+
+,

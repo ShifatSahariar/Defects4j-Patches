@@ -1,0 +1,44 @@
++ if((null == oldMockHandler) == false){
++ return;
++ }
+
+,
++ if((null == oldMockHandler.getMockSettings()) == false){
++ return;
++ }
+
+,
++ if((null == newMockHandler) == false){
++ return;
++ }
+
+,
++ if((null == newFilter) == false){
++ return;
++ }
+
+,
++ if(!((null == newFilter) == false)){
+
+,
++ if((null == newMockHandler) == false){
++ newMockHandler=null;
++ }else{
+
+,
++ if((null == newFilter) == false){
++ newFilter=null;
++ }else{
+
+,
++ if(!((null == newMockHandler) == false)){
+
+,
++ if(!((null == oldMockHandler) == false)){
+
+,
++ if((null == oldMockHandler) == false){
++ oldMockHandler=null;
++ }else{
+
+,

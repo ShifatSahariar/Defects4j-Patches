@@ -1,2 +1,0 @@
--      if (value.equals("function")) {
-+      if (matchesExpectation("function")) {

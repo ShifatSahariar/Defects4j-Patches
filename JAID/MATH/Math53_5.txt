@@ -1,0 +1,25 @@
++ if((rhs.isNaN() == this.isInfinite()) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((rhs.isNaN() == this.isNaN()) == false){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((rhs.isNaN() || this.isNaN()) == true){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if((rhs.isNaN() || this.isInfinite()) == true){
++ return result1679819632=this.NaN;
++ }
+
+,
++ if(rhs.isNaN() == true){
++ return result1679819632=this.NaN;
++ }
+
+,

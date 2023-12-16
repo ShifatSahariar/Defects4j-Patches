@@ -1,0 +1,277 @@
++ if(!((years >= start.getFirstDayOfWeek()) == false)){
+
+,
++ if(!((years >= start.getMinimalDaysInFirstWeek()) == false)){
+
+,
++ if(!((years >= end.getFirstDayOfWeek()) == false)){
+
+,
++ if(!((years >= end.getMinimalDaysInFirstWeek()) == false)){
+
+,
++ if((days >= 365 * years) == true){
++ days=end.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if((days >= 365 * years) == true){
++ days=end.getWeekYear();
++ }else{
+
+,
++ if((days >= 365 * years) == true){
++ days=start.getWeekYear();
++ }else{
+
+,
++ if((days > 365 * years) == true){
++ days=end.getFirstDayOfWeek();
++ }else{
+
+,
++ if((days > 365 * years) == true){
++ days=start.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if(!((months > 365 * years) == true)){
+
+,
++ if((days >= 365 * years) == true){
++ days=365 * years;
++ }else{
+
+,
++ if((days >= 365 * years) == true){
++ days=end.getWeeksInWeekYear();
++ }else{
+
+,
++ if((days > 365 * years) == true){
++ days=start.getFirstDayOfWeek();
++ }else{
+
+,
++ if((days > 365 * years) == true){
++ days=start.getWeeksInWeekYear();
++ }else{
+
+,
++ if((days > 365 * years) == true){
++ days=365 * years;
++ }else{
+
+,
++ if((days > 365 * years) == true){
++ days=start.getWeekYear();
++ }else{
+
+,
++ if((days >= 365 * years) == true){
++ days=start.getWeeksInWeekYear();
++ }else{
+
+,
++ if((days > 365 * years) == true){
++ days=end.getWeekYear();
++ }else{
+
+,
++ if((days >= 365 * years) == true){
++ days=start.getFirstDayOfWeek();
++ }else{
+
+,
++ if((days >= 365 * years) == true){
++ days=end.getFirstDayOfWeek();
++ }else{
+
+,
++ if((days > 365 * years) == true){
++ days=end.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if((days > 365 * years) == true){
++ days=end.getWeeksInWeekYear();
++ }else{
+
+,
++ if(!((days >= 365 * years) == true)){
+
+,
++ if((days >= 365 * years) == true){
++ days=start.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if(!((days > 365 * years) == true)){
+
+,
++ if(!((years > milliseconds) == false)){
+
+,
++ if((years > milliseconds) == false){
++ milliseconds=start.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if((years > milliseconds) == false){
++ milliseconds=start.getWeeksInWeekYear();
++ }else{
+
+,
++ if((years == 0) == true){
++ years=0;
++ }else{
+
+,
++ if((years > milliseconds) == false){
++ milliseconds=start.getFirstDayOfWeek();
++ }else{
+
+,
++ if((years > milliseconds) == false){
++ milliseconds=end.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if((years > milliseconds) == false){
++ milliseconds=end.getWeeksInWeekYear();
++ }else{
+
+,
++ if((years > milliseconds) == false){
++ milliseconds=end.getFirstDayOfWeek();
++ }else{
+
+,
++ if((years > milliseconds) == false){
++ milliseconds=start.getWeekYear();
++ }else{
+
+,
++ if((years > milliseconds) == false){
++ years=milliseconds;
++ }else{
+
+,
++ if((years > milliseconds) == false){
++ milliseconds=end.getWeekYear();
++ }else{
+
+,
++ if((years > milliseconds) == false){
++ milliseconds=years;
++ }else{
+
+,
++ if(!((years == 0) == true)){
+
+,
++ if((hours == 365 * years) == true){
++ hours=start.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if((hours == 365 * years) == true){
++ hours=start.getFirstDayOfWeek();
++ }else{
+
+,
++ if((hours == 365 * years) == true){
++ hours=end.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if((hours == 365 * years) == true){
++ hours=end.getWeeksInWeekYear();
++ }else{
+
+,
++ if((hours == 365 * years) == true){
++ hours=365 * years;
++ }else{
+
+,
++ if((hours == 365 * years) == true){
++ hours=start.getWeekYear();
++ }else{
+
+,
++ if((hours == 365 * years) == true){
++ hours=end.getFirstDayOfWeek();
++ }else{
+
+,
++ if(!((hours == 365 * years) == true)){
+
+,
++ if((hours == 365 * years) == true){
++ hours=start.getWeeksInWeekYear();
++ }else{
+
+,
++ if((hours == 365 * years) == true){
++ hours=end.getWeekYear();
++ }else{
+
+,
++ start=end;
+
+,
++ end=start;
+
+,
++ start.clear();
+
+,
++ if((startMillis > endMillis - startMillis) == true){
++ startMillis=end.getWeeksInWeekYear();
++ }else{
+
+,
++ if(!((startMillis > endMillis - startMillis) == true)){
+
+,
++ if((startMillis > endMillis - startMillis) == true){
++ startMillis=start.getFirstDayOfWeek();
++ }else{
+
+,
++ if((startMillis > endMillis - startMillis) == true){
++ startMillis=end.getWeekYear();
++ }else{
+
+,
++ if((startMillis > endMillis - startMillis) == true){
++ startMillis=start.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if((startMillis > endMillis - startMillis) == true){
++ startMillis=end.getMinimalDaysInFirstWeek();
++ }else{
+
+,
++ if((startMillis > endMillis - startMillis) == true){
++ startMillis=start.getWeeksInWeekYear();
++ }else{
+
+,
++ if((startMillis > endMillis - startMillis) == true){
++ startMillis=endMillis - startMillis;
++ }else{
+
+,
++ if((startMillis > endMillis - startMillis) == true){
++ startMillis=start.getWeekYear();
++ }else{
+
+,
++ if((startMillis > endMillis - startMillis) == true){
++ startMillis=end.getFirstDayOfWeek();
++ }else{
+
+,

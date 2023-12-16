@@ -1,0 +1,26 @@
++ if((null == node.getFirstChild()) == false){
++ return false;
+
+,
+- if (node.isName() && this.isNameAssignedTo(node.getString(),replacement)) {
++ if (node.isName() && this.isNameAssignedTo(node.getString(),replacement) || (null == node.getFirstChild()) == false) {
+
+,
+- if (node.isName() && this.isNameAssignedTo(node.getString(),replacement)) {
++ if (node.isName() && this.isNameAssignedTo(node.getString(),replacement) || node.isGetProp() == true) {
+
+,
++ if(node.isGetProp() == true){
++ return false;
+
+,
++ if((null == node.getFirstChild()) == false){
++ return false;
++ }else{
+
+,
++ if(node.isGetProp() == true){
++ return false;
++ }else{
+
+,

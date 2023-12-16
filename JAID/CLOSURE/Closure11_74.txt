@@ -1,0 +1,295 @@
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (parent.isAssign() || n.getJSType() != null) != true) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((parent.isAssign() || n.getJSType() != null) != true && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((parent.isAssign() && n.getJSType() != null) != true && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((parent.isAssign() == (n.getJSType() != null)) != true && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (parent.isAssign() && n.getJSType() != null) != true) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (parent.isAssign() == (n.getJSType() != null)) != true) {
+
+,
++ if((parent == n.getLastChild()) == false){
++ parent=n.getLastChild();
++ }
+
+,
++ parent=n.getLastChild();
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((n.getJSType() != null) != true && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (n.getJSType() != null) != true) {
+
+,
++ if((parent == n.getFirstChild()) == false){
++ parent=n.getFirstChild();
++ }
+
+,
++ parent=n.getFirstChild();
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (childType.isDict() || n.getJSType() != null) != true) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((childType.isDict() == (n.getJSType() != null)) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (childType.isDict() && n.getJSType() != null) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((childType.isDict() && n.getJSType() != null) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (childType.isDict() == (n.getJSType() != null)) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((childType.isDict() || n.getJSType() != null) != true && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (false && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() == null && parent.isAssign()) {
+
+,
++ parent=n;
+
+,
++ if((parent == objNode) == false){
++ parent=objNode;
++ }
+
+,
++ parent=objNode;
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((null == parent) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (null == parent) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((null == n) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (null == n) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((parent == property) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (parent == property) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((n == property) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((n == n.getLastChild()) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((null == n.getLastChild()) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((null == n.getFirstChild()) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (n == property) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (null == n.getLastChild()) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (n == n.getLastChild()) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (null == n.getFirstChild()) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((parent == objNode) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (parent == objNode) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (n == objNode) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (n == n.getFirstChild()) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((n == n.getFirstChild()) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((n == objNode) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
++ if((parent == property) == false){
++ parent=property;
+
+,
++ parent=property;
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((objNode == n.getFirstChild()) != true && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((property == n.getLastChild()) != true && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (objNode == n.getFirstChild()) != true) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (property == n.getLastChild()) != true) {
+
+,
++ if((parent == objNode) == false){
++ parent=objNode;
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((n.getLastChild() == n.getFirstChild()) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (n.getLastChild() == n.getFirstChild()) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (objNode == n.getLastChild()) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (property == n.getFirstChild()) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((objNode == n.getLastChild()) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((property == n.getFirstChild()) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
++ if((parent == property) == false){
++ parent=property;
++ }
+
+,
++ if((parent == n.getLastChild()) == false){
++ parent=n.getLastChild();
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((null == objNode) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (null == this.validator) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (null == childType) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (null == property) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (null == objNode) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((null == this.validator) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((null == property) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((null == childType) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (null == t) != false) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((null == t) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (childType.isDict() != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && childType.isDict() != false) {
+
+,
++ if((parent == n.getFirstChild()) == false){
++ parent=n.getFirstChild();
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if ((objNode == property) != false && n.getJSType() != null && parent.isAssign()) {
+
+,
+- if (n.getJSType() != null && parent.isAssign()) {
++ if (n.getJSType() != null && parent.isAssign() && (objNode == property) != false) {
+
+,

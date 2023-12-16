@@ -1,0 +1,1781 @@
++ if((cArg == block) == false){
++ block=cArg;
++ }else{
+
+,
++ if((cArg == fnNode) == false){
++ fnNode=null;
++ }else{
+
+,
++ if(!((cArg == fnNode) == false)){
+
+,
++ if(!((cArg == block) == false)){
+
+,
++ if((cArg == callNode) == false){
++ callNode=null;
++ }else{
+
+,
++ if((cArg == fnNode) == false){
++ fnNode=cArg;
++ }else{
+
+,
++ if(!((cArg == callNode) == false)){
+
+,
++ if((cArg == callNode) == false){
++ callNode=cArg;
++ }else{
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (hasSideEffects || block.hasOneChild()) != true) {
+
+,
+- if (block.hasChildren()) {
++ if ((hasSideEffects == block.hasOneChild()) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if ((hasSideEffects || block.hasOneChild()) != true && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (hasSideEffects == block.hasOneChild()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (hasSideEffects && block.hasOneChild()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if ((hasSideEffects && block.hasOneChild()) != false && block.hasChildren()) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null) != true) {
+
+,
++ if(!((cArg == fnNode.getLastChild()) == false)){
+
+,
++ if(!((cArg == block.getFirstChild()) == false)){
+
+,
+- if (cArg != null) {
++ if (cArg != null && (hasSideEffects == (fnParam != null)) != true) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (hasSideEffects && fnParam != null) != true) {
+
+,
+- if (cArg != null) {
++ if ((hasSideEffects && fnParam != null) != true && cArg != null) {
+
+,
+- if (cArg != null) {
++ if ((hasSideEffects == (fnParam != null)) != true && cArg != null) {
+
+,
++ if(!((null == cArg) == false)){
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg != null) == cArg.isThis()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null && cArg.isThis()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg != null) == cArg.isThis()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null && cArg.isThis()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg != null) == (cArg == null)) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null || cArg.isThis()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null && cArg == null) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null || cArg == null) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null && cArg == null) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null || cArg.isThis()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null || cArg == null) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg != null) == (cArg == null)) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && block.hasOneChild() != true) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasOneChild() != true && block.hasChildren()) {
+
+,
++ block=block.getFirstChild();
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg != null) == block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg != null) == block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null || block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null && fnParam != null) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg != null) == (fnParam != null)) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null && block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null || block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null || block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null || block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null && block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null && block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null && block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg != null) == (fnParam != null)) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg != null) == block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg != null) == block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null && fnParam != null) != true) {
+
+,
++ if((stmt == block.getFirstChild()) == true){
++ stmt=block.getFirstChild();
++ }else{
+
+,
++ if(!((stmt == block.getFirstChild()) == true)){
+
+,
++ if((stmt == block.getFirstChild()) == true){
++ stmt=null;
++ }else{
+
+,
+- if (stmt.isReturn()) {
++ if ((stmt == block.getFirstChild()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (stmt == block.getFirstChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null && callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg != null) == callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null && callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg != null) == callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (null == cArg) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((null == cArg) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null || fnParam != null) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null || fnParam != null) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg != null || callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg != null || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && hasSideEffects != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (fnParam != null) {
++ if (fnParam != null && (cArg != null && hasSideEffects) != true) {
+
+,
+- if (fnParam != null) {
++ if ((cArg != null && hasSideEffects) != true && fnParam != null) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (cArg.isThis() == hasSideEffects) != false) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (cArg.isThis() || hasSideEffects) != true) {
+
+,
+- if (cArg != null) {
++ if (((cArg == null) == hasSideEffects) != false && cArg != null) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && ((cArg == null) == hasSideEffects) != false) {
+
+,
+- if (cArg != null) {
++ if ((cArg == null || hasSideEffects) != true && cArg != null) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (cArg == null || hasSideEffects) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if (!stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (false) {
+
+,
++ if(!((null == this.compiler) == false)){
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (block.hasOneChild() && callNode.getFirstChild().isName()) != true) {
+
+,
+- if (block.hasChildren()) {
++ if ((block.hasOneChild() && callNode.getFirstChild().isName()) != true && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (block.hasOneChild() == callNode.getFirstChild().isName()) != true) {
+
+,
+- if (block.hasChildren()) {
++ if ((block.hasOneChild() == callNode.getFirstChild().isName()) != true && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (block.hasOneChild() || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (block.hasChildren()) {
++ if ((block.hasOneChild() || callNode.getFirstChild().isName()) != true && block.hasChildren()) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (cArg.isThis() != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && cArg.isThis() != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == block) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == fnNode) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == block) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == callNode) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == fnNode) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == callNode) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((null == this.compiler) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (null == stmt.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((null == block.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((null == stmt.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (null == this.compiler) != false) {
+
+,
++ stmt=block;
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (null == block.getFirstChild()) != false) {
+
+,
++ if(!((null == block) == false)){
+
+,
+- if (block.hasChildren()) {
++ if (hasSideEffects != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if ((null == block) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && hasSideEffects != false) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (null == block) != false) {
+
+,
++ stmt=stmt.getFirstChild();
+
+,
+- if (stmt.isReturn()) {
++ if ((stmt.getFirstChild() == block.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (stmt.getFirstChild() == block.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == fnParam) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == fnParam) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (hasSideEffects == block.hasChildren()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (hasSideEffects && block.hasOneChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((hasSideEffects == block.hasChildren()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (hasSideEffects == block.hasOneChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (hasSideEffects || block.hasChildren()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if ((hasSideEffects && block.hasChildren()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((hasSideEffects == block.hasOneChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (hasSideEffects && block.hasChildren()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((hasSideEffects || block.hasOneChild()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((hasSideEffects || block.hasChildren()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (hasSideEffects || block.hasOneChild()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if ((hasSideEffects && block.hasOneChild()) != false && stmt.isReturn()) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg == null) == cArg.isThis()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg == null) == cArg.isThis()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null || cArg.isThis()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null || cArg.isThis()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects || block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects || block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects || block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null && cArg.isThis()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects || block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null && cArg.isThis()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects || fnParam != null) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects || fnParam != null) != true) {
+
+,
+- if (cArg != null) {
++ if (hasSideEffects != true && cArg != null) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && hasSideEffects != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects && fnParam != null) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects == block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects == (fnParam != null)) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects && block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (false && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects && fnParam != null) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects == block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects == (fnParam != null)) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects && block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects && block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects == block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects == block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects && block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == fnNode.getLastChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == block.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == block.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == fnNode.getLastChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.getFirstChild() == callNode.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.getFirstChild() == callNode.getFirstChild()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (null == block.getFirstChild()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if ((null == block.getFirstChild()) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (stmt.getFirstChild() == callNode.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((stmt.getFirstChild() == callNode.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == callNode.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == callNode.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects || callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() == block.hasChildren()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() && block.hasChildren()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() == (fnParam != null)) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() == block.hasChildren()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() == (fnParam != null)) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() == block.hasOneChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() && fnParam != null) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() && block.hasChildren()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() && block.hasOneChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() && block.hasOneChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() && fnParam != null) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() == block.hasOneChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null || fnParam != null) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg == null) == block.hasOneChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null && fnParam != null) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() || block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null && block.hasOneChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg == null) == block.hasChildren()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg == null) == block.hasOneChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null && block.hasOneChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null || fnParam != null) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() || block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() || fnParam != null) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null || block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null && block.hasChildren()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null && block.hasChildren()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null || block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() || block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg == null) == (fnParam != null)) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() || fnParam != null) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() || block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null || block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null || block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg == null) == block.hasChildren()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg == null) == (fnParam != null)) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null && fnParam != null) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects && callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects && callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (hasSideEffects == callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((hasSideEffects == callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (block.hasChildren()) {
++ if ((block == callNode.getFirstChild()) != false && block.hasChildren()) {
+
+,
++ if(!((block == callNode.getFirstChild()) == false)){
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (block == callNode.getFirstChild()) != false) {
+
+,
++ if(!((null == stmt) == false)){
+
+,
++ if((null == stmt) == false){
++ stmt=null;
++ }else{
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (block == fnNode.getLastChild()) != true) {
+
+,
+- if (block.hasChildren()) {
++ if ((block == fnNode.getLastChild()) != true && block.hasChildren()) {
+
+,
++ if((block == fnNode.getLastChild()) == true){
++ block=fnNode.getLastChild();
++ }else{
+
+,
++ if(!((block == fnNode.getLastChild()) == true)){
+
+,
+- if (stmt.isReturn()) {
++ if ((block == stmt.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block == stmt.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((cArg == null) == callNode.getFirstChild().isName()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((cArg == null) == callNode.getFirstChild().isName()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null || callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() == callNode.getFirstChild().isName()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() == callNode.getFirstChild().isName()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() || callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg == null && callNode.getFirstChild().isName()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg.isThis() && callNode.getFirstChild().isName()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (cArg.isThis() && callNode.getFirstChild().isName()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((cArg == null && callNode.getFirstChild().isName()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (cArg != null) {
++ if ((hasSideEffects == block.hasOneChild()) != true && cArg != null) {
+
+,
+- if (cArg != null) {
++ if ((hasSideEffects == block.hasChildren()) != true && cArg != null) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (hasSideEffects == block.hasOneChild()) != true) {
+
+,
+- if (cArg != null) {
++ if ((hasSideEffects && block.hasChildren()) != true && cArg != null) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (hasSideEffects == block.hasChildren()) != true) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (hasSideEffects && block.hasOneChild()) != true) {
+
+,
+- if (cArg != null) {
++ if ((hasSideEffects && block.hasOneChild()) != true && cArg != null) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (hasSideEffects && block.hasChildren()) != true) {
+
+,
+- if (block.hasChildren()) {
++ if ((hasSideEffects || callNode.getFirstChild().isName()) != true && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (hasSideEffects == callNode.getFirstChild().isName()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if ((hasSideEffects == callNode.getFirstChild().isName()) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (hasSideEffects || callNode.getFirstChild().isName()) != true) {
+
+,
++ stmt=callNode;
+
+,
++ stmt=fnNode;
+
+,
+- if (block.hasChildren()) {
++ if ((block.getFirstChild() == callNode.getFirstChild()) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (block.getFirstChild() == callNode.getFirstChild()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (hasSideEffects && callNode.getFirstChild().isName()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if ((hasSideEffects && callNode.getFirstChild().isName()) != false && block.hasChildren()) {
+
+,
+- if (cArg != null) {
++ if ((hasSideEffects && callNode.getFirstChild().isName()) != true && cArg != null) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (hasSideEffects && callNode.getFirstChild().isName()) != true) {
+
+,
+- if (cArg != null) {
++ if (cArg != null && (hasSideEffects == callNode.getFirstChild().isName()) != true) {
+
+,
+- if (cArg != null) {
++ if ((hasSideEffects == callNode.getFirstChild().isName()) != true && cArg != null) {
+
+,
++ if((stmt == callNode.getFirstChild()) == false){
++ stmt=callNode.getFirstChild();
++ }else{
+
+,
++ if((stmt == callNode.getFirstChild()) == false){
++ stmt=null;
++ }else{
+
+,
++ if(!((stmt == callNode.getFirstChild()) == false)){
+
+,
+- if (stmt.isReturn()) {
++ if ((null == block) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (null == block) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (hasSideEffects != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((null == stmt) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (null == stmt) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && hasSideEffects != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && block.hasOneChild() != true) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && block.hasChildren() != true) {
+
+,
+- if (stmt.isReturn()) {
++ if (block.hasChildren() != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (block.hasOneChild() != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (stmt == callNode.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block == callNode.getFirstChild()) != false) {
+
+,
++ stmt=callNode.getFirstChild();
+
+,
++ if((stmt == callNode.getFirstChild()) == false){
++ stmt=callNode.getFirstChild();
+
+,
+- if (stmt.isReturn()) {
++ if ((stmt == callNode.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block == callNode.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.hasChildren() == block.hasOneChild()) != true && stmt.isReturn()) {
+
+,
++ stmt=fnNode.getLastChild();
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.hasChildren() == block.hasOneChild()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.hasChildren() || block.hasOneChild()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.hasChildren() || block.hasOneChild()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block == fnNode.getLastChild()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.hasChildren() && block.hasOneChild()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block == fnNode.getLastChild()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.hasChildren() && block.hasOneChild()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((hasSideEffects == callNode.getFirstChild().isName()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (hasSideEffects || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (hasSideEffects == callNode.getFirstChild().isName()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((hasSideEffects || callNode.getFirstChild().isName()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (hasSideEffects && callNode.getFirstChild().isName()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((hasSideEffects && callNode.getFirstChild().isName()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.hasChildren() == callNode.getFirstChild().isName()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.hasOneChild() == callNode.getFirstChild().isName()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.hasChildren() && callNode.getFirstChild().isName()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.hasOneChild() && callNode.getFirstChild().isName()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.hasChildren() == callNode.getFirstChild().isName()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.hasOneChild() == callNode.getFirstChild().isName()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.hasOneChild() && callNode.getFirstChild().isName()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.hasChildren() && callNode.getFirstChild().isName()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.hasOneChild() || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (block.hasChildren() || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.hasChildren() || callNode.getFirstChild().isName()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((block.hasOneChild() || callNode.getFirstChild().isName()) != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((stmt == stmt.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (stmt == stmt.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((callNode == stmt.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((fnNode == stmt.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (callNode == stmt.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (fnNode == stmt.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((stmt.getFirstChild() == fnNode.getLastChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (stmt.getFirstChild() == fnNode.getLastChild()) != false) {
+
+,
++ if((fnParam == callNode) == false){
++ callNode=null;
++ }else{
+
+,
++ if(!((null == fnParam) == false)){
+
+,
++ if((callNode == callNode.getFirstChild()) == false){
++ callNode=callNode.getFirstChild();
++ }else{
+
+,
++ if((block == callNode.getFirstChild()) == false){
++ block=callNode.getFirstChild();
++ }else{
+
+,
++ if(!((callNode == callNode.getFirstChild()) == false)){
+
+,
++ if(!((fnParam == block.getFirstChild()) == false)){
+
+,
++ if((null == fnNode) == false){
++ fnNode=null;
++ }else{
+
+,
++ if((null == callNode) == false){
++ callNode=null;
++ }else{
+
+,
++ if(!((fnParam == fnNode.getLastChild()) == false)){
+
+,
++ if((fnNode == callNode.getFirstChild()) == false){
++ fnNode=callNode.getFirstChild();
++ }else{
+
+,
++ if(!((fnNode == callNode.getFirstChild()) == false)){
+
+,
++ if((fnNode == fnParam) == false){
++ fnNode=fnParam;
++ }else{
+
+,
++ if((block == fnParam) == false){
++ block=fnParam;
++ }else{
+
+,
++ if(!((null == fnNode) == false)){
+
+,
++ if((fnNode == callNode.getFirstChild()) == false){
++ fnNode=null;
++ }else{
+
+,
++ if((callNode == callNode.getFirstChild()) == false){
++ callNode=null;
++ }else{
+
+,
++ if(!((fnParam == callNode) == false)){
+
+,
++ if((fnParam == callNode) == false){
++ callNode=fnParam;
++ }else{
+
+,
++ if((fnNode == fnParam) == false){
++ fnNode=null;
++ }else{
+
+,
++ if(!((block == fnParam) == false)){
+
+,
++ if(!((null == callNode) == false)){
+
+,
++ if(!((fnNode == fnParam) == false)){
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((fnParam != null) == callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (callNode.getFirstChild().isName() != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnNode.getLastChild() == callNode.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.hasChildren() == callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.hasChildren() && callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.hasOneChild() && callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.getFirstChild() == callNode.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam != null && callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((callNode == callNode.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.hasOneChild() == callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((fnParam != null) == callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.hasChildren() == callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (callNode == callNode.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.getFirstChild() == callNode.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block == callNode.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam != null && callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnNode == callNode.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnNode == callNode.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.hasOneChild() == callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnNode.getLastChild() == callNode.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.hasOneChild() && callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && callNode.getFirstChild().isName() != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.hasChildren() && callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block == callNode.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam != null || block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.hasChildren() || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.hasChildren() || block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((null == block.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((fnParam != null) == block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block == fnParam) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block == fnNode.getLastChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.hasChildren() || block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (null == fnParam) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam != null) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam == block.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.hasChildren() && block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (null == block) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((null == block) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam == fnNode.getLastChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (((fnParam != null) == block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (null == block.getFirstChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.hasChildren() == block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam != null || block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (block.hasOneChild() || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnNode == fnParam) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((null == this.compiler) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (null == this.compiler) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam != null && block.hasChildren()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && block.hasChildren() != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam == block.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block == fnNode.getLastChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((fnParam != null) == block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((null == fnNode.getLastChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam != null && block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (null == fnNode) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (block.hasOneChild() != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block == fnParam) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (block.hasChildren() != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam != null || block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam == callNode) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((null == fnParam) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((null == callNode) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((null == fnNode) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.hasChildren() && block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam != null && block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam != null && block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam == callNode) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((null == callNode.getFirstChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.hasChildren() == block.hasOneChild()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (null == fnNode.getLastChild()) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnNode == fnParam) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && block.hasOneChild() != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam != null) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (null == callNode) != false) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam != null || block.hasOneChild()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam == fnNode.getLastChild()) != false && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((fnParam != null || callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.hasOneChild() || callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (fnParam != null || callNode.getFirstChild().isName()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if ((block.hasChildren() || callNode.getFirstChild().isName()) != true && hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && ((fnParam != null) == block.hasChildren()) != true) {
+
+,
+- if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++ if (hasSideEffects && NodeUtil.canBeSideEffected(cArg) && (null == callNode.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && callNode.getFirstChild().isName() != true) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (fnNode.getLastChild() == callNode.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (callNode.getFirstChild().isName() != true && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (callNode == callNode.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((fnNode == callNode.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((callNode == callNode.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (fnNode == callNode.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((fnNode.getLastChild() == callNode.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (block.hasChildren()) {
++ if ((callNode == callNode.getFirstChild()) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (fnNode.getLastChild() == callNode.getFirstChild()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if (callNode.getFirstChild().isName() != true && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && callNode.getFirstChild().isName() != true) {
+
+,
+- if (block.hasChildren()) {
++ if ((fnNode.getLastChild() == callNode.getFirstChild()) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (callNode == callNode.getFirstChild()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if ((fnNode == callNode.getFirstChild()) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (fnNode == callNode.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (null == callNode.getFirstChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (null == fnNode) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((null == callNode.getFirstChild()) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((null == callNode) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (null == fnNode.getLastChild()) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if (stmt.isReturn() && (null == callNode) != false) {
+
+,
+- if (stmt.isReturn()) {
++ if ((null == fnNode) != false && stmt.isReturn()) {
+
+,
+- if (stmt.isReturn()) {
++ if ((null == fnNode.getLastChild()) != false && stmt.isReturn()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (null == this.compiler) != false) {
+
+,
+- if (block.hasChildren()) {
++ if ((null == fnNode) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (null == fnNode) != false) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (null == fnNode.getLastChild()) != false) {
+
+,
+- if (block.hasChildren()) {
++ if ((null == callNode.getFirstChild()) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if ((null == fnNode.getLastChild()) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if ((null == this.compiler) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (null == callNode) != false) {
+
+,
+- if (block.hasChildren()) {
++ if ((null == callNode) != false && block.hasChildren()) {
+
+,
+- if (block.hasChildren()) {
++ if (block.hasChildren() && (null == callNode.getFirstChild()) != false) {
+
+,

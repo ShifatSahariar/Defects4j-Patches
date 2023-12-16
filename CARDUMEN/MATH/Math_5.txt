@@ -1,8 +1,0 @@
--            if (c.isNaN) {
-+            if (isNaN) {
-,
--            if (c.isNaN) {
-+            if (((real) != (real)) || ((imaginary) != (imaginary))) {
-,
--            if (c.isNaN) {
-+            if (((isNaN) && (isNaN)) || (((isNaN) || (isNaN)) && (!(isNaN)))) {
