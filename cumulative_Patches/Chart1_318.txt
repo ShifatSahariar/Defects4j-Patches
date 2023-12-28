@@ -1,0 +1,1185 @@
+- if (dataset != null) {
++ if ((index > dataset.getRowCount()) != false && dataset != null) {
+
+,
++ if(!((index > this.getColumnCount()) == false)){
+
+,
++ if(!((index > this.getPassCount()) == false)){
+
+,
+- if (dataset != null) {
++ if ((index >= this.getColumnCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index == this.getRowCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((index > this.getPassCount()) != false && dataset != null) {
+
+,
++ if((index >= this.getColumnCount()) == true){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if((index == this.getRowCount()) == true){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if((index > dataset.getRowCount()) == false){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((null == this.plot.getRowRenderingOrder()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.plot == this.getPlot()) != true) {
+
+,
++ if((index >= this.getColumnCount()) == true){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index >= this.getRowCount()) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index > this.getPassCount()) != false) {
+
+,
++ if((index == this.getColumnCount()) == true){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if(!((index == this.getColumnCount()) == true)){
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index > this.getColumnCount()) != false) {
+
+,
++ if((index > this.getRowCount()) == false){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((index > this.getColumnCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((index >= this.getPassCount()) != false && dataset != null) {
+
+,
++ if((index > this.getColumnCount()) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if(!((index >= this.getRowCount()) == true)){
+
+,
++ if(!((index == this.getPassCount()) == false)){
+
+,
++ if((index >= this.getRowCount()) == true){
++ index=this.getRowCount();
++ }else{
+
+,
++ if(!((this.plot == this.getPlot()) == true)){
+
+,
++ if((index >= this.getRowCount()) == true){
++ index=this.getColumnCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == this.plot.getRowRenderingOrder()) != false) {
+
+,
++ if((index > this.getRowCount()) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if((index == this.getPassCount()) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if((this.plot == this.getPlot()) == true){
++ this.plot=this.getPlot();
++ }else{
+
+,
++ if((index > this.getColumnCount()) == false){
++ index=this.getRowCount();
++ }else{
+
+,
++ if(!((index >= this.getColumnCount()) == true)){
+
+,
++ if((index >= this.getPassCount()) == false){
++ index=this.getRowCount();
++ }else{
+
+,
++ if(!((index == this.getRowCount()) == true)){
+
+,
++ if((index == this.getColumnCount()) == true){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index >= this.getColumnCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((index >= this.getRowCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((index > this.getRowCount()) != false && dataset != null) {
+
+,
++ if((index == this.getRowCount()) == true){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((index == this.getColumnCount()) != true && dataset != null) {
+
+,
++ if((index > this.getPassCount()) == false){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index == this.getPassCount()) != false) {
+
+,
++ if(!((index > dataset.getRowCount()) == false)){
+
+,
++ if((index >= this.getPassCount()) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index > dataset.getRowCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((index == this.getPassCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.plot == this.getPlot()) != true && dataset != null) {
+
+,
++ if(!((index > this.getRowCount()) == false)){
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index == this.getColumnCount()) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index >= this.getPassCount()) != false) {
+
+,
++ if((index == this.getPassCount()) == false){
++ index=this.getRowCount();
++ }else{
+
+,
++ if((index > this.getPassCount()) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index > this.getRowCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((index == this.getRowCount()) != true && dataset != null) {
+
+,
++ if((index > dataset.getRowCount()) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if(!((index >= this.getPassCount()) == false)){
+
+,
++ if(!((null == dataset) == false)){
+
+,
++ if(!((null == result) == false)){
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() > dataset.getRowCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() > dataset.getRowCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() == dataset.getRowCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() == dataset.getRowCount()) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() >= dataset.getRowCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() >= dataset.getRowCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (dataset.getRowCount() >= this.getColumnCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() > dataset.getRowCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() > dataset.getRowCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((dataset.getRowCount() >= this.getColumnCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((null == dataset) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == result) != false) {
+
+,
+- if (dataset != null) {
++ if (false) {
+
+,
+- if (dataset != null) {
++ if ((null == result) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == dataset) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == this.getBaseToolTipGenerator()) != true) {
+
+,
+- if (dataset != null) {
++ if ((null == this.getBaseToolTipGenerator()) != true && dataset != null) {
+
+,
++ if((index == 0) == true){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if((index > 1) == false){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((index > 1) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((null == this.getBaseURLGenerator()) != true && dataset != null) {
+
+,
++ if(!((index >= 0) == true)){
+
+,
++ if((index >= 0) == true){
++ index=0;
++ }else{
+
+,
++ if((index == 1) == false){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index == 1) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index >= 0) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index == 0) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == this.getLegendItemLabelGenerator()) != false) {
+
+,
++ if((index >= 0) == true){
++ index=this.getColumnCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((null == this.getLegendItemLabelGenerator()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == this.getBaseItemLabelGenerator()) != true) {
+
+,
+- if (dataset != null) {
++ if ((null == this.getPlot()) != false && dataset != null) {
+
+,
++ if((index == 0) == true){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((index >= 1) != false && dataset != null) {
+
+,
++ if(!((index > 1) == false)){
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index > 1) != false) {
+
+,
+- if (dataset != null) {
++ if ((null == this.getDrawingSupplier()) != false && dataset != null) {
+
+,
++ if((index > 0) == false){
++ index=0;
++ }else{
+
+,
++ if(!((index == 1) == false)){
+
+,
+- if (dataset != null) {
++ if ((null == this.getBaseItemLabelGenerator()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index >= 1) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == this.getPlot()) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == this.getBaseURLGenerator()) != true) {
+
+,
+- if (dataset != null) {
++ if ((null == this.getLegendItemToolTipGenerator()) != true && dataset != null) {
+
+,
++ if((index > 0) == false){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((index >= 0) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((index == 0) != true && dataset != null) {
+
+,
++ if((index == 0) == true){
++ index=0;
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index > 0) != false) {
+
+,
++ if((index > 1) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if(!((index == 0) == true)){
+
+,
++ if((index >= 1) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if((index == 1) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((null == this.getLegendItemURLGenerator()) != true && dataset != null) {
+
+,
++ if((index >= 0) == true){
++ index=this.getRowCount();
++ }else{
+
+,
++ if((index > 0) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == this.getLegendItemToolTipGenerator()) != true) {
+
+,
++ if(!((index >= 1) == false)){
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == this.getDrawingSupplier()) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (null == this.getLegendItemURLGenerator()) != true) {
+
+,
+- if (dataset != null) {
++ if ((index == 1) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((index > 0) != false && dataset != null) {
+
+,
++ if(!((index > 0) == false)){
+
+,
++ if((index >= 1) == false){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() == 1) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() == 1) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() > 1) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() > 1) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (dataset.getRowCount() > 1) != false) {
+
+,
+- if (dataset != null) {
++ if ((dataset.getRowCount() > 1) != false && dataset != null) {
+
+,
++ if(!((index >= dataset.getRowCount()) == false)){
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index >= dataset.getRowCount()) != false) {
+
+,
++ if((index >= dataset.getRowCount()) == false){
++ index=this.getRowCount();
++ }else{
+
+,
++ if((index == dataset.getRowCount()) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
++ if(!((index == dataset.getRowCount()) == false)){
+
+,
+- if (dataset != null) {
++ if (dataset != null && (index == dataset.getRowCount()) != false) {
+
+,
++ if((index >= dataset.getRowCount()) == false){
++ index=this.getColumnCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((index >= dataset.getRowCount()) != false && dataset != null) {
+
+,
++ if((index == dataset.getRowCount()) == false){
++ index=this.getRowCount();
++ }else{
+
+,
+- if (dataset != null) {
++ if ((index == dataset.getRowCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getLegendItemURLGenerator() == this.getLegendItemToolTipGenerator()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() >= 1) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() > this.getPassCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() == this.getPassCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() == 0) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() >= this.getColumnCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((this.getLegendItemURLGenerator() == this.getLegendItemLabelGenerator()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() > 1) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (dataset.getRowCount() >= 0) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() == this.getColumnCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((dataset.getRowCount() >= 0) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getColumnCount() >= 1) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() >= this.getColumnCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() == this.getColumnCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() >= 1) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset == null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getLegendItemLabelGenerator() == this.getLegendItemToolTipGenerator()) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() >= this.getPassCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getColumnCount() > 0) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() > this.getColumnCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() > 0) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getColumnCount() > 0) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() >= 0) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() > 1) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() >= this.getColumnCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((this.getColumnCount() >= 1) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() >= 0) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() == this.getPassCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() == 0) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() >= this.getColumnCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() > 0) != true) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() == this.getColumnCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getLegendItemURLGenerator() == this.getLegendItemToolTipGenerator()) != true) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() == 1) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() >= 0) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() == 1) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() == 0) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() > this.getColumnCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() >= 1) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getColumnCount() >= 0) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() > 0) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getLegendItemLabelGenerator() == this.getLegendItemToolTipGenerator()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() >= 0) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() >= this.getPassCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() > this.getPassCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() > this.getColumnCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getLegendItemURLGenerator() == this.getLegendItemLabelGenerator()) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getColumnCount() == 1) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getColumnCount() == 1) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getColumnCount() > 1) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getColumnCount() > 1) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getColumnCount() == 0) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getPassCount() == this.getColumnCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getColumnCount() == 0) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() == 0) != true) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() > this.getColumnCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getColumnCount() >= 0) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getPassCount() >= 1) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() > 0) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() == dataset.getRowCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((dataset.getRowCount() > this.getColumnCount()) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (dataset.getRowCount() == this.getColumnCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() == dataset.getRowCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (dataset.getRowCount() > this.getColumnCount()) != true) {
+
+,
+- if (dataset != null) {
++ if ((dataset.getRowCount() == this.getColumnCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (this.getRowCount() >= dataset.getRowCount()) != false) {
+
+,
+- if (dataset != null) {
++ if ((this.getRowCount() >= dataset.getRowCount()) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (dataset.getRowCount() == 1) != true) {
+
+,
+- if (dataset != null) {
++ if ((dataset.getRowCount() == 1) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (dataset.getRowCount() == 0) != false) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (dataset.getRowCount() >= 1) != true) {
+
+,
+- if (dataset != null) {
++ if ((dataset.getRowCount() == 0) != false && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((dataset.getRowCount() >= 1) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if ((dataset.getRowCount() > 0) != true && dataset != null) {
+
+,
+- if (dataset != null) {
++ if (dataset != null && (dataset.getRowCount() > 0) != true) {
+
+,
+-        if (dataset != null) {
++if (this.plot == null || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++        if (dataset == null || dataset.getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0) {
+,
+-        if (dataset != null) {
++        if (dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() <= 0 || !isSeriesVisibleInLegend(0)){
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || !(this.plot.getDataset(index) instanceof CategoryDataset) || this.plot.getDataset(index).getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() <= 0 || (!(dataset instanceof CategoryDataset)) ) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot.getDatasetCount() <= index) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() <= 0 || dataset.getColumnCount() <= 0) {
+,
+-        if (dataset != null) {
++        if (index < 0 || dataset == null) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || (!(this.plot.getDataset(index) instanceof CategoryDataset)) || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset.getRowCount() <= 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset.getRowCount() == 0 || !isSeriesVisibleInLegend(index)){
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || !(this.plot.getDataset(index) instanceof CategoryDataset) || this.plot.getDataset(index).getRowCount() == 0 || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() <= 0 || dataset.getColumnCount() <= 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() == 0 || !isSeriesVisibleInLegend(0)){
+,
+-        if (dataset != null) {
++if (this.plot == null || this.plot.getDatasetCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || this.plot.getDatasetCount() <= index || this.plot.getDataset(index) == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() == 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() <= 0 || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() <= 0 || !isSeriesVisibleInLegend(0)){
+,
+-        if (dataset != null) {
++        if (dataset == null || dataset.getRowCount() <= 0 || dataset.getColumnCount() <= 0 || !isSeriesVisible(index)) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0 || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++        if (dataset == null || !isSeriesVisible(index)) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() <= 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0 || plot.getRenderer() == null) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0) {
+,
+-        if (dataset != null) {
++if(this.plot == null || index < 0 || plot.getDataset(index) == null || plot.getDataset(index).getRowCount() < 1){
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0 || !(dataset instanceof CategoryDataset)) { 
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || !(this.plot.getDataset(index) instanceof CategoryDataset) || ((CategoryDataset) this.plot.getDataset(index)).getRowKeys().isEmpty() || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++        if (dataset == null || dataset.getColumnCount() == 0 || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++        if (index == -1 || dataset == null) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() == 0 || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || !(this.plot.getDataset(index) instanceof CategoryDataset) || this.plot.getDataset(index).getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || this.plot.getDataset(index) == null) {
+,
+-        if (dataset != null) {
++if (this.plot.getDataset() == null) {
+,
+-        if (dataset != null) {
++if (dataset == null) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() <= 0 || !(dataset instanceof CategoryDataset) || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getColumnCount() == 0 || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowKeys().isEmpty() || !isSeriesVisibleInLegend(0)){
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0 || !isSeriesVisible(index)) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() <= 0 || dataset.getColumnCount() <= 0 || !isSeriesVisibleInLegend(0)){
+,
+-        if (dataset != null) {
++if (this.plot.getDatasetCount() <= index || this.plot.getDataset(index) == null) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() == 0 || this.plot.getDatasetCount() <= index || isSeriesVisibleInLegend(0) == false) {
+,
+-        if (dataset != null) {
++if (this.plot.getDataset(index) == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDatasetCount() <= index || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset.getRowCount() <= 0 || !(dataset instanceof CategoryDataset) || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || this.plot.getDataset(index) == null || this.plot.getRenderer(index) == null) {
+,
+-        if (dataset != null) {
++if (this.plot == null || this.plot.getIndexOf(this) < 0 || this.plot.getDataset(this.plot.getIndexOf(this)) == null || this.plot.getDataset(this.plot.getIndexOf(this)).getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset.getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++        if (index < 0 || dataset == null || dataset.getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getColumnCount() <= 0 || dataset.getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++        if (dataset == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() <= 0 || !isSeriesVisibleInLegend(index)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++        if (dataset == null) {
+,
+-        if (dataset != null) {
++if (dataset == null || (dataset.getRowCount() == 0 && dataset.getColumnCount() == 0)) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0 || index < 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || this.plot.getIndexOf(this) < 0 || this.plot.getDatasetCount() <= this.plot.getIndexOf(this) || this.plot.getDataset(this.plot.getIndexOf(this)) == null || this.plot.getDataset(this.plot.getIndexOf(this)).getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || this.plot.getDataset(index) == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() == 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (plot == null || index < 0 || dataset == null || dataset.getRowCount() == 0 || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() == 0 || this.plot.getDataset(index).getColumnCount() == 0 || !isSeriesVisibleInLegend(0)){
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() <= 0 || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset.getRowCount() <= 0 || dataset.getColumnCount() <= 0) {
+,
+-        if (dataset != null) {
++if (this.plot.getDataset(index) == null) {
+,
+-        if (dataset != null) {
++if (this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() <= 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (this.plot.getDataset(index) == null || this.plot.getRenderer(index) == null) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() <= 0 || dataset.getColumnCount() <= 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getColumnCount() <= 0 || this.plot.getDataset(index).getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() <= 0 || index < 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() <= 0 || !(dataset instanceof CategoryDataset) || !isSeriesVisibleInLegend(index)) {
+,
+-        if (dataset != null) {
++        if (index < 0 || dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() == 0 || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (index < 0 || this.plot.getDataset(index) == null || this.plot.getRenderer(index) == null) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() == 0 || index < 0) {
+,
+-        if (dataset != null) {
++if (index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0 || !(dataset instanceof CategoryDataset)) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() == 0 || !isSeriesVisibleInLegend(index)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset.getRowCount() == 0 || !isSeriesVisibleInLegend(0)){
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() == 0 || !(dataset instanceof CategoryDataset) || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || dataset.getRowCount() <= 0 || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || dataset == null || dataset.getRowCount() <= 0) {
+,
+-        if (dataset != null) {
++        if (index < 0 || dataset == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (index < 0 || dataset == null || dataset.getRowCount() == 0 || !isSeriesVisibleInLegend(0)){
+,
+-        if (dataset != null) {
++        if (dataset == null || dataset.getRowCount() <= 0 || dataset.getColumnCount() <= 0) {
+,
+-        if (dataset != null) {
++if (dataset == null || dataset.getRowCount() == 0 || dataset.getColumnCount() == 0 || !isSeriesVisibleInLegend(0)) {
+,
+-        if (dataset != null) {
++   if (index < 0 || dataset == null || dataset.getRowCount() == 0) {
+,
+-        if (dataset != null) {
++if (this.plot == null || index < 0 || this.plot.getDataset(index) == null || this.plot.getDataset(index).getRowCount() <= 0 || !(this.plot.getDataset(index) instanceof CategoryDataset)) {

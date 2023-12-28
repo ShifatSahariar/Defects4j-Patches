@@ -1,0 +1,77 @@
+- coefficients[i]=0;
++ j=i;
+
+,
+- coefficients[i]=0;
++ if((i >= j) == true){
++ j=i;
+
+,
+- coefficients[i]=0;
++ mostNegative=this.getNumVariables();
++ }else{
+
+,
+- coefficients[i]=0;
++ if(!((i > j) == true)){
+
+,
+- coefficients[i]=0;
++ if(!((i == j) == false)){
+
+,
+- coefficients[i]=0;
++ if((i == j) == false){
++ continue;
+
+,
+- coefficients[i]=0;
++ if((i > j) == true){
++ continue;
+
+,
+- coefficients[i]=0;
++ if((i > j) == true){
++ j=i;
+
+,
+- if (this.tableau.getEntry(basicRow,j) == 1) {
+- coefficients[i]=0;
++ if ((i == j) != false && this.tableau.getEntry(basicRow,j) == 1) {
+
+,
+- coefficients[i]=0;
++ if((i == j) == false){
++ j=i;
+
+,
+- if (this.tableau.getEntry(basicRow,j) == 1) {
+- coefficients[i]=0;
++ if (this.tableau.getEntry(basicRow,j) == 1 && (i > j) != true) {
+
+,
+- if (this.tableau.getEntry(basicRow,j) == 1) {
+- coefficients[i]=0;
++ if (this.tableau.getEntry(basicRow,j) == 1 && (i == j) != false) {
+
+,
+- if (this.tableau.getEntry(basicRow,j) == 1) {
+- coefficients[i]=0;
++ if ((i > j) != true && this.tableau.getEntry(basicRow,j) == 1) {
+
+,
+-                if (ratio < minRatio) {
++                if ((java.lang.Math.abs(ratio)) <= (java.lang.Math.abs(minRatio))) {
+,
+-                if (ratio < minRatio) {
++                if ((ratio - minRatio) < minRatio) {
+,
+-                if (ratio < minRatio) {
++                if (minRatio >= ratio) {
+,
+-                if (ratio < minRatio) {
++                if (ratio <= minRatio) {
+,
+-                if (ratio < minRatio) {
++                if ((java.lang.Math.abs(ratio)) <= minRatio) {
+ 

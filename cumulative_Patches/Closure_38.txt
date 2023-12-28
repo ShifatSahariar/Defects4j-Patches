@@ -1,0 +1,151 @@
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++    if (mayBeStringHelper(n)) {
++      return true;
++    }
++    return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return mayBeStringHelper(n) || recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++      return mayBeStringHelper(n) || allResultsMatch(n, MAY_BE_STRING_PREDICATE);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return mayBeStringHelper(n) || (recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE));
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++    if(recurse) return allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
++    else return mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (recurse && (n == null || allResultsMatch(n, MAY_BE_STRING_PREDICATE))) {
++  return true;
++} 
++return mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return recurse ? allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n) : mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++      return allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++    return recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++    return mayBeStringHelper(n) || (recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE));
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (n == null) {
++      return false;
++    }
++return allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return mayBeStringHelper(n) || allResultsMatch(n, MAY_BE_STRING_PREDICATE);
+,
++      if (mayBeStringHelper(n)) {
++            return true;
++      }
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeString(n, false);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return (recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE)) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (recurse) {
++    return allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeString(n, false);
++} 
++return mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE)) {
++    return true;
++}
++return mayBeStringHelper(n);
+,
++      if (mayBeStringHelper(n)) {
++          return true;
++      }
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (n == null) { return false; } return allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return recurse ? allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeString(n, false) : mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return mayBeStringHelper(n) || !recurse || allResultsMatch(n, MAY_BE_STRING_PREDICATE);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++      return allResultsMatch(n, MAY_BE_STRING_PREDICATE) && recurse || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE)) {
++  return true;
++} 
++return mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++    return allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE)) {
++  return true;
++}
++return mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE)) {
++    return true;
++} 
++return mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (!recurse) {
++    return mayBeStringHelper(n);
++}
++return allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++if (recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE)) {
++        return true;
++    }
++    return mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++      return recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE) || mayBeStringHelper(n);
+,
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++ return mayBeStringHelper(n) || (recurse && allResultsMatch(n, MAY_BE_STRING_PREDICATE));
+,
+- if (recurse) {
++ if ((null == n) != false && recurse) {
+
+,
+- if (recurse) {
++ if (recurse && (null == n) != false) {
+
+,
+- if (recurse) {
++ if (!recurse) {
+
+,
+- if (recurse) {
++ if (recurse && recurse != true) {
+
+,
+- if (recurse) {
++ if (recurse != true && recurse) {
+
+,
+- if (recurse) {
++ if (false) {

@@ -1,0 +1,1345 @@
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSupportLowerBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSupportUpperBound() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 0) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getPopulationSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getPopulationSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getNumberOfSuccesses() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportUpperBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() >= 1) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 0) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() * this.getNumberOfSuccesses() > 1) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSupportLowerBound() >= this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() >= this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() > this.getNumberOfSuccesses()) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.populationSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSupportUpperBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.sampleSize;
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSupportLowerBound();
++ }
+
+,
++ if((this.getNumberOfSuccesses() > this.getSupportUpperBound()) == true){
++ return result1325958191=this.getPopulationSize();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getSampleSize();
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.numberOfSuccesses;
++ }
+
+,
++ if((this.getSampleSize() == this.getSupportUpperBound()) == true){
++ return result1325958191=this.getNumberOfSuccesses();
++ }
+
+,
++ if((this.getSampleSize() > this.getSupportUpperBound()) == false){
++ return result1325958191=this.serialVersionUID;
++ }
+
+,
++ if((this.getNumberOfSuccesses() == this.getSupportUpperBound()) == false){
++ return result1325958191=this.numericalVariance;
++ }
+
+,
+-        if (!numericalVarianceIsCalculated) {
++        if (!((sampleSize) <= (numberOfSuccesses))) {
+,
+-        final boolean chebyshevApplies = !(Double.isInfinite(mu) || Double.isNaN(mu) ||
+-                Double.isInfinite(sigma) || Double.isNaN(sigma) || sigma == 0.0);
++        final boolean chebyshevApplies = lower < lower;
+,
+-        if (!numericalVarianceIsCalculated) {
++        if ((sampleSize) > (numberOfSuccesses)) {
+,
+-        final boolean chebyshevApplies = !(Double.isInfinite(mu) || Double.isNaN(mu) ||
+-                Double.isInfinite(sigma) || Double.isNaN(sigma) || sigma == 0.0);
++        final boolean chebyshevApplies = !(((((java.lang.Double.isInfinite(mu)) || (lower == lower)) || (java.lang.Double.isInfinite(sigma))) || (java.lang.Double.isNaN(sigma))) || (sigma == 0.0));
++ 		
+,
+-            if (tmp < upper) {
++            if ((java.lang.Double.isInfinite(p)) || (java.lang.Double.isNaN(p))) {
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return (double) getNumberOfSuccesses() * getSampleSize() / getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (getPopulationSize() == 0) ? 0 : ((double) getNumberOfSuccesses() * getSampleSize()) / (double) getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() < 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) Math.max(1, getPopulationSize())) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0) ? 0.0 : (double) getNumberOfSuccesses() * getSampleSize() / getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++ return (getPopulationSize() == 0) ? 0.0 : (double) getNumberOfSuccesses() / (double) getPopulationSize() * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if(getPopulationSize()<=0){
++         return 0.0;
++      }
++      return ((double) getNumberOfSuccesses()*getSampleSize())/(double)getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        if (getPopulationSize() == 0) {
++            return 0.0;
++        }
++        return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return getPopulationSize() > 0 && getSampleSize() >= 0 ? ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize() : 0.0;
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) Math.max(1, getPopulationSize())) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / Math.max(1, getPopulationSize())) * Math.max(0, getSampleSize());
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return getPopulationSize() > 0 ? ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize() : 0.0;
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return ((double) getNumberOfSuccesses())/((double) getPopulationSize())*getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return getSampleSize() * ((double) getNumberOfSuccesses() / getPopulationSize());
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (getPopulationSize() <= 0 || getSampleSize() <= 0) ? 0.0: ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return getPopulationSize() == 0 ? 0.0 : ((double) getNumberOfSuccesses() * getSampleSize()) / (double) getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) Math.max(getPopulationSize(), 1)) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (getPopulationSize() == 0) ? 0.0 : ((double) getNumberOfSuccesses()/ (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return (double) getNumberOfSuccesses() * getSampleSize() / Math.max(1, (double) getPopulationSize());
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return getNumberOfSuccesses() < 0 || getPopulationSize() <= 0 ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return getPopulationSize() == 0 ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize(); 
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize());
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if(getNumberOfSuccesses()<0 || getPopulationSize()<=0){
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if(getPopulationSize()<=0 || getSampleSize()<=0){
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return getSampleSize() * ((double) getNumberOfSuccesses() / (double) getPopulationSize());
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) Math.max(getPopulationSize(), 1)) * (double) Math.max(getSampleSize(), 1);
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if(getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize() || getNumberOfSuccesses() > getPopulationSize()){
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() < 0 || getNumberOfSuccesses() < 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (double) getNumberOfSuccesses() * getSampleSize() / Math.max(getPopulationSize(), 1);
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) Math.max(getPopulationSize(), 1)) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return getSampleSize() * (double) getNumberOfSuccesses() / getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return (getPopulationSize() == 0) ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if(getPopulationSize()<=0 || getSampleSize()<=0){
++         return 0.0;
++      }
++      return ((double) getNumberOfSuccesses()*getSampleSize())/(double)getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (getPopulationSize() <= 0 || getSampleSize() < 0) ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / Math.max(getPopulationSize(), 1)) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return (getPopulationSize() == 0) ? 0.0 : (double) getNumberOfSuccesses() / (double) getPopulationSize() * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() == 0 || getSampleSize() == 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / Math.max(1.0, (double) getPopulationSize())) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize() || getNumberOfSuccesses() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() == 0 || getSampleSize() == 0 || getNumberOfSuccesses() < 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / Math.max(getPopulationSize(), 1)) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        if (getSampleSize() == 0) {
++            return 0.0;
++        }
++        return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if(getPopulationSize()<=0 || getSampleSize()<0 || getNumberOfSuccesses()<0){
++      return 0.0;
++}
++return ((double) getNumberOfSuccesses()*getSampleSize())/(double)Math.max(getPopulationSize(), 1);
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return ((double) getNumberOfSuccesses() * getSampleSize()) / ((double) getPopulationSize());
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getNumberOfSuccesses() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (getPopulationSize() <= 0 || getSampleSize() <= 0) ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return getPopulationSize() <= 0 ? 0.0 : (double) getNumberOfSuccesses() * getSampleSize() / getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        if (getPopulationSize() == 0 || getSampleSize() == 0) {
++            return 0.0;
++        }
++        return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++    return (double) getNumberOfSuccesses() / (double) getPopulationSize() * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / Math.max(getPopulationSize(), 1)) * Math.max(getSampleSize(), 0);
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize() || getNumberOfSuccesses() > getPopulationSize()) {
++    return 0.0;
++}
++return (double) getNumberOfSuccesses() * getSampleSize() / (double) getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if(getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() > getPopulationSize()) {
++    return 0.0;
++}
++return (double) getNumberOfSuccesses() * getSampleSize() / getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return getSampleSize() == 0 ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) Math.max(getPopulationSize(), 1)) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0  || getNumberOfSuccesses() < 0 || getNumberOfSuccesses() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (double) getNumberOfSuccesses() * getSampleSize() / getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if(getPopulationSize()<0){
++     return 0.0;
++  }
++  return ((double) getNumberOfSuccesses()*getSampleSize())/(double)Math.max(getPopulationSize(), 1);
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getNumberOfSuccesses() < 0 || getSampleSize() <= 0 || getPopulationSize() <= 0 || getSampleSize() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return getPopulationSize() != 0 ? ((double) getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize() : 0.0;
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0) {
++    return 0.0;
++}
++return Math.max(0.0, ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize());
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return getPopulationSize() == 0 ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return (getPopulationSize() == 0) ? 0.0 : (double) getSampleSize() * getNumberOfSuccesses() / getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() < 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return getPopulationSize() <= 0 ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (double) getSampleSize() * ((double) getNumberOfSuccesses() / (double) getPopulationSize());
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return (getPopulationSize() == 0) ? 0.0 : (double)getNumberOfSuccesses() * getSampleSize() / getPopulationSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() < 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize() || getNumberOfSuccesses() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return getPopulationSize() == 0 ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++if (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0 || getSampleSize() > getPopulationSize() || getNumberOfSuccesses() > getPopulationSize()) {
++    return 0.0;
++}
++return ((double) getNumberOfSuccesses() / (double) Math.max(getPopulationSize(), 1)) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++return (getPopulationSize() <= 0 || getSampleSize() <= 0 || getNumberOfSuccesses() < 0) ? 0.0 : ((double) getNumberOfSuccesses() / (double) getPopulationSize()) * (double) getSampleSize();
+,
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return getSampleSize() * (double) getNumberOfSuccesses() / Math.max(getPopulationSize(), 1);
+

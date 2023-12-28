@@ -1,0 +1,140 @@
++ if((value.getType() == 0) == false){
++ return false;
++ }else{
+
+,
++ if((value.getType() > 1) == true){
++ return false;
++ }else{
+
+,
++ if((value.getType() > 0) == true){
++ return false;
++ }else{
+
+,
++ if((value.getType() >= 1) == true){
++ return false;
++ }else{
+
+,
++ if((value.getType() == 1) == false){
++ return false;
++ }else{
+
+,
++ if((null == value.getFirstChild()) == false){
++ return false;
++ }else{
+
+,
++ if((null == locals) == false){
++ return false;
++ }else{
+
+,
++ if((value == value.getFirstChild()) == false){
++ return false;
++ }else{
+
+,
++ if((value == value.getLastChild()) == false){
++ return false;
++ }else{
+
+,
++ if((value.getType() >= 0) == true){
++ return false;
++ }else{
+
+,
++ if((value.getLastChild() == value.getFirstChild()) == true){
++ return false;
++ }else{
+
+,
++ if((null == value) == false){
++ return false;
++ }else{
+
+,
+- return result64711720=(true);
++ return false;
+
+,
++ if((null == value.getLastChild()) == false){
++ return false;
++ }else{
+
+,
++ if((null == value.getParent()) == false){
++ return false;
++ }else{
+
+,
+-        return true;
++return NodeUtil.isImmutableValue(value) || locals.apply(value);
+,
+-        return true;
++return locals.apply(value.getFirstChild()) || isImmutableValue(value);
+,
+-        return true;
++return isImmutableValue(value) || locals.apply(value);
+,
+-        return true;
++return locals.apply(value.getParent());
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value);
+,
+-        return true;
++        // constructors might have side effects
++        return locals.apply(value) || isImmutableValue(value);
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value) && isImmutableValue(value.getLastChild());
+,
+-        return true;
++return false;
+,
+-        return true;
++return isImmutableValue(value) || locals.apply(value.getParent());
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value) && !value.getLastChild().hasChildren();
+,
+-        return true;
++          return false;
+,
+-        return true;
++return false;
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value) && value.getFirstChild().getType() != Token.FUNCTION;
+,
+-        return true;
++return locals.apply(value.getParent()) && (isImmutableValue(value) || !callHasLocalResult(value));
+,
+-        return true;
++        return locals.apply(value.getFirstChild());
+,
+-        return true;
++        return false;
+,
+-        return true;
++return locals.apply(value.getParent()) && !callHasLocalResult(value) && !value.getFirstChild().hasChildren();
+,
+-        return true;
++return false;
+,
+-        return true;
++return false;
+,
+-        return true;
++return locals.apply(value.getFirstChild()) || NodeUtil.isImmutableValue(value);
+,
+-        return true;
++return locals.apply(value.getFirstChild());
+,
+-        return true;
++return locals.apply(value.getParent()) || isImmutableValue(value);

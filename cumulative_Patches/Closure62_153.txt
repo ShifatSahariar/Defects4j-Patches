@@ -1,0 +1,605 @@
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno == charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno && charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 < error.lineNumber == charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 < error.lineNumber && charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() == charno < sourceExcerpt.length()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning || charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() || charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.description.isEmpty() || charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == source && charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.isEmpty() == charno < sourceExcerpt.length()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || ((error.sourceName != null) == charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.description.isEmpty() == charno < sourceExcerpt.length()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.isEmpty() || charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName != null && charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno == sourceExcerpt.length()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno >= sourceExcerpt.length()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno || charno < sourceExcerpt.length()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning == charno < sourceExcerpt.length()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 < error.lineNumber || charno < sourceExcerpt.length()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning && charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno && sourceExcerpt.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno || null != sourceExcerpt) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null != sourceExcerpt && charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() && charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno || sourceExcerpt.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno == sourceExcerpt.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName != null || charno < sourceExcerpt.length()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.isEmpty() && charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.description.isEmpty() && charno < sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning && 0 <= charno) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning == 0 <= charno) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno == error.getCharno()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno > sourceExcerpt.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno > error.getCharno()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.length() >= 0) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.length() == 0) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.length() > 0) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno >= error.getCharno()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning || 0 <= charno) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno || error.description.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno || error.sourceName != null) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno || error.sourceName.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno == 0 < error.lineNumber) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno || null == source) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno && error.sourceName != null) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno && error.sourceName.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno || 0 < error.lineNumber) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno <= sourceExcerpt.length()) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno == error.sourceName.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno == (error.sourceName != null)) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno && error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno == error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (0 <= charno && 0 < error.lineNumber) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.getCharno() > error.sourceName.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.getCharno() >= error.sourceName.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber >= error.getCharno()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.getCharno() >= 1) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.getCharno() == 1) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber == error.getCharno()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.getCharno() > 1) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber > error.getCharno()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.getCharno() == error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.getCharno() >= error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.getCharno() > error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.getCharno() == error.sourceName.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno >= error.sourceName.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno > error.sourceName.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning == sourceExcerpt.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning || sourceExcerpt.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == error) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == sourceExcerpt) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno == error.lineNumber) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno >= error.lineNumber) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno >= 1) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || sourceExcerpt.isEmpty() == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno > error.lineNumber) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno > 1) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno == 1) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null != sourceExcerpt && sourceExcerpt.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno == error.sourceName.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno >= error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning && null != sourceExcerpt) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning && sourceExcerpt.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno == error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (charno > error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() && error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() && error.sourceName.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() == error.sourceName.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null != sourceExcerpt || error.sourceName != null) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() || error.sourceName.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() && error.sourceName != null) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null != sourceExcerpt && error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() == (error.sourceName != null)) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null != sourceExcerpt && error.sourceName.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == source || null != sourceExcerpt) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() == error.description.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() || error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (sourceExcerpt.isEmpty() || error.sourceName != null) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == source && sourceExcerpt.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || ((null == source) == (null != sourceExcerpt)) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == source && null != sourceExcerpt) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning || error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning && null == source) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning && error.sourceName != null) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning == error.description.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning == (error.sourceName != null)) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || warning == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning || error.sourceName.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning == error.sourceName.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.length() == error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.length() == 1) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || ((error.sourceName != null) == error.sourceName.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber == error.sourceName.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName != null) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber >= error.sourceName.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || error.description.isEmpty() == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName != null && error.sourceName.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.length() > 1) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.isEmpty() && error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.isEmpty() || error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName != null || error.description.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == source && error.sourceName.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber >= 1) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.description.length() >= 1) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == source && error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || error.sourceName.isEmpty() == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.length() >= error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber > error.sourceName.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == source || error.sourceName != null) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning || error.sourceName != null) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || ((error.sourceName != null) == error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber > error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.description.length() > 1) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber >= error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning && error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.length() >= 1) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.length() > error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (null == b) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName.isEmpty() == error.description.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.description.length() == 1) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName != null || error.sourceName.isEmpty()) == true) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.lineNumber == error.description.length()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (error.sourceName != null && error.description.isEmpty()) == false) {
+
+,
+- if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
++ if (this.excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length() || (warning && error.sourceName.isEmpty()) == false) {
+
+,
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++          && 0 <= charno && charno <= sourceExcerpt.length()) {
+,
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++          && charno <= sourceExcerpt.length()) {
+,
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++          && charno >= 0 && charno <= sourceExcerpt.length()) {
+,
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++&& charno <= sourceExcerpt.length()) {
+,
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++&& charno >= 0 && charno <= sourceExcerpt.length()) {
+,
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++&& (charno == sourceExcerpt.length() || sourceExcerpt.charAt(charno-1) != '\r')) {

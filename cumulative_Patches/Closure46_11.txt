@@ -1,0 +1,38 @@
+- if (!that.isRecordType()) {
++ if (!false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (null == that) == false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (that.isUnionType() || that.isInstanceType()) == false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (that.isResolved() || that.isUnionType()) == false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (that.isNullable() || that.isInstanceType()) == false) {
+
+,
+- if (!that.isRecordType()) {
++ if (!that.isRecordType() || (that.isResolved() == that.isUnionType()) == true) {
+
+,
+-    if (!that.isRecordType()) {
++    if (!(that instanceof com.google.javascript.rhino.jstype.ArrowType)) {
+,
+-    if (!that.isRecordType()) {
++    if (!(hasProperty(com.google.javascript.rhino.jstype.JSType.EMPTY_TYPE_COMPONENT))) {
+,
+-    if (!that.isRecordType()) {
++    if (!(isNativeObjectType())) {
+,
+-    if (!that.isRecordType()) {
++    if (!(com.google.javascript.rhino.jstype.JSType.EMPTY_TYPE_COMPONENT.isEmpty())) {
+,
+-    if (!that.isRecordType()) {
++    if (!(com.google.javascript.rhino.jstype.JSType.NOT_A_CLASS.isEmpty())) {

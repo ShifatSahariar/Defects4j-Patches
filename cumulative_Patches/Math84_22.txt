@@ -1,0 +1,73 @@
++ if((this.khi >= this.gamma) == true){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (this.khi >= this.gamma) == true) {
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (!(comparator.compare(contracted,best) < 0)) {
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) <= 0) {
+
+,
++ if((original.length == 0) == false){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (this.khi == this.gamma) == false) {
+
+,
++ if((original.length >= 0) == true){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (this.khi > this.gamma) == true) {
+
+,
++ if((this.khi == this.gamma) == false){
+
+,
++ if((original.length > 0) == true){
+
+,
++ if((this.khi > this.gamma) == true){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (original.length > 1) == true) {
+
+,
++ if((original.length >= 1) == true){
+
+,
++ if((original.length > 1) == true){
+
+,
++ if((original.length == 1) == false){
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (original.length == 1) == false) {
+
+,
+- if (comparator.compare(contracted,best) < 0) {
++ if (comparator.compare(contracted,best) < 0 || (original.length >= 1) == true) {
+
+,
+-            if (comparator.compare(contracted, best) < 0) {
++            iif (((khi) > (gamma)) && (((khi) - (gamma)) > (0.95 * ((khi) - (khi))))) {
+,
+-            if (comparator.compare(contracted, best) < 0) {
++            if (contracted != null) {
+,
+-            if (comparator.compare(contracted, best) < 0) {
++            if (((gamma) - (gamma)) < (khi)) {
+,
+-            if (comparator.compare(contracted, best) < 0) {
++            if ((khi) >= (gamma)) {
+,
+-            if (comparator.compare(contracted, best) < 0) {
++            if ((reflected instanceof org.apache.commons.math.linear.RealMatrix) == false) {

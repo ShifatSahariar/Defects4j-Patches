@@ -1,0 +1,1197 @@
++ if((this.autoSort == this.allowDuplicateXValues) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((this.autoSort && this.allowDuplicateXValues) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((this.autoSort && this.getAllowDuplicateXValues()) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((this.autoSort == this.getAllowDuplicateXValues()) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((0 <= index && this.autoSort) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((this.autoSort || this.getItemCount() > this.maximumItemCount) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort == this.getItemCount() > this.maximumItemCount) == false){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((this.autoSort == this.getItemCount() > this.maximumItemCount) == false){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort || this.getItemCount() > this.maximumItemCount) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index && this.getAutoSort()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index && this.getAutoSort()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() && this.allowDuplicateXValues) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() == this.allowDuplicateXValues) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() && this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() && this.allowDuplicateXValues) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() == this.allowDuplicateXValues) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() == this.getAllowDuplicateXValues()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() == this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() && this.getAllowDuplicateXValues()) != true) {
+
+,
++ if((this.autoSort && this.getItemCount() > this.maximumItemCount) == false){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((this.autoSort && this.getItemCount() > this.maximumItemCount) == false){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort && this.allowDuplicateXValues) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort && this.getAllowDuplicateXValues()) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort == this.getAllowDuplicateXValues()) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort == this.allowDuplicateXValues) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort || this.data.isEmpty()) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() > 1) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() > 1) != false) {
+
+,
+- if (this.autoSort) {
++ if ((index == this.data.size()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index > this.data.size()) != false) {
+
+,
++ if((null == x || this.autoSort) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index == this.data.size()) != false) {
+
+,
+- if (this.autoSort) {
++ if ((index >= this.data.size()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((index > this.data.size()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index >= this.data.size()) != false) {
+
+,
++ if((0 <= index || this.autoSort) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((0 <= index == this.autoSort) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if(this.autoSort == true){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index || this.data.isEmpty()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index || this.data.isEmpty()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index == this.data.isEmpty()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index == this.data.isEmpty()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index && this.data.isEmpty()) != false) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index && this.data.isEmpty()) != false && this.autoSort) {
+
+,
++ if((this.autoSort && this.getAutoSort()) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((this.autoSort || this.getAutoSort()) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if ((index >= 1) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index >= 1) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index == 1) != false) {
+
+,
+- if (this.autoSort) {
++ if ((null == this.data) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == this.data) != false) {
+
+,
+- if (this.autoSort) {
++ if ((index > 1) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((index == 1) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index > 1) != false) {
+
+,
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() > 1) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() > 1) != false) {
+
+,
+- if (this.autoSort) {
++ if ((index > this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((index >= this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index > this.getItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.maximumItemCount == 1) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.getMaximumItemCount() >= 1) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getMaximumItemCount() == 1) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data == this.getItems()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index == this.getItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index >= this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if ((index == this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
++ if((this.autoSort == this.getAutoSort()) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if ((index > this.getItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.maximumItemCount > 1) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getMaximumItemCount() == 1) != false && this.autoSort) {
+
+,
++ if((this.autoSort || this.getAllowDuplicateXValues()) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if ((index == this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.maximumItemCount > 1) != true) {
+
+,
+- if (this.autoSort) {
++ if ((index >= this.getItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index >= this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index == this.maximumItemCount) != false) {
+
+,
++ if((this.autoSort || this.allowDuplicateXValues) == true){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getMaximumItemCount() >= 1) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.data == this.getItems()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index == this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if ((index > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.maximumItemCount == 1) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getMaximumItemCount() > 1) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index > this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.maximumItemCount >= 1) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getMaximumItemCount() > 1) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index >= this.getItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if ((index >= this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((index == this.getItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.maximumItemCount >= 1) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() == 1) != true && this.autoSort) {
+
+,
++ if((this.autoSort == this.data.isEmpty()) == false){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() == 1) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() || this.data.isEmpty()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() || this.data.isEmpty()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.isEmpty() || this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.isEmpty() || this.allowDuplicateXValues) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.isEmpty() || this.allowDuplicateXValues) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.isEmpty() || this.getAllowDuplicateXValues()) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() == this.getItemCount()) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() >= this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() >= 0) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() > this.getItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() == this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() >= 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == x || this.getAllowDuplicateXValues()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() >= this.getItemCount()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() == this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() >= this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == x || this.getAutoSort()) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() >= this.getItemCount()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() >= this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((null == x || this.allowDuplicateXValues) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((null == x || this.getAutoSort()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() == this.getItemCount()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((null == x || this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == x || this.allowDuplicateXValues) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() > this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() == this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() >= this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() > this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() > this.getItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() == this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index || this.allowDuplicateXValues) != true) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index || this.allowDuplicateXValues) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index || this.getAllowDuplicateXValues()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index || this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && ((null == x) == this.data.isEmpty()) != true) {
+
+,
+- if (this.autoSort) {
++ if (((null == x) == this.data.isEmpty()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index || this.getAutoSort()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index || this.getAutoSort()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == x || 0 <= index) != true) {
+
+,
+- if (this.autoSort) {
++ if ((null == x || 0 <= index) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() >= 1) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() >= 1) != true) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index == this.getAutoSort()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index == this.getAutoSort()) != true) {
+
+,
++ if((this.autoSort || this.data.isEmpty()) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort == this.data.isEmpty()) == false){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort && this.data.isEmpty()) == false){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.isEmpty() && this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((null == x && this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == x && this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.isEmpty() && this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((null == x && this.data.isEmpty()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == x && this.data.isEmpty()) != false) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index && this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index && this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && this.getAutoSort() != true) {
+
+,
+- if (this.autoSort) {
++ if (this.getAutoSort() != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() == 1) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() == 1) != true) {
+
+,
++ if((this.autoSort && this.data.isEmpty()) == false){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == y) != false) {
+
+,
+- if (this.autoSort) {
++ if ((null == y) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && this.allowDuplicateXValues != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && this.getAllowDuplicateXValues() != true) {
+
+,
+- if (this.autoSort) {
++ if (this.allowDuplicateXValues != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.getAllowDuplicateXValues() != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() == this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() || this.getItemCount() > this.maximumItemCount) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() || this.getItemCount() > this.maximumItemCount) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() == this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.allowDuplicateXValues && this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.allowDuplicateXValues && this.getAllowDuplicateXValues()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.allowDuplicateXValues || this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.allowDuplicateXValues || this.getAllowDuplicateXValues()) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == this.getItems()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index > 0) != false) {
+
+,
+- if (this.autoSort) {
++ if ((null == this.getItems()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((index > 0) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() == this.data.isEmpty()) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() == this.data.isEmpty()) != false && this.autoSort) {
+
+,
++ if((0 <= index || this.autoSort) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((0 <= index == this.autoSort) == false){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((0 <= index == this.autoSort) == false){
++ this.autoSort=this.data.isEmpty();
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() || this.allowDuplicateXValues) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.maximumItemCount >= 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.maximumItemCount >= this.getMaximumItemCount()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.maximumItemCount > this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.maximumItemCount > 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.allowDuplicateXValues == this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() == this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.maximumItemCount == 0) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() >= this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() > this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getMaximumItemCount() == 0) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() == this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.getMaximumItemCount() >= 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() >= this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() >= this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.maximumItemCount >= 0) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.maximumItemCount == 0) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() || this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() >= 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() > this.getMaximumItemCount()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getMaximumItemCount() == 0) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() || this.getAllowDuplicateXValues()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() == this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.maximumItemCount > this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() == this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getMaximumItemCount() >= 0) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() || this.allowDuplicateXValues) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.maximumItemCount > 0) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.maximumItemCount == this.getMaximumItemCount()) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.maximumItemCount >= this.getMaximumItemCount()) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getMaximumItemCount() > 0) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.maximumItemCount == this.getMaximumItemCount()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() >= this.getMaximumItemCount()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() >= 0) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.getMaximumItemCount() > 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.allowDuplicateXValues == this.getAllowDuplicateXValues()) != true) {
+
+,
++ if((0 <= index && this.autoSort) == false){
++ this.autoSort=this.data.isEmpty();
+
+,
++ if((0 <= index && this.autoSort) == false){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
+- if (this.autoSort) {
++ if ((this.allowDuplicateXValues || this.getItemCount() > this.maximumItemCount) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAllowDuplicateXValues() == this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAllowDuplicateXValues() == this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAllowDuplicateXValues() || this.getItemCount() > this.maximumItemCount) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.allowDuplicateXValues == this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.allowDuplicateXValues == this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.allowDuplicateXValues || this.getItemCount() > this.maximumItemCount) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAllowDuplicateXValues() || this.getItemCount() > this.maximumItemCount) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && this.data.isEmpty() != false) {
+
+,
+- if (this.autoSort) {
++ if (this.data.isEmpty() != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() >= 1) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() >= 1) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index && this.allowDuplicateXValues) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index && this.getAllowDuplicateXValues()) != true) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index && this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index && this.allowDuplicateXValues) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAllowDuplicateXValues() && this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAllowDuplicateXValues() && this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.allowDuplicateXValues && this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() && this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.allowDuplicateXValues && this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() && this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() == 0) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.isEmpty() == this.getAllowDuplicateXValues()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.size() > 0) != true) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() == 0) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.isEmpty() == this.getAllowDuplicateXValues()) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.isEmpty() == this.allowDuplicateXValues) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.isEmpty() == this.allowDuplicateXValues) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.size() > 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index || this.getItemCount() > this.maximumItemCount) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index == this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index || this.getItemCount() > this.maximumItemCount) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index == this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
++ if(this.autoSort == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.isEmpty() && this.allowDuplicateXValues) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getAutoSort() && this.data.isEmpty()) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.isEmpty() && this.getAllowDuplicateXValues()) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.isEmpty() && this.getAllowDuplicateXValues()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getAutoSort() && this.data.isEmpty()) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.isEmpty() && this.allowDuplicateXValues) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (((null == x) == 0 <= index) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && ((null == x) == 0 <= index) != false) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == x && 0 <= index) != false) {
+
+,
+- if (this.autoSort) {
++ if ((null == x && 0 <= index) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index == this.getAllowDuplicateXValues()) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index == this.allowDuplicateXValues) != true) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index == this.getAllowDuplicateXValues()) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index == this.allowDuplicateXValues) != true && this.autoSort) {
+
+,
++ if((this.autoSort || this.getAutoSort()) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort && this.getAutoSort()) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
+- if (this.autoSort) {
++ if ((this.data.isEmpty() || this.getItemCount() > this.maximumItemCount) != false && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.isEmpty() || this.getItemCount() > this.maximumItemCount) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.data.isEmpty() == this.getItemCount() > this.maximumItemCount) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.data.isEmpty() == this.getItemCount() > this.maximumItemCount) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index == 0) != true) {
+
+,
+- if (this.autoSort) {
++ if ((index >= 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((index == 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (index >= 0) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (0 <= index) != true) {
+
+,
+- if (this.autoSort) {
++ if ((0 <= index) != true && this.autoSort) {
+
+,
++ if((this.autoSort || this.allowDuplicateXValues) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort == this.getAutoSort()) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((this.autoSort || this.getAllowDuplicateXValues()) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
++ if((null == x || this.autoSort) == true){
++ this.autoSort=this.data.isEmpty();
++ }else{
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (null == overwritten) != true) {
+
+,
+- if (this.autoSort) {
++ if ((null == overwritten) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() > 0) != true && this.autoSort) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() > 0) != true) {
+
+,
+- if (this.autoSort) {
++ if (this.autoSort && (this.getItemCount() == 0) != false) {
+
+,
+- if (this.autoSort) {
++ if ((this.getItemCount() == 0) != false && this.autoSort) {
+
+,
+-            if (this.autoSort) {
++            if ((((maximumItemCount) < 1) || ((index < 1) && ((maximumItemCount) < 5))) || ((maximumItemCount) < (4 - index))) {
+,
+-            if (this.autoSort) {
++            if (!(allowDuplicateXValues)) {
+,
+-            if (this.autoSort) {
++            if (index >= 1) {
+,
+-            if (this.autoSort) {
++            if ((data) instanceof org.jfree.chart.annotations.CategoryLineAnnotation) {
+,
+-            if (getItemCount() > this.maximumItemCount) {
++            if (autoSort = false) {

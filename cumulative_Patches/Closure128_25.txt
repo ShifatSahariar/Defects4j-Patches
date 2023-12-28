@@ -1,0 +1,111 @@
++ if((s.length() > 1) == false){
++ return result64711720=true;
+
+,
++ if((s.length() == 1) == true){
++ return result64711720=true;
+
+,
++ if((len == 1) == true){
++ return result64711720=true;
+
+,
++ if((len > 1) == false){
++ return result64711720=true;
+
+,
++ if((s.length() > 1) == false){
++ return result64711720=true;
++ }
+
+,
++ if((s.length() == 1) == true){
++ return result64711720=true;
++ }
+
+,
++ if((len == 1) == true){
++ return result64711720=true;
++ }else{
+
+,
++ if((len > 1) == false){
++ return result64711720=true;
++ }else{
+
+,
++ if((s.length() == 1) == true){
++ return result64711720=true;
++ }else{
+
+,
++ if((s.length() > 1) == false){
++ return result64711720=true;
++ }else{
+
+,
++ if((len == 1) == true){
++ return result64711720=true;
++ }
+
+,
++ if((len > 1) == false){
++ return result64711720=true;
++ }
+
+,
+-    return len > 0 && s.charAt(0) != '0';
++    return len > 0 && (len == 1 || s.charAt(0) != '0');
+,
+-  static boolean isSimpleNumber(String s) {
++ static boolean isSimpleNumber(String s) {
+-    return len > 0 && s.charAt(0) != '0';
++    return len > 0 && (len == 1 || s.charAt(0) != '0');
+,
+-  static boolean isSimpleNumber(String s) {
++static boolean isSimpleNumber(String s) {
+-    return len > 0 && s.charAt(0) != '0';
++    return len > 0 && (len == 1 || s.charAt(0) != '0');
+,
+-    return len > 0 && s.charAt(0) != '0';
++    return s.length() == 1 || (s.length() > 1 && s.charAt(0) != '0');
+,
+-    return len > 0 && s.charAt(0) != '0';
++    if (len > 1 && s.charAt(0) == '0') {
++      return false;
++    }
++    return true;
+,
+-  static boolean isSimpleNumber(String s) {
++static boolean isSimpleNumber(String s) {
+-    return len > 0 && s.charAt(0) != '0';
++    return len > 0 && (s.charAt(0) != '0' || len == 1);
+,
+-    return len > 0 && s.charAt(0) != '0';
++    if (s.length() > 1 && s.charAt(0) == '0') {
++      return false;
++    }
++    return true;
+,
+-    return len > 0 && s.charAt(0) != '0';
++    return len > 0 && (s.charAt(0) != '0' || len == 1);
+,
+-    return len > 0 && s.charAt(0) != '0';
++    return len > 1 && s.charAt(0) != '0' || len == 1;
+,
+-  static boolean isSimpleNumber(String s) {
++static boolean isSimpleNumber(String s) {
+-    return len > 0 && s.charAt(0) != '0';
++    return len > 0 && (s.charAt(0) != '0' || s.length() == 1);
+,
+-  static boolean isSimpleNumber(String s) {
++static boolean isSimpleNumber(String s) {
+-    return len > 0 && s.charAt(0) != '0';
++    return len > 0 && s.charAt(0) != '0' || len == 1;
+,
+-    return len > 0 && s.charAt(0) != '0';
++    return len == 1 || (len > 1 && s.charAt(0) != '0');
+,
++    if (len == 1) {
++        return true;
++    }

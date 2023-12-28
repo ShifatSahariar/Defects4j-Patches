@@ -1,0 +1,137 @@
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (options.closurePass || this.isTypeCheckingEnabled()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (staleInputs || this.isTypeCheckingEnabled()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (staleInputs == this.isTypeCheckingEnabled()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (options.closurePass == this.isTypeCheckingEnabled()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isIdeMode() || this.isTypeCheckingEnabled()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.externs.isEmpty() || this.isTypeCheckingEnabled()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.externs.isEmpty() == this.isTypeCheckingEnabled()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.hasErrors() || this.isTypeCheckingEnabled()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.hasErrors() == this.isTypeCheckingEnabled()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isTypeCheckingEnabled() || options.processCommonJSModules) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isTypeCheckingEnabled() == options.processCommonJSModules) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isTypeCheckingEnabled() || null != options.sourceMapOutputPath) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.modules.isEmpty() || this.isTypeCheckingEnabled()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isTypeCheckingEnabled() == (null != options.sourceMapOutputPath)) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isTypeCheckingEnabled() == (null != options.nameReferenceReportPath)) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.inputs.isEmpty() == this.isTypeCheckingEnabled()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.modules.isEmpty() == this.isTypeCheckingEnabled()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isTypeCheckingEnabled() || options.transformAMDToCJSModules) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.inputs.isEmpty() || this.isTypeCheckingEnabled()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isTypeCheckingEnabled() == options.transformAMDToCJSModules) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (devMode == this.isTypeCheckingEnabled()) == true) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || this.isTypeCheckingEnabled() == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isTypeCheckingEnabled() || null != options.nameReferenceReportPath) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (devMode || this.isTypeCheckingEnabled()) == false) {
+
+,
+- if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions.needsManagement() && options.closurePass || (this.isIdeMode() == this.isTypeCheckingEnabled()) == true) {
+
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++if (options.dependencyOptions == null || options.dependencyOptions.needsManagement() || options.closurePass) {
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++if (options.dependencyOptions != null && options.dependencyOptions.needsManagement()) {
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++if (options.closurePass || (options.dependencyOptions != null && options.dependencyOptions.needsManagement())) {
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++if (options.dependencyOptions != null && (options.dependencyOptions.needsManagement() || options.closurePass)) {
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++if (options.dependencyOptions == null || options.dependencyOptions.needsManagement()) {
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++      if (options.dependencyOptions.needsManagement()) {
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++      if (options.dependencyOptions.needsManagement() || options.closurePass) {
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++      if (options.dependencyOptions.needsManagement()) {
++
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++      if (options.dependencyOptions != null && options.dependencyOptions.needsManagement()) {
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++ if (options.dependencyOptions == null || options.dependencyOptions.needsManagement() || options.closurePass) {
+,
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++if ((options.dependencyOptions != null && options.dependencyOptions.needsManagement()) || options.closurePass) {

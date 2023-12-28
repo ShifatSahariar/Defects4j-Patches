@@ -1,0 +1,220 @@
++ if((expPos > str.length() - 1) == true){
++ expPos=str.length();
+
+,
+- if (expPos > -1) {
++ if (false) {
+
+,
++ if((expPos > str.length() - 1) == true){
++ expPos=str.length() - 1;
+
+,
++ if((expPos > str.length() - 1) == true){
++ expPos=str.length() - 1;
++ }
+
+,
++ if((expPos > str.length() - 1) == true){
++ expPos=str.length();
++ }
+
+,
+- if (expPos > -1) {
++ if ((expPos >= str.length()) != true && expPos > -1) {
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (expPos >= str.length()) != true) {
+
+,
++ if((expPos >= str.length()) == true){
++ expPos=str.length();
+
+,
++ if((expPos >= str.length()) == true){
++ expPos=str.length();
++ }
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (expPos > str.length()) != true) {
+
+,
+- if (expPos > -1) {
++ if ((expPos > str.length()) != true && expPos > -1) {
+
+,
++ if((expPos > str.length()) == true){
++ expPos=str.length();
+
+,
++ if((expPos > str.length()) == true){
++ expPos=str.length();
++ }
+
+,
+- if (expPos > -1) {
++ if ((-1 > expPos) != false && expPos > -1) {
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (-1 > expPos) != false) {
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (-1 > 1 + expPos) != false) {
+
+,
+- if (expPos > -1) {
++ if ((-1 == 1 + expPos) != false && expPos > -1) {
+
+,
+- if (expPos > -1) {
++ if ((-1 >= 1 + expPos) != false && expPos > -1) {
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (-1 == 1 + expPos) != false) {
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (-1 >= 1 + expPos) != false) {
+
+,
+- if (expPos > -1) {
++ if ((-1 > 1 + expPos) != false && expPos > -1) {
+
+,
++ if((expPos >= 1 + decPos) == true){
++ expPos=1 + decPos;
+
+,
++ if((expPos > 1 + decPos) == true){
++ expPos=1 + decPos;
+
+,
+- if (expPos > -1) {
++ if ((expPos == 0) != false && expPos > -1) {
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (expPos == 0) != false) {
+
+,
++ if((expPos >= str.length() - 1) == true){
++ expPos=str.length();
+
+,
++ if((expPos >= str.length() - 1) == true){
++ expPos=str.length() - 1;
+
+,
++ if((expPos >= str.length() - 1) == true){
++ expPos=str.length() - 1;
++ }
+
+,
++ if((expPos >= str.length() - 1) == true){
++ expPos=str.length();
++ }
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (-1 == expPos) != false) {
+
+,
+- if (expPos > -1) {
++ if ((-1 == expPos) != false && expPos > -1) {
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (-1 >= expPos) != false) {
+
+,
+- if (expPos > -1) {
++ if ((-1 >= expPos) != false && expPos > -1) {
+
+,
++ if((expPos > 1) == true){
++ expPos=1;
+
+,
+- if (expPos > -1) {
++ if ((expPos >= 0) != true && expPos > -1) {
+
+,
++ if((expPos >= 0) == true){
++ expPos=0;
+
+,
++ if((expPos >= 1) == true){
++ expPos=1;
+
+,
+- if (expPos > -1) {
++ if ((expPos > 0) != true && expPos > -1) {
+
+,
++ if((expPos > 0) == true){
++ expPos=0;
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (expPos > 0) != true) {
+
+,
+- if (expPos > -1) {
++ if (expPos > -1 && (expPos >= 0) != true) {
+
+,
++ if((expPos > 0) == true){
++ expPos=0;
++ }
+
+,
++ if((expPos >= 0) == true){
++ expPos=0;
++ }
+
+,
++ if((expPos == 1) == false){
++ expPos=1;
++ }
+
+,
++ expPos=0;
+
+,
++ if((expPos >= 1) == true){
++ expPos=1;
++ }
+
+,
++ if((expPos > 1) == true){
++ expPos=1;
++ }
+
+,
++ expPos=1;
+
+,
++ if((expPos == 0) == false){
++ expPos=0;
++ }
+
+,
+-            if (expPos > -1) {
++            if (str == null) {
+,
+-            if (expPos > -1) {
++            if (decPos > (-1)) {
+,
+-            if (expPos > -1) {
++            if ((expPos > (-1)) && (expPos < ((str.length()) - 1))) {
+,
+-            if (expPos > -1) {
++            iif (expPos < decPos) {
+,
+-            if (expPos > -1) {
++            if (expPos < expPos) {

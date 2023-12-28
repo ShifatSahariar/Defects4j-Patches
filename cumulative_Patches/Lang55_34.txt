@@ -1,0 +1,148 @@
++ if((org.apache.commons.lang.time.StopWatch.STATE_SUSPENDED != this.runningState) == false){
++ return;
+
+,
++ if(!((this.stopTime > this.getTime()) == true)){
+
+,
++ if((this.runningState == 1) == false){
++ return;
++ }
+
+,
++ if((this.runningState > 1) == true){
++ return;
++ }
+
+,
++ if((this.stopTime > this.getTime()) == true){
++ return;
++ }
+
+,
++ if(!((this.runningState > 1) == true)){
+
+,
++ if(!((this.runningState == 1) == false)){
+
+,
++ if((this.stopTime >= this.getTime()) == true){
++ return;
++ }
+
+,
++ if((this.runningState == 1) == false){
++ this.runningState=1;
++ }else{
+
+,
++ if(!((this.stopTime >= this.getTime()) == true)){
+
+,
++ if((this.runningState > 1) == true){
++ this.runningState=1;
++ }else{
+
+,
++ if((org.apache.commons.lang.time.StopWatch.STATE_RUNNING != this.runningState && org.apache.commons.lang.time.StopWatch.STATE_SUSPENDED != this.runningState) == false){
++ return;
+
+,
++ if((org.apache.commons.lang.time.StopWatch.STATE_SUSPENDED != this.runningState) == false){
++ return;
++ }
+
+,
++ if((org.apache.commons.lang.time.StopWatch.STATE_RUNNING != this.runningState) == true){
++ return;
++ }
+
+,
++ if(((org.apache.commons.lang.time.StopWatch.STATE_RUNNING != this.runningState) == (org.apache.commons.lang.time.StopWatch.STATE_SUSPENDED != this.runningState)) == false){
++ return;
+
+,
++ if((this.runningState > 1) == true){
++ return;
+
+,
++ if((this.stopTime >= this.getTime()) == true){
++ return;
+
+,
++ if((this.stopTime > this.getTime()) == true){
++ return;
+
+,
++ if((this.runningState > 0) == true){
++ return;
++ }
+
+,
++ if((this.runningState == 0) == false){
++ return;
++ }
+
+,
++ if((this.runningState >= 0) == true){
++ return;
++ }
+
+,
++ if((this.runningState >= 1) == true){
++ return;
++ }
+
+,
++ if((this.stopTime == this.getTime()) == false){
++ return;
++ }
+
+,
++ if((this.runningState > 0) == true){
++ return;
+
+,
++ if((this.runningState >= 1) == true){
++ return;
+
+,
++ if((this.runningState == 0) == false){
++ return;
+
+,
++ if((org.apache.commons.lang.time.StopWatch.STATE_RUNNING != this.runningState || org.apache.commons.lang.time.StopWatch.STATE_SUSPENDED != this.runningState) == true){
++ return;
++ }
+
+,
++ if(((org.apache.commons.lang.time.StopWatch.STATE_RUNNING != this.runningState) == (org.apache.commons.lang.time.StopWatch.STATE_SUSPENDED != this.runningState)) == false){
++ return;
++ }
+
+,
++ if((org.apache.commons.lang.time.StopWatch.STATE_RUNNING != this.runningState && org.apache.commons.lang.time.StopWatch.STATE_SUSPENDED != this.runningState) == false){
++ return;
++ }
+
+,
++        if (this.runningState == STATE_RUNNING) {
++        }
+,
+-        if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
++        if (this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
+-        }
++        } else if (this.runningState == STATE_RUNNING) {
++        }
+,
+-        if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
++        if(this.runningState == STATE_RUNNING) {
++            stopTime = System.currentTimeMillis();
++        } else if(this.runningState != STATE_SUSPENDED) {
+-            stopTime = System.currentTimeMillis();
+,
++        if(this.runningState == STATE_RUNNING){
++        }
+,
++        if(this.runningState == STATE_RUNNING) {
++        }

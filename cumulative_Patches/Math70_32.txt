@@ -1,0 +1,122 @@
+-        return solve(min, max);
++        return solve(f, min, max);
+,
+-        return solve(min, max);
++        return solve(f, defaultAbsoluteAccuracy, max);
+,
+-        return solve(min, max);
++        return solve(f, functionValueAccuracy, max);
+,
+-        return solve(min, max);
++        return solve(f, defaultFunctionValueAccuracy, max);
+,
+-        return solve(min, max);
++        return solve(f, absoluteAccuracy, max);
+,
+-        return solve(min, max);
++return new BrentSolver().solve(f, min, max, (min + max) / 2.0);
+,
+-        return solve(min, max);
++        if (f.value(min) * f.value(max) > 0) {
++            throw new IllegalArgumentException("Function cannot be solved in the given range.");
++        }
++        return new RiddersSolver().solve(f, min, max, initial);
+,
+-        return solve(min, max);
++return new BrentSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++return new SecantSolver().solve(f, min, max, initial);
+,
+-        return solve(min, max);
++if ((f.value(min) * f.value(max) >= 0) || (Double.isNaN(f.value(min)) || Double.isNaN(f.value(max)))) {
++    throw new IllegalArgumentException("Function cannot be solved in the given range.");
++}
++return new BrentSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++return new BrentSolver().solve(f, min, max, (max - min) / 2 + min);
+,
+-        return solve(min, max);
++return new RiddersSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++if (f.value(min) * f.value(max) > 0) {
++    throw new IllegalArgumentException("Function cannot be solved in the given range.");
++}
++return new BrentSolver().solve(f, min, max, (min + max) / 2.0);
+,
+-        return solve(min, max);
++return new BrentSolver().solve(f, min, max, initial);
+,
+-        return solve(min, max);
++return f.value(min) == 0 ? min : new BisectionSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++return new BrentSolver().solve(f, min, max, 0.5 * (min + max));
+,
+-        return solve(min, max);
++        return solve(f, min, max);
+,
+-        return solve(min, max);
++return f.value(min) * f.value(max) <= 0 ? new BrentSolver().solve(f, min, max, initial) : new BisectionSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++        return new BrentSolver().solve(f, min, max, initial);
+,
+-        return solve(min, max);
++return f.value(min) * f.value(max) < 0 ? new BrentSolver().solve(f, min, max, (min + max) / 2) : f.value(min) == 0 ? min : new BrentSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++return new RiddersSolver().solve(f, min, max, (min+max)/2.0);
+,
+-        return solve(min, max);
++if (f == null) {
++    throw new NullPointerException("Function cannot be null.");
++}
++return new BrentSolver().solve(f, min, max, (min + max) / 2);
+,
+-        return solve(min, max);
++if (f.value(min) * f.value(max) > 0) {
++    throw new IllegalArgumentException("Function cannot be solved in the given range.");
++}
++return new RiddersSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++return new BrentSolver().solve(f, min, max, (min + max) / 2);
+,
+-        return solve(min, max);
++if (f.value(min) * f.value(max) > 0) {
++    throw new IllegalArgumentException("Function cannot be solved in the given range.");
++}
++return new RiddersSolver().solve(f, min, max, (min+max)/2.0);
+,
+-        return solve(min, max);
++return new SecantSolver().solve(f, min, max, 0.5 * (min + max));
+,
+-        return solve(min, max);
++if (f.value(min) * f.value(max) > 0) {
++    throw new IllegalArgumentException("Function cannot be solved in the given range.");
++}
++return new BrentSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++return new RiddersSolver().solve(f, min, max, initial);
+,
+-        return solve(min, max);
++if (Double.isNaN(f.value(min)) || Double.isNaN(f.value(max)) || f.value(min) * f.value(max) > 0) {
++    throw new IllegalArgumentException("Invalid input or function cannot be solved in the given range.");
++}
++return new BrentSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++return new BisectionSolver().solve(f, min, max);
+,
+-        return solve(min, max);
++if (Double.isNaN(f.value(initial))) {
++    initial = (max - min) / 2 + min;
++}
++return new BrentSolver().solve(f, min, max, initial);
+,
+-        return solve(min, max);
++return new BrentSolver().solve(f, min, max, 0.5*(min+max));

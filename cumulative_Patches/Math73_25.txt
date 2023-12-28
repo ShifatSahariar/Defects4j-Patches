@@ -1,0 +1,123 @@
++    if ((yMin > 0 && yMax > 0) || (yMin < 0 && yMax < 0)) {
++        throw new IllegalArgumentException("Function values at endpoints do not have different signs.");
++    }
+,
++        // check if the interval brackets the root
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("Interval does not bracket the root");
++        }
++        
+,
++        // throw an exception if endpoints do not bracket the root
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("Function values at endpoints do not have different signs."
++                + "  Endpoints: [" + min + ", " + max + "], Values: [" + yMin + ", " + yMax + "]");
++        }
+,
++        // check if interval is bracketing
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("Function values at endpoints do not have opposite signs.");
++        }
++        
+,
++        // throw an exception if the provided interval does not bracket a root
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("The end points [" + min + "," + max + "] do not bracket a root.");
++        }
+,
++        // throw an error if endpoints do not bracket a root
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("The provided interval endpoints do not bracket a root. [" + min + ", " + max + "]");
++        }
+,
++        // throw exception if both endpoints have same sign
++        if (yMin * yMax > 0) {
++            throw new IllegalArgumentException("Interval endpoints have the same sign.");
++        }
+,
++        // check if the endpoints bracket a root
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("The interval [" + min + ", " + max + "] does not bracket a root.");
++        }
+,
++        // check if provided interval brackets the root
++        if (yMin * yMax > 0) {
++            throw new IllegalArgumentException("The provided interval [" + min + ", " + max + "] does not bracket a root");
++        }
+,
++if (yMin * yMax > 0) {
++    throw new IllegalArgumentException("Interval does not bracket the root");
++}
+,
++        // Verify that the interval brackets the root.
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("The interval [" + min + ", " + max + "] does not bracket any root.");
++        }
++        
+,
++        // return NaN if provided interval does not bracket a root
++        if (yMin * yMax >= 0) {
++            setResult(Double.NaN, Integer.MAX_VALUE);
++            throw new IllegalArgumentException("Function values at endpoints do not have different signs. Endpoints: [" + min + "," + max + "], Values: [" + yMin + "," + yMax + "]");
++        }
+,
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("Function values at endpoints do not have different signs. " +
++                    "Endpoints: [" + min + ", " + max + "], Values: [" + yMin + ", " + yMax + "]");
++        }
+,
++        // check for non-bracketing root
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("Function values at endpoints do not have different signs. Endpoints: [" + min + "," + max + "]" + ", Values: [" + yMin + "," + yMax + "]");
++        }
++        
+,
++        // check if the endpoints bracket the root
++        if (yMin * yMax >= 0) {
++            setResult(Double.NaN, Integer.MAX_VALUE);
++            throw new IllegalArgumentException("The endpoints of the provided interval do not bracket a root");
++        }
+,
++        // check if bracketing interval is valid
++        if (yInitial * yMin > 0 && yInitial * yMax > 0) {
++            throw new IllegalArgumentException("Function values at endpoints do not have different signs.");
++        }
++        
+,
++        // check if interval brackets the root, throw exception if not
++        if (yMin * yMax >= 0) {
++            throw new IllegalArgumentException("Function values at endpoints do not have opposite signs. Endpoints: [" + min + "," + max + "]" + ", Values: [" + yMin + "," + yMax + "]");
++        }
+,
++        // throw exception if endpoints do not bracket the root
++        if (yMin * yMax > 0) {
++            throw new IllegalArgumentException("Function values at endpoints do not have opposite signs.\nEndpoints: ["
++                    + min + ", " + max + "]\nFunction values: [" + yMin + ", " + yMax + "]");
++        }
+,
++if (yMin * yMax >= 0) {
++    setResult(Double.NaN, Integer.MAX_VALUE);
++    throw new IllegalArgumentException("The provided interval [" + min + ", " + max + "] does not contain a root. The function values at the endpoints are [" + yMin + ", " + yMax + "].");
++}
++
+,
++        // check if endpoints are a valid bracket
++        if (yMin * yMax > 0) {
++            throw new IllegalArgumentException("Function values at endpoints do not have different signs.");
++        }
++        
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++       return solve(min, min);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(max, max);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(functionValueAccuracy, functionValueAccuracy);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(yMin, yMin);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(initial, initial);

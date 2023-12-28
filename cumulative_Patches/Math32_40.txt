@@ -1,0 +1,124 @@
+- if (sum < 0) {
++ if (sum < 0 || (sum == sumY) == true) {
+
+,
+- if ((Boolean)tree.getAttribute()) {
++ if ((null == tree.getCut()) != false && (Boolean)tree.getAttribute()) {
+
+,
+- if ((Boolean)tree.getAttribute()) {
++ if ((0 == v.length) != true && (Boolean)tree.getAttribute()) {
+
+,
++ if(!((sumX == sumX / (3 * sum)) == true)){
+
+,
++ if((sumX == sumX / (3 * sum)) == true){
++ sumX=sumX / (3 * sum);
++ }else{
+
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<?>) tree.getAttribute()).getPlusInside() != null && ((BoundaryAttribute<?>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<Euclidean2D>)tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getCut() == null && tree.getAttribute() instanceof BoundaryAttribute<?> && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusInside() != null && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++            if (Boolean.TRUE.equals(tree.getAttribute())) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() != null && tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getPlus().getAttribute() == null || tree.getMinus().getAttribute() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute<?> && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusInside() != null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute<?> && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<Euclidean2D>)tree.getAttribute()).getPlusInside() != null && ((BoundaryAttribute<Euclidean2D>)tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++            if (tree.getAttribute() instanceof Boolean && (Boolean) tree.getAttribute()) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getCut() == null && tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusInside() != null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getCut() == null && tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<?>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<?>) tree.getAttribute()).getPlusInside() != null && ((BoundaryAttribute<?>) tree.getAttribute()).getPlusOutside() == null && tree.getCut() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof AbstractRegion.Location && tree.getAttribute() == AbstractRegion.Location.INSIDE) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusInside() != null && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getCut() == null && tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusInside() != null && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute<?> && ((BoundaryAttribute<?>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getCut() == null && Boolean.TRUE.equals(tree.getAttribute())) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++            if (tree.getAttribute() != null && tree.getAttribute() instanceof Boolean && (Boolean) tree.getAttribute()) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getCut() == null && tree.getAttribute() instanceof Boolean && (Boolean) tree.getAttribute()) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++            if (tree.getAttribute() instanceof BSPTree) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getCut() == null && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++            if (tree.getAttribute() instanceof Boolean && ((Boolean) tree.getAttribute())) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<?>) tree.getAttribute()).getPlusInside() != null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusInside() != null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute<?> && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusInside() != null && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute<?> && ((BoundaryAttribute<?>) tree.getAttribute()).getPlusInside() != null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof Boolean && (Boolean) tree.getAttribute()) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() != null && tree.getAttribute() instanceof Boolean && (Boolean) tree.getAttribute()) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusInside() != null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getCut() == null && tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<Euclidean2D>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute<?>) tree.getAttribute()).getPlusOutside() == null) {
+,
+-            if ((Boolean) tree.getAttribute()) {
++            if (tree.getAttribute() instanceof BoundaryAttribute && ((BoundaryAttribute) tree.getAttribute()).getPlusOutside() == null) {

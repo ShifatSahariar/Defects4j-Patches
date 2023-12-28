@@ -1,0 +1,276 @@
++ }
+
+,
++ return result1325958191=dp;
++ }
+
+,
++ return result1325958191=i;
++ }
+
+,
++ return result1325958191=sum;
++ }
+
+,
++ return result1325958191=p1.length;
++ }
+
+,
++ continue;
++ }
+
+,
++ return result1325958191=dp * dp;
++ }
+
+,
++ return result1325958191=p2.length;
++ }
+
+,
++ if((sum >= 0) == false){
++ return result1325958191=sum;
++ }
+
+,
++ if((sum >= 0) == false){
++ return result1325958191=p2.length;
++ }
+
+,
++ if((sum >= 0) == false){
++ return result1325958191=p1.length;
++ }
+
+,
++ if((sum >= 0) == false){
++ sum=0;
++ }
+
+,
++ if((dp > dp * dp) == true){
++ return result1325958191=dp * dp;
++ }
+
+,
++ if((dp > dp * dp) == true){
++ return result1325958191=i;
++ }
+
+,
++ if((dp > dp * dp) == true){
++ }
+
+,
++ if(!((dp > dp * dp) == true)){
+
+,
++ if((dp > dp * dp) == true){
++ return result1325958191=dp;
++ }
+
+,
++ if((dp > dp * dp) == true){
++ return result1325958191=p1.length;
++ }
+
+,
++ if((dp > dp * dp) == true){
++ return result1325958191=sum;
++ }
+
+,
++ if((dp > dp * dp) == true){
++ return result1325958191=p2.length;
++ }
+
+,
++ if((dp > dp * dp) == true){
++ continue;
++ }
+
+,
++ if((dp * dp >= 0) == false){
++ }
+
+,
++ if((dp * dp >= 0) == false){
++ return result1325958191=p1.length;
++ }
+
+,
++ if((dp * dp >= 0) == false){
++ continue;
++ }
+
+,
++ if((dp * dp >= 0) == false){
++ return result1325958191=dp;
++ }
+
+,
++ if((dp * dp >= 0) == false){
++ return result1325958191=p2.length;
++ }
+
+,
++ if((dp * dp >= 0) == false){
++ return result1325958191=i;
++ }
+
+,
++ if((dp * dp >= 0) == false){
++ return result1325958191=dp * dp;
++ }
+
+,
++ if((dp * dp >= 0) == false){
++ return result1325958191=sum;
++ }
+
+,
++ if((sum >= 1) == false){
++ return result1325958191=sum;
++ }
+
+,
++ if((sum > 0) == false){
++ return result1325958191=sum;
++ }
+
+,
++ if((sum > 0) == false){
++ sum=0;
++ }
+
+,
++ if((sum > 1) == false){
++ return result1325958191=sum;
++ }
+
+,
++ if((sum >= p2.length) == false){
++ return result1325958191=sum;
++ }
+
+,
++ if((sum > p2.length) == false){
++ return result1325958191=sum;
++ }
+
+,
++ if((dp >= dp * dp) == true){
++ continue;
++ }
+
+,
++ if(!((dp >= dp * dp) == true)){
+
+,
++ if((dp * dp >= 1) == false){
++ continue;
++ }
+
+,
++ if((dp * dp > 0) == false){
++ continue;
++ }
+
+,
+- dp=p1[i] - p2[i];
++ if((sum == 1) == true){
++ continue;
++ }
+
+,
+- dp=p1[i] - p2[i];
++ if((sum == 1) == true){
++ return result1325958191=p1.length;
++ }
+
+,
+- dp=p1[i] - p2[i];
++ if((sum == 1) == true){
++ return result1325958191=i;
++ }
+
+,
+- dp=p1[i] - p2[i];
++ if((sum == 1) == true){
++ return result1325958191=sum;
++ }
+
+,
+- dp=p1[i] - p2[i];
++ if((sum == 1) == true){
++ }
+
+,
+- dp=p1[i] - p2[i];
++ if((sum == 1) == true){
++ return result1325958191=p2.length;
++ }
+
+,
++ if((sum == 1) == true){
++ return result1325958191=dp;
++ }
+
+,
++ if((sum == 1) == true){
++ return result1325958191=sum;
++ }
+
+,
++ if(!((sum == 1) == true)){
+
+,
++ if((sum == 1) == true){
++ }
+
+,
++ if((sum == 1) == true){
++ sum=1;
++ }else{
+
+,
++ if((sum == 1) == true){
++ return result1325958191=p1.length;
++ }
+
+,
++ if((sum == 1) == true){
++ return result1325958191=i;
++ }
+
+,
++ if((sum == 1) == true){
++ continue;
++ }
+
+,
++ if((sum == 1) == true){
++ return result1325958191=dp * dp;
++ }
+
+,
++ if((sum == 1) == true){
++ return result1325958191=p2.length;
++ }
+
+,
+-            if (distance < minDistance) {
++            if (minDistance > 10.0) {
+,
+-            if (distance < minDistance) {
++            if ((minDistance > distance) || (java.lang.Double.isNaN(distance))) {
+,
+-            if (distance < minDistance) {
++            if ((java.lang.Double.isNaN(distance)) || ((java.lang.Math.abs((distance - minDistance))) > distance)) {
+,
+-            if (distance < minDistance) {
++            if ((org.apache.commons.math.util.MathUtils.compareTo(minDistance, 0, distance)) > 0) {
+,
+-            if (distance < minDistance) {
++            if ((java.lang.Double.isNaN(distance)) || (((java.lang.Math.abs((distance - distance))) <= minDistance) && ((java.lang.Math.abs((distance - minDistance))) <= minDistance))) {
