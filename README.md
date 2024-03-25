@@ -1,7 +1,7 @@
 # Patche Collections for Defects4J Bugs by various APR Tools
 
 This repository includes patches from various Automated Program Repair (APR) tools, each addressing a subset of over 130 bugs from the Defects4J benchmark. Below is a summary of the included APR tools and the specific contributions they make:
-
+- **T-BAR**: T-BAR is aRevisiting Template-based Automated Program Repair. We have Collected 33 bugs with (patches more than 4) from different kinds of solving patterns.We have only included the bug which has been fully fixed by this tool.
 - **ARJA**: ARJA is an Automated Program Repair tool that has contributed to repairing approximately 20 bugs in this repository. ARJA has provided more than 5 patches for each bug, showcasing a diverse range of fixes.
 
 - **CARDUMEN**: CARDUMEN specializes in generating patches for complex bugs and has contributed to the repair of 42 distinct bugs from Defects4J. The patches by CARDUMEN highlight its effectiveness in addressing a wide array of software defects.
