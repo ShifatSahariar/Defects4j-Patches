@@ -1,0 +1,24 @@
+-        boolean removed = markers.remove(marker);
++        if (markers == null) {
++	    return false;
++	}
++boolean removed = markers.remove(marker);
+,
+-        boolean removed = markers.remove(marker);
++        if (markers == null) {
++	    return false;
++	}
++boolean removed = markers.remove(marker);
+,
+-        boolean removed = markers.remove(marker);
++        if (markers == null) {
++	    return false;
++	}
++boolean removed = markers.remove(marker);
+,
+-        boolean removed = markers.remove(marker);
++        if (markers == null) {
++	    return false;
++	}
++boolean removed = markers.remove(marker);
+,
