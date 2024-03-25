@@ -1,0 +1,169 @@
+-      if (stmt.isReturn()) {
++      if ((stmt.isReturn()) && (!callNode.getFirstChild().isName())) {
+,
+-      if (stmt.isReturn()) {
++      if ((stmt.isReturn()) && (!isDirectCallNodeReplacementPossible(fnNode))) {
+,
+-      if (stmt.isReturn()) {
++      if ((stmt.isReturn()) && !(block.hasChildren())) {
+,
+-      if (stmt.isReturn()) {
++      if ((stmt.isReturn()) && (NodeUtil.isFunctionObjectCall(callNode))) {
+,
+-      if (stmt.isReturn()) {
++      if ((stmt.isReturn()) && (hasSideEffects)) {
+,
+-      if (stmt.isReturn()) {
++      if (stmt == block && (stmt.isReturn())) {
+,
+-      if (stmt.isReturn()) {
++      if (stmt == callNode && (stmt.isReturn())) {
+,
+-      if (stmt.isReturn()) {
++      if (stmt == fnNode && (stmt.isReturn())) {
+,
+-      if (stmt.isReturn()) {
++      if ((!callNode.getFirstChild().isName())) {
+,
+-      if (stmt.isReturn()) {
++      if ((!isDirectCallNodeReplacementPossible(fnNode))) {
+,
+-      if (stmt.isReturn()) {
++      if ((NodeUtil.isFunctionObjectCall(callNode))) {
+,
+-      if (stmt.isReturn()) {
++      if ((hasSideEffects)) {
+,
+-    if (block.hasChildren()) {
++    if ((block.hasChildren()) && (!isDirectCallNodeReplacementPossible(fnNode))) {
+,
+-    if (block.hasChildren()) {
++    if ((block.hasChildren()) && (!callNode.getFirstChild().isName())) {
+,
+-    if (block.hasChildren()) {
++    if ((block.hasChildren()) && (NodeUtil.isFunctionObjectCall(callNode))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((hasSideEffects && NodeUtil.canBeSideEffected(cArg)) && (!callNode.getFirstChild().isName())) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((hasSideEffects && NodeUtil.canBeSideEffected(cArg)) && !(block.hasChildren())) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((hasSideEffects && NodeUtil.canBeSideEffected(cArg)) && (!isDirectCallNodeReplacementPossible(fnNode))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((hasSideEffects && NodeUtil.canBeSideEffected(cArg)) && (NodeUtil.isFunctionObjectCall(callNode))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((hasSideEffects && NodeUtil.canBeSideEffected(cArg)) && (NodeUtil.mayHaveSideEffects(cArg, compiler))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((hasSideEffects && NodeUtil.canBeSideEffected(cArg)) && (NodeUtil.mayEffectMutableState(cArg, compiler)
++              && NodeUtil.getNameReferenceCount(
++                  block, fnParam.getString()) > 1)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((hasSideEffects && NodeUtil.canBeSideEffected(cArg)) && !(!cArg.isThis())) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((hasSideEffects && NodeUtil.canBeSideEffected(cArg)) && (NodeUtil.getNameReferenceCount(
++                  block, fnParam.getString()) > 1)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((hasSideEffects && NodeUtil.canBeSideEffected(cArg)) && (NodeUtil.mayEffectMutableState(cArg, compiler))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects != this.allowDecomposition && (hasSideEffects && NodeUtil.canBeSideEffected(cArg))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects == this.assumeStrictThis && (hasSideEffects && NodeUtil.canBeSideEffected(cArg))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects == this.assumeMinimumCapture && (hasSideEffects && NodeUtil.canBeSideEffected(cArg))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (cArg == fnParam && (hasSideEffects && NodeUtil.canBeSideEffected(cArg))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (cArg == block && (hasSideEffects && NodeUtil.canBeSideEffected(cArg))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (cArg == callNode && (hasSideEffects && NodeUtil.canBeSideEffected(cArg))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (cArg == fnNode && (hasSideEffects && NodeUtil.canBeSideEffected(cArg))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((!callNode.getFirstChild().isName()) && NodeUtil.canBeSideEffected(cArg)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((!isDirectCallNodeReplacementPossible(fnNode)) && NodeUtil.canBeSideEffected(cArg)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((NodeUtil.isFunctionObjectCall(callNode)) && NodeUtil.canBeSideEffected(cArg)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((NodeUtil.mayHaveSideEffects(cArg, compiler)) && NodeUtil.canBeSideEffected(cArg)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((NodeUtil.mayEffectMutableState(cArg, compiler)
++              && NodeUtil.getNameReferenceCount(
++                  block, fnParam.getString()) > 1) && NodeUtil.canBeSideEffected(cArg)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((NodeUtil.getNameReferenceCount(
++                  block, fnParam.getString()) > 1) && NodeUtil.canBeSideEffected(cArg)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((NodeUtil.mayEffectMutableState(cArg, compiler)) && NodeUtil.canBeSideEffected(cArg)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects && (!callNode.getFirstChild().isName())) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects && (!isDirectCallNodeReplacementPossible(fnNode))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects && (NodeUtil.isFunctionObjectCall(callNode))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects && (NodeUtil.mayHaveSideEffects(cArg, compiler))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects && (NodeUtil.mayEffectMutableState(cArg, compiler)
++              && NodeUtil.getNameReferenceCount(
++                  block, fnParam.getString()) > 1)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects && (NodeUtil.getNameReferenceCount(
++                  block, fnParam.getString()) > 1)) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if (hasSideEffects && (NodeUtil.mayEffectMutableState(cArg, compiler))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((!isDirectCallNodeReplacementPossible(fnNode))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((NodeUtil.mayHaveSideEffects(cArg, compiler))) {
+,
+-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
++          if ((NodeUtil.mayEffectMutableState(cArg, compiler)
++              && NodeUtil.getNameReferenceCount(
++                  block, fnParam.getString()) > 1)) {
+,
+-    if (block.hasChildren()) {
++    if ((block.hasChildren()) && (hasSideEffects)) {
+,
+-    if (block.hasChildren()) {
++    if (block == callNode && (block.hasChildren())) {
+,
+-    if (block.hasChildren()) {
++    if (block == fnNode && (block.hasChildren())) {
+,
+-    if (block.hasChildren()) {
++    if ((!isDirectCallNodeReplacementPossible(fnNode))) {
+,
+-    if (block.hasChildren()) {
++    if ((hasSideEffects)) {

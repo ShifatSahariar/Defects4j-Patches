@@ -1,4 +1,0 @@
--	return solve(f,min,yMin,max,yMax,initial,yInitial);
-+	verifyBracketing(min,max,f);
-,
-+	verifyBracketing(min,max,f);

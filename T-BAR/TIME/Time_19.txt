@@ -1,0 +1,15 @@
+-        } else if (offsetLocal > 0) {
++        } else if (offsetLocal >= offsetAdjusted || (offsetLocal > 0)) {
+,
+-        } else if (offsetLocal > 0) {
++        } else if (offsetLocal == offsetAdjusted || (offsetLocal > 0)) {
+,
+-        } else if (offsetLocal > 0) {
++        } else if (offsetLocal <= offsetAdjusted || (offsetLocal > 0)) {
+,
+-        } else if (offsetLocal > 0) {
++        } else if ((offsetLocal > 0) || !((offsetLocal - offsetAdjusted) < 0)) {
+,
+-        } else if (offsetLocal > 0) {
++        } else if ((offsetLocal > 0) || !(offsetLocal != offsetAdjusted)) {
+,

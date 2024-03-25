@@ -1,0 +1,24 @@
+-                         coefficients[i] = 0;
++                         if (i <= j) {
++	coefficients[i] = 0;	}
++
+,
+-                    if (tableau.getEntry(basicRow, j) == 1) {
++                    if (j == i) {
++	if (tableau.getEntry(basicRow, j) == 1) {
+-                    }
++                    }	}
++
+,
+-                    if (tableau.getEntry(basicRow, j) == 1) {
++                    if (j >= i) {
++	if (tableau.getEntry(basicRow, j) == 1) {
+-                    }
++                    }	}
++
+,
+-                         coefficients[i] = 0;
++                         if (i == j) {
++	coefficients[i] = 0;	}
++
+,

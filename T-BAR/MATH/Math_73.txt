@@ -1,0 +1,432 @@
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(initial, initial, initial), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, yMax, yMax, yMax), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(max, max, max), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(yInitial, yInitial, yInitial), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(yMin, yMin, yMin), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, initial, initial), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(min, min, min), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, initial, initial, initial), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, yMin, yMin, yMin), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, yMin, yMin), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(yMin, yMin, yMin), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(yInitial, yInitial, yInitial), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, yInitial, yInitial), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, yInitial, yInitial, yInitial), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, yMax, yMax), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, max, max), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, max, max, max), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, min, min, min), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, min, min), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(max, max, max), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, yInitial, yInitial, yInitial), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(yMax, yMax), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, yMax, yMax), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, max, max));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, min, min));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, initial, initial, initial), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, yMin, yMin, yMin), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(min, min, min), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, initial, initial), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(initial, initial, initial), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(yInitial, yInitial, yInitial));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(yMin, yMin), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, min, min, min), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, yMin, yMin));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, yInitial, yInitial));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, max, max, max), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(yInitial, yInitial), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(yMin, yMin, yMin));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, yMax, yMax, yMax), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, max, max, max), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, max, max), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, initial, initial, initial));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(yMin, yMin, yMin), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(yMax, yMax, yMax), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, yMax, yMax, yMax), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, initial, initial));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(initial, initial, initial), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(initial, initial), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(yInitial, yInitial, yInitial), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, yMax, yMax));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, min, min), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, min, min, min), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(yMin, yMin, yMin), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, yMin, yMin), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, yMin, yMin, yMin), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(min, min, min), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(min, min), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(max, max), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(max, max, max), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, yInitial, yInitial, yInitial), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, yInitial, yInitial), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(yInitial, yInitial, yInitial), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(min, min), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, yMin, yMin), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, initial, initial, initial), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, max, max, max));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(yInitial, yInitial));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(yMax, yMax, yMax), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, max, max), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, initial, initial), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(min, min, min), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(yMin, yMin, yMin), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(yInitial, yInitial, yInitial), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(max, max, max), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, min, min), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(initial, initial), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(yMin, yMin));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, min, min, min));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(f, yMax, yMax), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, yInitial, yInitial), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(max, max), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, max, max), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(yMax, yMax, yMax), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, yMin, yMin, yMin));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, yMin, yMin), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(min, min), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, yMax, yMax, yMax), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(initial, initial, initial), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(max, max), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, yInitial, yInitial), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, yInitial, yInitial, yInitial));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(yMax, yMax));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(initial, initial), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, min, min), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(yMin, yMin), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(max, max));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(max, max, max));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(yMax, yMax), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, min, min, min), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, min, min), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, max, max), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, max, max, max), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, initial, initial), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(min, min, min));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(min, min));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(yInitial, yInitial), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, solve(yMax, yMax), yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(initial, initial, initial));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(initial, initial));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(yMin, yMin), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, yMax, yMax), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, yInitial, yInitial), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, yInitial, yInitial, yInitial), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, yMin, yMin, yMin), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(f, yMin, yMin), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, solve(f, initial, initial, initial), max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(yInitial, yInitial), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(yMax, yMax, yMax));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, yMax, initial, solve(f, yMax, yMax, yMax));
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, initial, initial), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, max, max, max), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(yInitial, yInitial), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(yMax, yMax, yMax), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(initial, initial), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(yMin, yMin), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, min, min, min), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, yMin, yMin, yMin), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, initial, initial, initial), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(min, min), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(max, max), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, solve(f, yMax, yMax), yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, yInitial, yInitial, yInitial), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(yMax, yMax), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(max, max), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(max, max, max), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(yMax, yMax), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(min, min, min), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(min, min), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(initial, initial, initial), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(initial, initial), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(yMin, yMin), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, solve(yInitial, yInitial), yMin, max, yMax, initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(yMax, yMax, yMax), initial, yInitial);
+,
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f, min, yMin, max, solve(f, yMax, yMax, yMax), initial, yInitial);
+,

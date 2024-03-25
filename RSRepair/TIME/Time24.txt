@@ -1,6 +1,0 @@
--	if (fieldType == null) {
--	  throw new IllegalArgumentException("The DateTimeFieldType must not be null");
--	}
--	return getWeeksInYear(year - 1);
-+	DATE_DURATION_TYPES.add(DurationFieldType.years());
-+	return (int)(instant % DateTimeConstants.MILLIS_PER_DAY);

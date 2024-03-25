@@ -1,3 +1,0 @@
-+	if (pendingEvent && (Math.abs(t1 - pendingEventTime) <= convergence)) {
-+	  return false;
-+	}

@@ -1,3 +1,0 @@
--	minValue=tableau.getEntry(0,i);
-+	Integer minPos=null;
-,

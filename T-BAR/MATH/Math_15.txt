@@ -1,0 +1,12 @@
+-            if (y >= TWO_POWER_52 || y <= -TWO_POWER_52) {
++            if ((y >= TWO_POWER_52 || y <= -TWO_POWER_52) && !(y == (long) y)) {
+,
+-            if (y >= TWO_POWER_52 || y <= -TWO_POWER_52) {
++            if ((y >= TWO_POWER_52 || y <= -TWO_POWER_52) && !(y < 8e298 && y > -8e298)) {
+,
+-            if (y >= TWO_POWER_52 || y <= -TWO_POWER_52) {
++            if ((y >= TWO_POWER_52 || y <= -TWO_POWER_52) && !(y < 8e298 && y > -8e298)) {
+,
+-            if (y >= TWO_POWER_52 || y <= -TWO_POWER_52) {
++            if ((y >= TWO_POWER_52 || y <= -TWO_POWER_52) && !(y < 8e298 && y > -8e298)) {
+,

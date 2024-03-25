@@ -1,0 +1,19 @@
+-        return cAvailableLocaleSet.contains(locale);
++        if (cAvailableLocaleSet == null) {
++	    return false;
++	}
++return cAvailableLocaleSet.contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++        if (cAvailableLocaleSet == null) {
++	    return true;
++	}
++return cAvailableLocaleSet.contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++        return cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale);
+,
+-        return cAvailableLocaleSet.contains(locale);
++        if (!(cAvailableLocaleSet != null && locale != null)) return false;
++return cAvailableLocaleSet.contains(locale);
+,

@@ -1,7 +1,0 @@
--	for (int i=0; i < searchList.length; i++) {
--	 int greater=replacementList[i].length() - searchList[i].length();
--	 if (greater > 0) {
--  	 increase+=3 * greater;
--	  }
--	}
-+	start=textIndex + searchList[replaceIndex].length();

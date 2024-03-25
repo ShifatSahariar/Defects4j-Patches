@@ -1,0 +1,48 @@
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(DateUtils.RANGE_MONTH_SUNDAY)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(DateUtils.RANGE_WEEK_CENTER)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(DateUtils.RANGE_MONTH_MONDAY)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(FastDateFormat.FULL)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(FastDatePrinter.FULL)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(FastDateFormat.SHORT)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(DateUtils.RANGE_WEEK_MONDAY)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(FastDatePrinter.SHORT)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(FastDateFormat.LONG)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(FastDateFormat.MEDIUM)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(DateUtils.RANGE_WEEK_RELATIVE)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(FastDatePrinter.LONG)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(FastDatePrinter.MEDIUM)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(DateUtils.RANGE_WEEK_SUNDAY)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(DateUtils.SEMI_MONTH)) {
+,
+-            if(Character.isWhitespace(c)) {
++            if(Character.isWhitespace(FormatCache.NONE)) {
+,

@@ -30,7 +30,7 @@
 +            throw new NumberIsTooLargeException((long) rowDimension * columnDimension, Integer.MAX_VALUE, true);
 +        }
 ,
-+if ((long) rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
++        if ((long) rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
 +    throw new NumberIsTooLargeException((long) rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
 +}
 ,
@@ -124,7 +124,7 @@
 +            throw new NumberIsTooLargeException((long) rowDimension * columnDimension, 0, true);
 +        } 
 ,
-+if ((long) rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
++        if ((long) rowDimension * (long) columnDimension > Integer.MAX_VALUE) {
 +    throw new NumberIsTooLargeException(
 +            (long) rowDimension * (long) columnDimension, Integer.MAX_VALUE, true);
 +}
@@ -156,10 +156,10 @@
 +            throw new NumberIsTooLargeException(columnDimension, maxProduct, true);
 +        }
 ,
-+double size = rowDimension * (double) columnDimension;
-+if (size > Integer.MAX_VALUE) {
++        double size = rowDimension * (double) columnDimension;
++        if (size > Integer.MAX_VALUE) {
 +    throw new NumberIsTooLargeException(size, Integer.MAX_VALUE, true);
-+}
++        }
 ,
 +        if ((long) rowDimension * columnDimension >= Integer.MAX_VALUE) {
 +            throw new NumberIsTooLargeException(

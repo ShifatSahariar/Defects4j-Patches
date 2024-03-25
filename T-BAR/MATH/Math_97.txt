@@ -1,0 +1,42 @@
+-        if (sign >= 0) {
++        if (sign > this.absoluteAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign >= this.absoluteAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign >= this.defaultAbsoluteAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign >= this.defaultRelativeAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign >= this.defaultFunctionValueAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign > this.defaultRelativeAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign > this.defaultFunctionValueAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign > this.result && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign > this.defaultAbsoluteAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign >= this.result && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign > this.relativeAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign >= this.functionValueAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign > this.functionValueAccuracy && (sign >= 0)) {
+,
+-        if (sign >= 0) {
++        if (sign >= this.relativeAccuracy && (sign >= 0)) {
+,

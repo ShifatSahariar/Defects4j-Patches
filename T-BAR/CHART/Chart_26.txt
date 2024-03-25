@@ -1,0 +1,20 @@
+-                EntityCollection entities = owner.getEntityCollection();
++                if (owner == null) owner = new ChartRenderingInfo();
++ EntityCollection entities = owner.getEntityCollection();
+,
+-                EntityCollection entities = owner.getEntityCollection();
++                if (owner == null) return new AxisState();
++	 EntityCollection entities = owner.getEntityCollection();
+,
+-                EntityCollection entities = owner.getEntityCollection();
++                if (owner == null) return state;
++	 EntityCollection entities = owner.getEntityCollection();
+,
+-                EntityCollection entities = owner.getEntityCollection();
++                if (owner != null) {
++	EntityCollection entities = owner.getEntityCollection();
+-                }
++                }
++	}
++
+,

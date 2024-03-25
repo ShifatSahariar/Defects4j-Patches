@@ -1,3 +1,0 @@
-+	if (StringUtils.isEmpty(str)) {
-+	  return false;
-+	}

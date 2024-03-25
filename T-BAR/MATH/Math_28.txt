@@ -1,0 +1,240 @@
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i >= col || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i != DEFAULT_ULPS && (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if ((minRatioPositions.size() > 1)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex < this.maxUlps || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex >= this.maxUlps || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex == this.maxUlps || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex > this.maxUlps || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex > DEFAULT_ULPS || (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i != this.maxUlps || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i >= i || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i != DEFAULT_ULPS || (row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex >= col && (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i > col || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i == col || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i >= this.maxUlps || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if ((i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex >= DEFAULT_ULPS || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex >= col || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex != this.maxUlps || (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i <= col || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i != col || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i <= i || (row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if ((minRatioPositions.size() > 1)) {
+,
+-                            if (i < minIndex) {
++                            if ((i < minIndex) || (minRatioPositions.size() > 1)) {
+,
+-                            if (i < minIndex) {
++                            if (i >= minIndex || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i > DEFAULT_ULPS || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex != col || (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (row != minRow || (row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if (i >= i || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i >= DEFAULT_ULPS || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i > minIndex || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i != DEFAULT_ULPS || (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if ((row == tableau.getBasicRow(i)) || (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (row >= row || (row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if (i != DEFAULT_ULPS && (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i != this.maxUlps && (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i > col || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i != minIndex || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i >= col || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i != this.maxUlps || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i < col || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i == i || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i >= this.maxUlps || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex < i || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex != i || (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (row <= row || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if ((row == tableau.getBasicRow(i)) || !(minRatioPositions.size() == 0)) {
+,
+-                            if (i < minIndex) {
++                            if (i <= col || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if ((i < minIndex) || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (row == row || (row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if (i > this.maxUlps || (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if ((row == tableau.getBasicRow(i)) || (minRatioPositions.size() > 1)) {
+,
+-                            if (i < minIndex) {
++                            if (i <= i || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (i != col || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex == DEFAULT_ULPS || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex > col || (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i <= DEFAULT_ULPS || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i > this.maxUlps || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i < col || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i == i || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i != minIndex || (row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex > col && (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i < DEFAULT_ULPS || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i <= this.maxUlps || (row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if ((row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex != DEFAULT_ULPS || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex <= col || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex <= this.maxUlps || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex < DEFAULT_ULPS || (i < minIndex)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i == this.maxUlps || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i > DEFAULT_ULPS || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i <= minIndex || (row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if ((i < minIndex) || !(minRatioPositions.size() == 0)) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i == DEFAULT_ULPS || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i < minIndex || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i != this.maxUlps && (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i < this.maxUlps || (row == tableau.getBasicRow(i))) {
+,
+-                        if (row == tableau.getBasicRow(i)) {
++                        if (i >= DEFAULT_ULPS || (row == tableau.getBasicRow(i))) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex < col || (i < minIndex)) {
+,
+-                            if (i < minIndex) {
++                            if (minIndex <= DEFAULT_ULPS || (i < minIndex)) {
+,

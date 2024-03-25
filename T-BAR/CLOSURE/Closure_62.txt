@@ -1,0 +1,15 @@
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++          && 0 <= charno) {
+,
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++          && 0 <= charno && (error.lineNumber > 0)) {
+,
+-      if (excerpt.equals(LINE)
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++      if ((error.lineNumber > 0)) {
+,
+-      if (excerpt.equals(LINE)
+-          && 0 <= charno && charno < sourceExcerpt.length()) {
++      if ((excerpt.equals(LINE)
++          && 0 <= charno && charno < sourceExcerpt.length()) || (error.lineNumber > 0)) {
+,

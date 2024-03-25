@@ -1,0 +1,90 @@
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + PeriodType.MINUTE_INDEX * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.DAYS_PER_WEEK * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + PeriodType.HOUR_INDEX * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.AUGUST * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.SECONDS_PER_DAY * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.MINUTES_PER_DAY * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.SUNDAY * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.JULY * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.MINUTES_PER_HOUR * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.FRIDAY * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.SATURDAY * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.SECONDS_PER_HOUR * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.HOURS_PER_DAY * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.MILLIS_PER_HOUR * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.THURSDAY * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + MutableDateTime.ROUND_HALF_EVEN * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.SECONDS_PER_MINUTE * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.MILLIS_PER_MINUTE * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + MutableDateTime.ROUND_HALF_CEILING * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.APRIL * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.OCTOBER * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.MINUTES_PER_WEEK * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.HOURS_PER_WEEK * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.SEPTEMBER * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + PeriodType.MILLI_INDEX * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.NOVEMBER * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.MAY * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.JUNE * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + DateTimeConstants.DECEMBER * DateTimeConstants.MILLIS_PER_HOUR);
+,
+-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
++        long instantAfter = convertUTCToLocal(instant + PeriodType.SECOND_INDEX * DateTimeConstants.MILLIS_PER_HOUR);
+,

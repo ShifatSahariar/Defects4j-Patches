@@ -1,0 +1,165 @@
+-            int j = 4 * n - 1;
++            int j = 4 * this.tType - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * this.pingPong - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dMin, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dN1, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.lowerSpectra, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.splitTolerance, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dN, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.eMin, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.sigmaLow, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dN2, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dMin1, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dMin2, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.g, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.sigma, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dN2, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.lowerSpectra, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.qMax, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.tau, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.splitTolerance, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.g, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dMin1, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.sigma, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(TOLERANCE, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(TOLERANCE_2, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.sigmaLow, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dMin2, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dN1, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(TOLERANCE_2, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.tau, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.minPivot, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.qMax, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(TOLERANCE, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dN, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dN2, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dMin1, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dMin, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.eMin, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dMin2, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.g, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.lowerSpectra, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.qMax, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(TOLERANCE, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.sigma, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.sigmaLow, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(TOLERANCE_2, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.tau, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.splitTolerance, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.eMin, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dN1, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.minPivot, step, step) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dN, this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.minPivot, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * countEigenValues(this.dMin, this.tType, this.tType) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * goodStep(this.pingPong, this.pingPong) - 1;
+,
+-            int j = 4 * n - 1;
++            int j = 4 * goodStep(this.tType, this.tType) - 1;
+,

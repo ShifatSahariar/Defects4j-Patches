@@ -1,8 +1,0 @@
-+	if (!isLastStep) {
-+	  interpolator.storeTime(stepStart);
-+	  final double nextT=stepStart + stepSize;
-+	  final boolean nextIsLast=forward ? (nextT >= t) : (nextT <= t);
-+	  if (nextIsLast) {
-+	    stepSize=t - stepStart;
-+	  }
-+	}

@@ -1,5 +1,0 @@
-+	if (buffer.length > length()) {
-+	  char[] old=buffer;
-+	  buffer=new char[length()];
-+	  System.arraycopy(old,0,buffer,0,size);
-+	}

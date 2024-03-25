@@ -1,0 +1,29 @@
+-      if (NodeUtil.hasFinally(n)) {
++      if ((NodeUtil.hasFinally(n)) && (n.isIf())) {
+,
+-      if (NodeUtil.hasFinally(n)) {
++      if ((NodeUtil.hasFinally(n)) && !(n.isTry())) {
+,
+-      if (NodeUtil.hasFinally(n)) {
++      if ((NodeUtil.hasFinally(n)) && (matchingExitNode(n, exitType, labelName))) {
+,
+-      if (NodeUtil.hasFinally(n)) {
++      if ((NodeUtil.hasFinally(n)) && (n.isLabel())) {
+,
+-      if (NodeUtil.hasFinally(n)) {
++      if ((NodeUtil.hasFinally(n)) && !(!n.isBlock())) {
+,
+-      if (NodeUtil.hasFinally(n)) {
++      if (n == allCatchNodes && (NodeUtil.hasFinally(n))) {
+,
+-      if (NodeUtil.hasFinally(n)) {
++      if (n == tryBlock && (NodeUtil.hasFinally(n))) {
+,
+-      if (NodeUtil.hasFinally(n)) {
++      if ((n.isIf())) {
+,
+-      if (NodeUtil.hasFinally(n)) {
++      if ((matchingExitNode(n, exitType, labelName))) {
+,
+-      if (NodeUtil.hasFinally(n)) {
++      if ((n.isLabel())) {

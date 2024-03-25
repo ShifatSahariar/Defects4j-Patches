@@ -1,9 +1,0 @@
-+	if (DatasetUtilities.isEmptyOrNull(getDataset())) {
-+	drawNoDataMessage(g2,plotArea);
-+	g2.setClip(savedClip);
-+	drawOutline(g2,plotArea);
-+	return;
-+	}
-,
--	PiePlot3D plot=new PiePlot3D(dataset);
-+	PiePlot plot=new PiePlot(dataset);

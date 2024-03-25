@@ -1,0 +1,324 @@
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(SAFE_MIN) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sign(MathUtils.SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sign(TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(cosh(EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(MathUtils.SAFE_MIN) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(MathUtils.TWO_PI) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sign(SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(indicator(SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(binomialCoefficientDouble(NAN_GAP, NAN_GAP)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(MathUtils.TWO_PI)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(indicator(MathUtils.EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(binomialCoefficientLog(NAN_GAP, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sign(MathUtils.EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(TWO_PI) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(EPSILON) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(log(MathUtils.SAFE_MIN, MathUtils.SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sign(MathUtils.TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sinh(MathUtils.SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(cosh(MathUtils.TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(MathUtils.EPSILON)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(SAFE_MIN)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(factorialDouble(NAN_GAP)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sinh(TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(log(TWO_PI, TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(MathUtils.EPSILON) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(binomialCoefficientDouble(NAN_GAP, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sinh(EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(TWO_PI)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(MathUtils.SAFE_MIN)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sinh(MathUtils.TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(round(SAFE_MIN, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(scalb(SAFE_MIN, NAN_GAP)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(indicator(MathUtils.TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(scalb(MathUtils.EPSILON, NAN_GAP)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(scalb(MathUtils.TWO_PI, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(round(MathUtils.EPSILON, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(round(MathUtils.SAFE_MIN, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(scalb(MathUtils.SAFE_MIN, NAN_GAP)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sign(MathUtils.TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(round(TWO_PI, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(normalizeAngle(EPSILON, EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(normalizeAngle(MathUtils.TWO_PI, MathUtils.TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sign(EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(round(MathUtils.TWO_PI, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(normalizeAngle(MathUtils.SAFE_MIN, MathUtils.SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(scalb(MathUtils.TWO_PI, NAN_GAP)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(normalizeAngle(TWO_PI, TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(scalb(EPSILON, NAN_GAP)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(round(EPSILON, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(normalizeAngle(MathUtils.SAFE_MIN, MathUtils.SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sign(EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(log(MathUtils.SAFE_MIN, MathUtils.SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(factorialLog(NAN_GAP)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(normalizeAngle(MathUtils.EPSILON, MathUtils.EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(normalizeAngle(SAFE_MIN, SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(log(TWO_PI, TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sinh(MathUtils.TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(normalizeAngle(TWO_PI, TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(scalb(EPSILON, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sinh(MathUtils.SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(indicator(EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(log(MathUtils.TWO_PI, MathUtils.TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sinh(TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(normalizeAngle(MathUtils.TWO_PI, MathUtils.TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(scalb(MathUtils.SAFE_MIN, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(normalizeAngle(MathUtils.EPSILON, MathUtils.EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sign(SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sinh(EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(indicator(MathUtils.SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(log(MathUtils.EPSILON, MathUtils.EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(log(SAFE_MIN, SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(indicator(TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sign(MathUtils.EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(normalizeAngle(SAFE_MIN, SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(scalb(TWO_PI, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(normalizeAngle(EPSILON, EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(scalb(SAFE_MIN, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sinh(MathUtils.EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sign(MathUtils.SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(log(EPSILON, EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(indicator(SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(indicator(MathUtils.EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sign(TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(sinh(SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(scalb(MathUtils.EPSILON, NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(log(SAFE_MIN, SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(factorialDouble(NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(cosh(TWO_PI)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(cosh(MathUtils.SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(cosh(MathUtils.TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(log(MathUtils.EPSILON, MathUtils.EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(cosh(MathUtils.SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sinh(MathUtils.EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(cosh(MathUtils.EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(cosh(SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(sinh(SAFE_MIN)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(log(EPSILON, EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(cosh(TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(cosh(SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(indicator(TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(binomialCoefficientLog(NAN_GAP, NAN_GAP)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(indicator(MathUtils.SAFE_MIN))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(factorialLog(NAN_GAP))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(cosh(MathUtils.EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(indicator(MathUtils.TWO_PI))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(cosh(EPSILON)) && Double.isNaN(y)) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(indicator(EPSILON))) || x == y;
+,
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (Double.isNaN(x) && Double.isNaN(EPSILON)) || x == y;
+,

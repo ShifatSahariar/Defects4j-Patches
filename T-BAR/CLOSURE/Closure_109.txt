@@ -1,0 +1,12 @@
+-          return parseTypeName(token);
++          return parseTopLevelTypeExpression(token);
+,
+-          return parseTypeName(token);
++          return parseTypeExpression(token);
+,
+-          return parseTypeName(token);
++          return parseTypeExpressionAnnotation(token);
+,
+-          return parseTypeName(token);
++          return parseAndRecordTypeNode(token);
+,

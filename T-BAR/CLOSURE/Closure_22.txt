@@ -1,0 +1,491 @@
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isEmpty() ||
++        n.isComma()) && ancestorType != Token.BLOCK)
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isQualifiedName())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent == gramps.getFirstChild())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n == parent.getFirstChild())) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isQualifiedName()) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n.isExprResult()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent.getChildCount() == 2))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent.getType() == Token.COMMA)) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isComma())) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType == Token.COMMA))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n.isComma()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((gramps.isCall() && parent == gramps.getFirstChild()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n.isString()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (!NodeUtil.isStatement(n)))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isEmpty() ||
++        n.isComma())) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((parent.getType() == Token.FOR) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName() && "eval".equals(n.getNext().getString())))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((gramps.isCall()) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n == parent.getFirstChild() && parent.getChildCount() == 2) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (((n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isString()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(gramps.isCall()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isEmpty()))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (gramps.isCall())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isString())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (parent.getType() == Token.FOR)) {
+,
+-      if (n == parent.getLastChild()) {
++      if (n == gramps && (n == parent.getLastChild())) {
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (parent == gramps.getFirstChild()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isEmpty()) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n.isQualifiedName()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName() && "eval".equals(n.getNext().getString())))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (n == parent.getLastChild()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n.isEmpty()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isQualifiedName()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isComma()) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isExprResult()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (ancestorType == Token.COMMA))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(n == parent.getLastChild()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (gramps.isCall() && parent == gramps.getFirstChild()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName() && "eval".equals(n.getNext().getString())))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext()))) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent.getType() != Token.EXPR_RESULT)) {
+,
+-          if (ancestorType == Token.COMMA)
++          if ((parent.getChildCount() == 2))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((parent.getType() == Token.COMMA))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isExprResult())) {
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n == parent.getFirstChild()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isExprResult()))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n == parent.getFirstChild() && parent.getChildCount() == 2)) {
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType != Token.EXPR_RESULT))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType != Token.BLOCK))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n == parent.getFirstChild() && parent.getChildCount() == 2))
+,
+-      if (n == parent.getLastChild()) {
++      if ((parent.getType() == Token.FOR && parent.getChildCount() == 4)) {
+,
+-          if (ancestorType == Token.COMMA)
++          if ((parent == gramps.getFirstChild()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (gramps.isCall()))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName() && "eval".equals(n.getNext().getString()))) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName())) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (parent.getChildCount() == 4)) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isString()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(!NodeUtil.isStatement(n)))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n == parent.getFirstChild()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (gramps.isCall()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent.getType() != Token.EXPR_RESULT && parent.getType() != Token.BLOCK))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((parent.getType() != Token.BLOCK))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && ((n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext()))) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((parent.getChildCount() == 4)) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && ((n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (ancestorType != Token.EXPR_RESULT))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (parent.getChildCount() == 4))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName() && "eval".equals(n.getNext().getString())))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent.getType() == Token.COMMA))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isEmpty()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (parent.getType() == Token.FOR && parent.getChildCount() == 4))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName() && "eval".equals(n.getNext().getString()))) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext()))) {
+,
+-          if (ancestorType == Token.COMMA)
++          if ((parent.getType() != Token.EXPR_RESULT))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent.getType() != Token.EXPR_RESULT))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && ((n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (parent.getType() == Token.FOR))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isQualifiedName()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent.getType() != Token.BLOCK))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((parent.getType() != Token.EXPR_RESULT && parent.getType() != Token.BLOCK))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(parent.getChildCount() == 4))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (ancestorType != Token.BLOCK))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((!NodeUtil.isStatement(n)))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n == parent.getFirstChild() && parent.getChildCount() == 2))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (parent.getType() == Token.FOR && parent.getChildCount() == 4))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isComma()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (ancestorType == Token.COMMA))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(parent.getType() == Token.FOR))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (parent.getChildCount() == 2))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isExprResult())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((parent.getType() == Token.FOR)) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (parent.getType() == Token.FOR && parent.getChildCount() == 4)) {
+,
+-          if (ancestorType == Token.COMMA)
++          if ((n == parent.getLastChild()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent == gramps.getFirstChild()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n.isExprResult()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n.isComma()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((parent.getChildCount() == 4))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isEmpty() ||
++        n.isComma()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (((n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((gramps.isCall() && parent == gramps.getFirstChild()) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(parent.getType() == Token.FOR && parent.getChildCount() == 4))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n == parent.getFirstChild()))
+,
+-      if (n == parent.getLastChild()) {
++      if (parent == gramps && (n == parent.getLastChild())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isComma())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isEmpty())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(!NodeUtil.isStatement(n))) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isString()) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isComma()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n == parent.getFirstChild()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (parent.getType() != Token.BLOCK))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (parent.getType() != Token.EXPR_RESULT))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n.isQualifiedName()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((gramps.isCall()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((parent.getType() == Token.FOR))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent.getType() != Token.BLOCK)) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isEmpty() ||
++        n.isComma())) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n == parent.getFirstChild() && parent.getChildCount() == 2))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isExprResult()) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n == parent.getFirstChild() && parent.getChildCount() == 2))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(n.isEmpty() ||
++        n.isComma()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n.isEmpty()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((parent.getType() == Token.FOR && parent.getChildCount() == 4))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n == parent.getFirstChild()) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName()) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !((n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (parent.getType() == Token.FOR))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isString())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isQualifiedName())) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType == Token.COMMA) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((parent.getChildCount() == 4) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n.isEmpty() ||
++        n.isComma()))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || !(gramps.isCall() && parent == gramps.getFirstChild()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (n.isString()))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((parent.getType() == Token.FOR && parent.getChildCount() == 4) && ancestorType != Token.BLOCK)
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (gramps.isCall() && parent == gramps.getFirstChild())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent.getType() != Token.EXPR_RESULT && parent.getType() != Token.BLOCK)) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() ||
++           n == parent.getFirstChild().getNext().getNext())) && ancestorType != Token.BLOCK)
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent.getChildCount() == 2)) {
+,
+-      if (n == parent.getLastChild()) {
++      if (n == parent && (n == parent.getLastChild())) {
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n == parent.getFirstChild() && parent.getChildCount() == 2 && n.getNext().isName() && "eval".equals(n.getNext().getString())) && ancestorType != Token.BLOCK)
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (parent.getChildCount() == 4))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if ((n.isEmpty() ||
++        n.isComma()))
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isEmpty())) {
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (parent.getType() != Token.EXPR_RESULT && parent.getType() != Token.BLOCK))
+,
+-          if (ancestorType == Token.COMMA)
++          if ((ancestorType == Token.COMMA) || (parent.getType() == Token.COMMA))
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (ancestorType != Token.EXPR_RESULT && (gramps.isCall() && parent == gramps.getFirstChild()))
+,

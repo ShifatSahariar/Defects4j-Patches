@@ -1,2 +1,0 @@
--	newValues=getField(index).add(this,index,newValues,amount);
-+	newValues=getField(index).addWrapPartial(this,index,newValues,amount);

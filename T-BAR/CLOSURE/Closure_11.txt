@@ -1,0 +1,30 @@
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if ((n.getJSType() != null && parent.isAssign()) && (childType.isDict())) {
+,
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if ((n.getJSType() != null && parent.isAssign()) && !(validator.expectNotNullOrUndefined(t, n, childType,
++        "No properties on this expression", getNativeType(OBJECT_TYPE)))) {
+,
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if (n == objNode && (n.getJSType() != null && parent.isAssign())) {
+,
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if (n == property && (n.getJSType() != null && parent.isAssign())) {
+,
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if (n == parent && (n.getJSType() != null && parent.isAssign())) {
+,
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if (parent == objNode && (n.getJSType() != null && parent.isAssign())) {
+,
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if (parent == property && (n.getJSType() != null && parent.isAssign())) {
+,
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if (n.getJSType() != null && (childType.isDict())) {
+,
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if ((childType.isDict()) && parent.isAssign()) {
+,
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++    } else if ((childType.isDict())) {

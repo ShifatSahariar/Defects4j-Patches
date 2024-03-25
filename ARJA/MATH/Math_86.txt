@@ -1,3 +1,0 @@
-+	if (lTData[i][i] < absolutePositivityThreshold) {
-+	  throw new NotPositiveDefiniteMatrixException();
-+	}

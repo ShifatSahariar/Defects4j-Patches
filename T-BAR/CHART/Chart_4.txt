@@ -1,0 +1,22 @@
+-                    Collection c = r.getAnnotations();
++                    if (r != null) {
++	Collection c = r.getAnnotations();
+-                    }
++                    }
++	}
++
+,
+-                    Collection c = r.getAnnotations();
++                    if (r == null) return result;
++	 Collection c = r.getAnnotations();
+,
+-                    Collection c = r.getAnnotations();
++                    if (r == null) continue;
++	Collection c = r.getAnnotations();
+,
+-                    Collection c = r.getAnnotations();
++                    if (r == null) {
++	    return null;
++	}
++Collection c = r.getAnnotations();
+,

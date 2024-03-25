@@ -1,0 +1,18 @@
+-            return NaN;
++            return add(Complex.INF);
+,
+-            return NaN;
++            return add(INF);
+,
+-            return NaN;
++            return INF;
+,
+-            return NaN;
++            return Complex.INF;
+,
+-            return NaN;
++            return multiply(INF);
+,
+-            return NaN;
++            return multiply(Complex.INF);
+,

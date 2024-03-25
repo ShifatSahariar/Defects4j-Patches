@@ -1,0 +1,315 @@
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i >= SystemUtils.JAVA_VERSION_INT) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i >= PAD_LIMIT) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < ArrayUtils.INDEX_NOT_FOUND) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == ArrayUtils.INDEX_NOT_FOUND) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == SystemUtils.JAVA_VERSION_INT) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i > PAD_LIMIT) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < INDEX_NOT_FOUND) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == PAD_LIMIT) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i <= ArrayUtils.INDEX_NOT_FOUND) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == INDEX_NOT_FOUND) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < tempIndex) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < i) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == tempIndex) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i > searchLength) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i != i) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < start) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i <= tempIndex) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == start) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i <= start) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i <= textIndex) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (replacementList == ArrayUtils.EMPTY_STRING_ARRAY) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i > replacementLength) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < textIndex) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < replaceIndex) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (replacementList == searchList) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == replaceIndex) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == replacementLength) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == textIndex) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i <= replaceIndex) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i >= replacementLength) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < increase) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == increase) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i > i) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i <= increase) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == searchLength) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (searchList == ArrayUtils.EMPTY_STRING_ARRAY) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i <= timeToLive) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i <= INDEX_NOT_FOUND) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < timeToLive) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i <= StringUtils.INDEX_NOT_FOUND) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == timeToLive) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i == StringUtils.INDEX_NOT_FOUND) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i >= searchLength) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i < StringUtils.INDEX_NOT_FOUND) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,
+-            int greater = replacementList[i].length() - searchList[i].length();
++            if (i > SystemUtils.JAVA_VERSION_INT) {
++	int greater = replacementList[i].length() - searchList[i].length();
+-            }
++            }	}
++
+,

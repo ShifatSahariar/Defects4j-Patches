@@ -1,0 +1,700 @@
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == SerialDate.NEAREST) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex != SerialDate.MONDAY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= MonthConstants.JANUARY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= Second.FIRST_SECOND_IN_MINUTE) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < SerialDate.FOLLOWING) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < this.maxStartIndex) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < DynamicTimeSeriesCollection.END) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < SerialDate.MONDAY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= Week.FIRST_WEEK_IN_YEAR) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < MonthConstants.JANUARY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < MonthConstants.FEBRUARY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= SerialDate.FOLLOWING) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= DynamicTimeSeriesCollection.START) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == Second.FIRST_SECOND_IN_MINUTE) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= DynamicTimeSeriesCollection.START) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == Second.FIRST_SECOND_IN_MINUTE) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < SerialDate.INCLUDE_SECOND) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex != SerialDate.SERIAL_LOWER_BOUND) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == DynamicTimeSeriesCollection.START) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < Week.FIRST_WEEK_IN_YEAR) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= Second.FIRST_SECOND_IN_MINUTE) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex != SerialDate.SECOND_WEEK_IN_MONTH) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex != SerialDate.MONDAY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= MonthConstants.JANUARY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == this.maxEndIndex) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= SerialDate.INCLUDE_NONE) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex != SerialDate.SECOND_WEEK_IN_MONTH) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == Minute.FIRST_MINUTE_IN_HOUR) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < SerialDate.SECOND_WEEK_IN_MONTH) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < SerialDate.FIRST_WEEK_IN_MONTH) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < SerialDate.MONDAY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == SerialDate.NEAREST) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= Quarter.FIRST_QUARTER) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == Hour.FIRST_HOUR_IN_DAY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < MonthConstants.FEBRUARY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < SerialDate.SUNDAY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < SerialDate.SECOND_WEEK_IN_MONTH) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= this.maxEndIndex) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == Hour.FIRST_HOUR_IN_DAY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= SerialDate.SUNDAY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex != MonthConstants.FEBRUARY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex != SerialDate.SERIAL_LOWER_BOUND) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= SerialDate.NEAREST) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < SerialDate.SUNDAY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == SerialDate.LAST_WEEK_IN_MONTH) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < Quarter.FIRST_QUARTER) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == Millisecond.FIRST_MILLISECOND_IN_SECOND) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == SerialDate.INCLUDE_NONE) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < SerialDate.INCLUDE_FIRST) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= Hour.FIRST_HOUR_IN_DAY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < SerialDate.SERIAL_LOWER_BOUND) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < SerialDate.SERIAL_LOWER_BOUND) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == SerialDate.LAST_WEEK_IN_MONTH) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= SerialDate.SUNDAY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= SerialDate.INCLUDE_NONE) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= SerialDate.INCLUDE_FIRST) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= Millisecond.FIRST_MILLISECOND_IN_SECOND) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= Hour.FIRST_HOUR_IN_DAY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= SerialDate.LAST_WEEK_IN_MONTH) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == SerialDate.INCLUDE_NONE) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < SerialDate.FOLLOWING) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < SerialDate.FIRST_WEEK_IN_MONTH) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < MonthConstants.JANUARY) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < SerialDate.INCLUDE_SECOND) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= this.maxStartIndex) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= this.maxMiddleIndex) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= SerialDate.FOLLOWING) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == this.maxMiddleIndex) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex != SerialDate.INCLUDE_SECOND) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= SerialDate.FIRST_WEEK_IN_MONTH) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= SerialDate.LAST_WEEK_IN_MONTH) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < this.maxStartIndex) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= SerialDate.FIRST_WEEK_IN_MONTH) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex != SerialDate.INCLUDE_SECOND) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < DynamicTimeSeriesCollection.END) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == Minute.FIRST_MINUTE_IN_HOUR) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < DynamicTimeSeriesCollection.MIDDLE) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == DynamicTimeSeriesCollection.START) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < Week.FIRST_WEEK_IN_YEAR) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex == Millisecond.FIRST_MILLISECOND_IN_SECOND) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == this.maxEndIndex) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= SerialDate.INCLUDE_FIRST) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex == this.maxMiddleIndex) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= this.maxEndIndex) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= Week.FIRST_WEEK_IN_YEAR) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= Minute.FIRST_MINUTE_IN_HOUR) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < Quarter.FIRST_QUARTER) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex != DynamicTimeSeriesCollection.END) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex < DynamicTimeSeriesCollection.MIDDLE) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= DynamicTimeSeriesCollection.MIDDLE) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex != MonthConstants.FEBRUARY) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= SerialDate.NEAREST) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= Millisecond.FIRST_MILLISECOND_IN_SECOND) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= this.maxStartIndex) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= DynamicTimeSeriesCollection.MIDDLE) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= this.maxMiddleIndex) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex != DynamicTimeSeriesCollection.END) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex <= Quarter.FIRST_QUARTER) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            if (this.minMiddleIndex <= Minute.FIRST_MINUTE_IN_HOUR) {
++	long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
+-            }
++            }	}
++
+,
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (this.minMiddleIndex < SerialDate.INCLUDE_FIRST) {
++	long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+-            }
++            }	}
++
+,

@@ -1,0 +1,12 @@
+-            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
++            if (entry >= DEFAULT_EPSILON && (MathUtils.compareTo(entry, 0, epsilon) >= 0)) {
+,
+-            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
++            if (entry >= this.epsilon && (MathUtils.compareTo(entry, 0, epsilon) >= 0)) {
+,
+-            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
++            if (entry > this.epsilon && (MathUtils.compareTo(entry, 0, epsilon) >= 0)) {
+,
+-            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
++            if (entry > DEFAULT_EPSILON && (MathUtils.compareTo(entry, 0, epsilon) >= 0)) {
+,

@@ -1,0 +1,57 @@
+-        if (endValue < startValue) {
++        if (startValue < difference && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (startValue == field && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (startValue == difference && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue >= difference && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (startValue < field && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (startValue <= field && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue == field && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue >= startValue && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue == startValue && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue > startValue && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue <= field && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue > difference && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue < field && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue <= difference && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue == difference && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue > field && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (startValue <= difference && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue < difference && (endValue < startValue)) {
+,
+-        if (endValue < startValue) {
++        if (endValue >= field && (endValue < startValue)) {
+,

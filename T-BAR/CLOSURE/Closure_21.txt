@@ -1,0 +1,294 @@
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isEmpty() ||
++        n.isComma())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent.getType() == Token.COMMA)) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isExprResult())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !((isSimpleOp || !NodeUtil.mayHaveSideEffects(n, t.getCompiler())))) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isQualifiedName())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isEmpty())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isComma())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (isResultUsed)) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(!NodeUtil.isStatement(n))) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (n.isString())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent.getType() != Token.EXPR_RESULT && parent.getType() != Token.BLOCK)) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent.getType() != Token.BLOCK)) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(parent.getType() != Token.EXPR_RESULT)) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && !(! (parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() || n == parent.getFirstChild().getNext().getNext())))) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n == parent.getLastChild()) && (isSimpleOp)) {
+,
+-      if (n == parent.getLastChild()) {
++      if (n == parent && (n == parent.getLastChild())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isEmpty() ||
++        n.isComma())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isExprResult())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isQualifiedName())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isEmpty())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isComma())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((isResultUsed)) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((n.isString())) {
+,
+-      if (n == parent.getLastChild()) {
++      if ((isSimpleOp)) {
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || ((isSimpleOp || !NodeUtil.mayHaveSideEffects(n, t.getCompiler())))) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (parent.getType() == Token.COMMA)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || !(n.isEmpty() ||
++        n.isComma())) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || !(n.isExprResult())) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || !(n.isEmpty())) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || !(n.isQualifiedName())) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || !(n.isComma())) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || !(n.isString())) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (parent.getType() != Token.EXPR_RESULT && parent.getType() != Token.BLOCK)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || !(isResultUsed)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (n == parent.getLastChild())) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (!NodeUtil.isStatement(n))) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (parent.getType() != Token.BLOCK)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (parent.getType() != Token.EXPR_RESULT)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (! (parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() || n == parent.getFirstChild().getNext().getNext())))) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || !(isSimpleOp)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (ancestorType != Token.BLOCK)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType == Token.COMMA) || (ancestorType != Token.EXPR_RESULT)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if (((isSimpleOp || !NodeUtil.mayHaveSideEffects(n, t.getCompiler())))) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((parent.getType() == Token.COMMA)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((parent.getType() != Token.EXPR_RESULT && parent.getType() != Token.BLOCK)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((n == parent.getLastChild())) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((!NodeUtil.isStatement(n))) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((parent.getType() != Token.BLOCK)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((parent.getType() != Token.EXPR_RESULT)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((! (parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() || n == parent.getFirstChild().getNext().getNext())))) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType != Token.BLOCK)) continue;
+,
+-          if (ancestorType == Token.COMMA) continue;
++          if ((ancestorType != Token.EXPR_RESULT)) continue;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !((isSimpleOp || !NodeUtil.mayHaveSideEffects(n, t.getCompiler())))) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isEmpty() ||
++        n.isComma())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent.getType() == Token.COMMA)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isExprResult())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isComma())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isQualifiedName())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isEmpty())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (isResultUsed)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (n.isString())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent.getType() != Token.EXPR_RESULT && parent.getType() != Token.BLOCK)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(n == parent.getLastChild())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(!NodeUtil.isStatement(n))) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent.getType() != Token.EXPR_RESULT)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(parent.getType() != Token.BLOCK)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && !(! (parent.getType() == Token.FOR && parent.getChildCount() == 4 && (n == parent.getFirstChild() || n == parent.getFirstChild().getNext().getNext())))) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (isSimpleOp)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) && (ancestorType == Token.COMMA)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if (ancestorType != Token.EXPR_RESULT && (n.isEmpty() ||
++        n.isComma())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if (ancestorType != Token.EXPR_RESULT && (n.isExprResult())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if (ancestorType != Token.EXPR_RESULT && (n.isComma())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if (ancestorType != Token.EXPR_RESULT && (n.isQualifiedName())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if (ancestorType != Token.EXPR_RESULT && (n.isEmpty())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if (ancestorType != Token.EXPR_RESULT && (isResultUsed)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if (ancestorType != Token.EXPR_RESULT && (n.isString())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if (ancestorType != Token.EXPR_RESULT && (isSimpleOp)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if (ancestorType != Token.EXPR_RESULT && (ancestorType == Token.COMMA)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isEmpty() ||
++        n.isComma()) && ancestorType != Token.BLOCK) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isExprResult()) && ancestorType != Token.BLOCK) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isComma()) && ancestorType != Token.BLOCK) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isQualifiedName()) && ancestorType != Token.BLOCK) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isEmpty()) && ancestorType != Token.BLOCK) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((isResultUsed) && ancestorType != Token.BLOCK) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isString()) && ancestorType != Token.BLOCK) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType == Token.COMMA) && ancestorType != Token.BLOCK) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isEmpty() ||
++        n.isComma())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isExprResult())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isComma())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isQualifiedName())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isEmpty())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((isResultUsed)) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((n.isString())) return;
+,
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((ancestorType == Token.COMMA)) return;
